@@ -160,13 +160,29 @@ class DropStabParser:
 
                     href = link.get("href", "")
                     slug = href.replace("/investors/", "").strip("/")
-                    name = link.get_text(strip=True)
 
-                    # Extract tier
+                    # Skip if we already have this fund (deduplication)
+                    if any(f.slug == slug for f in all_funds) or any(f.slug == slug for f in page_funds):
+                        continue
+
+                    # Get fund name from slug (most reliable)
+                    # Slug format: "jump-trading", "a16z-andreessen-horowitz"
+                    name = slug.replace("-", " ").title()
+
+                    # Special cases for known abbreviations
+                    name_lower = name.lower()
+                    if "a16z" in name_lower:
+                        name = "Andreessen Horowitz (a16z)"
+                    elif name_lower == "pantera capital":
+                        name = "Pantera Capital"
+
+                    # Extract tier from second cell typically
                     tier = ""
-                    tier_elem = row.select_one("[class*='tier'], [class*='Tier']")
-                    if tier_elem:
-                        tier = tier_elem.get_text(strip=True)
+                    if len(cells) > 2:
+                        tier_cell = cells[2]
+                        tier_text = tier_cell.get_text(strip=True)
+                        if "Tier" in tier_text or tier_text in ["Exchange", "Angel Investor", "DAO"]:
+                            tier = tier_text
 
                     # Parse all cell values to find ROI
                     retail_roi = None
@@ -425,24 +441,36 @@ class DropStabParser:
         # Look for market cap text
         page_text = soup.get_text()
 
-        # Try to find market cap
-        mcap_match = re.search(r"(?:Market\s*Cap|MCap)[:\s]*\$?([\d.]+[TBMK]?)", page_text, re.I)
+        # Try to find market cap - format: "Market Cap $76.76 B" (with space before suffix)
+        mcap_match = re.search(
+            r"Market\s*Cap\s*\$?([\d.]+)\s*([TBMK])",
+            page_text,
+            re.I
+        )
         if mcap_match:
-            market_cap = self._parse_number(mcap_match.group(1))
+            number = mcap_match.group(1)
+            suffix = mcap_match.group(2).upper()
+            market_cap = self._parse_number(f"{number}{suffix}")
 
-        # Try to find price
-        price_match = re.search(r"\$(\d+(?:\.\d+)?)", page_text)
+        # Try to find price - look for token price pattern
+        price_match = re.search(r"\$(\d+(?:,\d{3})*(?:\.\d+)?)", page_text)
         if price_match:
             try:
-                price = float(price_match.group(1))
+                price = float(price_match.group(1).replace(",", ""))
             except ValueError:
                 pass
 
-        # Get total raised
+        # Get total raised - format may have space before suffix
         total_raised = None
-        raised_match = re.search(r"(?:Total\s*(?:Raised|Funding))[:\s]*\$?([\d.]+[TBMK]?)", page_text, re.I)
+        raised_match = re.search(
+            r"(?:Total\s*(?:Raised|Funding))[:\s]*\$?([\d.]+)\s*([TBMK])?",
+            page_text,
+            re.I
+        )
         if raised_match:
-            total_raised = self._parse_number(raised_match.group(1))
+            number = raised_match.group(1)
+            suffix = raised_match.group(2) or ""
+            total_raised = self._parse_number(f"{number}{suffix}")
 
         # Parse fundraising rounds
         rounds = []

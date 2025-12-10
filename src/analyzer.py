@@ -119,16 +119,32 @@ class ProjectAnalyzer:
             if market_cap and total_invested > 0:
                 roi = market_cap / total_invested
 
-            # Build investors list
-            investors = []
+            # Build investors list - deduplicate by fund and sum amounts
+            fund_investments_map: dict[str, dict] = {}
             for inv in investments:
-                investors.append({
-                    "fund_name": inv.fund_name,
-                    "fund_slug": inv.fund_slug,
-                    "amount": inv.amount,
-                    "date": inv.date,
-                    "stage": inv.stage,
-                })
+                fund_slug = inv.fund_slug
+                if fund_slug in fund_investments_map:
+                    # Add to existing - sum amounts, keep earliest date
+                    existing = fund_investments_map[fund_slug]
+                    if inv.amount:
+                        existing["amount"] = (existing.get("amount") or 0) + inv.amount
+                    # Keep earliest date
+                    if inv.date and (not existing.get("date") or inv.date < existing["date"]):
+                        existing["date"] = inv.date
+                    # Collect all stages
+                    if inv.stage and inv.stage not in existing.get("stages", []):
+                        existing.setdefault("stages", []).append(inv.stage)
+                else:
+                    fund_investments_map[fund_slug] = {
+                        "fund_name": inv.fund_name,
+                        "fund_slug": fund_slug,
+                        "amount": inv.amount,
+                        "date": inv.date,
+                        "stage": inv.stage,
+                        "stages": [inv.stage] if inv.stage else [],
+                    }
+
+            investors = list(fund_investments_map.values())
 
             # Sort investors by amount (highest first)
             investors.sort(key=lambda x: x.get("amount") or 0, reverse=True)
