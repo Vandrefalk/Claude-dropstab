@@ -291,6 +291,23 @@ class DropStabParser:
 
         return all_funds[:limit]
 
+    def _clean_project_name(self, name: str) -> str:
+        """Remove ticker prefix from project name (e.g., 'SOLSolana' -> 'Solana')."""
+        if not name:
+            return name
+
+        # Pattern: uppercase ticker followed by capitalized name
+        # Examples: SOLSolana, LDOLido DAO, WWormhole, ANCAnchor Protocol
+        match = re.match(r'^([A-Z]{1,5})([A-Z][a-z].*)', name)
+        if match:
+            ticker = match.group(1)
+            rest = match.group(2)
+            # Only clean if ticker is different from the rest
+            if not rest.upper().startswith(ticker):
+                return rest
+
+        return name
+
     def get_fund_investments(
         self,
         fund_slug: str,
@@ -309,6 +326,7 @@ class DropStabParser:
             List of FundInvestment objects
         """
         investments = []
+        seen_slugs = set()  # Track seen project slugs to avoid duplicates
         page = 1
 
         while page <= max_pages:
@@ -327,6 +345,7 @@ class DropStabParser:
                 break
 
             page_investments = []
+            new_projects_on_page = 0
 
             for row in rows:
                 try:
@@ -342,7 +361,14 @@ class DropStabParser:
                         continue
 
                     project_slug = slug_match.group(1)
-                    project_name = link.get_text(strip=True)
+
+                    # Skip if already seen (deduplication)
+                    if project_slug in seen_slugs:
+                        continue
+                    seen_slugs.add(project_slug)
+                    new_projects_on_page += 1
+
+                    project_name = self._clean_project_name(link.get_text(strip=True))
 
                     cells = row.find_all("td")
 
@@ -394,18 +420,13 @@ class DropStabParser:
 
             investments.extend(page_investments)
 
+            # If no new projects on this page, we've likely hit duplicates - stop
+            if new_projects_on_page == 0:
+                break
+
             # Check if there are more pages
-            pagination = soup.select_one("[class*='pagination']")
-            if not pagination or f"page={page + 1}" not in html:
-                # Try to detect if we've reached the end
-                showing_text = soup.get_text()
-                if f"out of" in showing_text:
-                    match = re.search(r"Showing.*?(\d+).*?out of.*?(\d+)", showing_text)
-                    if match:
-                        shown = int(match.group(1))
-                        total = int(match.group(2))
-                        if shown >= total:
-                            break
+            if f"page={page + 1}" not in html:
+                break
 
             page += 1
 

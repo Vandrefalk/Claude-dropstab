@@ -46,9 +46,19 @@ class DataStorage:
         return [FundInvestment(**d) for d in data]
 
     def append_investments(self, investments: list[FundInvestment]):
-        """Append investments to existing data."""
+        """Append investments to existing data, deduplicating by (fund_slug, project_slug)."""
         existing = self.load_investments()
-        existing.extend(investments)
+
+        # Create set of existing (fund_slug, project_slug) pairs
+        existing_pairs = {(inv.fund_slug, inv.project_slug) for inv in existing}
+
+        # Only add investments that don't already exist
+        new_investments = [
+            inv for inv in investments
+            if (inv.fund_slug, inv.project_slug) not in existing_pairs
+        ]
+
+        existing.extend(new_investments)
         self.save_investments(existing)
 
     def save_projects(self, projects: dict[str, Project]):
