@@ -10,9 +10,23 @@ import pandas as pd
 from .models import FundInvestment, Project, ProjectAnalysis
 
 
-def parse_date(date_str: Optional[str]) -> Optional[datetime]:
-    """Parse date string like 'Jun 2019' or 'March 2020'."""
-    if not date_str:
+def parse_date(date_val: Optional[str | int | float]) -> Optional[datetime]:
+    """Parse date from string like 'Jun 2019' or timestamp (milliseconds)."""
+    if not date_val:
+        return None
+
+    # Handle timestamp (int or float, usually in milliseconds)
+    if isinstance(date_val, (int, float)):
+        try:
+            # Convert milliseconds to seconds if needed
+            if date_val > 1e12:  # Likely milliseconds
+                date_val = date_val / 1000
+            return datetime.fromtimestamp(date_val)
+        except (ValueError, OSError):
+            return None
+
+    # Handle string dates
+    if not isinstance(date_val, str):
         return None
 
     formats = [
@@ -24,19 +38,19 @@ def parse_date(date_str: Optional[str]) -> Optional[datetime]:
 
     for fmt in formats:
         try:
-            return datetime.strptime(date_str.strip(), fmt)
+            return datetime.strptime(date_val.strip(), fmt)
         except ValueError:
             continue
 
     return None
 
 
-def is_within_years(date_str: Optional[str], years: int = 3) -> bool:
+def is_within_years(date_val: Optional[str | int | float], years: int = 3) -> bool:
     """Check if date is within last N years."""
-    if not date_str:
+    if not date_val:
         return True  # Include if no date (conservative approach)
 
-    parsed = parse_date(date_str)
+    parsed = parse_date(date_val)
     if not parsed:
         return True
 

@@ -1,0 +1,1025 @@
+project_name,project_slug,investor_count,total_invested_usd,market_cap_usd,roi,category,investors
+Near,near,6,153503155,2150000000.0,14.01,Blockchain,Andreessen Horowitz (a16z); Multicoin Capital; Electric Capital; Balaji Srinivasan; Ideo Colab Ventures; Pantera Capital
+Oasis,oasis-network,6,270000000,92900000.0,0.34,Blockchain,Andreessen Horowitz (a16z); Jump Crypto; Polychain Capital; Electric Capital; Binance Labs; Pantera Capital
+Farcaster,farcaster,6,540000000,,,Social,Andreessen Horowitz (a16z); Multicoin Capital; Union Square Ventures Usv; Paradigm; Balaji Srinivasan; 1Confirmation
+Ethena,ethena-labs,5,228000000,1930000000.0,8.46,DeFi,Lightspeed Venture Partners; Polychain Capital; Binance Labs; Cobie; Pantera Capital
+StarkNet,starknet,5,98000000,502230000.0,5.12,Blockchain,Multicoin Capital; Polychain Capital; Paradigm; Pantera Capital; Vitalik Buterin
+Sui,sui,5,1236000000,5810000000.0,4.70,Blockchain,Andreessen Horowitz (a16z); Jump Crypto; Lightspeed Venture Partners; Electric Capital; Binance Labs
+Arbitrum,arbitrum,5,420000000,1160000000.0,2.76,Layer-2,Egirl Capital; Lightspeed Venture Partners; Polychain Capital; Mark Cuban; Pantera Capital
+Celestia,celestia,5,266500000,496030000.0,1.86,Modular Blockchain,Jump Crypto; Egirl Capital; Polychain Capital; 1Kx; Binance Labs
+Mina Protocol,mina-protocol,5,118520000,116340000.0,0.98,Blockchain,Multicoin Capital; Polychain Capital; Electric Capital; Paradigm; Pantera Capital
+dYdX,dydx,5,270000000,156400000.0,0.58,DEX,Andreessen Horowitz (a16z); Polychain Capital; Electric Capital; Paradigm; 1Confirmation
+ZKsync,zksync,5,656000000,281110000.0,0.43,Layer-2,Andreessen Horowitz (a16z); Egirl Capital; Lightspeed Venture Partners; Union Square Ventures Usv; 1Kx
+Gitcoin,gitcoin,5,56500000,13350000.0,0.24,Infrastructure,Electric Capital; Paradigm; Balaji Srinivasan; 1Kx; Ideo Colab Ventures
+MystenLabs,mystenlabs-ico,5,1236000000,,,,Andreessen Horowitz (a16z); Jump Crypto; Lightspeed Venture Partners; Electric Capital; Binance Labs
+Socket,socket,5,22000000,,,Infrastructure,Egirl Capital; Lightspeed Venture Partners; Framework Ventures; Mark Cuban; Ideo Colab Ventures
+Solana,solana,4,1256600000,74130000000.0,58.99,Blockchain,Jump Trading; Andreessen Horowitz (a16z); Multicoin Capital; Polychain Capital
+Injective,injective-protocol,4,70000000,541840000.0,7.74,Blockchain,Jump Crypto; Mark Cuban; Binance Labs; Pantera Capital
+Arweave,arweave,4,33200000,256959999.99999997,7.74,Storage,Andreessen Horowitz (a16z); Egirl Capital; Multicoin Capital; Union Square Ventures Usv
+Uniswap,uniswap,4,506000000,3400000000.0,6.72,DEX,Andreessen Horowitz (a16z); Polychain Capital; Union Square Ventures Usv; Paradigm
+Internet Computer,internet-computer,4,367000000,1820000000.0,4.96,Blockchain,Andreessen Horowitz (a16z); Multicoin Capital; Polychain Capital; Union Square Ventures Usv
+Audius,audius,4,12950000,45960000.0,3.55,NFT,Multicoin Capital; Lightspeed Venture Partners; Binance Labs; Pantera Capital
+Aptos,aptos,4,450000000,1270000000.0,2.82,Blockchain,Andreessen Horowitz (a16z); Jump Crypto; Multicoin Capital; Binance Labs
+AltLayer,altlayer,4,28800000,62390000.0,2.17,Blockchain Service,Jump Crypto; Polychain Capital; Balaji Srinivasan; Binance Labs
+Nym,nym,4,27500000,40510000.0,1.47,Privacy Coin,Andreessen Horowitz (a16z); Polychain Capital; 1Kx; Binance Labs
+Nervos Network,nervos-network,4,112672000,123470000.0,1.10,Blockchain,Multicoin Capital; Polychain Capital; 1Confirmation; 1Kx
+Puffer,puffer-finance,4,36650000,23690000.0,0.65,Liquid Staking Protocols,Jump Crypto; Lightspeed Venture Partners; Electric Capital; Binance Labs
+Helium,helium,4,615000000,339110000.0,0.55,Social,Andreessen Horowitz (a16z); Multicoin Capital; Union Square Ventures Usv; Pantera Capital
+Axie Infinity,axie-infinity,4,457500000,172280000.0,0.38,Gaming,Andreessen Horowitz (a16z); Paradigm; Mark Cuban; Binance Labs
+Babylon,babylon,4,158000000,53070000.0,0.34,Blockchain,Polychain Capital; Framework Ventures; Paradigm; Binance Labs
+Hashflow,hashflow,4,78200000,21200000.0,0.27,DEX,Jump Crypto; Electric Capital; Balaji Srinivasan; Ideo Colab Ventures
+FTX Token,ftx-token,4,1700000000,204670000.0,0.12,CEX,Multicoin Capital; Lightspeed Venture Partners; Paradigm; Binance Labs
+Everclear,connext,4,36500000,2600000.0,0.07,DeFi,Egirl Capital; Polychain Capital; 1Kx; Pantera Capital
+Handshake,handshake,4,40800000,2130000.0,0.05,Infrastructure,Andreessen Horowitz (a16z); Polychain Capital; Ideo Colab Ventures; Pantera Capital
+ECOx,ecox,4,240000000,2710000.0,0.01,Ethereum Ecosystem,Andreessen Horowitz (a16z); Lightspeed Venture Partners; 1Kx; Pantera Capital
+Rally,rally-2,4,139313800,1030000.0,0.01,Yield Farming,Andreessen Horowitz (a16z); Balaji Srinivasan; 1Confirmation; Ideo Colab Ventures
+ECO,eco,4,240000000,1600000.0,0.01,,Andreessen Horowitz (a16z); Lightspeed Venture Partners; 1Kx; Pantera Capital
+XMTP,xmtp,4,80000000,,,Social,Andreessen Horowitz (a16z); Union Square Ventures Usv; Balaji Srinivasan; Ideo Colab Ventures
+Maker,maker,4,66500000,,,DeFi,Andreessen Horowitz (a16z); Polychain Capital; Paradigm; 1Confirmation
+Certora,certora-ico,4,115200000,,,,Jump Crypto; Electric Capital; Framework Ventures; Balaji Srinivasan
+Commonwealth,commonwealth-ico,4,29600000,,,,Polychain Capital; Framework Ventures; Balaji Srinivasan; Ideo Colab Ventures
+Polymarket,polymarket,4,203000000,,,DeFi,Polychain Capital; Balaji Srinivasan; 1Confirmation; Vitalik Buterin
+Spacemesh,spacemesh,4,60000000,,,Blockchain,Polychain Capital; Electric Capital; Paradigm; 1Kx
+XRP,ripple,3,500000000,120960000000.0,241.92,Cryptocurrency,Andreessen Horowitz (a16z); Lightspeed Venture Partners; Pantera Capital
+Fluid,instadapp,3,7200000,251530000.0,34.93,DeFi,Balaji Srinivasan; Ideo Colab Ventures; Pantera Capital
+Avalanche,avalanche,3,241880000,5770000000.0,23.85,Blockchain,Andreessen Horowitz (a16z); Polychain Capital; Balaji Srinivasan
+World,worldcoin,3,165000000,1460000000.0,8.85,Artificial Intelligence (AI),Andreessen Horowitz (a16z); Multicoin Capital; 1Confirmation
+vana,vana,3,20000000,82200000.0,4.11,Artificial Intelligence (AI),Polychain Capital; Paradigm; Binance Labs
+Compound,compound,3,75000000,303410000.0,4.05,DeFi,Andreessen Horowitz (a16z); Polychain Capital; Paradigm
+Liquity,liquity,3,10800000,40760000.0,3.77,DeFi,Polychain Capital; 1Kx; Pantera Capital
+Lido DAO,lido-dao,3,143000000,527650000.0,3.69,DeFi,Jump Trading; Andreessen Horowitz (a16z); Paradigm
+Story,story,3,185000000,665710000.0,3.60,Blockchain,Andreessen Horowitz (a16z); Polychain Capital; Balaji Srinivasan
+Axelar,axelar,3,59608000,135000000.0,2.26,Infrastructure,Polychain Capital; Electric Capital; Binance Labs
+Jito,jito-network,3,74200000,164980000.0,2.22,Liquid Staking Protocols,Andreessen Horowitz (a16z); Multicoin Capital; Framework Ventures
+Optimism,optimism,3,265000000,585850000.0,2.21,Layer-2,Andreessen Horowitz (a16z); Paradigm; Ideo Colab Ventures
+Gearbox Protocol,gearbox-protocol,3,6900000,14950000.0,2.17,Lending Platform,Egirl Capital; 1Kx; Cobie
+Keep Network,keep-network,3,23100000,49670000.0,2.15,DeFi,Andreessen Horowitz (a16z); Polychain Capital; Paradigm
+corn,corn-2,3,21700000,39720000.0,1.83,Layer-2,Polychain Capital; Framework Ventures; Binance Labs
+LayerZero,layerzero,3,196300000,290770000.0,1.48,Blockchain Service,Andreessen Horowitz (a16z); Multicoin Capital; Binance Labs
+Manta Network,manta-network,3,26100000,38450000.0,1.47,Blockchain,Multicoin Capital; Polychain Capital; Binance Labs
+EigenCloud (prev. EigenLayer),eigenlayer,3,170000000,220850000.0,1.30,Liquid Staking Protocols,Andreessen Horowitz (a16z); Polychain Capital; Electric Capital
+Celo,celo,3,80000000,95500000.0,1.19,Layer-2,Andreessen Horowitz (a16z); Polychain Capital; Electric Capital
+Chainflip,chainflip,3,25803000,26300000.0,1.02,AMM,Egirl Capital; Framework Ventures; Pantera Capital
+Enso,enso,3,14200000,14280000.0,1.01,Blockchain Service,Multicoin Capital; Polychain Capital; Ideo Colab Ventures
+DODO,dodo,3,15000000,14950000.0,1.00,DeFi,Framework Ventures; Binance Labs; Pantera Capital
+Maverick Protocol,maverick-protocol,3,26000000,23750000.0,0.91,DEX,Jump Crypto; Binance Labs; Pantera Capital
+Syndicate,syndicate-3,3,60000000,45110000.0,0.75,Infrastructure,Andreessen Horowitz (a16z); Electric Capital; Ideo Colab Ventures
+Monad,monad,3,469000000,281490000.0,0.60,Blockchain,Electric Capital; Paradigm; Cobie
+Acala,acala,3,21900000,13120000.0,0.60,DeFi,Polychain Capital; 1Confirmation; Pantera Capital
+Sahara AI,sahara-ai,3,111000000,66030000.0,0.59,Artificial Intelligence (AI),Polychain Capital; Binance Labs; Pantera Capital
+Goldfinch,goldfinch,3,37700000,22360000.0,0.59,Lending Platform,Andreessen Horowitz (a16z); Balaji Srinivasan; Ideo Colab Ventures
+Artificial Liquid Intelligence,alethea-artificial-liquid-intelligence-token,3,44400000,23460000.0,0.53,NFT,Multicoin Capital; Mark Cuban; Ideo Colab Ventures
+SynFutures,synfutures,3,50000000,22220000.0,0.44,Perpetual,Polychain Capital; Framework Ventures; Pantera Capital
+Aleo,aleo,3,256000000,84880000.0,0.33,Zero Knowledge,Andreessen Horowitz (a16z); Polychain Capital; Balaji Srinivasan
+Iron Fish,iron-fish,3,38200000,11930000.0,0.31,Blockchain Service,Andreessen Horowitz (a16z); Electric Capital; Balaji Srinivasan
+Parallel Finance,parallel-finance,3,46000000,9460000.0,0.21,Lending Platform,Lightspeed Venture Partners; Polychain Capital; Pantera Capital
+Magic Eden,magic-eden,3,390000000,48040000.0,0.12,NFT,Lightspeed Venture Partners; Electric Capital; Paradigm
+Push Protocol,ethereum-push-notification-service,3,11510000,1090000.0,0.09,Infrastructure,Jump Crypto; Balaji Srinivasan; Binance Labs
+Decentralized Social,bitclout,3,600000000,52770000.0,0.09,Blockchain,Andreessen Horowitz (a16z); Polychain Capital; Pantera Capital
+Karura,karura,3,16000000,1280000.0,0.08,Kusama Ecosystem,Polychain Capital; 1Confirmation; Pantera Capital
+Anchor Protocol,anchor-protocol,3,60000000,1230000.0,0.02,DeFi,Jump Trading; Ideo Colab Ventures; Pantera Capital
+Kalshi,kalshi,3,2185000000,,,Predictions,Andreessen Horowitz (a16z); Multicoin Capital; Paradigm
+Seismic,seismic-2,3,27000000,,,Blockchain,Andreessen Horowitz (a16z); Polychain Capital; 1Kx
+Blackbird,blackbird,3,111000000,,,Social,Andreessen Horowitz (a16z); Multicoin Capital; Union Square Ventures Usv
+Kiosk,kiosk,3,30000000,,,Social,Andreessen Horowitz (a16z); Electric Capital; Union Square Ventures Usv
+Espresso Systems,espresso-systems,3,92000000,,,Infrastructure,Andreessen Horowitz (a16z); Polychain Capital; Electric Capital
+Pontem Liquidswap,pontem-liquidswap,3,18000000,,,Aptos Ecosystem,Andreessen Horowitz (a16z); Lightspeed Venture Partners; Pantera Capital
+Aztec,aztec,3,134000000,,,Blockchain,Andreessen Horowitz (a16z); Paradigm; Vitalik Buterin
+Fractal,fractal-ico,3,105000000,,,Gaming,Andreessen Horowitz (a16z); Multicoin Capital; Paradigm
+Alchemy,alchemy-ico,3,600000000,,,,Andreessen Horowitz (a16z); Lightspeed Venture Partners; Pantera Capital
+Reflexer Ungovernance Token,reflexer-ungovernance-token,3,7540000,,,DeFi,Andreessen Horowitz (a16z); Paradigm; Pantera Capital
+Squads,squads,3,21400000,,,Blockchain Service,Jump Crypto; Multicoin Capital; Electric Capital
+Membrane Labs,membrane-labs,3,60000000,,,Blockchain Service,Jump Crypto; Electric Capital; Framework Ventures
+Chaos Labs,chaos-labs-ico,3,95000000,,,,Jump Crypto; Lightspeed Venture Partners; Balaji Srinivasan
+Fordefi,fordefi-ico,3,46000000,,,Wallet,Jump Crypto; Lightspeed Venture Partners; Electric Capital
+Ceramic,ceramic-ico,3,90000000,,,,Jump Crypto; Multicoin Capital; Union Square Ventures Usv
+Prysm,prysm-ico,3,11000000,,,,Multicoin Capital; Polychain Capital; Balaji Srinivasan
+Web3Auth,web3auth,3,28000000,,,Web 3.0,Multicoin Capital; Union Square Ventures Usv; Binance Labs
+Karak Network,karak-network,3,144000000,,,Layer-2,Lightspeed Venture Partners; Framework Ventures; Pantera Capital
+StablecoinX,stablecoinx,3,1250000000,,,Finance,Polychain Capital; Binance Labs; Pantera Capital
+Shogun,shogun,3,13800000,,,DeFi,Polychain Capital; Binance Labs; Cobie
+Notional Finance,notional-finance,3,21300000,,,DeFi,Polychain Capital; 1Confirmation; Pantera Capital
+Amber Group,amber-group-ico,3,256000000,,,,Polychain Capital; Paradigm; Pantera Capital
+Etherealize,etherealize,3,80000000,,,Social,Electric Capital; Paradigm; Vitalik Buterin
+Immunefi,immunefi,3,53500000,,,Blockchain Service,Electric Capital; Framework Ventures; Ideo Colab Ventures
+Slingshot,slingshot-ico,3,33100000,,,,Electric Capital; Framework Ventures; Ideo Colab Ventures
+Daylight,daylight,3,18000000,,,Blockchain Service,Framework Ventures; Union Square Ventures Usv; 1Kx
+Opyn Squeeth,opyn-squeeth,3,11020000,,,DeFi,Paradigm; Balaji Srinivasan; 1Kx
+Cosmos Hub,cosmos,2,2659000,1060000000.0,398.65,Blockchain,Paradigm; 1Confirmation
+Tellor Tributes,tellor,2,400000,57430000.0,143.57,Oracle,Framework Ventures; Binance Labs
+MultiversX,multivers-x,2,3800000,219230000.0,57.69,Blockchain,Electric Capital; Binance Labs
+Syrup,syrup,2,6400000,297540000.0,46.49,Lending Platform,Polychain Capital; Framework Ventures
+THORChain,thorchain,2,5360000,234770000.0,43.80,DeFi,Multicoin Capital; Ideo Colab Ventures
+Nexus Mutual,nxm,2,5400000,149590000.0,27.70,Insurance,1Confirmation; 1Kx
+Automata,automata,2,1000000,17510000.0,17.51,Blockchain Service,Jump Crypto; Binance Labs
+1INCH,1inch,2,14800000,238040000.0,16.08,DEX,Binance Labs; Pantera Capital
+Lombard,lombard,2,17000000,185490000.0,10.91,DeFi,Polychain Capital; Binance Labs
+Synthetix,synthetix,2,15800000,161640000.0,10.23,DeFi,Framework Ventures; Paradigm
+Algorand,algorand,2,124000000,1150000000.0,9.27,Blockchain,Multicoin Capital; Union Square Ventures Usv
+Ankr,ankr,2,8250000,74640000.0,9.05,DePIN,Binance Labs; Pantera Capital
+Space ID,space-id,2,10000000,89500000.0,8.95,Blockchain Service,Polychain Capital; Binance Labs
+APRO,apro,2,3000000,25460000.0,8.49,Blockchain Service,Polychain Capital; Binance Labs
+Rangers Protocol,rangers-protocol-gas,2,5000000,41340000.0,8.27,Protocol,Framework Ventures; Pantera Capital
+Plasma,xpl,2,41000000,298980000.0,7.29,Blockchain,Framework Ventures; Cobie
+Morpho,morpho,2,100000000,644560000.0,6.45,Lending Platform,Andreessen Horowitz (a16z); Pantera Capital
+Geodnet,geodnet,2,10000000,64110000.0,6.41,Polygon Ecosystem,Multicoin Capital; Pantera Capital
+Amp,amp-token,2,28200000,176070000.0,6.24,Blockchain Service,1Kx; Pantera Capital
+Marlin,marlin,2,6000000,35590000.0,5.93,Infrastructure,Electric Capital; Binance Labs
+Biconomy,biconomy,2,9000000,50440000.0,5.60,DeFi,Balaji Srinivasan; Binance Labs
+Cyber,cyberconnect,2,10000000,49430000.0,4.94,Blockchain Service,Multicoin Capital; Binance Labs
+Astar,astar,2,24400000,101660000.0,4.17,Layer-2,Polychain Capital; Binance Labs
+Blur,blur,2,22000000,89370000.0,4.06,NFT,Egirl Capital; Paradigm
+Yield Guild Games,yield-guild-games,2,15800000,50020000.0,3.17,Gaming,Andreessen Horowitz (a16z); Ideo Colab Ventures
+Movement,movement,2,38000000,110710000.0,2.91,Infrastructure,Polychain Capital; Binance Labs
+Perpetual Protocol,perpetual-protocol,2,2300000,6600000.0,2.87,Perpetual,Multicoin Capital; Binance Labs
+Avalon,avalon-finance,2,10000000,25930000.0,2.59,DeFi,Framework Ventures; Binance Labs
+Chiliz,chiliz,2,130000000,327260000.0,2.52,Blockchain,Jump Crypto; Binance Labs
+Galxe,project-galaxy,2,20000000,49210000.0,2.46,NFT,Multicoin Capital; Binance Labs
+Alchemix,alchemix,2,9800000,23260000.0,2.37,Lending Platform,Egirl Capital; Binance Labs
+GAMEE,gamee,2,1500000,3450000.0,2.30,Gaming,Binance Labs; Pantera Capital
+CoW Protocol,cow-protocol,2,46000000,105440000.0,2.29,DEX,1Kx; Cobie
+The Graph,the-graph,2,210000000,472420000.0,2.25,Big Data,Multicoin Capital; Framework Ventures
+Gravity (prev. GAL),gravity-3,2,20000000,42500000.0,2.12,Ethereum Ecosystem,Multicoin Capital; Binance Labs
+Numeraire,numeraire,2,41000000,84290000.0,2.06,DeFi,Union Square Ventures Usv; Paradigm
+Solend,solend,2,13000000,24220000.0,1.86,Lending Platform,Polychain Capital; Balaji Srinivasan
+KGeN,kgen,2,19500000,36180000.0,1.86,Gaming,Jump Crypto; Lightspeed Venture Partners
+Drift Protocol,drift-protocol,2,48500000,87440000.0,1.80,Perpetual,Multicoin Capital; Polychain Capital
+Solayer,solayer,2,24000000,40820000.0,1.70,Liquid Staking Protocols,Polychain Capital; Binance Labs
+Euler,euler,2,40000000,66670000.0,1.67,Lending Platform,Jump Crypto; Paradigm
+Mira,mira,2,18000000,28510000.0,1.58,Infrastructure,Framework Ventures; Balaji Srinivasan
+Aurora,aurora-near,2,24000000,36330000.0,1.51,Blockchain,Electric Capital; Pantera Capital
+Auto Finance,tokemak,2,8000000,11650000.0,1.46,Yield Farming,Electric Capital; Framework Ventures
+Mask Network,mask-network,2,42570000,61480000.0,1.44,Social,Balaji Srinivasan; Binance Labs
+MyShell,myshell,2,11000000,15730000.0,1.43,Blockchain Service,Balaji Srinivasan; Binance Labs
+0x Protocol,0x,2,94000000,118180000.0,1.26,DEX,Polychain Capital; Pantera Capital
+FLEX Coin,flex-coin,2,11250000,13820000.0,1.23,CEX,Polychain Capital; Electric Capital
+Osmosis,osmosis,2,42000000,51460000.0,1.23,DEX,Paradigm; 1Confirmation
+Sign,sign-2,2,37500000,45740000.0,1.22,Infrastructure,Balaji Srinivasan; Binance Labs
+aPriori,apriori,2,20000000,24270000.0,1.21,DeFi,Binance Labs; Pantera Capital
+Chia,chia,2,66000000,79700000.0,1.21,Blockchain,Andreessen Horowitz (a16z); Ideo Colab Ventures
+Blast,blast-l2,2,40000000,43530000.0,1.09,Layer-2,Egirl Capital; Paradigm
+Swell,swell-network,2,7500000,8090000.0,1.08,Liquid Staking Protocols,Framework Ventures; Mark Cuban
+SuperRare,superrare,2,18000000,19010000.0,1.06,NFT,Mark Cuban; 1Confirmation
+Wrapped NCG,wrapped-ncg,2,2600000,2440000.0,0.94,Wrapped Token,Binance Labs; Ideo Colab Ventures
+Sperax,sperax,2,12000000,11110000.0,0.93,Stablecoin Issuer,Jump Trading; Polychain Capital
+Anoma,anoma,2,51000000,46400000.0,0.91,Infrastructure,Polychain Capital; Electric Capital
+Orderly,orderly-network,2,40000000,35720000.0,0.89,Perpetual,Jump Crypto; Pantera Capital
+Walrus,walrus-protocol,2,280000000,236910000.0,0.85,Storage,Andreessen Horowitz (a16z); Electric Capital
+Infrared BGT,infrared,2,14000000,11400000.0,0.81,DeFi,Framework Ventures; Binance Labs
+Ronin,ronin,2,157500000,123450000.0,0.78,Blockchain,Andreessen Horowitz (a16z); Mark Cuban
+Layer3,layer3,2,17500000,12460000.0,0.71,Social,Electric Capital; Balaji Srinivasan
+MobileCoin,mobilecoin,2,60000000,37200000.0,0.62,Privacy Coin,Multicoin Capital; Binance Labs
+StakeStone,stakestone,2,44000000,26860000.0,0.61,Liquid Staking Protocols,Polychain Capital; Binance Labs
+Polyhedra Network,polyhedra-network,2,30000000,17680000.0,0.59,Zero Knowledge,Polychain Capital; Binance Labs
+WalletConnect Token,walletconnect,2,26000000,15320000.0,0.59,Wallet,Union Square Ventures Usv; 1Kx
+DerivaDAO,derivadao,2,5400000,3100000.0,0.57,DeFi,Polychain Capital; Electric Capital
+Bitlayer,bitlayer,2,14000000,7190000.0,0.51,Layer-2,Polychain Capital; Framework Ventures
+Treehouse,treehouse,2,36000000,18480000.0,0.51,Liquid Staking Tokens (LSTs),Lightspeed Venture Partners; Binance Labs
+Safe,safe,2,200000000,102640000.0,0.51,Wallet,Lightspeed Venture Partners; 1Kx
+Towns,towns,2,35500000,17560000.0,0.49,Social,Andreessen Horowitz (a16z); Framework Ventures
+TrueFi,truefi,2,32500000,15610000.0,0.48,Lending Platform,Jump Trading; Andreessen Horowitz (a16z)
+Global Coin Research,global-coin-research,2,2400000,1080000.0,0.45,DAO,1Kx; Ideo Colab Ventures
+Wormhole,wormhole,2,450000000,196070000.0,0.44,Blockchain Service,Jump Trading; Multicoin Capital
+Across Protocol,across-protocol,2,82000000,35680000.0,0.44,Protocol,Multicoin Capital; Paradigm
+Berachain,berachain,2,200000000,83910000.0,0.42,Blockchain,Polychain Capital; Framework Ventures
+OpenOcean,openocean,2,3436000,1390000.0,0.40,DeFi,Multicoin Capital; Binance Labs
+Orchid Protocol,orchid-protocol,2,40800000,16320000.0,0.40,xDAI Ecosystem,Andreessen Horowitz (a16z); Polychain Capital
+GUNZ,gunz-token,2,46000000,17670000.0,0.38,Blockchain,Jump Crypto; 1Kx
+Rai Reflex Index,rai,2,5840000,2200000.0,0.38,Backed Tokens,Paradigm; Pantera Capital
+Forta,forta,2,46000000,14230000.0,0.31,Blockchain Service,Andreessen Horowitz (a16z); Ideo Colab Ventures
+Index Cooperative,index-cooperative,2,15400000,4090000.0,0.27,DeFi,1Confirmation; 1Kx
+MATH,math,2,19800000,4980000.0,0.25,Wallet,Multicoin Capital; Binance Labs
+League of Kingdoms,league-of-kingdoms,2,6200000,1220000.0,0.20,Gaming,Andreessen Horowitz (a16z); Binance Labs
+Stride,stride,2,10700000,1850000.0,0.17,Liquid Staking Protocols,1Confirmation; Pantera Capital
+MilkyWay,milkyway-2,2,10000000,1600000.0,0.16,DeFi,Polychain Capital; Binance Labs
+fxhash,fxhash,2,10000000,1370000.0,0.14,NFT,Union Square Ventures Usv; 1Kx
+Futureswap,futureswap,2,13550000,1670000.0,0.12,Perpetual,Framework Ventures; Ideo Colab Ventures
+Superfluid,superfluid,2,14100000,1720000.0,0.12,DeFi,Multicoin Capital; Balaji Srinivasan
+ParagonsDAO,paragonsdao,2,54145000,5960000.0,0.11,DAO,Framework Ventures; Paradigm
+Mythos,mythos,2,187000000,19190000.0,0.10,Gaming,Andreessen Horowitz (a16z); Binance Labs
+Fei USD,fei-usd,2,38000000,3270000.0,0.09,Stablecoin,Andreessen Horowitz (a16z); Framework Ventures
+Archway,archway,2,42000000,1470000.0,0.04,Cosmos Ecosystem,1Confirmation; Ideo Colab Ventures
+Pintu Token,pintu-token,2,226000000,2730000.0,0.01,Cryptocurrency,Lightspeed Venture Partners; Pantera Capital
+Ostium Labs,ostium-labs,2,23500000,,,DeFi,Jump Trading; Balaji Srinivasan
+Pyth Network,pyth-network,2,0,377310000.0,,Oracle,Jump Trading; Multicoin Capital
+Doppel,doppel,2,75000000,,,Blockchain Service,Andreessen Horowitz (a16z); Balaji Srinivasan
+Daylight,daylight-2,2,150000000,,,DePIN,Andreessen Horowitz (a16z); Framework Ventures
+Miden,miden,2,50000000,,,Blockchain,Andreessen Horowitz (a16z); 1Kx
+Phantom,phantom,2,300000000,,,Wallet,Andreessen Horowitz (a16z); Paradigm
+OpenGradient,opengradient,2,17000000,,,Infrastructure,Andreessen Horowitz (a16z); Balaji Srinivasan
+MeshMap,meshmap,2,8000000,,,Blockchain Service,Andreessen Horowitz (a16z); Balaji Srinivasan
+Fermah,fermah,2,10400000,,,Zero Knowledge,Andreessen Horowitz (a16z); Balaji Srinivasan
+Magicblock,magicblock,2,10500000,,,Infrastructure,Andreessen Horowitz (a16z); Lightspeed Venture Partners
+Moku,moku,2,10700000,,,Gaming,Andreessen Horowitz (a16z); Framework Ventures
+Neynar,neynar,2,22000000,,,Infrastructure,Andreessen Horowitz (a16z); Union Square Ventures Usv
+Friends With Benefits Pro,friends-with-benefits-pro,2,3700000,,,,Andreessen Horowitz (a16z); Polychain Capital
+Pimlico,pimlico,2,5800000,,,Infrastructure,Andreessen Horowitz (a16z); 1Confirmation
+IYK,iyk,2,33600000,,,Web 3.0,Andreessen Horowitz (a16z); 1Kx
+Proof of Play,proof-of-play,2,66000000,,,Gaming,Andreessen Horowitz (a16z); Balaji Srinivasan
+Mythical Games,mythical-games,2,187000000,,,Gaming,Andreessen Horowitz (a16z); Binance Labs
+Azra Games,azra-games,2,52000000,,,Gaming,Andreessen Horowitz (a16z); Pantera Capital
+Golden,golden-ico,2,54500000,,,,Andreessen Horowitz (a16z); Balaji Srinivasan
+Tally Labs,tally-labs-ico,2,24000000,,,,Andreessen Horowitz (a16z); Framework Ventures
+DuskBreakers,duskbreakers-ico,2,48000000,,,,Andreessen Horowitz (a16z); Pantera Capital
+Bitfinity Network ,bitfinity-network,2,13500000,,,Blockchain,Andreessen Horowitz (a16z); Polychain Capital
+Element Finance,element-finance-ico,2,64000000,,,,Andreessen Horowitz (a16z); Polychain Capital
+ValoraApp,valoraapp-ico,2,40000000,,,Wallet,Andreessen Horowitz (a16z); Polychain Capital
+Basis Cash,basis-cash,2,266000000,,,Algorithmic Stablecoins,Andreessen Horowitz (a16z); Lightspeed Venture Partners
+Raiku,raiku,2,22500000,,,Infrastructure,Jump Crypto; Pantera Capital
+Forward Industries,forward-industries,2,3300000000,,,Finance,Jump Crypto; Multicoin Capital
+Coinflow,coinflow-ico,2,27250000,,,,Jump Crypto; Pantera Capital
+Figure Markets,figure-markets,2,120000000,,,Finance,Jump Crypto; Pantera Capital
+Irreducible,irreducible,2,39000000,,,Infrastructure,Jump Crypto; Paradigm
+Backpack,backpack,2,40000000,,,CEX,Jump Crypto; Multicoin Capital
+MoHash,mohash,2,12000000,,,DeFi,Jump Crypto; Balaji Srinivasan
+Satori,satori,2,20000000,,,DEX,Jump Crypto; Polychain Capital
+Trisolaris,trisolaris,2,9000000,,,DEX,Jump Crypto; Electric Capital
+Aurigami,aurigami,2,19000000,,,Lending Platform,Jump Crypto; Polychain Capital
+Gradient Network,gradient-network,2,20000000,,,Infrastructure,Multicoin Capital; Pantera Capital
+Arch Network,arch-network,2,20000000,,,Infrastructure,Multicoin Capital; Pantera Capital
+Mezo,mezo,2,42000000,,,Blockchain,Multicoin Capital; Pantera Capital
+Zama,zama,2,130000000,,,Infrastructure,Multicoin Capital; Pantera Capital
+Marginfi,marginfi,2,6000000,,,Lending Platform,Multicoin Capital; Pantera Capital
+Lore,lore-ico,2,8000000,,,,Multicoin Capital; Balaji Srinivasan
+Fin (Prev. TipLink),fin,2,23000000,,,Blockchain Service,Multicoin Capital; Pantera Capital
+Community Gaming,community-gaming,2,32000000,,,Gaming,Multicoin Capital; Binance Labs
+Fluence,fluence,2,15000000,,,DePIN,Multicoin Capital; 1Kx
+Exotic Markets,exotic-markets,2,10000000,,,Oracle,Multicoin Capital; Paradigm
+Dune Analytics,dune-analytics,2,77420000,,,Blockchain Service,Multicoin Capital; Union Square Ventures Usv
+Swivel Finance,swivel-finance-ico,2,4650000,,,,Multicoin Capital; Electric Capital
+Sommelier,sommelier,2,26500000,,,DeFi,Multicoin Capital; Polychain Capital
+Furucombo,furucombo,2,3700000,,,DeFi,Multicoin Capital; 1Kx
+Tari,tari,2,0,,,Protocol,Multicoin Capital; Pantera Capital
+Standard Economics,standard-economics,2,18000000,,,Blockchain Service,Lightspeed Venture Partners; Paradigm
+Rain,rain,2,30500000,,,Finance,Lightspeed Venture Partners; Balaji Srinivasan
+Nexus Laboratories,nexus-laboratories,2,50000000,,,Infrastructure,Lightspeed Venture Partners; Pantera Capital
+Shentu,certik,2,0,38110000.0,,Blockchain Service,Lightspeed Venture Partners; Binance Labs
+Brahma,brahma,2,8420000,,,DeFi,Lightspeed Venture Partners; Framework Ventures
+Magic-link,magic-2,2,8000000,,,Blockchain Service,Lightspeed Venture Partners; Balaji Srinivasan
+M^ZERO,m-zero,2,80000000,,,DeFi,Polychain Capital; Pantera Capital
+ETHZilla,ethzilla-2,2,850000000,,,Finance,Polychain Capital; Electric Capital
+Concrete Protocol,concrete-protocol,2,19000000,,,Protocol,Polychain Capital; Binance Labs
+Fluent,fluent,2,16000000,,,Layer-2,Polychain Capital; Balaji Srinivasan
+Hyperbolic,hyperbolic,2,19000000,,,Blockchain Service,Polychain Capital; Balaji Srinivasan
+Monkey Tilt,monkey-tilt,2,60000000,,,Gaming,Polychain Capital; Pantera Capital
+Brevis Network,brevis-network,2,15000000,,,Zero Knowledge,Polychain Capital; Binance Labs
+Level,level-2,2,7200000,,,DeFi,Polychain Capital; Balaji Srinivasan
+Ritual,ritual,2,25000000,,,Infrastructure,Polychain Capital; Balaji Srinivasan
+DappOS,dappos,2,15300000,,,Blockchain Service,Polychain Capital; Binance Labs
+Clique,clique,2,16000000,,,Infrastructure,Polychain Capital; Balaji Srinivasan
+Allora,allora,2,0,29510000.0,,Blockchain Service,Polychain Capital; Framework Ventures
+Nocturne,nocturne,2,12000000,,,Blockchain Service,Polychain Capital; Vitalik Buterin
+Noble,noble,2,18300000,,,Blockchain Service,Polychain Capital; Paradigm
+Light Protocol,light-protocol,2,8400000,,,Solana Ecosystem,Polychain Capital; Balaji Srinivasan
+MatchboxDAO,matchboxdao-ico,2,15000000,,,,Polychain Capital; 1Kx
+CoinDCX,coindcx-ico,2,270000000,,,,Polychain Capital; Pantera Capital
+Nomad,nomad-ico,2,44800000,,,,Polychain Capital; 1Kx
+Upshot,upshot-ico,2,44000000,,,,Polychain Capital; Framework Ventures
+BBS Network,bbs-network,2,1100000,,,NFT,Polychain Capital; Binance Labs
+Kresko,kresko-ico,2,4150000,,,,Polychain Capital; Electric Capital
+X-Margin,x-margin-ico,2,16000000,,,,Polychain Capital; Paradigm
+SAIL Token,clipper,2,34000000,,,Governance,Polychain Capital; Electric Capital
+UX Chain,umee,2,12600000,,,DeFi,Polychain Capital; Ideo Colab Ventures
+Overlay Protocol,overlay-protocol,2,4430000,,,Perpetual,Polychain Capital; 1Kx
+River Financial,river-financial,2,17700000,,,Finance,Polychain Capital; Ideo Colab Ventures
+Maple,maple,2,6400000,,,Lending Platform,Polychain Capital; Framework Ventures
+Cozy Finance,cozy-finance-ico,2,4000000,,,,Polychain Capital; Electric Capital
+Mill City Ventures III,mill-city-ventures-iii,2,900000000,,,Finance,Electric Capital; Pantera Capital
+Kuru,kuru,2,23200000,,,DeFi,Electric Capital; Paradigm
+SharpLink,sharplink,2,850000000,,,Sport,Electric Capital; Pantera Capital
+Unto,unto,2,28800000,,,Blockchain,Electric Capital; Framework Ventures
+Phoenix,phoenix-2,2,40000000,,,DEX,Electric Capital; Paradigm
+Shadow,shadow,2,18000000,,,Blockchain Service,Electric Capital; Paradigm
+Integral1,integral-2,2,17000000,,,Blockchain Service,Electric Capital; Balaji Srinivasan
+Privy,privy,2,23300000,,,Web 3.0,Electric Capital; Paradigm
+Visor,visor,2,7000000,,,,Electric Capital; 1Kx
+4K,4k-ico,2,6000000,,,,Electric Capital; Ideo Colab Ventures
+RabbitHole,rabbithole-ico,2,7200000,,,,Electric Capital; Framework Ventures
+Crown,crown-2,2,21600000,,,Finance,Framework Ventures; Paradigm
+USD.AI,usd-ai,2,13400000,,,DeFi,Framework Ventures; Binance Labs
+Meanwhile,meanwhile,2,122000000,,,Insurance,Framework Ventures; Pantera Capital
+Glow,glow-2,2,60000000,,,Blockchain Service,Framework Ventures; Union Square Ventures Usv
+Sentient (Pre-Market),sentient,2,170000000,,,Blockchain Service,Framework Ventures; Pantera Capital
+Utila,utila,2,23000000,,,Infrastructure,Framework Ventures; Balaji Srinivasan
+Spearbit,spearbit,2,14000000,,,Social,Framework Ventures; 1Kx
+Cantina,cantina,2,14000000,,,Web 3.0,Framework Ventures; 1Kx
+Antimetal,antimetal,2,8600000,,,Blockchain Service,Framework Ventures; Ideo Colab Ventures
+Proven,proven-ico,2,31600000,,,,Framework Ventures; Balaji Srinivasan
+OneKey,onekey-ico,2,20000000,,,,Framework Ventures; Binance Labs
+Smart Layer Network,smart-layer-network,2,6000000,,,Blockchain Service,Framework Ventures; Mark Cuban
+Godcoin,godcoin,2,17000000,,,Gaming,Framework Ventures; Pantera Capital
+Perion,perion,2,17200000,,,Gaming,Framework Ventures; Pantera Capital
+AlchemyNFT,alchemynft-ico,2,12000000,,,,Framework Ventures; Mark Cuban
+Yield Protocol,yieldprotocol,2,20000000,,,Lending Platform,Framework Ventures; Paradigm
+Zapper,zapper-ico,2,30000000,,,,Framework Ventures; Mark Cuban
+PowerTrade Fuel,powertrade-fuel,2,0,,,Derivatives,Framework Ventures; Pantera Capital
+Pluralis Research,pluralis-research,2,15200000,,,Blockchain Service,Union Square Ventures Usv; Balaji Srinivasan
+Paragraph,paragraph-ico,2,6700000,,,,Union Square Ventures Usv; Binance Labs
+Symbiotic,symbiotic,2,34800000,,,Liquid Staking Protocols,Paradigm; Pantera Capital
+Praxis,praxis,2,19200000,,,Artificial Intelligence (AI),Paradigm; Balaji Srinivasan
+Bitso,bitso-ico,2,500000000,,,,Paradigm; Pantera Capital
+Lens Chain,lens-chain,2,30000000,,,Blockchain Service,Balaji Srinivasan; Ideo Colab Ventures
+Koop,koop-ico,2,10000000,,,,Balaji Srinivasan; 1Confirmation
+TransCrypts,transcrypts,2,30000000,,,Blockchain Service,Mark Cuban; Pantera Capital
+CryptoSlam,cryptoslam,2,18000000,,,Blockchain Service,Mark Cuban; Binance Labs
+Coop Records,coop-records,2,9000000,,,Music,1Confirmation; 1Kx
+BIO Protocol,bio-protocol,2,0,88380000.0,,DeSci,1Kx; Binance Labs
+Covalent Query Token,covalent,2,5185937,,,Artificial Intelligence (AI),1Kx; Binance Labs
+Aevo,aevo-dex,2,0,38670000.0,,DEX,Binance Labs; Pantera Capital
+Sender AI,sender-ai,2,9000000,,,Artificial Intelligence (AI),Binance Labs; Pantera Capital
+Pancake Bunny,pancake-bunny,2,3200000,,,DeFi,Binance Labs; Ideo Colab Ventures
+MegaETH (Pre-Market),megaeth,2,40000000,,,Layer-2,Cobie; Vitalik Buterin
+Rhino.fi,dvf,1,5000000,5960000000000.0,1192000.00,AMM,Lightspeed Venture Partners
+Zcash,zcash,1,1000000,6460000000.0,6460.00,Privacy Coin,Pantera Capital
+Ondo Finance,ondo-finance,1,4000000,1490000000.0,372.50,RWA (Real World Assets),Pantera Capital
+Cartesi,cartesi,1,100000,33119999.999999996,331.20,Oracle,Binance Labs
+Sonic Labs (prev. Fantom),sonic-labs,1,1600000,348120000.0,217.57,Blockchain,Jump Crypto
+Fantom,fantom,1,1600000,262980000.00000003,164.36,Blockchain,Jump Crypto
+Stacks,stacks,1,4000000,538940000.0,134.74,Blockchain,Union Square Ventures Usv
+Curve DAO,curve-dao-token,1,5000000,552720000.0,110.54,DEX,Binance Labs
+aelf,aelf,1,1000000,69080000.0,69.08,Infrastructure,1Kx
+Folks,folks-finance,1,3000000,193050000.0,64.35,Lending Platform,Jump Crypto
+Pudgy Penguins,pudgy-penguins,1,11000000,703410000.0,63.95,Meme,1Kx
+Livepeer,livepeer,1,3000000,174270000.0,58.09,Infrastructure,Multicoin Capital
+Tezos,tezos,1,10000000,519179999.99999994,51.92,Blockchain,Polychain Capital
+SOON,soon,1,5000000,213400000.0,42.68,Blockchain Service,Jump Crypto
+HOME,home,1,2000000,66390000.0,33.20,DeFi,Balaji Srinivasan
+Tokocrypto,tokocrypto,1,500000,15650000.0,31.30,CEX,Binance Labs
+Siacoin,siacoin,1,3000000,90030000.0,30.01,Storage,Paradigm
+Sei,sei-network,1,30000000,882880000.0,29.43,Blockchain,Multicoin Capital
+WazirX,wazirx,1,900000,26350000.0,29.28,CEX,Binance Labs
+Render,render-token,1,30000000,822480000.0,27.42,Artificial Intelligence (AI),Multicoin Capital
+MetaDAO,meta-2-2,1,5900000,141050000.0,23.91,Solana Ecosystem,Paradigm
+Mind Network,mind-network,1,2500000,56410000.0,22.56,Blockchain Service,Binance Labs
+Ampleforth,ampleforth,1,1750000,35910000.0,20.52,Algorithmic Stablecoins,Pantera Capital
+Filecoin,filecoin,1,52000000,1010000000.0,19.42,Storage,Union Square Ventures Usv
+Civic,civic,1,2750000,49660000.0,18.06,Software,Pantera Capital
+Zebec Network,zebec-network,1,15000000,267190000.0,17.81,Infrastructure,Lightspeed Venture Partners
+Irys,irys,1,3700000,63120000.0,17.06,Infrastructure,Framework Ventures
+Open Campus,open-campus,1,5000000,83920000.0,16.78,Education,Binance Labs
+DoubleZero,double-zero-crypto-coin,1,28000000,433930000.0,15.50,Infrastructure,Multicoin Capital
+saffron.finance,saffron-finance,1,2000000,29160000.0,14.58,DeFi,Multicoin Capital
+Grass,grass,1,10000000,143690000.0,14.37,Artificial Intelligence (AI),Polychain Capital
+Api3,api3,1,3000000,42270000.0,14.09,Oracle,Pantera Capital
+Terra Luna Classic,terra-luna,1,25000000,335830000.0,13.43,Blockchain,Pantera Capital
+SKALE,skale,1,5745600,73170000.0,12.73,Layer-2,Multicoin Capital
+Solar,swipe,1,3915000,45170000.0,11.54,Wallet,Binance Labs
+Stable,stable-2,1,28000000,308700000.0,11.03,Blockchain,Egirl Capital
+RedStone,redstone,1,7000000,76820000.0,10.97,Oracle,1Kx
+GMT,stepn,1,5000000,52150000.0,10.43,Move To Earn,Binance Labs
+HOPR,hopr,1,1000000,10360000.0,10.36,Privacy Coin,Binance Labs
+Avantis,avantis,1,8000000,78260000.0,9.78,Perpetual,Pantera Capital
+dForce Token,dforce-token,1,1500000,13210000.0,8.81,DeFi,Multicoin Capital
+Momentum,momentum-3,1,5000000,42130000.0,8.43,DEX,Jump Crypto
+Thales,thales,1,2500000,19150000.0,7.66,Yield Aggregator,Framework Ventures
+Origin Protocol,origin-protocol,1,3000300,22810000.0,7.60,NFT,Pantera Capital
+Derive,derive,1,3000000,21600000.0,7.20,Perpetual,Framework Ventures
+The Arena,the-arena,1,2000000,12390000.0,6.20,Social,Balaji Srinivasan
+Mountain Protocol USD,mountain-protocol-usd,1,8000000,47650000.0,5.96,Stablecoin,Multicoin Capital
+OpenLedger,openledger-2,1,8000000,43920000.0,5.49,Infrastructure,Polychain Capital
+Moonbeam,moonbeam,1,6000000,31310000.0,5.22,Blockchain,Binance Labs
+Lagrange,lagrange-labs,1,13200000,66239999.99999999,5.02,Infrastructure,1Kx
+ZEROBASE,zerobase,1,5000000,23480000.0,4.70,Zero Knowledge,Binance Labs
+Caldera,caldera-era,1,9000000,42040000.0,4.67,Infrastructure,1Kx
+Illuvium,illuvium,1,10000000,45950000.0,4.59,Gaming,Framework Ventures
+Lista DAO,lista-dao,1,10000000,45230000.0,4.52,Liquid Staking Protocols,Binance Labs
+NuCypher,nucypher,1,10700000,48390000.0,4.52,Protocol,Polychain Capital
+AUSD,agora-2,1,50000000,216390000.0,4.33,Stablecoin,Paradigm
+Stader,stader,1,4000000,17000000.0,4.25,Liquid Staking Protocols,Pantera Capital
+WOO,woo-network,1,12000000,50600000.0,4.22,CEX,Binance Labs
+Ancient8,ancient8,1,6000000,24820000.0,4.14,Layer-2,Pantera Capital
+Tranchess,tranchess,1,1500000,6010000.0,4.01,Liquid Staking Protocols,Binance Labs
+RARI,rarible,1,1750000,6920000.0,3.95,NFT,1Kx
+Orca,orca,1,19025000,71590000.0,3.76,DEX,Polychain Capital
+Gala,gala,1,100000000,339390000.0,3.39,BNB Chain Ecosystem,Binance Labs
+THORSwap,thorswap,1,3750000,12680000.0,3.38,DEX,Ideo Colab Ventures
+Suilend,suilend,1,4000000,13400000.0,3.35,Lending Platform,Balaji Srinivasan
+INFINIT,infinit-2,1,6000000,19260000.0,3.21,DeFi,Electric Capital
+Botto,botto,1,1670000,5270000.0,3.16,NFT,1Kx
+Fusionist,fusionist,1,6600000,20560000.0,3.12,Gaming,Binance Labs
+Harmony,harmony,1,18345600,55790000.0,3.04,Blockchain,Binance Labs
+Zeta Markets,zeta-markets,1,5000000,15070000.0,3.01,DeFi,Electric Capital
+Limitless,limitless,1,10000000,29860000.0,2.99,Predictions,1Confirmation
+POL (ex-MATIC),polygon-ecosystem-token,1,450000000,1270000000.0,2.82,Layer-2,Andreessen Horowitz (a16z)
+Dusk,dusk-network,1,8075557,21910000.0,2.71,Privacy Coin,Binance Labs
+Taiko,taiko,1,15000000,39520000.0,2.63,Layer-2,Lightspeed Venture Partners
+Quasar,quasar-2,1,5432100,13560000.0,2.50,DeFi,Polychain Capital
+Bella Protocol,bella-protocol,1,4500000,10980000.0,2.44,DeFi,Binance Labs
+Coin98,coin98,1,11250000,27130000.0,2.41,Wallet,Multicoin Capital
+Beta Finance,beta-finance,1,5800000,11750000.0,2.03,Lending Platform,Multicoin Capital
+Space and Time,space-and-time,1,20000000,38850000.0,1.94,Blockchain Service,Framework Ventures
+Balancer,balancer,1,24250000,46900000.0,1.93,DeFi,Pantera Capital
+Highstreet,highstreet,1,9852000,18590000.0,1.89,Gaming,Binance Labs
+Neutron,neutron-2,1,10000000,18500000.0,1.85,Infrastructure,Binance Labs
+Hooked Protocol,hooked-protocol,1,6000000,11010000.0,1.83,Gaming,Binance Labs
+KernelDAO,kernel-dao,1,10000000,17780000.0,1.78,Liquid Staking Protocols,Binance Labs
+Autonolas,autonolas,1,13800000,24020000.0,1.74,Artificial Intelligence (AI),1Kx
+FIO Protocol,fio-protocol,1,5700000,9730000.0,1.71,Protocol,Binance Labs
+Kyber Network Crystal,kyber-network-crystal,1,27132035,44000000.0,1.62,DeFi,Binance Labs
+Succinct,succinct,1,55000000,81780000.0,1.49,Infrastructure,Paradigm
+B3 (Base),b3-fun,1,21000000,30920000.0,1.47,Gaming,Pantera Capital
+Radiant Capital,radiant-capital,1,10000000,13980000.0,1.40,DeFi,Binance Labs
+io.net,io-net,1,30000000,41170000.0,1.37,Artificial Intelligence (AI),Multicoin Capital
+REN,republic-protocol,1,4825000,6600000.0,1.37,DeFi,Polychain Capital
+Quai Network,quai-network,1,8000000,10180000.0,1.27,Blockchain,Polychain Capital
+Radworks,radicle,1,12000000,14960000.0,1.25,Governance,Electric Capital
+Streamflow,streamflow,1,1900000,2340000.0,1.23,Blockchain Service,Jump Crypto
+Usual,usual,1,10000000,12000000.0,1.20,Stablecoin Issuer,Binance Labs
+CLV,clover-finance,1,6000000,7110000.0,1.19,Wallet,Polychain Capital
+Oxen,loki-network,1,9027000,9900000.0,1.10,Nodes,1Kx
+Omnity Convertible Token,octopus-network,1,3000000,3210000.0,1.07,Near Ecosystem,Electric Capital
+Numbers Protocol,numbers-protocol,1,5253750,5470000.0,1.04,Media,Binance Labs
+SWEAT,sweat-economy,1,10000000,9480000.0,0.95,Wallet,Electric Capital
+Hemi,hemi-network,1,15000000,14170000.0,0.94,Modular Blockchain,Binance Labs
+Ultiverse,ultiverse,1,5000000,4600000.0,0.92,Gaming,Binance Labs
+Metadium,metadium,1,21539540,19620000.0,0.91,Protocol,1Kx
+Moonwalk Fitness,moonwalk-fitness,1,3400000,2930000.0,0.86,Sport,Binance Labs
+Yala,yala-finance,1,8000000,6880000.0,0.86,DeFi,Polychain Capital
+Avail,avail,1,27000000,23150000.0,0.86,Blockchain,Balaji Srinivasan
+FUNToken,funfair,1,26000000,21640000.0,0.83,Gaming,Pantera Capital
+ShapeShift FOX,shapeshift-fox-token,1,10400000,8230000.0,0.79,DeFi,Pantera Capital
+Aria,aria-3,1,15000000,11510000.0,0.77,RWA (Real World Assets),Polychain Capital
+Sovryn,sovryn,1,5400000,4000000.0,0.74,DeFi,Balaji Srinivasan
+Port3 Network,port3-network,1,3000000,2190000.0,0.73,DePIN,Jump Crypto
+Pipe Network,pipe-network,1,10000000,6940000.0,0.69,Blockchain Service,Multicoin Capital
+Agoric,agoric,1,6000000,4150000.0000000005,0.69,Coinlist Launchpad,Polychain Capital
+Dora Factory,dora-factory-2,1,8000000,5490000.0,0.69,Infrastructure,Binance Labs
+Oasys,oasys,1,20000000,12960000.0,0.65,Gaming,Jump Crypto
+Blum,blum,1,5000000,3210000.0,0.64,DeFi,Binance Labs
+ANGLE,angle-protocol,1,5000000,3190000.0,0.64,Protocol,Andreessen Horowitz (a16z)
+Ref Finance,ref-finance,1,4800000,2970000.0,0.62,Near Ecosystem,Jump Crypto
+Camp Network,camp-network,1,25000000,15340000.0,0.61,Layer-2,1Kx
+Bluefin,bluefin,1,22800000,13050000.0,0.57,DEX,Polychain Capital
+GoGoPool,gogopool,1,5000000,2780000.0,0.56,DeFi,Framework Ventures
+Badger DAO,badger-dao,1,21000000,11490000.0,0.55,DeFi,Polychain Capital
+OMG Network,omisego,1,25000000,12830000.0,0.51,Blockchain,Pantera Capital
+Heroes of Mavia,heroes-of-mavia,1,5500000,2720000.0,0.49,Gaming,Binance Labs
+Contentos,contentos,1,14250000,7020000.0,0.49,Media,Binance Labs
+Sovrun,breederdao,1,10000000,4670000.0,0.47,Gaming,Andreessen Horowitz (a16z)
+Spectral,spectral,1,6750000,3090000.0,0.46,Blockchain Service,Polychain Capital
+Neon,neon,1,40000000,16309999.999999998,0.41,Layer-2,Ideo Colab Ventures
+Ribbon Finance,ribbon-finance,1,8800000,3460000.0,0.39,DeFi,Paradigm
+ApeCoin,apecoin,1,450000000,170930000.0,0.38,Metaverse,Andreessen Horowitz (a16z)
+Gelato,gelato,1,11000000,4050000.0,0.37,Blockchain Service,Ideo Colab Ventures
+Jenny Metaverse DAO Token,jenny-metaverse-dao-token,1,7000000,2530000.0,0.36,NFT,Multicoin Capital
+Gata,aggregata,1,4000000,1430000.0,0.36,Artificial Intelligence (AI),Binance Labs
+Obol Labs,obol-labs,1,12500000,4360000.0,0.35,DeFi,Pantera Capital
+Xterio,xterio,1,15000000,5210000.0,0.35,Gaming,Binance Labs
+Scroll,scroll,1,50000000,16140000.0,0.32,Blockchain,Polychain Capital
+Lit Protocol,lit-protocol,1,13000000,4170000.0,0.32,Infrastructure,1Kx
+Kadena,kadena,1,12900000,3970000.0,0.31,Blockchain,Multicoin Capital
+AscendEx,asd,1,50000000,14870000.0,0.30,CEX,Polychain Capital
+Eclipse,eclipse,1,50000000,14830000.0,0.30,Infrastructure,Polychain Capital
+Cygnus,cygnus-finance,1,20000000,5680000.0,0.28,Blockchain,Egirl Capital
+Saber,saber,1,7700000,2029999.9999999998,0.26,AMM,Multicoin Capital
+XION,burnt-2,1,25000000,6430000.0,0.26,Blockchain,Multicoin Capital
+Privasea AI,privasea,1,5000000,1240000.0,0.25,Artificial Intelligence (AI),Binance Labs
+ZTX,ztx,1,13000000,2009999.9999999998,0.15,Social,Jump Crypto
+Balance,balance,1,30000000,4410000.0,0.15,Gaming,Andreessen Horowitz (a16z)
+Levva Protocol Token,levva-protocol-token,1,11000000,1580000.0,0.14,Artificial Intelligence (AI),1Kx
+Multichain,multichain,1,60000000,5230000.0,0.09,Web 3.0,Binance Labs
+Shardeum,shardeum,1,18719600,1580000.0,0.08,Infrastructure,Balaji Srinivasan
+Analog,analog,1,16000000,1320000.0,0.08,Infrastructure,Balaji Srinivasan
+Shrapnel,shrapnel,1,19500000,1570000.0,0.08,Gaming,Polychain Capital
+Cere Network,cere-network,1,31000000,2470000.0,0.08,Big Data,Binance Labs
+Shiden Network,shiden,1,22000000,1640000.0,0.07,NFT,Polychain Capital
+Fleek,fleek,1,25000000,1560000.0,0.06,AI Agents,Polychain Capital
+CreatorDAO,creatordao,1,20000000,1080000.0,0.05,DAO,Andreessen Horowitz (a16z)
+Partior,partior,1,60000000,,,Finance,Jump Trading
+Aera,aera,1,8000000,,,Blockchain Service,Jump Trading
+ApeX,apex-token-2,1,0,64080000.0,,Perpetual,Jump Trading
+Revolut,revolut,1,0,,,Finance,Andreessen Horowitz (a16z)
+Bastion,bastion,1,14600000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Poseidon,poseidon-2,1,15000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+OpenRouter,openrouter,1,40000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Yupp,yupp,1,33000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Open Trade,open-trade,1,7000000,,,DeFi,Andreessen Horowitz (a16z)
+Catena Labs,catena-labs,1,18000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Hedra,hedra,1,32000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Halliday,halliday,1,20000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Universal,universal,1,9000000,,,DEX,Andreessen Horowitz (a16z)
+Legend,legend-3,1,15000000,,,Wallet,Andreessen Horowitz (a16z)
+Merit Systems,merit-systems,1,10000000,,,Infrastructure,Andreessen Horowitz (a16z)
+Tranched,tranched,1,3400000,,,Lending Platform,Andreessen Horowitz (a16z)
+mbd,mbd,1,3000000,,,Social,Andreessen Horowitz (a16z)
+Vlayer,vlayer,1,10000000,,,Infrastructure,Andreessen Horowitz (a16z)
+Spire Labs,spire-labs,1,7000000,,,Infrastructure,Andreessen Horowitz (a16z)
+Axal,axal,1,2500000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Skyfire,skyfire,1,1000000,,,Infrastructure,Andreessen Horowitz (a16z)
+AminoChain,aminochain,1,5000000,,,Infrastructure,Andreessen Horowitz (a16z)
+PIN AI,pin-ai,1,10000000,,,Artificial Intelligence (AI),Andreessen Horowitz (a16z)
+Cork Protocol,cork-protocol,1,0,,,DeFi,Andreessen Horowitz (a16z)
+Blocksense Network,blocksense-network,1,4000000,,,Infrastructure,Andreessen Horowitz (a16z)
+t1 Protocol,t1-protocol,1,2500000,,,Infrastructure,Andreessen Horowitz (a16z)
+MyPrize,myprize,1,13000000,,,Gambling,Andreessen Horowitz (a16z)
+MadWorld,madworld-2,1,13000000,,,Gaming,Andreessen Horowitz (a16z)
+NodeKit,nodekit,1,0,,,Blockchain,Andreessen Horowitz (a16z)
+formless,formless,1,2200000,,,Social,Andreessen Horowitz (a16z)
+Dynamic,dynamic-ico,1,13500000,,,,Andreessen Horowitz (a16z)
+Setter,setter,1,5000000,,,Social,Andreessen Horowitz (a16z)
+EthXY,ethxy,1,1600000,,,Gaming,Andreessen Horowitz (a16z)
+Stackr,stackr,1,5500000,,,Infrastructure,Andreessen Horowitz (a16z)
+smlXL,smlxl,1,13400000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Freatic,freatic,1,3600000,,,Blockchain Service,Andreessen Horowitz (a16z)
+MotherDuck,motherduck,1,52500000,,,Big Data,Andreessen Horowitz (a16z)
+Ideogram AI ,ideogram-ai,1,16500000,,,Artificial Intelligence (AI),Andreessen Horowitz (a16z)
+socket,socket-2,1,20000000,,,Software,Andreessen Horowitz (a16z)
+Sound.xyz,sound-xyz,1,20000000,,,Music,Andreessen Horowitz (a16z)
+Narval,narval,1,4000000,,,Wallet,Andreessen Horowitz (a16z)
+Gensyn,gensyn,1,43000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Character.ai,character-ai,1,150000000,,,Artificial Intelligence (AI),Andreessen Horowitz (a16z)
+CCP Games,ccp-games,1,40000000,,,Gaming,Andreessen Horowitz (a16z)
+EVE Online,eve-online-ico,1,40000000,,,,Andreessen Horowitz (a16z)
+Capsule Social,capsule-social-ico,1,0,,,,Andreessen Horowitz (a16z)
+Alongside Crypto Market Index,alongside-crypto-market-index,1,11000000,,,Index,Andreessen Horowitz (a16z)
+Carry1st,carry1st-ico,1,27000000,,,,Andreessen Horowitz (a16z)
+Champions Ascension,champions-ascension-ico,1,32000000,,,,Andreessen Horowitz (a16z)
+Voldex,voldex-ico,1,0,,,,Andreessen Horowitz (a16z)
+Ready Player Me,ready-player-me-ico,1,56000000,,,,Andreessen Horowitz (a16z)
+Cryptoys,cryptoys-ico,1,23000000,,,,Andreessen Horowitz (a16z)
+Linera,linera,1,6000000,,,Infrastructure,Andreessen Horowitz (a16z)
+PartyDAO,partydao,1,16400000,,,,Andreessen Horowitz (a16z)
+BitCraft,bitcraft-ico,1,22000000,,,,Andreessen Horowitz (a16z)
+Entrepreneur First,entrepreneur-first-ico,1,158000000,,,,Andreessen Horowitz (a16z)
+TipTop,tiptop,1,23000000,,,Infrastructure,Andreessen Horowitz (a16z)
+Flowcarbon,flowcarbon-ico,1,70000000,,,,Andreessen Horowitz (a16z)
+Loop Crypto,loop-crypto,1,4000000,,,Infrastructure,Andreessen Horowitz (a16z)
+Pahdo Labs,pahdo-labs,1,15000000,,,Gaming,Andreessen Horowitz (a16z)
+Polygon,matic-network,1,450000000,,,Blockchain,Andreessen Horowitz (a16z)
+Nansen,nansen,1,75000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Forte,forte,1,725000000,,,Blockchain Service,Andreessen Horowitz (a16z)
+Virtually Human Studio,virtually-human-studio-ico,1,20000000,,,,Andreessen Horowitz (a16z)
+Bitski,bitski-ico,1,19000000,,,,Andreessen Horowitz (a16z)
+RTFKT Studios,rtfkt-studios-ico,1,8000000,,,,Andreessen Horowitz (a16z)
+zerohash,zerohash,1,104000000,,,Blockchain Service,Jump Crypto
+Cooking.City,cooking-city,1,7000000,,,Memepad,Jump Crypto
+Nirvana Labs,nirvana-labs,1,6000000,,,Infrastructure,Jump Crypto
+Securitize,securitize,1,0,,,Finance,Jump Crypto
+Nodepay,nodecoin-2,1,0,,,Artificial Intelligence (AI),Jump Crypto
+Nexus Interactive,nexus-interactive,1,2000000,,,Gaming,Jump Crypto
+Play AI,play-ai,1,4300000,,,Infrastructure,Jump Crypto
+OpenCover,opencover,1,4600000,,,DeFi,Jump Crypto
+LuminaDEX,luminadex,1,0,,,DeFi,Jump Crypto
+Affine,affine,1,7000000,,,Liquid Staking Protocols,Jump Crypto
+Xverse,xverse-wallet,1,5000000,,,Blockchain Service,Jump Crypto
+OutDID,outdid,1,2500000,,,Blockchain Service,Jump Crypto
+Cetus Protocol,cetus-protocol,1,0,24530000.0,,DEX,Jump Crypto
+Delphi Labs,delphi-labs-ico,1,13500000,,,,Jump Crypto
+P2P Validator,p2p-validator-ico,1,23000000,,,,Jump Crypto
+C3,c3-ico,1,6000000,,,,Jump Crypto
+Kolibrio,kolibrio-ico,1,2000000,,,,Jump Crypto
+VRRB,vrrb-ico,1,1400000,,,,Jump Crypto
+Outdefine,outdefine-ico,1,2500000,,,,Jump Crypto
+Arcium,arcium,1,3500000,,,,Jump Crypto
+Fly,fly-2,1,3000000,,,DeFi,Jump Crypto
+zCloak,zcloak-ico,1,5800000,,,,Jump Crypto
+double jump.tokyo,double-jump-tokyo,1,24000000,,,Gaming,Jump Crypto
+OpenBlox,openblox,1,3000000,,,NFT,Jump Crypto
+Burrow,burrow,1,5000000,,,Lending Platform,Jump Crypto
+Slope,slope-ico,1,8000000,,,,Jump Crypto
+Conduit,conduit-2,1,17000000,,,Blockchain Service,Jump Crypto
+HXRO,hxro,1,34000000,,,Solana Ecosystem,Jump Crypto
+Oh Baby Games,oh-baby-games,1,6000000,,,Gaming,Egirl Capital
+Inference,inference,1,11800000,,,Blockchain Service,Multicoin Capital
+CrunchDAO,crunchdao,1,5000000,,,Artificial Intelligence (AI),Multicoin Capital
+Yield.xyz,yield-xyz,1,5000000,,,DeFi,Multicoin Capital
+P2P.me,p2p-me,1,2000000,,,Blockchain Service,Multicoin Capital
+FanTV,fantv,1,5500000,,,Blockchain Service,Multicoin Capital
+Mevvy,mevvy,1,2800000,,,Blockchain Service,Multicoin Capital
+Fuse,fuseenergy,1,12000000,,,Blockchain Service,Multicoin Capital
+zkMe,zkme,1,4000000,,,Blockchain Service,Multicoin Capital
+El Dorado,el-dorado,1,3000000,,,Blockchain Service,Multicoin Capital
+Baxus,baxus,1,5000000,,,Social,Multicoin Capital
+GLIF,glif,1,4500000,,,DeFi,Multicoin Capital
+Fhenix,fhenix,1,7000000,,,Infrastructure,Multicoin Capital
+FastLane Labs,fastlane-labs,1,2300000,,,Blockchain Service,Multicoin Capital
+Tableland,tableland,1,8000000,,,Blockchain Service,Multicoin Capital
+Sec3,sec3-ico,1,10000000,,,,Multicoin Capital
+Fluidity,fluidity-ico,1,1300000,,,,Multicoin Capital
+Hubble,hubble,1,5000000,,,Protocol,Multicoin Capital
+Delphia,delphia-ico,1,60000000,,,,Multicoin Capital
+Geode Finance,geode-finance-ico,1,3000000,,,,Multicoin Capital
+FanTiger,fantiger-ico,1,5500000,,,,Multicoin Capital
+Timeswap,timeswap,1,0,,,DeFi,Multicoin Capital
+EDEN,eden,1,17400000,,,Infrastructure,Multicoin Capital
+UXD Protocol Token,uxd-protocol-token,1,3000000,,,Algorithmic Stablecoins,Multicoin Capital
+Strips Finance,strips-finance,1,8500000,,,Derivatives,Multicoin Capital
+Grape Protocol,grape-2,1,1200000,,,Application,Multicoin Capital
+Qilin,qilin-ico,1,800000,,,,Multicoin Capital
+Tibles,tibles-ico,1,1140000,,,,Multicoin Capital
+Realy Metaverse,realy-metaverse,1,0,,,Metaverse,Multicoin Capital
+Oxygen,oxygen,1,40000000,,,Solana Ecosystem,Multicoin Capital
+Salad Ventures,salad-ventures,1,2000000,,,Gaming,Multicoin Capital
+Textile,textile-2,1,1500000,,,Blockchain Service,Multicoin Capital
+Lightyear,lightyear,1,23000000,,,Finance,Lightspeed Venture Partners
+Goodfire,goodfire,1,50000000,,,Artificial Intelligence (AI),Lightspeed Venture Partners
+RedotPay,redotpay,1,40000000,,,Blockchain Service,Lightspeed Venture Partners
+CharacterX,characterx,1,2800000,,,Social,Lightspeed Venture Partners
+Medallion,medallion,1,13700000,,,Blockchain Service,Lightspeed Venture Partners
+Blockchain.com,blockchain-com,1,110000000,,,CEX,Lightspeed Venture Partners
+Econia,econia-ico,1,6500000,,,,Lightspeed Venture Partners
+Sentio,sentio-ico,1,6400000,,,,Lightspeed Venture Partners
+Ultimate,ultimate-ico,1,12500000,,,,Lightspeed Venture Partners
+Ballet,ballet-ico,1,13000000,,,,Lightspeed Venture Partners
+Soba,soba-ico,1,13500000,,,,Lightspeed Venture Partners
+Health Hero,health-hero-ico,1,4500000,,,,Lightspeed Venture Partners
+IndiGG,indigg,1,6000000,,,Gaming,Lightspeed Venture Partners
+Babel Finance,babel-finance-ico,1,40000000,,,,Lightspeed Venture Partners
+Cascade,cascade,1,15000000,,,CEX,Polychain Capital
+Tharimmune,tharimmune,1,540000000,,,Healthcare,Polychain Capital
+Greenlane Holdings,greenlane-holdings,1,110000000,,,Finance,Polychain Capital
+Billions Network,billions-network,1,30000000,,,Blockchain Service,Polychain Capital
+DogeOS,dogeos,1,6900000,,,Infrastructure,Polychain Capital
+Warlock,warlock,1,8000000,,,DeFi,Polychain Capital
+Oshi,oshi-2,1,12500000,,,Social,Polychain Capital
+Superform,superform,1,3000000,,,DeFi,Polychain Capital
+Talus network,talus-network,1,6000000,,,Blockchain Service,Polychain Capital
+Yellow Card,yellow-card,1,33000000,,,Finance,Polychain Capital
+Pac Finance,pac-finance,1,1000000,,,DeFi,Polychain Capital
+Pi Squared,pi-squared,1,12500000,,,Infrastructure,Polychain Capital
+ORA,ora,1,20000000,,,Infrastructure,Polychain Capital
+Nubit,nubit,1,8000000,,,Infrastructure,Polychain Capital
+Cysic,cysic-ico,1,12000000,,,,Polychain Capital
+Botanix Labs,botanix-labs,1,11500000,,,Blockchain,Polychain Capital
+Stream Finance,stream-finance,1,1500000,,,DeFi,Polychain Capital
+Playtron,playtron,1,10000000,,,Gaming,Polychain Capital
+Gasp (Mangata),gasp-2,1,5000000,,,DeFi,Polychain Capital
+Sofamon,sofamon,1,0,,,Social,Polychain Capital
+Squid,squidrouter,1,4000000,,,Blockchain Service,Polychain Capital
+Canza Finance ,canza-finance,1,2300000,,,Blockchain Service,Polychain Capital
+Particle,particle,1,0,,,DeFi,Polychain Capital
+Wynd Network,wynd-2,1,3500000,,,Infrastructure,Polychain Capital
+Sona,sona,1,6900000,,,Blockchain Service,Polychain Capital
+Rio Network,rio-network,1,0,,,DeFi,Polychain Capital
+Bioniq,bioniq,1,0,,,Blockchain Service,Polychain Capital
+CreateSafe,createsafe,1,4600000,,,Music,Polychain Capital
+Goldlink,goldlink,1,1400000,,,DeFi,Polychain Capital
+Webb Protocol,webb-protocol,1,7000000,,,Infrastructure,Polychain Capital
+Thetanuts Finance,thetanuts-finance-ico,1,17000000,,,,Polychain Capital
+Cubist,cubist-ico,1,7000000,,,,Polychain Capital
+Really,really-ico,1,18000000,,,,Polychain Capital
+Nil Foundation,nil-foundation-ico,1,22000000,,,,Polychain Capital
+Perennial,perennial,1,12000000,,,DeFi,Polychain Capital
+Evmos,evmos,1,27000000,,,Cosmos Ecosystem,Polychain Capital
+t3rn,t3rn,1,6500000,,,Infrastructure,Polychain Capital
+Kollider,kollider-ico,1,2400000,,,,Polychain Capital
+Tapio Protocol,tapio-protocol-ico,1,4000000,,,,Polychain Capital
+Hologram,hologram-ico,1,6500000,,,,Polychain Capital
+DSCVR,dscvr-ico,1,9000000,,,,Polychain Capital
+ORIGYN,origyn-foundation,1,20000000,,,NFT,Polychain Capital
+Credora,credora,1,8000000,,,Lending Platform,Polychain Capital
+Thesis,thesis-ico,1,21000000,,,,Polychain Capital
+Moola Market,moola-market,1,1400000,,,Lending Platform,Polychain Capital
+DFX Finance,dfx-finance,1,5000000,,,Governance,Polychain Capital
+Parsec,parsec,1,1250000,,,Big Data,Polychain Capital
+Alpha5,alpha5,1,1500000,,,,Polychain Capital
+ROOK,rook,1,1440000,,,DeFi,Polychain Capital
+Staker DAO,staker-dao,1,3000000,,,DAO,Polychain Capital
+Fractal Network (Findora),findora,1,11970000,,,Blockchain,Polychain Capital
+Horizon Blockchain Game,horizon-blockchain-game-ico,1,5000000,,,,Polychain Capital
+Raiden Network Token,raiden-network,1,33400000,,,Infrastructure,Polychain Capital
+Hyperbeat,hyperbeat,1,5200000,,,DeFi,Electric Capital
+Hibachi,hibachi,1,5000000,,,DeFi,Electric Capital
+Bitwise,bitwise,1,70000000,,,Finance,Electric Capital
+InfiniFi,infinifi,1,3000000,,,DeFi,Electric Capital
+Term Finance,term-finance,1,5500000,,,Lending Platform,Electric Capital
+Wasabi,wasabi,1,3000000,,,DeFi,Electric Capital
+Nuffle Labs,nuffle-labs,1,13000000,,,Infrastructure,Electric Capital
+Ava Protocol,ava-protocol,1,10000000,,,Infrastructure,Electric Capital
+Re,re,1,7000000,,,Insurance,Electric Capital
+Cove Finance,cove-finance,1,3000000,,,Yield Aggregator,Electric Capital
+INIT Capital,init-capital,1,3000000,,,DeFi,Electric Capital
+Clusters,clusters,1,9000000,,,Blockchain Service,Electric Capital
+Abstract,abstract,1,0,,,Layer-2,Electric Capital
+Frame,frame,1,0,,,Blockchain,Electric Capital
+Llama,llama,1,6000000,,,Blockchain Service,Electric Capital
+Hourglass,hourglass-2,1,4200000,,,DeFi,Electric Capital
+Yoz,yoz-ico,1,3500000,,,Web 3.0,Electric Capital
+Paper,paper,1,9300000,,,,Electric Capital
+Nestcoin,nestcoin,1,6450000,,,Blockchain Service,Electric Capital
+ConsenSys,consensys,1,200000000,,,Web 3.0,Electric Capital
+Taker Protocol,taker-protocol,1,3000000,,,Blockchain,Electric Capital
+Bitnomial,bitnomial,1,11600000,,,Finance,Electric Capital
+Obex,obex-2,1,37000000,,,Finance,Framework Ventures
+Mecka.AI,mecka-ai,1,8000000,,,Infrastructure,Framework Ventures
+Perle (Prev. Kiva Ai),kiva-ai,1,9000000,,,Artificial Intelligence (AI),Framework Ventures
+W3.io,w3-io,1,7000000,,,Infrastructure,Framework Ventures
+T-Rex,t-rex,1,17000000,,,Modular Blockchain,Framework Ventures
+Uranium Digital,uranium-digital,1,6100000,,,DeFi,Framework Ventures
+Henlo,henlo-2,1,3000000,,,Meme,Framework Ventures
+GOAT Gaming,goat-gaming,1,4000000,,,Gaming,Framework Ventures
+Hyve DA,hyve-da,1,2750000,,,Blockchain Service,Framework Ventures
+Starpower,starpower,1,2500000,,,Blockchain Service,Framework Ventures
+Eidon AI,eidon-ai,1,3500000,,,Infrastructure,Framework Ventures
+Infinex,infinex-app-crypto,1,65290000,,,DEX,Framework Ventures
+Ammalgam,ammalgam,1,2500000,,,DeFi,Framework Ventures
+Parfin,parfin-ico,1,10000000,,,Layer-2,Framework Ventures
+OpenSocial,opensocial,1,6000000,,,Social,Framework Ventures
+Hylé,hyle,1,2600000,,,Blockchain,Framework Ventures
+Uplink,uplink,1,10000000,,,Infrastructure,Framework Ventures
+Arrow Markets,arrow-markets,1,4000000,,,DeFi,Framework Ventures
+Midas,midas-2,1,8750000,,,DeFi,Framework Ventures
+Reya Network (Voltz),reya-network,1,10000000,,,DeFi,Framework Ventures
+Kravata,kravata,1,3600000,,,Infrastructure,Framework Ventures
+Hyve Labs,hyve-labs,1,2750000,,,Gaming,Framework Ventures
+Immutable,immutable-x,1,0,553330000.0,,Layer-2,Framework Ventures
+Blockworks,blockworks,1,12000000,,,Media,Framework Ventures
+Jungle,jungle-ico,1,6000000,,,,Framework Ventures
+Asset Reality,asset-reality-ico,1,4910000,,,,Framework Ventures
+Mighty Action Heroes,mighty-action-heroes-ico,1,10000000,,,,Framework Ventures
+Endaoment,endaoment-ico,1,6670000,,,,Framework Ventures
+Teller Finance,teller-finance-ico,1,6850000,,,,Framework Ventures
+Aethir,aethir,1,0,194390000.0,,DePIN,Framework Ventures
+Block Earner,block-earner-ico,1,6400000,,,,Framework Ventures
+SZNS,szns-ico,1,4000000,,,,Framework Ventures
+Tracer DAO,tracer-dao,1,4500000,,,Investment,Framework Ventures
+Gro DAO Token,gro-dao-token,1,7100000,,,Yield Aggregator,Framework Ventures
+Horizon Finance,horizon-finance,1,1335000,,,Yield Aggregator,Framework Ventures
+The Clearing Company,the-clearing-company,1,15000000,,,DeFi,Union Square Ventures Usv
+tapestry,tapestry,1,5750000,,,Social,Union Square Ventures Usv
+Sling Money,sling-money,1,15000000,,,Finance,Union Square Ventures Usv
+Flurry Finance,flurry,1,750000,,,,Union Square Ventures Usv
+Rift,rift,1,8000000,,,DEX,Paradigm
+Harmonic,harmonic,1,6000000,,,Infrastructure,Paradigm
+Liquid,liquid,1,7600000,,,DEX,Paradigm
+Divine,divine,1,6600000,,,DeFi,Paradigm
+Plural,plural,1,7130000,,,Blockchain Service,Paradigm
+Tempo,tempo,1,0,,,Blockchain,Paradigm
+GTE,gte,1,15000000,,,DEX,Paradigm
+Wildcard,wildcard-ico,1,6500000,,,,Paradigm
+3Jane,3jane,1,5200000,,,DeFi,Paradigm
+Reddio,reddio,1,0,,,Layer-2,Paradigm
+Nous Research,nous-research,1,50000000,,,Artificial Intelligence (AI),Paradigm
+Consensus Value Creation,consensus-value-creation,1,20000000,,,Blockchain Service,Paradigm
+Mesh,mesh,1,82000000,,,Finance,Paradigm
+D3,d3-2,1,25000000,,,Blockchain Service,Paradigm
+Ithaca,ithaca,1,20000000,,,Blockchain,Paradigm
+Sorella,sorella,1,7500000,,,DeFi,Paradigm
+Conduit,conduit-ico,1,37000000,,,,Paradigm
+Axiom,axiom,1,20000000,,,Blockchain Service,Paradigm
+Friend.tech,friend-tech,1,0,3440000.0,,Social,Paradigm
+Flashbots,flashbots,1,60000000,,,Blockchain Service,Paradigm
+Code4rena,code4rena-ico,1,6000000,,,,Paradigm
+Blowfish,blowfish-2,1,11800000,,,Blockchain Service,Paradigm
+SignalPlus,signalplus,1,0,,,Finance,Paradigm
+Limit Break,limit-break-ico,1,200000000,,,,Paradigm
+Utopia Labs,utopia-labs-ico,1,23000000,,,,Paradigm
+MoonPay,moonpay,1,555000000,,,Finance,Paradigm
+Parallel,parallel,1,50000000,,,Gaming,Paradigm
+JET,jet,1,6800000,,,Lending Platform,Paradigm
+Bitwave,bitwave-ico,1,7250000,,,,Paradigm
+Showtime,showtime-ico,1,7600000,,,,Paradigm
+Chainalysis,chainalysis,1,100000000,,,Blockchain Service,Paradigm
+Fireblocks,fireblocks-ico,1,133000000,,,,Paradigm
+Royale,royale,1,350000,,,,Paradigm
+noice,noice,1,0,10030000.0,,Meme,Balaji Srinivasan
+Inversion Capital,inversion-capital,1,26500000,,,Infrastructure,Balaji Srinivasan
+Trepa,trepa,1,420000,,,DeFi,Balaji Srinivasan
+ZAR,zar,1,7000000,,,Finance,Balaji Srinivasan
+Octane,octane,1,6750000,,,Blockchain Service,Balaji Srinivasan
+Prime Intellect,prime-intellect,1,15000000,,,Blockchain Service,Balaji Srinivasan
+fomo,fomo-2,1,2000000,,,DeFi,Balaji Srinivasan
+Citrea,citrea,1,14000000,,,Infrastructure,Balaji Srinivasan
+Genius,genius-2,1,6000000,,,DeFi,Balaji Srinivasan
+Prodia,prodia,1,15000000,,,Blockchain Service,Balaji Srinivasan
+Agora,agora-3,1,5000000,,,Blockchain Service,Balaji Srinivasan
+Ord.io,ord-io,1,2000000,,,NFT,Balaji Srinivasan
+Sending Network,sending-network,1,7500000,,,Blockchain Service,Balaji Srinivasan
+Stack,stack-2,1,3000000,,,Blockchain Service,Balaji Srinivasan
+Dinari,dinari,1,10000000,,,Finance,Balaji Srinivasan
+Baseflow,baseflow,1,2500000,,,Blockchain Service,Balaji Srinivasan
+Fileverse,fileverse,1,1500000,,,Blockchain Service,Balaji Srinivasan
+Parallax,parallax-2,1,4500000,,,Finance,Balaji Srinivasan
+0xPass,0xpass,1,1800000,,,Blockchain Service,Balaji Srinivasan
+Drip,drip,1,3000000,,,NFT,Balaji Srinivasan
+Lore Explorer,lore-explorer,1,2300000,,,Blockchain Service,Balaji Srinivasan
+MIDAO,midao,1,1000000,,,Social,Balaji Srinivasan
+Roi,roi,1,3600000,,,NFT,Balaji Srinivasan
+Argus,argus-2,1,10000000,,,Gaming,Balaji Srinivasan
+LabDAO,labdao,1,3600000,,,Social,Balaji Srinivasan
+PYOR,pyor,1,4000000,,,Big Data,Balaji Srinivasan
+Huddle01,huddle01-ico,1,4500000,,,,Balaji Srinivasan
+Intmax,intmax-ico,1,5000000,,,Blockchain,Balaji Srinivasan
+Renegade,renegade-ico,1,3400000,,,,Balaji Srinivasan
+Sesame Labs,sesame-labs-ico,1,4500000,,,,Balaji Srinivasan
+Lysto,lysto-ico,1,12000000,,,,Balaji Srinivasan
+Crypto Colo Center,crypto-colo-center-ico,1,11000000,,,,Balaji Srinivasan
+Quadrata,quadrata-ico,1,7500000,,,,Balaji Srinivasan
+Samudai,samudai-ico,1,2500000,,,,Balaji Srinivasan
+TRUF.Network,truflation,1,0,3490000.0,,RWA (Real World Assets),Balaji Srinivasan
+Questbook,questbook-ico,1,8300000,,,,Balaji Srinivasan
+LiquiFi,liquifi,1,5000000,,,Blockchain Service,Balaji Srinivasan
+RSS3,rss3,1,0,12330000.0,,Infrastructure,Balaji Srinivasan
+Galoy,galoy-ico,1,3000000,,,,Balaji Srinivasan
+Arcana Network,arcana-network,1,375000,,,Web 3.0,Balaji Srinivasan
+Messari,messari-ico,1,4000000,,,Elrond Ecosystem,Balaji Srinivasan
+Blocto Token,blocto-token,1,0,1350000.0,,DeFi,Mark Cuban
+Tokenproof,tokenproof-ico,1,5000000,,,,Mark Cuban
+Thirdweb,thirdweb-ico,1,5000000,,,x402 Ecosystem,Mark Cuban
+NFT Genius,nft-genius-ico,1,4000000,,,,Mark Cuban
+Gigaverse,gigaverse,1,2000000,,,Gaming,1Confirmation
+Keplr,keplr,1,5000000,,,Wallet,1Confirmation
+Rated,rated,1,12890000,,,Blockchain Service,1Confirmation
+Primitive,primitive-ico,1,9000000,,,,1Confirmation
+Arx Research,arx-research,1,0,,,Infrastructure,1Kx
+Transak,transak,1,16000000,,,Blockchain Service,1Kx
+Stackup,stackup,1,4200000,,,Infrastructure,1Kx
+Orange Cap Games,orange-cap-games,1,3500000,,,Gaming,1Kx
+VOYA Games,voya-games,1,5000000,,,Gaming,1Kx
+Kaia,kaia,1,0,440300000.0,,Blockchain,1Kx
+Inco Network,inco-network,1,5000000,,,Blockchain,1Kx
+Optimum,optimum,1,11000000,,,Infrastructure,1Kx
+Combinder,combinder,1,500000,,,Infrastructure,1Kx
+Ligero,ligero,1,4000000,,,Infrastructure,1Kx
+Cryptio,cryptio,1,15000000,,,Blockchain Service,1Kx
+pod,pod,1,10000000,,,Blockchain,1Kx
+Predicate,predicate,1,7000000,,,Blockchain Service,1Kx
+Layer,layer,1,6000000,,,Infrastructure,1Kx
+Mawari,mawari,1,10800000,,,Blockchain Service,1Kx
+Fabric Cryptography,fabric-cryptography,1,33000000,,,Infrastructure,1Kx
+Rhinestone,rhinestone,1,5000000,,,Blockchain Service,1Kx
+Blockscout,blockscout,1,3000000,,,Blockchain Service,1Kx
+JokeRace,jk-labs,1,3000000,,,Social,1Kx
+Cambria,cambria,1,2500000,,,Gaming,1Kx
+Astria,astria,1,12500000,,,Infrastructure,1Kx
+Dope World Paper,dope-wars-paper,1,0,,,DAO,1Kx
+BuildBear,buildbear,1,1900000,,,Infrastructure,1Kx
+FuzzLand,fuzzland,1,3000000,,,Blockchain Service,1Kx
+Kiln,kiln,1,17000000,,,Finance,1Kx
+web3mine,web3mine,1,6000000,,,Infrastructure,1Kx
+NFTPerp,nftperp-ico,1,3000000,,,,1Kx
+Seam Social,seam-social,1,2500000,,,Blockchain Service,1Kx
+Citadel,citadel-2,1,3300000,,,Gaming,1Kx
+Modulus Labs,modulus-labs,1,6300000,,,Blockchain Service,1Kx
+Superstate,superstate,1,4000000,,,DeFi,1Kx
+Spinamp,spinamp,1,1200000,,,Music,1Kx
+Hydra Ventures,hydra-ventures-ico,1,10000000,,,,1Kx
+Li.Fi,li-fi-ico,1,5500000,,,,1Kx
+Highlight,highlight-ico,1,11000000,,,,1Kx
+Strider,strider-ico,1,3000000,,,,1Kx
+Snapshot,snapshot-ico,1,4000000,,,,1Kx
+NFTfi,nftfi,1,5000000,,,NFT,1Kx
+Forefront,forefront,1,2100000,,,DAO,1Kx
+Siren,siren,1,4000000,,,DeFi,1Kx
+Tally,tally,1,1500000,,,Governance,1Kx
+Hummingbot,hummingbot,1,2600000,,,Software,1Kx
+AllScale,allscale,1,5000000,,,Finance,Binance Labs
+predict.fun,predict-fun,1,0,,,Predictions,Binance Labs
+Funes,funes,1,0,,,Blockchain Service,Binance Labs
+Standard Money,standard-money,1,8000000,,,DeFi,Binance Labs
+Temple,temple-2,1,5000000,,,Finance,Binance Labs
+Better Payment Network,better-payment-network,1,50000000,,,Finance,Binance Labs
+Bitway,bitway,1,0,,,Blockchain,Binance Labs
+StableStock,stablestock,1,0,,,DeFi,Binance Labs
+Aspecta,aspecta,1,0,9540000.0,,Blockchain Service,Binance Labs
+MEET48,meet48,1,0,30240000.0,,Gaming,Binance Labs
+Opinion Labs,opinion-labs,1,5000000,,,Predictions,Binance Labs
+Plume,plume-network,1,0,62940000.0,,Blockchain,Binance Labs
+Tensorplex Labs,tensorplex-labs,1,0,,,DeFi,Binance Labs
+THENA,thena,1,0,21870000.0,,DEX,Binance Labs
+Perena,perena,1,0,,,DeFi,Binance Labs
+Aster,aster,1,0,2040000000.0,,Perpetual,Binance Labs
+Sophon,sophon,1,0,29920000.0,,Modular Blockchain,Binance Labs
+OpenEden,openeden,1,0,12330000.0,,RWA (Real World Assets),Binance Labs
+Sidekick,sidekick,1,0,,,Gaming,Binance Labs
+VOOI,vooi,1,0,,,DEX,Binance Labs
+Pentagon Games,pentagon-games,1,6000000,,,Gaming,Binance Labs
+Particle Network,particle-network,1,0,24190000.0,,Modular Blockchain,Binance Labs
+DILL,dill,1,0,2960000.0,,Infrastructure,Binance Labs
+Cycle Network,cycle-network,1,0,1710000.0,,Infrastructure,Binance Labs
+Catizen,catizen,1,0,18350000.0,,Gaming,Binance Labs
+Pluto Studio,pluto-studio,1,0,,,Gaming,Binance Labs
+Zircuit,zircuit,1,0,12830000.0,,Layer-2,Binance Labs
+Rango Exchange,rango-exchange,1,0,,,DeFi,Binance Labs
+Gamic,gamic,1,0,,,Social,Binance Labs
+Zest Protocol,zest-protocol-2,1,3500000,,,DeFi,Binance Labs
+Uxuy,uxuy-ico,1,7000000,,,,Binance Labs
+Unisat,unisat,1,0,,,Blockchain Service,Binance Labs
+BounceBit,bouncebit,1,0,68650000.0,,Blockchain,Binance Labs
+QnA3 AI,qna3-ai,1,0,,,Web 3.0,Binance Labs
+Cellula,cellula,1,0,,,Gaming,Binance Labs
+Derivio,derivio,1,0,,,DeFi,Binance Labs
+Renzo Protocol ,renzo-protocol,1,0,24260000.0,,Liquid Staking Protocols,Binance Labs
+NFPrompt,nfprompt,1,0,13530000.0,,Artificial Intelligence (AI),Binance Labs
+SkyArk Chronicles ,skyark-chronicles,1,15000000,,,Gaming,Binance Labs
+Bracket Labs,bracket-labs,1,2000000,,,DeFi,Binance Labs
+Memecoin,meme-coin,1,0,66000000.0,,Meme,Binance Labs
+Sleek,sleek,1,5000000,,,Social,Binance Labs
+Arkham,arkham,1,0,48150000.0,,Big Data,Binance Labs
+Initia,initia,1,0,15840000.0,,Blockchain,Binance Labs
+Pendle,pendle,1,0,374470000.0,,DeFi,Binance Labs
+ZKWASM,delphinus-lab,1,0,,,Infrastructure,Binance Labs
+Sleepless AI,sleepless-ai,1,0,18820000.0,,Gaming,Binance Labs
+KiloEx,kiloex,1,0,2400000.0,,DEX,Binance Labs
+Kinza Finance,kinza,1,0,,,DeFi,Binance Labs
+zkPass,zkpass,1,2500000,,,Blockchain Service,Binance Labs
+DIN,din,1,4000000,,,Artificial Intelligence (AI),Binance Labs
+Kryptoskatt,kryptoskatt,1,0,,,DeFi,Binance Labs
+Tabi,tabi,1,10000000,,,Modular Blockchain,Binance Labs
+Playbux,playbux,1,2000000,,,Social,Binance Labs
+Gomble,gomble-games,1,0,2570000.0,,Gaming,Binance Labs
+Gameta,gameta,1,5000000,,,Play to Earn,Binance Labs
+Swan Chain,swan-chain,1,3000000,,,DePIN,Binance Labs
+TopGoal,topgoal,1,0,,,Gaming,Binance Labs
+GoPlus,goplus,1,0,18440000.0,,Blockchain Service,Binance Labs
+Ambit Finance,ambit-finance,1,4500000,,,,Binance Labs
+Velvet,velvet,1,0,29380000.0,,DeFAI,Binance Labs
+Bitquery,bitquery-2-ico,1,8500000,,,,Binance Labs
+Salus Security,salus-security,1,0,,,Blockchain Service,Binance Labs
+Lifeform,lifeform,1,0,3810000.0,,Blockchain Service,Binance Labs
+Magic Square,magic-square,1,3900000,,,Web 3.0,Binance Labs
+Planetarium Labs,planetarium-labs-ico,1,32000000,,,,Binance Labs
+PancakeSwap,pancakeswap-token,1,0,763090000.0,,DEX,Binance Labs
+APX,apollox-2,1,0,9140000.0,,CEX,Binance Labs
+Tatsumeeko,tatsumeeko-ico,1,7500000,,,,Binance Labs
+Zecrey Labs,zecrey-labs,1,6000000,,,Blockchain,Binance Labs
+pSTAKE,pstake,1,0,2410000.0,,Liquid Staking Protocols,Binance Labs
+grindery,grindery,1,280000,,,Wallet,Binance Labs
+Nulink,nulink-2,1,0,,,Zero Knowledge,Binance Labs
+Reveel,reveel,1,1300000,,,Blockchain Service,Binance Labs
+Beam,beam,1,0,158440000.0,,Gaming,Binance Labs
+Merit Circle,merit-circle,1,0,,,Gaming,Binance Labs
+Tea,tea,1,8000000,,,Blockchain Service,Binance Labs
+LiveArtX,live-art-x,1,4500000,,,NFT,Binance Labs
+Symbiosis,symbiosis-finance,1,0,5360000.0,,Protocol,Binance Labs
+Solv Protocol,solv-protocol,1,0,22640000.0,,DeFi,Binance Labs
+Bird.Money,bird-money,1,239978,,,Oracle,Binance Labs
+Cosmic Guild,cosmic-guild-ico,1,1500000,,,,Binance Labs
+Melos Studio,melos-studio,1,0,,,Music,Binance Labs
+Elfin Metaverse,elfin-metaverse,1,5250000,,,Gaming,Binance Labs
+SecondLive,secondlive,1,0,,,Metaverse,Binance Labs
+Mobox,mobox,1,0,16880000.0,,Gaming,Binance Labs
+Avocado DAO,avaocado-dao,1,18000000,,,Gaming,Binance Labs
+Wombat Exchange,wombat-exchange,1,0,,,PancakeSwap IDO,Binance Labs
+Voxies,voxies,1,0,4990000.0,,Gaming,Binance Labs
+Biswap,biswap,1,0,2230000.0,,DEX,Binance Labs
+StarSharks,starsharks,1,0,,,Gaming,Binance Labs
+OpenLeverage,openleverage,1,1800000,,,DeFi,Binance Labs
+Copycat Finance,copycat-finance,1,0,,,,Binance Labs
+Quad Terminal,quadency,1,100000,,,DeFi,Binance Labs
+Seascape Crowns,crowns,1,272000,,,Gaming,Binance Labs
+TROY,troy,1,8400000,,,Big Data,Binance Labs
+PhishFort,phishfort,1,0,,,,Binance Labs
+Trust Wallet Token,trust-wallet-token,1,0,424400000.0,,Wallet,Binance Labs
+OneBalance,onebalance,1,5000000,,,Infrastructure,Cobie
+Fortunafi,fortunafi,1,9560000,,,DeFi,Cobie
+Size,size-ico,1,6000000,,,,Cobie
+RockSolid Network,rocksolid-network,1,2800000,,,DeFi,Ideo Colab Ventures
+Yup,yup,1,0,,,Social,Ideo Colab Ventures
+Karma3 Labs,karma3-labs,1,4500000,,,Blockchain Service,Ideo Colab Ventures
+Acctual,acctual,1,3850000,,,Web 3.0,Ideo Colab Ventures
+Blocktorch,blocktorch,1,4200000,,,Blockchain Service,Ideo Colab Ventures
+Unlockd,unlockd-ico,1,4400000,,,,Ideo Colab Ventures
+Must,must,1,10000000,,,NFT,Ideo Colab Ventures
+Thorstarter,thorstarter,1,1500000,,,Launchpad,Ideo Colab Ventures
+Coinvise,coinvise-ico,1,2500000,,,,Ideo Colab Ventures
+PoolTogether,pooltogether,1,1000000,,,DeFi,Ideo Colab Ventures
+Accountable,accountable,1,7500000,,,Blockchain Service,Pantera Capital
+Bee Maps,bee-maps,1,32000000,,,Blockchain Service,Pantera Capital
+Helius Medical Technologies,helius-medical-technologies,1,500000000,,,Healthcare,Pantera Capital
+Satsuma,satsuma,1,217600000,,,Blockchain Service,Pantera Capital
+OpenMind,openmind-2,1,20000000,,,Infrastructure,Pantera Capital
+Rialo (Subzero Labs),rialo,1,20000000,,,Infrastructure,Pantera Capital
+The Open Platform (TOP),the-open-platform-top,1,28500000,,,Blockchain Service,Pantera Capital
+BitMine,bitmine,1,250000000,,,Blockchain Service,Pantera Capital
+Uptopia,uptopia,1,4000000,,,Gaming,Pantera Capital
+Defx,defx,1,2500000,,,DEX,Pantera Capital
+Revolving Games,revolving-games,1,0,,,Gaming,Pantera Capital
+Altius,altius,1,11000000,,,Infrastructure,Pantera Capital
+TaoFi,taofi,1,0,,,DeFi,Pantera Capital
+Radius,radius,1,7000000,,,DeFi,Pantera Capital
+GenomesDAO GENOME,genomesdao-genome,1,0,1120000.0,,Healthcare,Pantera Capital
+Toncoin,ton,1,0,3940000000.0,,Blockchain,Pantera Capital
+Thruster,thruster,1,7500000,,,DEX,Pantera Capital
+Morph,morph,1,20000000,,,Blockchain,Pantera Capital
+Helika,helika,1,8000000,,,Blockchain Service,Pantera Capital
+EDX Markets,edx-markets,1,0,,,CEX,Pantera Capital
+Brine Finance,brine-finance,1,16500000,,,DeFi,Pantera Capital
+Gondi,gondi,1,5350000,,,NFT,Pantera Capital
+Rarify Labs,rarify-labs-ico,1,10000000,,,,Pantera Capital
+Worldwide Webb,worldwide-webb-ico,1,10000000,,,,Pantera Capital
+Braavos,braavos-ico,1,10000000,,,,Pantera Capital
+Pinata,pinata-ico,1,18000000,,,,Pantera Capital
+Stacked,stacked-ico,1,12900000,,,,Pantera Capital
+Unstoppable Domains,unstoppable-domains-ico,1,65000000,,,,Pantera Capital
+Amberdata,amberdata-ico,1,30000000,,,,Pantera Capital
+Rift Finance,rift-finance-ico,1,18000000,,,,Pantera Capital
+Moonfrost,moonfrost-ico,1,4500000,,,,Pantera Capital
+Polynomial Protocol,polynomial-protocol-ico,1,1100000,,,DeFi,Pantera Capital
+Genopets,genopets,1,8300000,,,Play to Earn,Pantera Capital
+Apollo,apollo-2,1,2250000,,,Yield Aggregator,Pantera Capital
+Vauld,vauld-ico,1,25000000,,,,Pantera Capital
+BitDAO,bitdao,1,230000000,,,DAO,Pantera Capital
+Unbound Finance,unbound-finance,1,5800000,,,AMM,Pantera Capital
+Lithium Finance,lithium-finance,1,1350000,,,DeFi,Pantera Capital
+Bounce,auction,1,0,35130000.0,,DeFi,Pantera Capital
+Globe Derivative Exchange,globe-derivative-exchange,1,6600000,,,Ignition IDO,Pantera Capital
+BitGo,bitgo,1,0,,,Blockchain Service,Pantera Capital
+Vega Protocol,vega-protocol,1,5500000,,,Derivatives,Pantera Capital
+Codex Protocol,codex-protocol-ico,1,10000000,,,,Pantera Capital
+Gifto,gifto,1,20000000,,,Media,Pantera Capital
+Bitstamp,bitstamp,1,10000000,,,CEX,Pantera Capital
+Rarimo,rarimo,1,2500000,,,Layer-2,Vitalik Buterin
+RISE Chain,rise-chain,1,3200000,,,Blockchain,Vitalik Buterin
+Kakarot zkEVM ,kakarot-zkevm,1,0,,,Layer-2,Vitalik Buterin
+TenX,tenx,1,1000000,,,Finance,Vitalik Buterin

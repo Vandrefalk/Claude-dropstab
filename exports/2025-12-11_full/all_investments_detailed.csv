@@ -1,0 +1,1519 @@
+project_name,project_slug,fund_name,amount_usd,stage,date,category,market_cap,project_roi
+Ostium Labs,ostium-labs,Jump Trading,20000000,Series A,1764720000000,DeFi,,
+Partior,partior,Jump Trading,60000000,Series B,1720742400000,Finance,,
+Wormhole,wormhole,Jump Trading,225000000,Funding Round,1701288000000,Blockchain Service,196070000.0,0.44
+Aera,aera,Jump Trading,8000000,Funding Round,1698278400000,Blockchain Service,,
+ApeX,apex-token-2,Jump Trading,,Seed Round,1648684800000,Perpetual,64080000.0,
+Pyth Network,pyth-network,Jump Trading,,Private Round,1640995200000,Oracle,377310000.0,
+Sperax,sperax,Jump Trading,6000000,Private Sale,1638316800000,Stablecoin Issuer,11110000.0,0.93
+Solana,solana,Jump Trading,314150000,Private Sale,1623246360000,Blockchain,74130000000.0,58.99
+Lido DAO,lido-dao,Jump Trading,22000000,Funding Round,1620172800000,DeFi,527650000.0,3.69
+Anchor Protocol,anchor-protocol,Jump Trading,20000000,Private Sale,1615978800000,DeFi,1230000.0,0.02
+TrueFi,truefi,Jump Trading,20000000,Strategic Round,1527811200000,Lending Platform,15610000.0,0.48
+Revolut,revolut,Andreessen Horowitz (a16z),,Funding Round,1763942400000,Finance,,
+Kalshi,kalshi,Andreessen Horowitz (a16z),1000000000,Funding Round,1763683200000,Predictions,,
+Doppel,doppel,Andreessen Horowitz (a16z),70000000,Series C,1763510400000,Blockchain Service,,
+Seismic,seismic-2,Andreessen Horowitz (a16z),10000000,Funding Round,1762905600000,Blockchain,,
+Jito,jito-network,Andreessen Horowitz (a16z),50000000,Strategic Round,1760572800000,Liquid Staking Protocols,164980000.0,2.22
+Daylight,daylight-2,Andreessen Horowitz (a16z),75000000,Funding Round,1760572800000,DePIN,,
+Bastion,bastion,Andreessen Horowitz (a16z),14600000,Funding Round,1758672000000,Blockchain Service,,
+Poseidon,poseidon-2,Andreessen Horowitz (a16z),15000000,Seed Round,1753142400000,Blockchain Service,,
+XMTP,xmtp,Andreessen Horowitz (a16z),20000000,Series B,1752710400000,Social,,
+OpenRouter,openrouter,Andreessen Horowitz (a16z),40000000,Series A,1750982400000,Blockchain Service,,
+EigenCloud (prev. EigenLayer),eigenlayer,Andreessen Horowitz (a16z),70000000,OTC,1750118400000,Liquid Staking Protocols,220850000.0,1.30
+Yupp,yupp,Andreessen Horowitz (a16z),33000000,Seed Round,1749772800000,Blockchain Service,,
+Open Trade,open-trade,Andreessen Horowitz (a16z),7000000,Strategic Round,1749600000000,DeFi,,
+Catena Labs,catena-labs,Andreessen Horowitz (a16z),18000000,Seed Round,1747699200000,Blockchain Service,,
+Hedra,hedra,Andreessen Horowitz (a16z),32000000,Series A,1747267200000,Blockchain Service,,
+Miden,miden,Andreessen Horowitz (a16z),25000000,Seed Round,1745884800000,Blockchain,,
+LayerZero,layerzero,Andreessen Horowitz (a16z),55000000,Private Token Sale,1744848000000,Blockchain Service,290770000.0,1.48
+Towns,towns,Andreessen Horowitz (a16z),10000000,Series B,1744243200000,Social,17560000.0,0.49
+Blackbird,blackbird,Andreessen Horowitz (a16z),50000000,Series B,1744070400000,Social,,
+Walrus,walrus-protocol,Andreessen Horowitz (a16z),140000000,Private Token Sale,1742428800000,Storage,236910000.0,0.85
+Halliday,halliday,Andreessen Horowitz (a16z),20000000,Series A,1742256000000,Blockchain Service,,
+Universal,universal,Andreessen Horowitz (a16z),9000000,Funding Round,1739923200000,DEX,,
+Legend,legend-3,Andreessen Horowitz (a16z),15000000,Funding Round,1739232000000,Wallet,,
+Merit Systems,merit-systems,Andreessen Horowitz (a16z),10000000,Seed Round,1736985600000,Infrastructure,,
+Phantom,phantom,Andreessen Horowitz (a16z),150000000,Series C,1736985600000,Wallet,,
+Tranched,tranched,Andreessen Horowitz (a16z),3400000,Pre-seed,1731369600000,Lending Platform,,
+mbd,mbd,Andreessen Horowitz (a16z),3000000,Pre-seed,1731283200000,Social,,
+Vlayer,vlayer,Andreessen Horowitz (a16z),10000000,Pre-seed,1730678400000,Infrastructure,,
+Spire Labs,spire-labs,Andreessen Horowitz (a16z),7000000,Seed Round,1730332800000,Infrastructure,,
+Axal,axal,Andreessen Horowitz (a16z),2500000,Pre-seed,1730332800000,Blockchain Service,,
+Skyfire,skyfire,Andreessen Horowitz (a16z),1000000,Funding Round,1729728000000,Infrastructure,,
+OpenGradient,opengradient,Andreessen Horowitz (a16z),8500000,Seed Round,1728432000000,Infrastructure,,
+MeshMap,meshmap,Andreessen Horowitz (a16z),4000000,Funding Round,1727395200000,Blockchain Service,,
+AminoChain,aminochain,Andreessen Horowitz (a16z),5000000,Seed Round,1727222400000,Infrastructure,,
+Fermah,fermah,Andreessen Horowitz (a16z),5200000,Seed Round,1726531200000,Zero Knowledge,,
+Magicblock,magicblock,Andreessen Horowitz (a16z),3000000,Pre-seed,1726531200000,Infrastructure,,
+PIN AI,pin-ai,Andreessen Horowitz (a16z),10000000,Pre-seed,1725840000000,Artificial Intelligence (AI),,
+Cork Protocol,cork-protocol,Andreessen Horowitz (a16z),,Funding Round,1725840000000,DeFi,,
+Blocksense Network,blocksense-network,Andreessen Horowitz (a16z),4000000,Seed Round,1725840000000,Infrastructure,,
+t1 Protocol,t1-protocol,Andreessen Horowitz (a16z),2500000,Pre-seed,1725840000000,Infrastructure,,
+Moku,moku,Andreessen Horowitz (a16z),5350000,Funding Round,1725840000000,Gaming,,
+Balance,balance,Andreessen Horowitz (a16z),30000000,Funding Round,1725494400000,Gaming,4410000.0,0.15
+Story,story,Andreessen Horowitz (a16z),80000000,Series B,1724198400000,Blockchain,665710000.0,3.60
+Morpho,morpho,Andreessen Horowitz (a16z),50000000,Funding Round,1722470400000,Lending Platform,644560000.0,6.45
+Neynar,neynar,Andreessen Horowitz (a16z),11000000,Series A,1717027200000,Infrastructure,,
+Farcaster,farcaster,Andreessen Horowitz (a16z),150000000,Series A,1716249600000,Social,,
+Kiosk,kiosk,Andreessen Horowitz (a16z),10000000,Funding Round,1714608000000,Social,,
+Optimism,optimism,Andreessen Horowitz (a16z),90000000,Private Purchase,1714521600000,Layer-2,585850000.0,2.21
+MyPrize,myprize,Andreessen Horowitz (a16z),13000000,Funding Round,1711411200000,Gambling,,
+Espresso Systems,espresso-systems,Andreessen Horowitz (a16z),28000000,Series B,1710979200000,Infrastructure,,
+MadWorld,madworld-2,Andreessen Horowitz (a16z),13000000,Series A,1710374400000,Gaming,,
+NodeKit,nodekit,Andreessen Horowitz (a16z),,Funding Round,1707955200000,Blockchain,,
+Friends With Benefits Pro,friends-with-benefits-pro,Andreessen Horowitz (a16z),3000000,Funding Round,1705968000000,,,
+Pontem Liquidswap,pontem-liquidswap,Andreessen Horowitz (a16z),6000000,Funding Round,1704931200000,Aptos Ecosystem,,
+formless,formless,Andreessen Horowitz (a16z),2200000,Pre-seed,1703030400000,Social,,
+Dynamic,dynamic-ico,Andreessen Horowitz (a16z),13500000,Series A,1702425600000,,,
+Setter,setter,Andreessen Horowitz (a16z),5000000,Seed Round,1701129600000,Social,,
+EthXY,ethxy,Andreessen Horowitz (a16z),1600000,Pre-seed,1699920000000,Gaming,,
+Stackr,stackr,Andreessen Horowitz (a16z),5500000,Seed Round,1699401600000,Infrastructure,,
+Pimlico,pimlico,Andreessen Horowitz (a16z),4200000,Seed Round,1699315200000,Infrastructure,,
+smlXL,smlxl,Andreessen Horowitz (a16z),13400000,Funding Round,1698105600000,Blockchain Service,,
+IYK,iyk,Andreessen Horowitz (a16z),16800000,Seed Round,1695859200000,Web 3.0,,
+Proof of Play,proof-of-play,Andreessen Horowitz (a16z),33000000,Seed Round,1695254400000,Gaming,,
+Freatic,freatic,Andreessen Horowitz (a16z),3600000,Seed Round,1695168000000,Blockchain Service,,
+MotherDuck,motherduck,Andreessen Horowitz (a16z),52500000,Series B,1695168000000,Big Data,,
+Ideogram AI ,ideogram-ai,Andreessen Horowitz (a16z),16500000,Seed Round,1692662400000,Artificial Intelligence (AI),,
+socket,socket-2,Andreessen Horowitz (a16z),20000000,Series A,1690848000000,Software,,
+Sound.xyz,sound-xyz,Andreessen Horowitz (a16z),20000000,Series A,1689120000000,Music,,
+Narval,narval,Andreessen Horowitz (a16z),4000000,Seed Round,1688947200000,Wallet,,
+Mythos,mythos,Andreessen Horowitz (a16z),37000000,Extended Series C,1687824000000,Gaming,19190000.0,0.10
+Mythical Games,mythical-games,Andreessen Horowitz (a16z),37000000,Extended Series C,1687824000000,Gaming,,
+Gensyn,gensyn,Andreessen Horowitz (a16z),43000000,Series A,1686528000000,Blockchain Service,,
+World,worldcoin,Andreessen Horowitz (a16z),115000000,Series C,1684972800000,Artificial Intelligence (AI),1460000000.0,8.85
+Character.ai,character-ai,Andreessen Horowitz (a16z),150000000,Series A,1679529600000,Artificial Intelligence (AI),,
+CCP Games,ccp-games,Andreessen Horowitz (a16z),40000000,Seed Round,1679356800000,Gaming,,
+EVE Online,eve-online-ico,Andreessen Horowitz (a16z),40000000,Seed Round,1677628800000,,,
+Capsule Social,capsule-social-ico,Andreessen Horowitz (a16z),,Funding Round,1677628800000,,,
+Yield Guild Games,yield-guild-games,Andreessen Horowitz (a16z),13800000,Funding Round,1676592000000,Gaming,50020000.0,3.17
+Alongside Crypto Market Index,alongside-crypto-market-index,Andreessen Horowitz (a16z),11000000,Seed Round,1676419200000,Index,,
+Azra Games,azra-games,Andreessen Horowitz (a16z),10000000,Seed Plus Round,1675209600000,Gaming,,
+Carry1st,carry1st-ico,Andreessen Horowitz (a16z),27000000,Series B Round,1672531200000,,,
+Champions Ascension,champions-ascension-ico,Andreessen Horowitz (a16z),32000000,Seed Round,1672531200000,,,
+Voldex,voldex-ico,Andreessen Horowitz (a16z),,Series A Round,1672531200000,,,
+Aztec,aztec,Andreessen Horowitz (a16z),100000000,Series B,1671062400000,Blockchain,,
+ZKsync,zksync,Andreessen Horowitz (a16z),200000000,Series C,1668556800000,Layer-2,281110000.0,0.43
+Uniswap,uniswap,Andreessen Horowitz (a16z),165000000,Series B,1665619200000,DEX,3400000000.0,6.72
+Golden,golden-ico,Andreessen Horowitz (a16z),40000000,Series B Round,1664755200000,,,
+MystenLabs,mystenlabs-ico,Andreessen Horowitz (a16z),300000000,Series B Round,1662595200000,,,
+Sui,sui,Andreessen Horowitz (a16z),300000000,Series B,1661990400000,Blockchain,5810000000.0,4.70
+Ready Player Me,ready-player-me-ico,Andreessen Horowitz (a16z),56000000,Series B Round,1661234400000,,,
+CreatorDAO,creatordao,Andreessen Horowitz (a16z),20000000,Seed Round,1659312000000,DAO,1080000.0,0.05
+Aptos,aptos,Andreessen Horowitz (a16z),150000000,Series A,1658707200000,Blockchain,1270000000.0,2.82
+Cryptoys,cryptoys-ico,Andreessen Horowitz (a16z),23000000,Series A Round,1656028800000,,,
+Linera,linera,Andreessen Horowitz (a16z),6000000,Seed Round,1654041600000,Infrastructure,,
+PartyDAO,partydao,Andreessen Horowitz (a16z),16400000,Seed Round,1654041600000,,,
+BitCraft,bitcraft-ico,Andreessen Horowitz (a16z),22000000,Series A Round,1654041600000,,,
+Entrepreneur First,entrepreneur-first-ico,Andreessen Horowitz (a16z),158000000,Series C Round,1654041600000,,,
+TipTop,tiptop,Andreessen Horowitz (a16z),23000000,Series A,1652313600000,Infrastructure,,
+Tally Labs,tally-labs-ico,Andreessen Horowitz (a16z),12000000,Seed Round,1651363200000,,,
+DuskBreakers,duskbreakers-ico,Andreessen Horowitz (a16z),24000000,Seed Round,1651363200000,,,
+Flowcarbon,flowcarbon-ico,Andreessen Horowitz (a16z),70000000,Funding Round,1651363200000,,,
+Loop Crypto,loop-crypto,Andreessen Horowitz (a16z),4000000,Seed Round,1649808000000,Infrastructure,,
+Axie Infinity,axie-infinity,Andreessen Horowitz (a16z),150000000,Funding Round,1648771200000,Gaming,172280000.0,0.38
+Fractal,fractal-ico,Andreessen Horowitz (a16z),35000000,Seed Round,1648771200000,Gaming,,
+Pahdo Labs,pahdo-labs,Andreessen Horowitz (a16z),15000000,Series A,1648684800000,Gaming,,
+ApeCoin,apecoin,Andreessen Horowitz (a16z),450000000,Equity Round,1647907200000,Metaverse,170930000.0,0.38
+Lido DAO,lido-dao,Andreessen Horowitz (a16z),70000000,Venture Round 2,1646265600000,DeFi,527650000.0,3.69
+Helium,helium,Andreessen Horowitz (a16z),200000000,Series D Round,1645228800000,Social,339110000.0,0.55
+Alchemy,alchemy-ico,Andreessen Horowitz (a16z),200000000,Series C Extended,1644192000000,,,
+POL (ex-MATIC),polygon-ecosystem-token,Andreessen Horowitz (a16z),450000000,Funding Round,1643673600000,Layer-2,1270000000.0,2.82
+Aleo,aleo,Andreessen Horowitz (a16z),200000000,Series B,1643673600000,Zero Knowledge,84880000.0,0.33
+Polygon,matic-network,Andreessen Horowitz (a16z),450000000,Funding Round,1643673600000,Blockchain,,
+Sovrun,breederdao,Andreessen Horowitz (a16z),10000000,Series A,1643328000000,Gaming,4670000.0,0.47
+Near,near,Andreessen Horowitz (a16z),150000000,Funding Round,1640995200000,Blockchain,2150000000.0,14.01
+Goldfinch,goldfinch,Andreessen Horowitz (a16z),25000000,Funding Round,1640995200000,Lending Platform,22360000.0,0.59
+Bitfinity Network ,bitfinity-network,Andreessen Horowitz (a16z),1500000,Seed Round,1640736000000,Blockchain,,
+League of Kingdoms,league-of-kingdoms,Andreessen Horowitz (a16z),3100000,Private Sale,1638316800000,Gaming,1220000.0,0.20
+Iron Fish,iron-fish,Andreessen Horowitz (a16z),27600000,Series A Round,1638230400000,Blockchain Service,11930000.0,0.31
+Nym,nym,Andreessen Horowitz (a16z),13000000,Funding Round,1635724800000,Privacy Coin,40510000.0,1.47
+Nansen,nansen,Andreessen Horowitz (a16z),75000000,Series B Round,1635724800000,Blockchain Service,,
+Forte,forte,Andreessen Horowitz (a16z),725000000,Series B Round,1635724800000,Blockchain Service,,
+Element Finance,element-finance-ico,Andreessen Horowitz (a16z),32000000,Series A,1634601600000,,,
+Ronin,ronin,Andreessen Horowitz (a16z),150000000,Series B Round,1633046400000,Blockchain,123450000.0,0.78
+Forta,forta,Andreessen Horowitz (a16z),23000000,Venture Round,1632960000000,Blockchain Service,14230000.0,0.31
+Decentralized Social,bitclout,Andreessen Horowitz (a16z),200000000,Venture Round,1632355200000,Blockchain,52770000.0,0.09
+ANGLE,angle-protocol,Andreessen Horowitz (a16z),5000000,Seed Round,1630454400000,Protocol,3190000.0,0.64
+TrueFi,truefi,Andreessen Horowitz (a16z),12500000,Private Sale,1628121600000,Lending Platform,15610000.0,0.48
+Syndicate,syndicate-3,Andreessen Horowitz (a16z),20000000,Series A Round,1627776000000,Infrastructure,45110000.0,0.75
+Virtually Human Studio,virtually-human-studio-ico,Andreessen Horowitz (a16z),20000000,Series A,1626868800000,,,
+ECOx,ecox,Andreessen Horowitz (a16z),60000000,Series B,1625097600000,Ethereum Ecosystem,2710000.0,0.01
+ECO,eco,Andreessen Horowitz (a16z),60000000,Series B,1625097600000,,1600000.0,0.01
+ValoraApp,valoraapp-ico,Andreessen Horowitz (a16z),20000000,Seed Round,1625097600000,Wallet,,
+dYdX,dydx,Andreessen Horowitz (a16z),65000000,Series C,1623715200000,DEX,156400000.0,0.58
+Solana,solana,Andreessen Horowitz (a16z),314150000,Private Sale,1623246360000,Blockchain,74130000000.0,58.99
+Bitski,bitski-ico,Andreessen Horowitz (a16z),19000000,Series A,1620259200000,,,
+Chia,chia,Andreessen Horowitz (a16z),61000000,Series D Round,1619827200000,Blockchain,79700000.0,1.21
+RTFKT Studios,rtfkt-studios-ico,Andreessen Horowitz (a16z),8000000,Founding Round,1619827200000,,,
+Fei USD,fei-usd,Andreessen Horowitz (a16z),19000000,Private Round,1615161600000,Stablecoin,3270000.0,0.09
+Rally,rally-2,Andreessen Horowitz (a16z),34828450,Community Treasury Fundraise,1609372800000,Yield Farming,1030000.0,0.01
+Reflexer Ungovernance Token,reflexer-ungovernance-token,Andreessen Horowitz (a16z),1700000,Seed Round,1596585600000,DeFi,,
+Arweave,arweave,Andreessen Horowitz (a16z),8300000,Private Round,1580515200000,Storage,256959999.99999997,7.74
+Compound,compound,Andreessen Horowitz (a16z),25000000,Series A,1576022400000,DeFi,303410000.0,4.05
+Avalanche,avalanche,Andreessen Horowitz (a16z),5940000,Seed Round,1548979200000,Blockchain,5770000000.0,23.85
+Celo,celo,Andreessen Horowitz (a16z),30000000,Pre-launch sale 2,1546300800000,Layer-2,95500000.0,1.19
+Keep Network,keep-network,Andreessen Horowitz (a16z),7700000,Venture Round,1543708800000,DeFi,49670000.0,2.15
+Handshake,handshake,Andreessen Horowitz (a16z),10200000,Private Sale,1530403200000,Infrastructure,2130000.0,0.05
+Oasis,oasis-network,Andreessen Horowitz (a16z),45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+Orchid Protocol,orchid-protocol,Andreessen Horowitz (a16z),36100000,Pre-Sale,1524182400000,xDAI Ecosystem,16320000.0,0.40
+Basis Cash,basis-cash,Andreessen Horowitz (a16z),133000000,Funding Round,1524009600000,Algorithmic Stablecoins,,
+Internet Computer,internet-computer,Andreessen Horowitz (a16z),102000000,Pre-Sale,1522540800000,Blockchain,1820000000.0,4.96
+Maker,maker,Andreessen Horowitz (a16z),15000000,Seed Round 2,1517443200000,DeFi,,
+XRP,ripple,Andreessen Horowitz (a16z),,Funding Round,1364774400000,Cryptocurrency,120960000000.0,241.92
+KGeN,kgen,Jump Crypto,13500000,Strategic Round,1759190400000,Gaming,36180000.0,1.86
+zerohash,zerohash,Jump Crypto,104000000,Extended Series D,1758585600000,Blockchain Service,,
+Raiku,raiku,Jump Crypto,11250000,Seed Round,1758585600000,Infrastructure,,
+Forward Industries,forward-industries,Jump Crypto,1650000000,PIPE,1757289600000,Finance,,
+SOON,soon,Jump Crypto,5000000,Strategic Round,1749600000000,Blockchain Service,213400000.0,42.68
+Cooking.City,cooking-city,Jump Crypto,7000000,Funding Round,1748563200000,Memepad,,
+Nirvana Labs,nirvana-labs,Jump Crypto,6000000,Extended Seed Round,1747094400000,Infrastructure,,
+Securitize,securitize,Jump Crypto,,Strategic Round,1746662400000,Finance,,
+Momentum,momentum-3,Jump Crypto,5000000,Seed Round,1743379200000,DEX,42130000.0,8.43
+Streamflow,streamflow,Jump Crypto,1900000,Funding Round,1730073600000,Blockchain Service,2340000.0,1.23
+Nodepay,nodecoin-2,Jump Crypto,,Funding Round,1727481600000,Artificial Intelligence (AI),,
+Nexus Interactive,nexus-interactive,Jump Crypto,2000000,Seed Round,1724112000000,Gaming,,
+Play AI,play-ai,Jump Crypto,4300000,Seed Round,1716940800000,Infrastructure,,
+Coinflow,coinflow-ico,Jump Crypto,2250000,Seed Round,1716854400000,,,
+Figure Markets,figure-markets,Jump Crypto,60000000,Series A,1710720000000,Finance,,
+Squads,squads,Jump Crypto,5700000,Strategic Round,1697414400000,Blockchain Service,,
+Membrane Labs,membrane-labs,Jump Crypto,20000000,Series A,1696982400000,Blockchain Service,,
+OpenCover,opencover,Jump Crypto,4600000,Seed Round,1694044800000,DeFi,,
+LuminaDEX,luminadex,Jump Crypto,,Strategic Round,1692748800000,DeFi,,
+ZTX,ztx,Jump Crypto,13000000,Seed Round,1692057600000,Social,2009999.9999999998,0.15
+Affine,affine,Jump Crypto,7000000,Funding Round,1691712000000,Liquid Staking Protocols,,
+Xverse,xverse-wallet,Jump Crypto,5000000,Seed Round,1691625600000,Blockchain Service,,
+OutDID,outdid,Jump Crypto,2500000,Seed Round,1687996800000,Blockchain Service,,
+Cetus Protocol,cetus-protocol,Jump Crypto,,Seed Round,1682985600000,DEX,24530000.0,
+Delphi Labs,delphi-labs-ico,Jump Crypto,13500000,Funding Round,1680598800000,,,
+P2P Validator,p2p-validator-ico,Jump Crypto,23000000,Series A Round,1680307200000,,,
+Puffer,puffer-finance,Jump Crypto,650000,Pre-seed,1675209600000,Liquid Staking Protocols,23690000.0,0.65
+Port3 Network,port3-network,Jump Crypto,3000000,Seed Round,1675209600000,DePIN,2190000.0,0.73
+C3,c3-ico,Jump Crypto,6000000,Seed Round,1675209600000,,,
+Kolibrio,kolibrio-ico,Jump Crypto,2000000,Seed Round,1675209600000,,,
+Chaos Labs,chaos-labs-ico,Jump Crypto,20000000,Seed Round,1675209600000,,,
+VRRB,vrrb-ico,Jump Crypto,1400000,Pre-seed Round,1675209600000,,,
+Irreducible,irreducible,Jump Crypto,15000000,Seed Round,1672531200000,Infrastructure,,
+Outdefine,outdefine-ico,Jump Crypto,2500000,Seed Round,1669852800000,,,
+Arcium,arcium,Jump Crypto,3500000,Seed Round,1667433600000,,,
+Fordefi,fordefi-ico,Jump Crypto,18000000,Seed Round,1667260800000,Wallet,,
+Celestia,celestia,Jump Crypto,55000000,Series A&B Round,1666137600000,Modular Blockchain,496030000.0,1.86
+Backpack,backpack,Jump Crypto,20000000,Strategic Round,1664323200000,CEX,,
+MystenLabs,mystenlabs-ico,Jump Crypto,300000000,Series B Round,1662595200000,,,
+Sui,sui,Jump Crypto,300000000,Series B,1661990400000,Blockchain,5810000000.0,4.70
+Fly,fly-2,Jump Crypto,3000000,Seed Round,1661990400000,DeFi,,
+Injective,injective-protocol,Jump Crypto,40000000,Funding Round,1660521600000,Blockchain,541840000.0,7.74
+GUNZ,gunz-token,Jump Crypto,46000000,Funding Round,1659312000000,Blockchain,17670000.0,0.38
+Aptos,aptos,Jump Crypto,150000000,Series A,1658707200000,Blockchain,1270000000.0,2.82
+Hashflow,hashflow,Jump Crypto,25000000,Series A,1656633600000,DEX,21200000.0,0.27
+Oasys,oasys,Jump Crypto,20000000,Private Round,1656633600000,Gaming,12960000.0,0.65
+MoHash,mohash,Jump Crypto,6000000,Seed Round,1656547200000,DeFi,,
+Euler,euler,Jump Crypto,32000000,Funding Round,1654041600000,Lending Platform,66670000.0,1.67
+AltLayer,altlayer,Jump Crypto,7200000,Seed Round,1654041600000,Blockchain Service,62390000.0,2.17
+Orderly,orderly-network,Jump Crypto,20000000,Strategic Round,1654041600000,Perpetual,35720000.0,0.89
+zCloak,zcloak-ico,Jump Crypto,5800000,Series A,1654041600000,,,
+Satori,satori,Jump Crypto,10000000,Seed Round,1652659200000,DEX,,
+Certora,certora-ico,Jump Crypto,36000000,Series B Round,1651363200000,,,
+double jump.tokyo,double-jump-tokyo,Jump Crypto,24000000,Series C,1651104000000,Gaming,,
+Push Protocol,ethereum-push-notification-service,Jump Crypto,10100000,Series A,1648771200000,Infrastructure,1090000.0,0.09
+Trisolaris,trisolaris,Jump Crypto,4500000,Seed Round,1648771200000,DEX,,
+OpenBlox,openblox,Jump Crypto,3000000,Seed Round,1648512000000,NFT,,
+Burrow,burrow,Jump Crypto,5000000,Seed Round,1646092800000,Lending Platform,,
+Slope,slope-ico,Jump Crypto,8000000,Series A Round,1645660800000,,,
+Maverick Protocol,maverick-protocol,Jump Crypto,8000000,Strategic Round,1645056000000,DEX,23750000.0,0.91
+Ref Finance,ref-finance,Jump Crypto,4800000,Strategic Round,1645056000000,Near Ecosystem,2970000.0,0.62
+Aurigami,aurigami,Jump Crypto,9500000,Strategic Round,1643673600000,Lending Platform,,
+Conduit,conduit-2,Jump Crypto,17000000,Seed Round,1642032000000,Blockchain Service,,
+Folks,folks-finance,Jump Crypto,3000000,Seed Round,1640995200000,Lending Platform,193050000.0,64.35
+Ceramic,ceramic-ico,Jump Crypto,30000000,Series A Round,1640995200000,,,
+HXRO,hxro,Jump Crypto,34000000,Strategic Round,1635724800000,Solana Ecosystem,,
+Automata,automata,Jump Crypto,1000000,Seed,1615161600000,Blockchain Service,17510000.0,17.51
+Chiliz,chiliz,Jump Crypto,65000000,Private Sale,1527811200000,Blockchain,327260000.0,2.52
+Oasis,oasis-network,Jump Crypto,45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+Sonic Labs (prev. Fantom),sonic-labs,Jump Crypto,1600000,Seed Round,1517443200000,Blockchain,348120000.0,217.57
+Fantom,fantom,Jump Crypto,1600000,Seed Round,1517443200000,Blockchain,262980000.00000003,164.36
+Stable,stable-2,Egirl Capital,28000000,Seed Round,1753920000000,Blockchain,308700000.0,11.03
+Cygnus,cygnus-finance,Egirl Capital,20000000,Pre-seed,1739923200000,Blockchain,5680000.0,0.28
+Blast,blast-l2,Egirl Capital,20000000,Funding Round,1700524800000,Layer-2,43530000.0,1.09
+Oh Baby Games,oh-baby-games,Egirl Capital,6000000,Seed Round,1675036800000,Gaming,,
+ZKsync,zksync,Egirl Capital,200000000,Series C,1668556800000,Layer-2,281110000.0,0.43
+Celestia,celestia,Egirl Capital,55000000,Series A&B Round,1666137600000,Modular Blockchain,496030000.0,1.86
+Blur,blur,Egirl Capital,11000000,Seed Round,1646092800000,NFT,89370000.0,4.06
+Socket,socket,Egirl Capital,5000000,Seed Round,1646092800000,Infrastructure,,
+Chainflip,chainflip,Egirl Capital,5803000,Strategic Round,1629331200000,AMM,26300000.0,1.02
+Everclear,connext,Egirl Capital,12000000,Series A,1626134400000,DeFi,2600000.0,0.07
+Gearbox Protocol,gearbox-protocol,Egirl Capital,2300000,SAFT,1619827200000,Lending Platform,14950000.0,2.17
+Arbitrum,arbitrum,Egirl Capital,20000000,Series A,1617235200000,Layer-2,1160000000.0,2.76
+Alchemix,alchemix,Egirl Capital,4900000,Private Round,1615680000000,Lending Platform,23260000.0,2.37
+Arweave,arweave,Egirl Capital,8300000,Private Round,1580515200000,Storage,256959999.99999997,7.74
+Inference,inference,Multicoin Capital,11800000,Seed Round,1760400000000,Blockchain Service,,
+CrunchDAO,crunchdao,Multicoin Capital,5000000,Strategic Round,1759795200000,Artificial Intelligence (AI),,
+Forward Industries,forward-industries,Multicoin Capital,1650000000,PIPE,1757289600000,Finance,,
+Kalshi,kalshi,Multicoin Capital,185000000,Series C,1750809600000,Predictions,,
+Yield.xyz,yield-xyz,Multicoin Capital,5000000,Strategic Round,1750723200000,DeFi,,
+Gradient Network,gradient-network,Multicoin Capital,10000000,Seed Round,1750118400000,Infrastructure,,
+P2P.me,p2p-me,Multicoin Capital,2000000,Seed Round,1743724800000,Blockchain Service,,
+DoubleZero,double-zero-crypto-coin,Multicoin Capital,28000000,Private Token Sale,1741219200000,Infrastructure,433930000.0,15.50
+Across Protocol,across-protocol,Multicoin Capital,41000000,Private Token Sale,1741046400000,Protocol,35680000.0,0.44
+FanTV,fantv,Multicoin Capital,5500000,Funding Round,1740700800000,Blockchain Service,,
+Geodnet,geodnet,Multicoin Capital,8000000,Strategic Round,1740441600000,Polygon Ecosystem,64110000.0,6.41
+Mevvy,mevvy,Multicoin Capital,2800000,Seed Round,1738108800000,Blockchain Service,,
+Drift Protocol,drift-protocol,Multicoin Capital,25000000,Series B,1726704000000,Perpetual,87440000.0,1.80
+Pipe Network,pipe-network,Multicoin Capital,10000000,Funding Round,1726444800000,Blockchain Service,6940000.0,0.69
+Fuse,fuseenergy,Multicoin Capital,12000000,Strategic Round,1726099200000,Blockchain Service,,
+zkMe,zkme,Multicoin Capital,4000000,Seed Round,1724112000000,Blockchain Service,,
+Mountain Protocol USD,mountain-protocol-usd,Multicoin Capital,8000000,Series A,1717632000000,Stablecoin,47650000.0,5.96
+El Dorado,el-dorado,Multicoin Capital,3000000,Seed Round,1716854400000,Blockchain Service,,
+Arch Network,arch-network,Multicoin Capital,7000000,Seed Round,1715212800000,Infrastructure,,
+Baxus,baxus,Multicoin Capital,5000000,Seed Round,1714521600000,Social,,
+Mezo,mezo,Multicoin Capital,21000000,Series A,1712620800000,Blockchain,,
+XION,burnt-2,Multicoin Capital,25000000,Series A,1711929600000,Blockchain,6430000.0,0.26
+Zama,zama,Multicoin Capital,73000000,Series A Round,1709769600000,Infrastructure,,
+io.net,io-net,Multicoin Capital,30000000,Series A,1709596800000,Artificial Intelligence (AI),41170000.0,1.37
+Superfluid,superfluid,Multicoin Capital,5100000,Funding Round,1708560000000,DeFi,1720000.0,0.12
+GLIF,glif,Multicoin Capital,4500000,Seed Round,1707177600000,DeFi,,
+Marginfi,marginfi,Multicoin Capital,3000000,Funding Round,1701864060000,Lending Platform,,
+Pyth Network,pyth-network,Multicoin Capital,,Strategic Round,1701734400000,Oracle,377310000.0,
+Wormhole,wormhole,Multicoin Capital,225000000,Funding Round,1701288000000,Blockchain Service,196070000.0,0.44
+Squads,squads,Multicoin Capital,5700000,Strategic Round,1697414400000,Blockchain Service,,
+Blackbird,blackbird,Multicoin Capital,11000000,Seed Round,1696550400000,Social,,
+Fhenix,fhenix,Multicoin Capital,7000000,Seed Round,1695686400000,Infrastructure,,
+FastLane Labs,fastlane-labs,Multicoin Capital,2300000,Seed Round,1684800000000,Blockchain Service,,
+Tableland,tableland,Multicoin Capital,8000000,Series A,1681948800000,Blockchain Service,,
+Sei,sei-network,Multicoin Capital,30000000,Series A,1681171200000,Blockchain,882880000.0,29.43
+Lore,lore-ico,Multicoin Capital,4000000,Strategic Round,1680307200000,,,
+Fin (Prev. TipLink),fin,Multicoin Capital,6000000,Seed Round,1675209600000,Blockchain Service,,
+Sec3,sec3-ico,Multicoin Capital,10000000,Seed Round,1672531200000,,,
+Prysm,prysm-ico,Multicoin Capital,4000000,Funding Round,1668427200000,,,
+Fluidity,fluidity-ico,Multicoin Capital,1300000,Seed Round,1666915200000,,,
+Backpack,backpack,Multicoin Capital,20000000,Strategic Round,1664323200000,CEX,,
+Hubble,hubble,Multicoin Capital,5000000,Strategic Fundraise,1662595200000,Protocol,,
+Jito,jito-network,Multicoin Capital,12100000,Series A,1659312000000,Liquid Staking Protocols,164980000.0,2.22
+Aptos,aptos,Multicoin Capital,150000000,Series A,1658707200000,Blockchain,1270000000.0,2.82
+Farcaster,farcaster,Multicoin Capital,30000000,Funding Round,1656633600000,Social,,
+Delphia,delphia-ico,Multicoin Capital,60000000,Series A Round,1654041600000,,,
+Geode Finance,geode-finance-ico,Multicoin Capital,3000000,Seed Round,1654041600000,,,
+FanTiger,fantiger-ico,Multicoin Capital,5500000,Seed Round,1651363200000,,,
+Community Gaming,community-gaming,Multicoin Capital,16000000,Series A,1649289600000,Gaming,,
+Fractal,fractal-ico,Multicoin Capital,35000000,Seed Round,1648771200000,Gaming,,
+Helium,helium,Multicoin Capital,200000000,Series D Round,1645228800000,Social,339110000.0,0.55
+Fluence,fluence,Multicoin Capital,9000000,Series A,1645142400000,DePIN,,
+The Graph,the-graph,Multicoin Capital,205000000,Funding Round,1643673600000,Big Data,472420000.0,2.25
+Web3Auth,web3auth,Multicoin Capital,13000000,Series A,1641945600000,Web 3.0,,
+Exotic Markets,exotic-markets,Multicoin Capital,5000000,Venture Round,1641340800000,Oracle,,
+Dune Analytics,dune-analytics,Multicoin Capital,69420000,Series B Round,1640995200000,Blockchain Service,,
+Ceramic,ceramic-ico,Multicoin Capital,30000000,Series A Round,1640995200000,,,
+Artificial Liquid Intelligence,alethea-artificial-liquid-intelligence-token,Multicoin Capital,12400000,Auction,1640682000000,NFT,23460000.0,0.53
+Render,render-token,Multicoin Capital,30000000,Venture Round,1640044800000,Artificial Intelligence (AI),822480000.0,27.42
+Galxe,project-galaxy,Multicoin Capital,10000000,Growth Backer Round 1,1638316800000,NFT,49210000.0,2.46
+Gravity (prev. GAL),gravity-3,Multicoin Capital,10000000,Backers,1638316800000,Ethereum Ecosystem,42500000.0,2.12
+Cyber,cyberconnect,Multicoin Capital,10000000,Seed Funding (Equity+SAFT),1635724800000,Blockchain Service,49430000.0,4.94
+Swivel Finance,swivel-finance-ico,Multicoin Capital,3500000,Strategic Round,1635206400000,,,
+World,worldcoin,Multicoin Capital,25000000,Seed Round,1634774400000,Artificial Intelligence (AI),1460000000.0,8.85
+Timeswap,timeswap,Multicoin Capital,,Seed Round,1634774400000,DeFi,,
+Beta Finance,beta-finance,Multicoin Capital,5800000,Equity Round,1633046400000,Lending Platform,11750000.0,2.03
+LayerZero,layerzero,Multicoin Capital,6300000,Venture Round,1631750400000,Blockchain Service,290770000.0,1.48
+EDEN,eden,Multicoin Capital,17400000,Seed Round,1631059200000,Infrastructure,,
+UXD Protocol Token,uxd-protocol-token,Multicoin Capital,3000000,Seed Round,1630540800000,Algorithmic Stablecoins,,
+Strips Finance,strips-finance,Multicoin Capital,8500000,Private Round,1630454400000,Derivatives,,
+Saber,saber,Multicoin Capital,7700000,Seed Round,1627344000000,AMM,2029999.9999999998,0.26
+FTX Token,ftx-token,Multicoin Capital,900000000,Series B,1625097600000,CEX,204670000.0,0.12
+Grape Protocol,grape-2,Multicoin Capital,1200000,Seed Round,1625097600000,Application,,
+Solana,solana,Multicoin Capital,314150000,Private Sale,1623246360000,Blockchain,74130000000.0,58.99
+Coin98,coin98,Multicoin Capital,11250000,Strategic Round,1622505600000,Wallet,27130000.0,2.41
+OpenOcean,openocean,Multicoin Capital,1718000,Private Round,1622505600000,DeFi,1390000.0,0.40
+Jenny Metaverse DAO Token,jenny-metaverse-dao-token,Multicoin Capital,7000000,Seed Round,1619827200000,NFT,2530000.0,0.36
+Qilin,qilin-ico,Multicoin Capital,800000,Seed Round,1619827200000,,,
+Tibles,tibles-ico,Multicoin Capital,1140000,Seed Round 1,1619827200000,,,
+Enso,enso,Multicoin Capital,5000000,Private Round,1617235200000,Blockchain Service,14280000.0,1.01
+Realy Metaverse,realy-metaverse,Multicoin Capital,,Seed Round,1617235200000,Metaverse,,
+Sommelier,sommelier,Multicoin Capital,3500000,Seed Round,1615334400000,DeFi,,
+Manta Network,manta-network,Multicoin Capital,1100000,Pre-seed Round,1612224000000,Blockchain,38450000.0,1.47
+saffron.finance,saffron-finance,Multicoin Capital,2000000,Seed Round,1612137600000,DeFi,29160000.0,14.58
+Oxygen,oxygen,Multicoin Capital,40000000,Private Sale,1612137600000,Solana Ecosystem,,
+Furucombo,furucombo,Multicoin Capital,1850000,Seed Round,1610042400000,DeFi,,
+Salad Ventures,salad-ventures,Multicoin Capital,2000000,Seed Round,1609495200000,Gaming,,
+MATH,math,Multicoin Capital,7800000,Series A,1604361600000,Wallet,4980000.0,0.25
+Mina Protocol,mina-protocol,Multicoin Capital,6630000,Strategic Round (unlocked),1601510400000,Blockchain,116340000.0,0.98
+Audius,audius,Multicoin Capital,3100000,Strategic Round,1593561600000,NFT,45960000.0,3.55
+Perpetual Protocol,perpetual-protocol,Multicoin Capital,1800000,Strategic Round,1588291200000,Perpetual,6600000.0,2.87
+dForce Token,dforce-token,Multicoin Capital,1500000,Strategic Round,1585699200000,DeFi,13210000.0,8.81
+Arweave,arweave,Multicoin Capital,8300000,Private Round,1580515200000,Storage,256959999.99999997,7.74
+SKALE,skale,Multicoin Capital,5745600,Venture Round,1569888000000,Layer-2,73170000.0,12.73
+Near,near,Multicoin Capital,375000,Private Round 2,1561939200000,Blockchain,2150000000.0,14.01
+THORChain,thorchain,Multicoin Capital,1610000,Private Sale,1561939200000,DeFi,234770000.0,43.80
+Textile,textile-2,Multicoin Capital,1500000,Seed Round,1560211200000,Blockchain Service,,
+Algorand,algorand,Multicoin Capital,62000000,Venture Round,1538352000000,Blockchain,1150000000.0,9.27
+StarkNet,starknet,Multicoin Capital,30000000,Series A,1535760000000,Blockchain,502230000.0,5.12
+Tari,tari,Multicoin Capital,,Seed Round,1528588800000,Protocol,,
+Internet Computer,internet-computer,Multicoin Capital,102000000,Pre-Sale,1522540800000,Blockchain,1820000000.0,4.96
+Kadena,kadena,Multicoin Capital,12900000,Presale Round 2,1522540800000,Blockchain,3970000.0,0.31
+MobileCoin,mobilecoin,Multicoin Capital,30000000,Seed Round,1519862400000,Privacy Coin,37200000.0,0.62
+Livepeer,livepeer,Multicoin Capital,3000000,Seed,1512086400000,Infrastructure,174270000.0,58.09
+Nervos Network,nervos-network,Multicoin Capital,28000000,Seed,1508025600000,Blockchain,123470000.0,1.10
+Standard Economics,standard-economics,Lightspeed Venture Partners,9000000,Seed Round,1761609600000,Blockchain Service,,
+Lightyear,lightyear,Lightspeed Venture Partners,23000000,Series B,1753315200000,Finance,,
+Magicblock,magicblock,Lightspeed Venture Partners,7500000,Seed Round,1745539200000,Infrastructure,,
+Goodfire,goodfire,Lightspeed Venture Partners,50000000,Series A,1744848000000,Artificial Intelligence (AI),,
+Rain,rain,Lightspeed Venture Partners,24500000,Series A,1742774400000,Finance,,
+RedotPay,redotpay,Lightspeed Venture Partners,40000000,Series A,1741910400000,Blockchain Service,,
+Chaos Labs,chaos-labs-ico,Lightspeed Venture Partners,55000000,Series A,1723680000000,,,
+Nexus Laboratories,nexus-laboratories,Lightspeed Venture Partners,25000000,Series A,1717977600000,Infrastructure,,
+Puffer,puffer-finance,Lightspeed Venture Partners,18000000,Series A Round,1713225600000,Liquid Staking Protocols,23690000.0,0.65
+Shentu,certik,Lightspeed Venture Partners,,Funding Round,1710201600000,Blockchain Service,38110000.0,
+Taiko,taiko,Lightspeed Venture Partners,15000000,Series A,1709337600000,Layer-2,39520000.0,2.63
+Karak Network,karak-network,Lightspeed Venture Partners,48000000,Series A,1709078400000,Layer-2,,
+Ethena,ethena-labs,Lightspeed Venture Partners,14000000,Seed Extension Round,1708041600000,DeFi,1930000000.0,8.46
+Pontem Liquidswap,pontem-liquidswap,Lightspeed Venture Partners,6000000,Funding Round,1704931200000,Aptos Ecosystem,,
+CharacterX,characterx,Lightspeed Venture Partners,2800000,Seed Round,1704585600000,Social,,
+Medallion,medallion,Lightspeed Venture Partners,13700000,Series A,1703116800000,Blockchain Service,,
+Blockchain.com,blockchain-com,Lightspeed Venture Partners,110000000,Series E,1699920000000,CEX,,
+Econia,econia-ico,Lightspeed Venture Partners,6500000,Seed Round,1677628800000,,,
+Sentio,sentio-ico,Lightspeed Venture Partners,6400000,Seed Round,1675209600000,,,
+ZKsync,zksync,Lightspeed Venture Partners,200000000,Series C,1668556800000,Layer-2,281110000.0,0.43
+Fordefi,fordefi-ico,Lightspeed Venture Partners,18000000,Seed Round,1667260800000,Wallet,,
+MystenLabs,mystenlabs-ico,Lightspeed Venture Partners,300000000,Series B Round,1662595200000,,,
+Sui,sui,Lightspeed Venture Partners,300000000,Series B,1661990400000,Blockchain,5810000000.0,4.70
+Ultimate,ultimate-ico,Lightspeed Venture Partners,12500000,Series A Round,1659312000000,,,
+Safe,safe,Lightspeed Venture Partners,100000000,Funding Round,1656633600000,Wallet,102640000.0,0.51
+Magic Eden,magic-eden,Lightspeed Venture Partners,130000000,Series B Round,1654041600000,NFT,48040000.0,0.12
+Pintu Token,pintu-token,Lightspeed Venture Partners,113000000,Series B,1654041600000,Cryptocurrency,2730000.0,0.01
+Ballet,ballet-ico,Lightspeed Venture Partners,13000000,Series A,1654041600000,,,
+Soba,soba-ico,Lightspeed Venture Partners,13500000,Seed Round,1654041600000,,,
+Health Hero,health-hero-ico,Lightspeed Venture Partners,4500000,Private Round,1651363200000,,,
+Treehouse,treehouse,Lightspeed Venture Partners,18000000,Seed Round,1647388800000,Liquid Staking Tokens (LSTs),18480000.0,0.51
+Zebec Network,zebec-network,Lightspeed Venture Partners,15000000,Strategic Round,1646092800000,Infrastructure,267190000.0,17.81
+Socket,socket,Lightspeed Venture Partners,5000000,Seed Round,1646092800000,Infrastructure,,
+Brahma,brahma,Lightspeed Venture Partners,4210000,Seed Round,1645488000000,DeFi,,
+Alchemy,alchemy-ico,Lightspeed Venture Partners,200000000,Series C Extended,1644192000000,,,
+KGeN,kgen,Lightspeed Venture Partners,6000000,Funding Round,1642550400000,Gaming,36180000.0,1.86
+IndiGG,indigg,Lightspeed Venture Partners,6000000,Seed Round,1642550400000,Gaming,,
+FTX Token,ftx-token,Lightspeed Venture Partners,400000000,Series C,1640995200000,CEX,204670000.0,0.12
+Arbitrum,arbitrum,Lightspeed Venture Partners,100000000,Series B,1630368000000,Layer-2,1160000000.0,2.76
+Parallel Finance,parallel-finance,Lightspeed Venture Partners,22000000,Private Investors,1625097600000,Lending Platform,9460000.0,0.21
+ECOx,ecox,Lightspeed Venture Partners,60000000,Series B,1625097600000,Ethereum Ecosystem,2710000.0,0.01
+ECO,eco,Lightspeed Venture Partners,60000000,Series B,1625097600000,,1600000.0,0.01
+Rhino.fi,dvf,Lightspeed Venture Partners,5000000,Strategic Round,1621296000000,AMM,5960000000000.0,1192000.00
+Babel Finance,babel-finance-ico,Lightspeed Venture Partners,40000000,Series A,1619827200000,,,
+Magic-link,magic-2,Lightspeed Venture Partners,4000000,Seed Round,1590710400000,Blockchain Service,,
+Audius,audius,Lightspeed Venture Partners,5500000,Series A,1533081600000,NFT,45960000.0,3.55
+Basis Cash,basis-cash,Lightspeed Venture Partners,133000000,Funding Round,1524009600000,Algorithmic Stablecoins,,
+XRP,ripple,Lightspeed Venture Partners,,Funding Round,1364774400000,Cryptocurrency,120960000000.0,241.92
+Cascade,cascade,Polychain Capital,15000000,Funding Round,1765238400000,CEX,,
+Seismic,seismic-2,Polychain Capital,10000000,Funding Round,1762905600000,Blockchain,,
+Tharimmune,tharimmune,Polychain Capital,540000000,Post-IPO,1762214400000,Healthcare,,
+Greenlane Holdings,greenlane-holdings,Polychain Capital,110000000,PIPE,1760918400000,Finance,,
+Grass,grass,Polychain Capital,10000000,Funding Round,1759795200000,Artificial Intelligence (AI),143690000.0,14.37
+Aria,aria-3,Polychain Capital,15000000,Seed Round,1756857600000,RWA (Real World Assets),11510000.0,0.77
+M^ZERO,m-zero,Polychain Capital,40000000,Series B,1756339200000,DeFi,,
+Shrapnel,shrapnel,Polychain Capital,19500000,Funding Round,1755043200000,Gaming,1570000.0,0.08
+Billions Network,billions-network,Polychain Capital,30000000,Funding Round,1753920000000,Blockchain Service,,
+ETHZilla,ethzilla-2,Polychain Capital,425000000,PIPE,1753747200000,Finance,,
+StablecoinX,stablecoinx,Polychain Capital,360000000,PIPE,1753056000000,Finance,,
+Concrete Protocol,concrete-protocol,Polychain Capital,9500000,Strategic Round,1750636800000,Protocol,,
+DogeOS,dogeos,Polychain Capital,6900000,Funding Round,1746489600000,Infrastructure,,
+Warlock,warlock,Polychain Capital,8000000,Seed Round,1743033600000,DeFi,,
+Ethena,ethena-labs,Polychain Capital,100000000,Private Sale,1740355200000,DeFi,1930000000.0,8.46
+Fluent,fluent,Polychain Capital,8000000,Funding Round,1739923200000,Layer-2,,
+corn,corn-2,Polychain Capital,8300000,Community,1737504000000,Layer-2,39720000.0,1.83
+Oshi,oshi-2,Polychain Capital,12500000,Funding Round,1737072000000,Social,,
+Superform,superform,Polychain Capital,3000000,Strategic Round,1733961600000,DeFi,,
+Hyperbolic,hyperbolic,Polychain Capital,12000000,Series A,1733788800000,Blockchain Service,,
+Talus network,talus-network,Polychain Capital,6000000,Strategic Round,1732579200000,Blockchain Service,,
+Monkey Tilt,monkey-tilt,Polychain Capital,30000000,Series A,1732060800000,Gaming,,
+Bitfinity Network ,bitfinity-network,Polychain Capital,12000000,Funding Round,1731974400000,Blockchain,,
+StakeStone,stakestone,Polychain Capital,22000000,Funding Round,1731283200000,Liquid Staking Protocols,26860000.0,0.61
+Brevis Network,brevis-network,Polychain Capital,7500000,Seed Round,1731283200000,Zero Knowledge,,
+Yellow Card,yellow-card,Polychain Capital,33000000,Series C,1729036800000,Finance,,
+Yala,yala-finance,Polychain Capital,8000000,Seed Round,1728518400000,DeFi,6880000.0,0.86
+Bitlayer,bitlayer,Polychain Capital,9000000,Series A Extension,1728345600000,Layer-2,7190000.0,0.51
+APRO,apro,Polychain Capital,3000000,Seed Round,1728259200000,Blockchain Service,25460000.0,8.49
+Level,level-2,Polychain Capital,3600000,Funding Round,1724889600000,DeFi,,
+Solayer,solayer,Polychain Capital,12000000,Seed Round,1724716800000,Liquid Staking Protocols,40820000.0,1.70
+Story,story,Polychain Capital,80000000,Series B,1724198400000,Blockchain,665710000.0,3.60
+Sahara AI,sahara-ai,Polychain Capital,37000000,Funding Round,1723593600000,Artificial Intelligence (AI),66030000.0,0.59
+Pac Finance,pac-finance,Polychain Capital,1000000,Funding Round,1719964800000,DeFi,,
+Lombard,lombard,Polychain Capital,16000000,Seed Round,1719878400000,DeFi,185490000.0,10.91
+OpenLedger,openledger-2,Polychain Capital,8000000,Seed Round,1719878400000,Infrastructure,43920000.0,5.49
+Pi Squared,pi-squared,Polychain Capital,12500000,Seed Round,1719878400000,Infrastructure,,
+ORA,ora,Polychain Capital,20000000,Series A,1719360000000,Infrastructure,,
+Nubit,nubit,Polychain Capital,8000000,Seed Round,1717545600000,Infrastructure,,
+Babylon,babylon,Polychain Capital,70000000,Funding Round,1717027200000,Blockchain,53070000.0,0.34
+Cysic,cysic-ico,Polychain Capital,12000000,pre-Series A,1716508800000,,,
+Shogun,shogun,Polychain Capital,6900000,Seed Round,1715731200000,DeFi,,
+Botanix Labs,botanix-labs,Polychain Capital,11500000,Seed Round,1715040000000,Blockchain,,
+MilkyWay,milkyway-2,Polychain Capital,5000000,Seed Round,1714435200000,DeFi,1600000.0,0.16
+Movement,movement,Polychain Capital,38000000,Series A,1714003200000,Infrastructure,110710000.0,2.91
+Berachain,berachain,Polychain Capital,100000000,Series B,1712880000000,Blockchain,83910000.0,0.42
+Stream Finance,stream-finance,Polychain Capital,1500000,Seed Round,1712707200000,DeFi,,
+Playtron,playtron,Polychain Capital,10000000,Funding Round,1712707200000,Gaming,,
+Ritual,ritual,Polychain Capital,,Funding Round,1712534400000,Infrastructure,,
+Gasp (Mangata),gasp-2,Polychain Capital,5000000,Funding Round,1712102400000,DeFi,,
+Sofamon,sofamon,Polychain Capital,,Seed Round,1712102400000,Social,,
+DappOS,dappos,Polychain Capital,15300000,Series A,1711584000000,Blockchain Service,,
+Polyhedra Network,polyhedra-network,Polychain Capital,20000000,Funding Round,1710374400000,Zero Knowledge,17680000.0,0.59
+Clique,clique,Polychain Capital,8000000,Series A,1710374400000,Infrastructure,,
+Eclipse,eclipse,Polychain Capital,50000000,Series A,1710115200000,Infrastructure,14830000.0,0.30
+AltLayer,altlayer,Polychain Capital,14400000,Strategic Round,1708300800000,Blockchain Service,62390000.0,2.17
+Allora,allora,Polychain Capital,,Funding Round,1706918400000,Blockchain Service,29510000.0,
+Squid,squidrouter,Polychain Capital,4000000,Strategic Round,1706659200000,Blockchain Service,,
+Drift Protocol,drift-protocol,Polychain Capital,23500000,Series A,1705968000000,Perpetual,87440000.0,1.80
+Canza Finance ,canza-finance,Polychain Capital,2300000,Strategic Round,1705363200000,Blockchain Service,,
+Particle,particle,Polychain Capital,,Seed Round,1705017600000,DeFi,,
+Wynd Network,wynd-2,Polychain Capital,3500000,Seed Round,1702944000000,Infrastructure,,
+Sona,sona,Polychain Capital,6900000,Seed Round,1701820800000,Blockchain Service,,
+Rio Network,rio-network,Polychain Capital,,Seed Round,1701388800000,DeFi,,
+Bioniq,bioniq,Polychain Capital,,Funding Round,1701216000000,Blockchain Service,,
+CreateSafe,createsafe,Polychain Capital,4600000,Seed Round,1700092800000,Music,,
+Nocturne,nocturne,Polychain Capital,6000000,Seed Round,1698192000000,Blockchain Service,,
+Noble,noble,Polychain Capital,3300000,Seed Round,1698105600000,Blockchain Service,,
+Goldlink,goldlink,Polychain Capital,1400000,Pre-seed,1691452800000,DeFi,,
+Manta Network,manta-network,Polychain Capital,25000000,Series A,1689724800000,Blockchain,38450000.0,1.47
+Everclear,connext,Polychain Capital,7500000,Strategic Round,1686700800000,DeFi,2600000.0,0.07
+Webb Protocol,webb-protocol,Polychain Capital,7000000,Seed Round,1683504000000,Infrastructure,,
+Thetanuts Finance,thetanuts-finance-ico,Polychain Capital,17000000,Funding Round,1679616000000,,,
+Scroll,scroll,Polychain Capital,50000000,Funding Round,1678060800000,Blockchain,16140000.0,0.32
+Cubist,cubist-ico,Polychain Capital,7000000,Seed Round,1677628800000,,,
+Space ID,space-id,Polychain Capital,10000000,Strategic Round,1675728000000,Blockchain Service,89500000.0,8.95
+EigenCloud (prev. EigenLayer),eigenlayer,Polychain Capital,50000000,Series A Round,1675209600000,Liquid Staking Protocols,220850000.0,1.30
+Really,really-ico,Polychain Capital,18000000,Seed Round,1675209600000,,,
+Quasar,quasar-2,Polychain Capital,5432100,Funding Round,1672531200000,DeFi,13560000.0,2.50
+Nil Foundation,nil-foundation-ico,Polychain Capital,22000000,Venture Round,1672531200000,,,
+Perennial,perennial,Polychain Capital,12000000,Seed Round,1670371200000,DeFi,,
+Fleek,fleek,Polychain Capital,25000000,Series A,1669852800000,AI Agents,1560000.0,0.06
+Evmos,evmos,Polychain Capital,27000000,Seed Round,1667347200000,Cosmos Ecosystem,,
+t3rn,t3rn,Polychain Capital,6500000,Private Round,1667260800000,Infrastructure,,
+Kollider,kollider-ico,Polychain Capital,2400000,Funding Round,1666742400000,,,
+Celestia,celestia,Polychain Capital,55000000,Series A&B Round,1666137600000,Modular Blockchain,496030000.0,1.86
+Light Protocol,light-protocol,Polychain Capital,4200000,Seed Round,1665964800000,Solana Ecosystem,,
+Tapio Protocol,tapio-protocol-ico,Polychain Capital,4000000,Seed Round,1665964800000,,,
+Uniswap,uniswap,Polychain Capital,165000000,Series B,1665619200000,DEX,3400000000.0,6.72
+MatchboxDAO,matchboxdao-ico,Polychain Capital,7500000,Seed Round,1659312000000,,,
+Hologram,hologram-ico,Polychain Capital,6500000,Seed Round,1656633600000,,,
+DSCVR,dscvr-ico,Polychain Capital,9000000,Seed Round,1656633600000,,,
+Satori,satori,Polychain Capital,10000000,Seed Round,1652659200000,DEX,,
+Commonwealth,commonwealth-ico,Polychain Capital,20000000,Private Round,1651363200000,,,
+CoinDCX,coindcx-ico,Polychain Capital,135000000,Series C,1650326400000,,,
+Nomad,nomad-ico,Polychain Capital,22400000,Seed Round,1648771200000,,,
+Quai Network,quai-network,Polychain Capital,8000000,Funding Round,1648080000000,Blockchain,10180000.0,1.27
+Espresso Systems,espresso-systems,Polychain Capital,32000000,Seed Round,1646611200000,Infrastructure,,
+Upshot,upshot-ico,Polychain Capital,22000000,Series A-2,1646092800000,,,
+Aurigami,aurigami,Polychain Capital,9500000,Strategic Round,1643673600000,Lending Platform,,
+Astar,astar,Polychain Capital,22000000,Funding Round,1643328000000,Layer-2,101660000.0,4.17
+Shiden Network,shiden,Polychain Capital,22000000,Funding Round,1643328000000,NFT,1640000.0,0.07
+BBS Network,bbs-network,Polychain Capital,550000,IDO on DAO Maker,1641340800000,NFT,,
+vana,vana,Polychain Capital,2000000,Seed Round,1640995200000,Artificial Intelligence (AI),82200000.0,4.11
+Spectral,spectral,Polychain Capital,6750000,Venture Round,1639008000000,Blockchain Service,3090000.0,0.46
+Sperax,sperax,Polychain Capital,6000000,Private Sale,1638316800000,Stablecoin Issuer,11110000.0,0.93
+AscendEx,asd,Polychain Capital,50000000,Series B,1635897600000,CEX,14870000.0,0.30
+Anoma,anoma,Polychain Capital,26000000,Private Round,1635724800000,Infrastructure,46400000.0,0.91
+Solend,solend,Polychain Capital,6500000,Seed,1635206400000,Lending Platform,24220000.0,1.86
+Sommelier,sommelier,Polychain Capital,23000000,Series A,1634688000000,DeFi,,
+Element Finance,element-finance-ico,Polychain Capital,32000000,Series A,1634601600000,,,
+ORIGYN,origyn-foundation,Polychain Capital,20000000,Private Round,1633046400000,NFT,,
+Kresko,kresko-ico,Polychain Capital,2350000,Seed Round,1633046400000,,,
+Decentralized Social,bitclout,Polychain Capital,200000000,Venture Round,1632355200000,Blockchain,52770000.0,0.09
+Bluefin,bluefin,Polychain Capital,22800000,Private Round,1631577600000,DEX,13050000.0,0.57
+Credora,credora,Polychain Capital,8000000,Series A,1631491200000,Lending Platform,,
+Orca,orca,Polychain Capital,19025000,Series A,1630454400000,DEX,71590000.0,3.76
+X-Margin,x-margin-ico,Polychain Capital,8000000,Series A,1630454400000,,,
+Prysm,prysm-ico,Polychain Capital,3000000,Seed Round,1630454400000,,,
+Arbitrum,arbitrum,Polychain Capital,100000000,Series B,1630368000000,Layer-2,1160000000.0,2.76
+Axelar,axelar,Polychain Capital,25858000,Series A,1625097600000,Infrastructure,135000000.0,2.26
+Parallel Finance,parallel-finance,Polychain Capital,22000000,Private Investors,1625097600000,Lending Platform,9460000.0,0.21
+SAIL Token,clipper,Polychain Capital,17000000,Seed Round,1625097600000,Governance,,
+ValoraApp,valoraapp-ico,Polychain Capital,20000000,Seed Round,1625097600000,Wallet,,
+Thesis,thesis-ico,Polychain Capital,21000000,Series A,1625097600000,,,
+dYdX,dydx,Polychain Capital,65000000,Series C,1623715200000,DEX,156400000.0,0.58
+Solana,solana,Polychain Capital,314150000,Private Sale,1623246360000,Blockchain,74130000000.0,58.99
+Avalanche,avalanche,Polychain Capital,230000000,Venture Round,1622505600000,Blockchain,5770000000.0,23.85
+SynFutures,synfutures,Polychain Capital,14000000,Series A Round,1622505600000,Perpetual,22220000.0,0.44
+UX Chain,umee,Polychain Capital,6300000,Seed Round,1622505600000,DeFi,,
+Friends With Benefits Pro,friends-with-benefits-pro,Polychain Capital,700000,Funding Round,1620302400000,,,
+Nym,nym,Polychain Capital,6000000,Seed Round,1619827200000,Privacy Coin,40510000.0,1.47
+Aleo,aleo,Polychain Capital,28000000,Series A,1617235200000,Zero Knowledge,84880000.0,0.33
+Enso,enso,Polychain Capital,5000000,Private Round,1617235200000,Blockchain Service,14280000.0,1.01
+Overlay Protocol,overlay-protocol,Polychain Capital,2215000,Funding Round,1615939200000,Perpetual,,
+River Financial,river-financial,Polychain Capital,12000000,Series A,1615507200000,Finance,,
+Syrup,syrup,Polychain Capital,1400000,Seed Round,1614556800000,Lending Platform,297540000.0,46.49
+Maple,maple,Polychain Capital,1400000,Seed Round,1614556800000,Lending Platform,,
+Moola Market,moola-market,Polychain Capital,1400000,Seed Round,1614556800000,Lending Platform,,
+DFX Finance,dfx-finance,Polychain Capital,5000000,Seed Round,1614124800000,Governance,,
+Badger DAO,badger-dao,Polychain Capital,21000000,DAO Treasury,1612137600000,DeFi,11490000.0,0.55
+Parsec,parsec,Polychain Capital,1250000,Seed Round,1611792000000,Big Data,,
+Notional Finance,notional-finance,Polychain Capital,1300000,Seed Round,1603670400000,DeFi,,
+Polymarket,polymarket,Polychain Capital,4000000,Seed Round,1603065600000,DeFi,,
+Mina Protocol,mina-protocol,Polychain Capital,6630000,Strategic Round (unlocked),1601510400000,Blockchain,116340000.0,0.98
+Liquity,liquity,Polychain Capital,2400000,Seed Round,1600992000000,DeFi,40760000.0,3.77
+Cozy Finance,cozy-finance-ico,Polychain Capital,2000000,Seed Round,1599091200000,,,
+Alpha5,alpha5,Polychain Capital,1500000,Seed Round,1596672000000,,,
+Acala,acala,Polychain Capital,7300000,Series A,1596240000000,DeFi,13120000.0,0.60
+ROOK,rook,Polychain Capital,1440000,Seed Round,1593561600000,DeFi,,
+Staker DAO,staker-dao,Polychain Capital,3000000,Series A Round,1593561600000,DAO,,
+DerivaDAO,derivadao,Polychain Capital,2700000,Investment Round,1590969600000,DeFi,3100000.0,0.57
+Fractal Network (Findora),findora,Polychain Capital,11970000,Private Round 2,1590969600000,Blockchain,,
+CLV,clover-finance,Polychain Capital,6000000,Seed,1588291200000,Wallet,7110000.0,1.19
+Horizon Blockchain Game,horizon-blockchain-game-ico,Polychain Capital,5000000,Funding Round,1583582400000,,,
+Karura,karura,Polychain Capital,1400000,Seed Round,1583020800000,Kusama Ecosystem,1280000.0,0.08
+Amber Group,amber-group-ico,Polychain Capital,28000000,Series A Round,1580515200000,,,
+Compound,compound,Polychain Capital,25000000,Series A,1576022400000,DeFi,303410000.0,4.05
+NuCypher,nucypher,Polychain Capital,10700000,SAFT Series 2,1569888000000,Protocol,48390000.0,4.52
+FLEX Coin,flex-coin,Polychain Capital,10000000,Venture Round,1567296000000,CEX,13820000.0,1.23
+Agoric,agoric,Polychain Capital,6000000,Early Backers Round,1556668800000,Coinlist Launchpad,4150000.0000000005,0.69
+Celo,celo,Polychain Capital,30000000,Pre-launch sale 2,1546300800000,Layer-2,95500000.0,1.19
+Keep Network,keep-network,Polychain Capital,7700000,Venture Round,1543708800000,DeFi,49670000.0,2.15
+Spacemesh,spacemesh,Polychain Capital,15000000,Series A,1536143400000,Blockchain,,
+Nervos Network,nervos-network,Polychain Capital,28224000,Private Round,1530403200000,Blockchain,123470000.0,1.10
+Handshake,handshake,Polychain Capital,10200000,Private Sale,1530403200000,Infrastructure,2130000.0,0.05
+Oasis,oasis-network,Polychain Capital,45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+StarkNet,starknet,Polychain Capital,6000000,Seed Round,1525132800000,Blockchain,502230000.0,5.12
+Internet Computer,internet-computer,Polychain Capital,102000000,Pre-Sale,1522540800000,Blockchain,1820000000.0,4.96
+REN,republic-protocol,Polychain Capital,4825000,Public Sale,1517583660000,DeFi,6600000.0,1.37
+Maker,maker,Polychain Capital,12000000,Seed Round 1,1512086400000,DeFi,,
+Orchid Protocol,orchid-protocol,Polychain Capital,4700000,Seed Round,1508976000000,xDAI Ecosystem,16320000.0,0.40
+Raiden Network Token,raiden-network,Polychain Capital,33400000,Public Sale,1508349600000,Infrastructure,,
+0x Protocol,0x,Polychain Capital,24000000,Initial Coin Offering,1502485200000,DEX,118180000.0,1.26
+Tezos,tezos,Polychain Capital,10000000,Early backers,1485907200000,Blockchain,519179999.99999994,51.92
+Etherealize,etherealize,Electric Capital,40000000,Funding Round,1756857600000,Social,,
+Hyperbeat,hyperbeat,Electric Capital,5200000,Seed Round,1755216000000,DeFi,,
+Mill City Ventures III,mill-city-ventures-iii,Electric Capital,450000000,Post-IPO,1753920000000,Finance,,
+ETHZilla,ethzilla-2,Electric Capital,425000000,PIPE,1753747200000,Finance,,
+Kuru,kuru,Electric Capital,11600000,Series A,1751846400000,DeFi,,
+SharpLink,sharplink,Electric Capital,425000000,Post-IPO,1748822400000,Sport,,
+Unto,unto,Electric Capital,14400000,Funding Round,1745884800000,Blockchain,,
+Walrus,walrus-protocol,Electric Capital,140000000,Private Token Sale,1742428800000,Storage,236910000.0,0.85
+Hibachi,hibachi,Electric Capital,5000000,Seed Round,1742342400000,DeFi,,
+Axelar,axelar,Electric Capital,30000000,OTC,1741651200000,Infrastructure,135000000.0,2.26
+Bitwise,bitwise,Electric Capital,70000000,Funding Round,1740441600000,Finance,,
+InfiniFi,infinifi,Electric Capital,3000000,Pre-seed,1739232000000,DeFi,,
+INFINIT,infinit-2,Electric Capital,6000000,Funding Round,1726099200000,DeFi,19260000.0,3.21
+Term Finance,term-finance,Electric Capital,5500000,Strategic Round,1720483200000,Lending Platform,,
+Wasabi,wasabi,Electric Capital,3000000,Seed Round,1718582400000,DeFi,,
+Nuffle Labs,nuffle-labs,Electric Capital,13000000,Funding Round,1718236800000,Infrastructure,,
+Layer3,layer3,Electric Capital,15000000,Series A,1718150400000,Social,12460000.0,0.71
+Ava Protocol,ava-protocol,Electric Capital,10000000,Seed Plus Round,1718064000000,Infrastructure,,
+Squads,squads,Electric Capital,10000000,Series A,1717977600000,Blockchain Service,,
+Zeta Markets,zeta-markets,Electric Capital,5000000,Strategic Round,1715644800000,DeFi,15070000.0,3.01
+Re,re,Electric Capital,7000000,Funding Round,1715644800000,Insurance,,
+Kiosk,kiosk,Electric Capital,10000000,Funding Round,1714608000000,Social,,
+Puffer,puffer-finance,Electric Capital,18000000,Series A Round,1713225600000,Liquid Staking Protocols,23690000.0,0.65
+Monad,monad,Electric Capital,225000000,Funding Round,1712620800000,Blockchain,281490000.0,0.60
+Cove Finance,cove-finance,Electric Capital,3000000,Pre-seed,1712620800000,Yield Aggregator,,
+Phoenix,phoenix-2,Electric Capital,20000000,Series A,1712188800000,DEX,,
+INIT Capital,init-capital,Electric Capital,3000000,Seed Round,1708473600000,DeFi,,
+Fordefi,fordefi-ico,Electric Capital,10000000,Funding Round,1707782400000,Wallet,,
+Clusters,clusters,Electric Capital,9000000,Seed Round,1706745600000,Blockchain Service,,
+Abstract,abstract,Electric Capital,,Funding Round,1703030400000,Layer-2,,
+Frame,frame,Electric Capital,,Funding Round,1702944000000,Blockchain,,
+Shadow,shadow,Electric Capital,9000000,Seed Round,1701734400000,Blockchain Service,,
+Kresko,kresko-ico,Electric Capital,1800000,Strategic Round,1699315200000,,,
+Llama,llama,Electric Capital,6000000,Seed Round,1699228800000,Blockchain Service,,
+Membrane Labs,membrane-labs,Electric Capital,20000000,Series A,1696982400000,Blockchain Service,,
+Anoma,anoma,Electric Capital,25000000,Funding Round,1685491200000,Infrastructure,46400000.0,0.91
+Hourglass,hourglass-2,Electric Capital,4200000,Seed Round,1684108800000,DeFi,,
+Yoz,yoz-ico,Electric Capital,3500000,Seed Round,1680307200000,Web 3.0,,
+EigenCloud (prev. EigenLayer),eigenlayer,Electric Capital,50000000,Series A Round,1675209600000,Liquid Staking Protocols,220850000.0,1.30
+Immunefi,immunefi,Electric Capital,24000000,Series A Round,1663804800000,Blockchain Service,,
+Integral1,integral-2,Electric Capital,8500000,Funding Round,1663632000000,Blockchain Service,,
+Hashflow,hashflow,Electric Capital,25000000,Series A,1656633600000,DEX,21200000.0,0.27
+SWEAT,sweat-economy,Electric Capital,10000000,Private Round,1656633600000,Wallet,9480000.0,0.95
+Magic Eden,magic-eden,Electric Capital,130000000,Series B Round,1654041600000,NFT,48040000.0,0.12
+Paper,paper,Electric Capital,9300000,Seed Round,1651363200000,,,
+Certora,certora-ico,Electric Capital,36000000,Series B Round,1651363200000,,,
+Privy,privy,Electric Capital,8300000,Seed Round,1650412800000,Web 3.0,,
+Trisolaris,trisolaris,Electric Capital,4500000,Seed Round,1648771200000,DEX,,
+Espresso Systems,espresso-systems,Electric Capital,32000000,Seed Round,1646611200000,Infrastructure,,
+Nestcoin,nestcoin,Electric Capital,6450000,Pre-seed,1643673600000,Blockchain Service,,
+Sui,sui,Electric Capital,36000000,Series A,1638316800000,Blockchain,5810000000.0,4.70
+MystenLabs,mystenlabs-ico,Electric Capital,36000000,Seed Round,1638316800000,,,
+ConsenSys,consensys,Electric Capital,200000000,Series C,1637107200000,Web 3.0,,
+Slingshot,slingshot-ico,Electric Capital,15000000,Series A Round,1635724800000,,,
+Aurora,aurora-near,Electric Capital,12000000,Private Round,1634227200000,Blockchain,36330000.0,1.51
+Taker Protocol,taker-protocol,Electric Capital,3000000,Funding Round,1632268800000,Blockchain,,
+Syndicate,syndicate-3,Electric Capital,20000000,Series A Round,1627776000000,Infrastructure,45110000.0,0.75
+Visor,visor,Electric Capital,3500000,Funding Round,1625097600000,,,
+SAIL Token,clipper,Electric Capital,17000000,Seed Round,1625097600000,Governance,,
+4K,4k-ico,Electric Capital,3000000,Seed Round,1625097600000,,,
+dYdX,dydx,Electric Capital,65000000,Series C,1623715200000,DEX,156400000.0,0.58
+RabbitHole,rabbithole-ico,Electric Capital,3600000,Seed Round,1622505600000,,,
+Iron Fish,iron-fish,Electric Capital,5300000,Funding Round,1617667200000,Blockchain Service,11930000.0,0.31
+Gitcoin,gitcoin,Electric Capital,11300000,Funding Round,1614556800000,Infrastructure,13350000.0,0.24
+Omnity Convertible Token,octopus-network,Electric Capital,3000000,Seed Round,1614556800000,Near Ecosystem,3210000.0,1.07
+FLEX Coin,flex-coin,Electric Capital,1250000,Private Round,1613692800000,CEX,13820000.0,1.23
+Radworks,radicle,Electric Capital,12000000,Early Supporters,1613606400000,Governance,14960000.0,1.25
+Celo,celo,Electric Capital,20000000,Venture Round,1612137600000,Layer-2,95500000.0,1.19
+Swivel Finance,swivel-finance-ico,Electric Capital,1150000,Seed Round,1607594400000,,,
+Marlin,marlin,Electric Capital,3000000,Private Round,1604188800000,Infrastructure,35590000.0,5.93
+Bitnomial,bitnomial,Electric Capital,11600000,Series B,1601942400000,Finance,,
+Mina Protocol,mina-protocol,Electric Capital,6630000,Strategic Round (unlocked),1601510400000,Blockchain,116340000.0,0.98
+Cozy Finance,cozy-finance-ico,Electric Capital,2000000,Seed Round,1599091200000,,,
+DerivaDAO,derivadao,Electric Capital,2700000,Investment Round,1590969600000,DeFi,3100000.0,0.57
+Auto Finance,tokemak,Electric Capital,4000000,Private Round,1587340800000,Yield Farming,11650000.0,1.46
+Near,near,Electric Capital,375000,Private Round 2,1561939200000,Blockchain,2150000000.0,14.01
+MultiversX,multivers-x,Electric Capital,1900000,Private Sale,1558377960000,Blockchain,219230000.0,57.69
+Spacemesh,spacemesh,Electric Capital,15000000,Series A,1536143400000,Blockchain,,
+Oasis,oasis-network,Electric Capital,45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+Obex,obex-2,Framework Ventures,37000000,Funding Round,1763424000000,Finance,,
+Daylight,daylight-2,Framework Ventures,75000000,Funding Round,1760572800000,DePIN,,
+Crown,crown-2,Framework Ventures,8100000,Seed Round,1760400000000,Finance,,
+USD.AI,usd-ai,Framework Ventures,13400000,Series A,1755129600000,DeFi,,
+Mecka.AI,mecka-ai,Framework Ventures,8000000,Seed Round,1754956800000,Infrastructure,,
+Perle (Prev. Kiva Ai),kiva-ai,Framework Ventures,9000000,Seed Round,1754524800000,Artificial Intelligence (AI),,
+W3.io,w3-io,Framework Ventures,7000000,Seed Round,1752537600000,Infrastructure,,
+T-Rex,t-rex,Framework Ventures,17000000,Funding Round,1746748800000,Modular Blockchain,,
+Unto,unto,Framework Ventures,14400000,Funding Round,1745884800000,Blockchain,,
+Meanwhile,meanwhile,Framework Ventures,40000000,Series A,1744243200000,Insurance,,
+Uranium Digital,uranium-digital,Framework Ventures,6100000,Seed Round,1742428800000,DeFi,,
+Infrared BGT,infrared,Framework Ventures,14000000,Series A,1741046400000,DeFi,11400000.0,0.81
+Plasma,xpl,Framework Ventures,20500000,Funding Round,1739404800000,Blockchain,298980000.0,7.29
+Henlo,henlo-2,Framework Ventures,3000000,Seed Round,1738713600000,Meme,,
+GOAT Gaming,goat-gaming,Framework Ventures,4000000,Strategic Round,1738540800000,Gaming,,
+Hyve DA,hyve-da,Framework Ventures,2750000,Pre-seed,1736985600000,Blockchain Service,,
+Starpower,starpower,Framework Ventures,2500000,Funding Round,1736380800000,Blockchain Service,,
+Avalon,avalon-finance,Framework Ventures,10000000,Series A,1734912000000,DeFi,25930000.0,2.59
+Eidon AI,eidon-ai,Framework Ventures,3500000,Seed Round,1731369600000,Infrastructure,,
+Glow,glow-2,Framework Ventures,30000000,Funding Round,1730332800000,Blockchain Service,,
+Towns,towns,Framework Ventures,25500000,Series A,1728950400000,Social,17560000.0,0.49
+Daylight,daylight,Framework Ventures,6000000,Seed Round,1727136000000,Blockchain Service,,
+Infinex,infinex-app-crypto,Framework Ventures,65290000,NFT Sale,1726790400000,DEX,,
+Ammalgam,ammalgam,Framework Ventures,2500000,Seed Round,1725926400000,DeFi,,
+Moku,moku,Framework Ventures,5350000,Funding Round,1725840000000,Gaming,,
+Space and Time,space-and-time,Framework Ventures,20000000,Series A,1724716800000,Blockchain Service,38850000.0,1.94
+corn,corn-2,Framework Ventures,6700000,Seed Round,1724112000000,Layer-2,39720000.0,1.83
+Parfin,parfin-ico,Framework Ventures,10000000,Series A,1723593600000,Layer-2,,
+OpenSocial,opensocial,Framework Ventures,6000000,Strategic Round,1721865600000,Social,,
+Mira,mira,Framework Ventures,9000000,Seed Round,1721088000000,Infrastructure,28510000.0,1.58
+Sentient (Pre-Market),sentient,Framework Ventures,85000000,Seed Round,1719878400000,Blockchain Service,,
+Irys,irys,Framework Ventures,3700000,Strategic Round,1718150400000,Infrastructure,63120000.0,17.06
+Hylé,hyle,Framework Ventures,2600000,Funding Round,1715644800000,Blockchain,,
+Berachain,berachain,Framework Ventures,100000000,Series B,1712880000000,Blockchain,83910000.0,0.42
+Uplink,uplink,Framework Ventures,10000000,Funding Round,1712793600000,Infrastructure,,
+Arrow Markets,arrow-markets,Framework Ventures,4000000,Series A,1711756800000,DeFi,,
+Midas,midas-2,Framework Ventures,8750000,Seed Round,1711584000000,DeFi,,
+Bitlayer,bitlayer,Framework Ventures,5000000,Seed Round,1711497600000,Layer-2,7190000.0,0.51
+Reya Network (Voltz),reya-network,Framework Ventures,10000000,Funding Round,1711411200000,DeFi,,
+Kravata,kravata,Framework Ventures,3600000,Seed Round,1709769600000,Infrastructure,,
+Utila,utila,Framework Ventures,11500000,Seed Round,1709596800000,Infrastructure,,
+Karak Network,karak-network,Framework Ventures,48000000,Series A,1709078400000,Layer-2,,
+Allora,allora,Framework Ventures,,Funding Round,1706918400000,Blockchain Service,29510000.0,
+Hyve Labs,hyve-labs,Framework Ventures,2750000,Pre-seed,1705363200000,Gaming,,
+Immutable,immutable-x,Framework Ventures,,Strategic Round,1703116800000,Layer-2,553330000.0,
+Babylon,babylon,Framework Ventures,18000000,Series A,1701907200000,Blockchain,53070000.0,0.34
+Membrane Labs,membrane-labs,Framework Ventures,20000000,Series A,1696982400000,Blockchain Service,,
+Socket,socket,Framework Ventures,5000000,Strategic Round,1693958400000,Infrastructure,,
+Syrup,syrup,Framework Ventures,5000000,Funding Round,1692662400000,Lending Platform,297540000.0,46.49
+Maple,maple,Framework Ventures,5000000,Funding Round,1692662400000,Lending Platform,,
+Spearbit,spearbit,Framework Ventures,7000000,Funding Round,1691625600000,Social,,
+Cantina,cantina,Framework Ventures,7000000,Funding Round,1691625600000,Web 3.0,,
+Illuvium,illuvium,Framework Ventures,10000000,Funding Round,1685491200000,Gaming,45950000.0,4.59
+Blockworks,blockworks,Framework Ventures,12000000,Funding Round,1683590400000,Media,,
+Antimetal,antimetal,Framework Ventures,4300000,Seed Round,1683504000000,Blockchain Service,,
+Jungle,jungle-ico,Framework Ventures,6000000,Seed Round,1678665600000,,,
+Proven,proven-ico,Framework Ventures,15800000,Seed Round,1677628800000,,,
+Asset Reality,asset-reality-ico,Framework Ventures,4910000,Seed Round,1672531200000,,,
+Derive,derive,Framework Ventures,3000000,Strategic Round,1667260800000,Perpetual,21600000.0,7.20
+OneKey,onekey-ico,Framework Ventures,20000000,Series A,1664323200000,,,
+Smart Layer Network,smart-layer-network,Framework Ventures,6000000,Funding Round,1664236800000,Blockchain Service,,
+Immunefi,immunefi,Framework Ventures,24000000,Series A Round,1663804800000,Blockchain Service,,
+Jito,jito-network,Framework Ventures,12100000,Series A,1659312000000,Liquid Staking Protocols,164980000.0,2.22
+GoGoPool,gogopool,Framework Ventures,5000000,Seed Round,1659312000000,DeFi,2780000.0,0.56
+Mighty Action Heroes,mighty-action-heroes-ico,Framework Ventures,10000000,Funding Round,1656633600000,,,
+Endaoment,endaoment-ico,Framework Ventures,6670000,Funding Round,1654041600000,,,
+Godcoin,godcoin,Framework Ventures,9000000,Seed Round,1651708800000,Gaming,,
+Chainflip,chainflip,Framework Ventures,10000000,Equity Round,1651363200000,AMM,26300000.0,1.02
+Tally Labs,tally-labs-ico,Framework Ventures,12000000,Seed Round,1651363200000,,,
+Certora,certora-ico,Framework Ventures,36000000,Series B Round,1651363200000,,,
+Swell,swell-network,Framework Ventures,3750000,Seed Round,1647216000000,Liquid Staking Protocols,8090000.0,1.08
+Upshot,upshot-ico,Framework Ventures,22000000,Series A-2,1646092800000,,,
+Brahma,brahma,Framework Ventures,4210000,Seed Round,1645488000000,DeFi,,
+Teller Finance,teller-finance-ico,Framework Ventures,6850000,Strategic Round,1643673600000,,,
+Aethir,aethir,Framework Ventures,,Seed Round,1640995200000,DePIN,194390000.0,
+Perion,perion,Framework Ventures,8600000,Early Access Round,1640995200000,Gaming,,
+Block Earner,block-earner-ico,Framework Ventures,6400000,Seed Round,1639008000000,,,
+ParagonsDAO,paragonsdao,Framework Ventures,27072500,Private Round,1638316800000,DAO,5960000.0,0.11
+Slingshot,slingshot-ico,Framework Ventures,15000000,Series A Round,1635724800000,,,
+SZNS,szns-ico,Framework Ventures,4000000,Seed Round,1631145600000,,,
+Futureswap,futureswap,Framework Ventures,12000000,Venture Round,1630454400000,Perpetual,1670000.0,0.12
+Thales,thales,Framework Ventures,2500000,Strategic Round,1626134400000,Yield Aggregator,19150000.0,7.66
+AlchemyNFT,alchemynft-ico,Framework Ventures,6000000,Seed Round,1625097600000,,,
+Tracer DAO,tracer-dao,Framework Ventures,4500000,Strategic Round,1624924800000,Investment,,
+Yield Protocol,yieldprotocol,Framework Ventures,10000000,Series A,1624406400000,Lending Platform,,
+Rangers Protocol,rangers-protocol-gas,Framework Ventures,2500000,Private Equity Round,1623664800000,Protocol,41340000.0,8.27
+SynFutures,synfutures,Framework Ventures,14000000,Series A Round,1622505600000,Perpetual,22220000.0,0.44
+RabbitHole,rabbithole-ico,Framework Ventures,3600000,Seed Round,1622505600000,,,
+Zapper,zapper-ico,Framework Ventures,15000000,Series A,1621209600000,,,
+Commonwealth,commonwealth-ico,Framework Ventures,3200000,Seed Round,1619827200000,,,
+Fei USD,fei-usd,Framework Ventures,19000000,Private Round,1615161600000,Stablecoin,3270000.0,0.09
+Gro DAO Token,gro-dao-token,Framework Ventures,7100000,Seed,1609459200000,Yield Aggregator,,
+Horizon Finance,horizon-finance,Framework Ventures,1335000,Seed Round,1602720000000,Yield Aggregator,,
+DODO,dodo,Framework Ventures,5000000,Private Sale,1598918400000,DeFi,14950000.0,1.00
+The Graph,the-graph,Framework Ventures,5000000,Strategic Round,1590969600000,Big Data,472420000.0,2.25
+PowerTrade Fuel,powertrade-fuel,Framework Ventures,,Seed Sale,1590969600000,Derivatives,,
+Auto Finance,tokemak,Framework Ventures,4000000,Private Round,1587340800000,Yield Farming,11650000.0,1.46
+Synthetix,synthetix,Framework Ventures,3800000,Partnership Incentives,1569888000000,DeFi,161640000.0,10.23
+Tellor Tributes,tellor,Framework Ventures,150000,Pre-seed,1527811200000,Oracle,57430000.0,143.57
+Numeraire,numeraire,Union Square Ventures Usv,30000000,Series C,1763596800000,DeFi,84290000.0,2.06
+The Clearing Company,the-clearing-company,Union Square Ventures Usv,15000000,Seed Round,1756252800000,DeFi,,
+XMTP,xmtp,Union Square Ventures Usv,20000000,Series B,1752710400000,Social,,
+Blackbird,blackbird,Union Square Ventures Usv,50000000,Series B,1744070400000,Social,,
+Pluralis Research,pluralis-research,Union Square Ventures Usv,7600000,Seed Round,1742342400000,Blockchain Service,,
+tapestry,tapestry,Union Square Ventures Usv,5750000,Series A,1736985600000,Social,,
+WalletConnect Token,walletconnect,Union Square Ventures Usv,13000000,Series B,1736812800000,Wallet,15320000.0,0.59
+Glow,glow-2,Union Square Ventures Usv,30000000,Funding Round,1730332800000,Blockchain Service,,
+Daylight,daylight,Union Square Ventures Usv,6000000,Seed Round,1727136000000,Blockchain Service,,
+Sling Money,sling-money,Union Square Ventures Usv,15000000,Series A,1723593600000,Finance,,
+Neynar,neynar,Union Square Ventures Usv,11000000,Series A,1717027200000,Infrastructure,,
+Farcaster,farcaster,Union Square Ventures Usv,150000000,Series A,1716249600000,Social,,
+Kiosk,kiosk,Union Square Ventures Usv,10000000,Funding Round,1714608000000,Social,,
+Paragraph,paragraph-ico,Union Square Ventures Usv,5000000,Funding Round,1714608000000,,,
+fxhash,fxhash,Union Square Ventures Usv,5000000,Seed Round,1691452800000,NFT,1370000.0,0.14
+Web3Auth,web3auth,Union Square Ventures Usv,13000000,Series A,1641945600000,Web 3.0,,
+Ceramic,ceramic-ico,Union Square Ventures Usv,30000000,Series A Round,1640995200000,,,
+Dune Analytics,dune-analytics,Union Square Ventures Usv,8000000,Series A Round,1625097600000,Blockchain Service,,
+Flurry Finance,flurry,Union Square Ventures Usv,750000,Seed Round,1622505600000,,,
+ZKsync,zksync,Union Square Ventures Usv,6000000,Series A,1612137600000,Layer-2,281110000.0,0.43
+Uniswap,uniswap,Union Square Ventures Usv,11000000,Series A,1593561600000,DEX,3400000000.0,6.72
+Arweave,arweave,Union Square Ventures Usv,8300000,Private Round,1580515200000,Storage,256959999.99999997,7.74
+Helium,helium,Union Square Ventures Usv,15000000,Series C,1560297600000,Social,339110000.0,0.55
+Algorand,algorand,Union Square Ventures Usv,62000000,Venture Round,1538352000000,Blockchain,1150000000.0,9.27
+Internet Computer,internet-computer,Union Square Ventures Usv,61000000,Strategic Round,1512000000000,Blockchain,1820000000.0,4.96
+Filecoin,filecoin,Union Square Ventures Usv,52000000,Pre-Sale,1498867200000,Storage,1010000000.0,19.42
+Stacks,stacks,Union Square Ventures Usv,4000000,Series A,1483596000000,Blockchain,538940000.0,134.74
+Crown,crown-2,Paradigm,13500000,Series A,1765152000000,Finance,,
+Kalshi,kalshi,Paradigm,1000000000,Funding Round,1763683200000,Predictions,,
+Rift,rift,Paradigm,8000000,Seed Round,1762560000000,DEX,,
+Harmonic,harmonic,Paradigm,6000000,Seed Round,1762300800000,Infrastructure,,
+Liquid,liquid,Paradigm,7600000,Seed Round,1762128000000,DEX,,
+Standard Economics,standard-economics,Paradigm,9000000,Seed Round,1761609600000,Blockchain Service,,
+MetaDAO,meta-2-2,Paradigm,5900000,OTC Deal,1761350400000,Solana Ecosystem,141050000.0,23.91
+Divine,divine,Paradigm,6600000,Seed Round,1758758400000,DeFi,,
+Plural,plural,Paradigm,7130000,Seed Round,1756944000000,Blockchain Service,,
+Tempo,tempo,Paradigm,,Incubation,1756944000000,Blockchain,,
+Etherealize,etherealize,Paradigm,40000000,Funding Round,1756857600000,Social,,
+AUSD,agora-2,Paradigm,50000000,Series A,1752105600000,Stablecoin,216390000.0,4.33
+Kuru,kuru,Paradigm,11600000,Series A,1751846400000,DeFi,,
+GTE,gte,Paradigm,15000000,Series A,1750636800000,DEX,,
+Wildcard,wildcard-ico,Paradigm,6500000,Funding Round,1750204800000,,,
+3Jane,3jane,Paradigm,5200000,Seed Round,1748995200000,DeFi,,
+Reddio,reddio,Paradigm,,Series A,1748649600000,Layer-2,,
+Nous Research,nous-research,Paradigm,50000000,Series A,1745539200000,Artificial Intelligence (AI),,
+Consensus Value Creation,consensus-value-creation,Paradigm,20000000,Strategic Round,1745107200000,Blockchain Service,,
+Privy,privy,Paradigm,15000000,Funding Round,1742342400000,Web 3.0,,
+Mesh,mesh,Paradigm,82000000,Series B,1741651200000,Finance,,
+Across Protocol,across-protocol,Paradigm,41000000,Private Token Sale,1741046400000,Protocol,35680000.0,0.44
+Irreducible,irreducible,Paradigm,24000000,Series A,1738195200000,Infrastructure,,
+D3,d3-2,Paradigm,25000000,Funding Round,1738108800000,Blockchain Service,,
+Phantom,phantom,Paradigm,150000000,Series C,1736985600000,Wallet,,
+Noble,noble,Paradigm,15000000,Series A,1731974400000,Blockchain Service,,
+Ithaca,ithaca,Paradigm,20000000,Funding Round,1728604800000,Blockchain,,
+Sorella,sorella,Paradigm,7500000,Seed Round,1724112000000,DeFi,,
+Conduit,conduit-ico,Paradigm,37000000,Series A,1719273600000,,,
+Symbiotic,symbiotic,Paradigm,5800000,Seed Round,1718064000000,Liquid Staking Protocols,,
+Babylon,babylon,Paradigm,70000000,Funding Round,1717027200000,Blockchain,53070000.0,0.34
+Farcaster,farcaster,Paradigm,150000000,Series A,1716249600000,Social,,
+Monad,monad,Paradigm,225000000,Funding Round,1712620800000,Blockchain,281490000.0,0.60
+Phoenix,phoenix-2,Paradigm,20000000,Series A,1712188800000,DEX,,
+Succinct,succinct,Paradigm,55000000,Series A Round,1710979200000,Infrastructure,81780000.0,1.49
+Axiom,axiom,Paradigm,20000000,Series A,1706140800000,Blockchain Service,,
+Shadow,shadow,Paradigm,9000000,Seed Round,1701734400000,Blockchain Service,,
+Blast,blast-l2,Paradigm,20000000,Funding Round,1700524800000,Layer-2,43530000.0,1.09
+Friend.tech,friend-tech,Paradigm,,Seed Round,1692316800000,Social,3440000.0,
+Flashbots,flashbots,Paradigm,60000000,Series B,1690243200000,Blockchain Service,,
+Code4rena,code4rena-ico,Paradigm,6000000,Funding Round,1678924800000,,,
+vana,vana,Paradigm,18000000,Series A,1669852800000,Artificial Intelligence (AI),82200000.0,4.11
+Uniswap,uniswap,Paradigm,165000000,Series B,1665619200000,DEX,3400000000.0,6.72
+Blowfish,blowfish-2,Paradigm,11800000,Funding Round,1661990400000,Blockchain Service,,
+SignalPlus,signalplus,Paradigm,,Series A,1660262400000,Finance,,
+Limit Break,limit-break-ico,Paradigm,200000000,Funding Round,1659312000000,,,
+Magic Eden,magic-eden,Paradigm,130000000,Series B Round,1654041600000,NFT,48040000.0,0.12
+Utopia Labs,utopia-labs-ico,Paradigm,23000000,Series A,1653955200000,,,
+Axie Infinity,axie-infinity,Paradigm,150000000,Funding Round,1648771200000,Gaming,172280000.0,0.38
+Fractal,fractal-ico,Paradigm,35000000,Seed Round,1648771200000,Gaming,,
+Ribbon Finance,ribbon-finance,Paradigm,8800000,Venture Round,1647907200000,DeFi,3460000.0,0.39
+Praxis,praxis,Paradigm,15000000,Series A,1646265600000,Artificial Intelligence (AI),,
+Optimism,optimism,Paradigm,150000000,Series B Round,1646092800000,Layer-2,585850000.0,2.21
+Blur,blur,Paradigm,11000000,Seed Round,1646092800000,NFT,89370000.0,4.06
+Exotic Markets,exotic-markets,Paradigm,5000000,Venture Round,1641340800000,Oracle,,
+FTX Token,ftx-token,Paradigm,400000000,Series C,1640995200000,CEX,204670000.0,0.12
+ParagonsDAO,paragonsdao,Paradigm,27072500,Private Round,1638316800000,DAO,5960000.0,0.11
+Aztec,aztec,Paradigm,17000000,Series A,1638316800000,Blockchain,,
+MoonPay,moonpay,Paradigm,555000000,Series A,1637539200000,Finance,,
+Osmosis,osmosis,Paradigm,21000000,Venture Round,1633046400000,DEX,51460000.0,1.23
+Parallel,parallel,Paradigm,50000000,Seed Round,1633046400000,Gaming,,
+StarkNet,starknet,Paradigm,50000000,Series C,1630454400000,Blockchain,502230000.0,5.12
+X-Margin,x-margin-ico,Paradigm,8000000,Series A,1630454400000,,,
+Euler,euler,Paradigm,8000000,Series A,1629849600000,Lending Platform,66670000.0,1.67
+JET,jet,Paradigm,6800000,Follow-on Round,1627776000000,Lending Platform,,
+Bitwave,bitwave-ico,Paradigm,7250000,Seed Round,1627776000000,,,
+Yield Protocol,yieldprotocol,Paradigm,10000000,Series A,1624406400000,Lending Platform,,
+dYdX,dydx,Paradigm,65000000,Series C,1623715200000,DEX,156400000.0,0.58
+Lido DAO,lido-dao,Paradigm,51000000,Venture Round,1620172800000,DeFi,527650000.0,3.69
+Bitso,bitso-ico,Paradigm,250000000,Series C,1620172800000,,,
+Showtime,showtime-ico,Paradigm,7600000,Seed Round,1619827200000,,,
+Chainalysis,chainalysis,Paradigm,100000000,Series D,1616716800000,Blockchain Service,,
+Gitcoin,gitcoin,Paradigm,11300000,Funding Round,1614556800000,Infrastructure,13350000.0,0.24
+Fireblocks,fireblocks-ico,Paradigm,133000000,Series C,1614556800000,,,
+Opyn Squeeth,opyn-squeeth,Paradigm,6700000,Series A,1612310400000,DeFi,,
+Synthetix,synthetix,Paradigm,12000000,Funding Round,1606780800000,DeFi,161640000.0,10.23
+Mina Protocol,mina-protocol,Paradigm,6630000,Strategic Round (unlocked),1601510400000,Blockchain,116340000.0,0.98
+Siacoin,siacoin,Paradigm,3000000,Seed Round,1600732800000,Storage,90030000.0,30.01
+Rai Reflex Index,rai,Paradigm,1700000,Seed Round,1596585600000,Backed Tokens,2200000.0,0.38
+Reflexer Ungovernance Token,reflexer-ungovernance-token,Paradigm,1700000,Seed Round,1596585600000,DeFi,,
+Royale,royale,Paradigm,350000,Seed Round,1596240000000,,,
+Amber Group,amber-group-ico,Paradigm,28000000,Series A Round,1580515200000,,,
+Compound,compound,Paradigm,25000000,Series A,1576022400000,DeFi,303410000.0,4.05
+Numeraire,numeraire,Paradigm,11000000,Series B,1553126400000,DeFi,84290000.0,2.06
+Maker,maker,Paradigm,27500000,Seed Round 3,1548979200000,DeFi,,
+Keep Network,keep-network,Paradigm,7700000,Venture Round,1543708800000,DeFi,49670000.0,2.15
+Spacemesh,spacemesh,Paradigm,15000000,Series A,1536143400000,Blockchain,,
+Cosmos Hub,cosmos,Paradigm,1329500,Strategic Round,1472688000000,Blockchain,1060000000.0,398.65
+noice,noice,Balaji Srinivasan,,Funding Round,1760400000000,Meme,10030000.0,
+Inversion Capital,inversion-capital,Balaji Srinivasan,26500000,Seed Round,1757289600000,Infrastructure,,
+Trepa,trepa,Balaji Srinivasan,420000,Pre-seed,1755907200000,DeFi,,
+ZAR,zar,Balaji Srinivasan,7000000,Funding Round,1745971200000,Finance,,
+Octane,octane,Balaji Srinivasan,6750000,Seed Round,1744070400000,Blockchain Service,,
+Pluralis Research,pluralis-research,Balaji Srinivasan,7600000,Seed Round,1742342400000,Blockchain Service,,
+Prime Intellect,prime-intellect,Balaji Srinivasan,15000000,Funding Round,1740700800000,Blockchain Service,,
+Fluent,fluent,Balaji Srinivasan,8000000,Funding Round,1739923200000,Layer-2,,
+fomo,fomo-2,Balaji Srinivasan,2000000,Angel,1739836800000,DeFi,,
+HOME,home,Balaji Srinivasan,2000000,Extended Seed Round,1739404800000,DeFi,66390000.0,33.20
+Suilend,suilend,Balaji Srinivasan,4000000,Funding Round,1733356800000,Lending Platform,13400000.0,3.35
+Citrea,citrea,Balaji Srinivasan,14000000,Series A,1730332800000,Infrastructure,,
+Genius,genius-2,Balaji Srinivasan,6000000,Seed Round,1729641600000,DeFi,,
+The Arena,the-arena,Balaji Srinivasan,2000000,Pre-seed,1729036800000,Social,12390000.0,6.20
+OpenGradient,opengradient,Balaji Srinivasan,8500000,Seed Round,1728432000000,Infrastructure,,
+MeshMap,meshmap,Balaji Srinivasan,4000000,Funding Round,1727395200000,Blockchain Service,,
+Fermah,fermah,Balaji Srinivasan,5200000,Seed Round,1726531200000,Zero Knowledge,,
+Level,level-2,Balaji Srinivasan,3600000,Funding Round,1724889600000,DeFi,,
+Hyperbolic,hyperbolic,Balaji Srinivasan,7000000,Seed Round,1722297600000,Blockchain Service,,
+Mira,mira,Balaji Srinivasan,9000000,Seed Round,1721088000000,Infrastructure,28510000.0,1.58
+Prodia,prodia,Balaji Srinivasan,15000000,Seed Round,1719878400000,Blockchain Service,,
+Agora,agora-3,Balaji Srinivasan,5000000,Seed Round,1714521600000,Blockchain Service,,
+Ord.io,ord-io,Balaji Srinivasan,2000000,Seed Round,1713312000000,NFT,,
+Sending Network,sending-network,Balaji Srinivasan,7500000,Extended Seed Round,1713225600000,Blockchain Service,,
+Biconomy,biconomy,Balaji Srinivasan,,Strategic Round,1711584000000,DeFi,50440000.0,5.60
+MyShell,myshell,Balaji Srinivasan,11000000,pre-Series A,1711497600000,Blockchain Service,15730000.0,1.43
+Clique,clique,Balaji Srinivasan,8000000,Series A,1710374400000,Infrastructure,,
+Utila,utila,Balaji Srinivasan,11500000,Seed Round,1709596800000,Infrastructure,,
+Stack,stack-2,Balaji Srinivasan,3000000,Seed Round,1709510400000,Blockchain Service,,
+Avail,avail,Balaji Srinivasan,27000000,Seed Round,1708905600000,Blockchain,23150000.0,0.86
+Analog,analog,Balaji Srinivasan,16000000,Funding Round,1707782400000,Infrastructure,1320000.0,0.08
+Dinari,dinari,Balaji Srinivasan,10000000,Seed Round,1705968000000,Finance,,
+Ritual,ritual,Balaji Srinivasan,25000000,Series A,1699401600000,Infrastructure,,
+Baseflow,baseflow,Balaji Srinivasan,2500000,Funding Round,1698364800000,Blockchain Service,,
+Fileverse,fileverse,Balaji Srinivasan,1500000,Pre-seed,1697500800000,Blockchain Service,,
+Ostium Labs,ostium-labs,Balaji Srinivasan,3500000,Funding Round,1696550400000,DeFi,,
+Proof of Play,proof-of-play,Balaji Srinivasan,33000000,Seed Round,1695254400000,Gaming,,
+Parallax,parallax-2,Balaji Srinivasan,4500000,Seed Round,1694476800000,Finance,,
+0xPass,0xpass,Balaji Srinivasan,1800000,Pre-seed,1694390400000,Blockchain Service,,
+Story,story,Balaji Srinivasan,25000000,Series A,1693958400000,Blockchain,665710000.0,3.60
+Drip,drip,Balaji Srinivasan,3000000,Seed Round,1692403200000,NFT,,
+Lore Explorer,lore-explorer,Balaji Srinivasan,2300000,Funding Round,1692144000000,Blockchain Service,,
+MIDAO,midao,Balaji Srinivasan,1000000,Funding Round,1689811200000,Social,,
+Roi,roi,Balaji Srinivasan,3600000,Funding Round,1689206400000,NFT,,
+Lens Chain,lens-chain,Balaji Srinivasan,15000000,Funding Round,1686182400000,Blockchain Service,,
+Argus,argus-2,Balaji Srinivasan,10000000,Seed Round,1686009600000,Gaming,,
+LabDAO,labdao,Balaji Srinivasan,3600000,Funding Round,1684800000000,Social,,
+PYOR,pyor,Balaji Srinivasan,4000000,Seed Round,1684368000000,Big Data,,
+Huddle01,huddle01-ico,Balaji Srinivasan,4500000,Seed Round,1680739200000,,,
+Intmax,intmax-ico,Balaji Srinivasan,5000000,Seed Round,1680307200000,Blockchain,,
+Lore,lore-ico,Balaji Srinivasan,4000000,Strategic Round,1680307200000,,,
+Proven,proven-ico,Balaji Srinivasan,15800000,Seed Round,1677628800000,,,
+Renegade,renegade-ico,Balaji Srinivasan,3400000,Seed Round,1675209600000,,,
+Chaos Labs,chaos-labs-ico,Balaji Srinivasan,20000000,Seed Round,1675209600000,,,
+Sesame Labs,sesame-labs-ico,Balaji Srinivasan,4500000,Seed Round,1675209600000,,,
+Prysm,prysm-ico,Balaji Srinivasan,4000000,Funding Round,1668427200000,,,
+Shardeum,shardeum,Balaji Srinivasan,18719600,Seed Round,1666051200000,Infrastructure,1580000.0,0.08
+Light Protocol,light-protocol,Balaji Srinivasan,4200000,Seed Round,1665964800000,Solana Ecosystem,,
+Sovryn,sovryn,Balaji Srinivasan,5400000,Funding Round,1665273600000,DeFi,4000000.0,0.74
+Integral1,integral-2,Balaji Srinivasan,8500000,Funding Round,1663632000000,Blockchain Service,,
+Lysto,lysto-ico,Balaji Srinivasan,12000000,Pre-Series A Round,1659312000000,,,
+Koop,koop-ico,Balaji Srinivasan,5000000,Seed Round,1659312000000,,,
+Hashflow,hashflow,Balaji Srinivasan,25000000,Series A,1656633600000,DEX,21200000.0,0.27
+Farcaster,farcaster,Balaji Srinivasan,30000000,Funding Round,1656633600000,Social,,
+Crypto Colo Center,crypto-colo-center-ico,Balaji Srinivasan,11000000,Seed Round,1656633600000,,,
+Quadrata,quadrata-ico,Balaji Srinivasan,7500000,Seed Round,1656633600000,,,
+MoHash,mohash,Balaji Srinivasan,6000000,Seed Round,1656547200000,DeFi,,
+AltLayer,altlayer,Balaji Srinivasan,7200000,Seed Round,1654041600000,Blockchain Service,62390000.0,2.17
+Samudai,samudai-ico,Balaji Srinivasan,2500000,Pre-seed Round,1654041600000,,,
+TRUF.Network,truflation,Balaji Srinivasan,,Seed Round,1652745600000,RWA (Real World Assets),3490000.0,
+Doppel,doppel,Balaji Srinivasan,5000000,Seed Round,1651363200000,Blockchain Service,,
+Questbook,questbook-ico,Balaji Srinivasan,8300000,Series A Round,1651363200000,,,
+LiquiFi,liquifi,Balaji Srinivasan,5000000,Funding Round,1650499200000,Blockchain Service,,
+Sign,sign-2,Balaji Srinivasan,12000000,Seed Round,1646784000000,Infrastructure,45740000.0,1.22
+Rain,rain,Balaji Srinivasan,6000000,Seed Round,1645920000000,Finance,,
+RSS3,rss3,Balaji Srinivasan,,Private Sale,1638316800000,Infrastructure,12330000.0,
+Galoy,galoy-ico,Balaji Srinivasan,3000000,Seed Round,1638316800000,,,
+Praxis,praxis,Balaji Srinivasan,4200000,Seed Round,1638230400000,Artificial Intelligence (AI),,
+Solend,solend,Balaji Srinivasan,6500000,Seed,1635206400000,Lending Platform,24220000.0,1.86
+Layer3,layer3,Balaji Srinivasan,2500000,Seed Round,1632960000000,Social,12460000.0,0.71
+XMTP,xmtp,Balaji Srinivasan,20000000,Series A Round,1627776000000,Social,,
+Superfluid,superfluid,Balaji Srinivasan,9000000,Seed Round,1626134400000,DeFi,1720000.0,0.12
+Arcana Network,arcana-network,Balaji Srinivasan,375000,Seed Round,1625097600000,Web 3.0,,
+Certora,certora-ico,Balaji Srinivasan,7200000,Series A,1621555200000,,,
+Goldfinch,goldfinch,Balaji Srinivasan,11700000,Series A,1619827200000,Lending Platform,22360000.0,0.59
+Commonwealth,commonwealth-ico,Balaji Srinivasan,3200000,Seed Round,1619827200000,,,
+Iron Fish,iron-fish,Balaji Srinivasan,5300000,Funding Round,1617667200000,Blockchain Service,11930000.0,0.31
+Aleo,aleo,Balaji Srinivasan,28000000,Series A,1617235200000,Zero Knowledge,84880000.0,0.33
+Gitcoin,gitcoin,Balaji Srinivasan,11300000,Funding Round,1614556800000,Infrastructure,13350000.0,0.24
+Rally,rally-2,Balaji Srinivasan,34828450,Community Treasury Fundraise,1609372800000,Yield Farming,1030000.0,0.01
+Push Protocol,ethereum-push-notification-service,Balaji Srinivasan,750000,Seed Round,1606780800000,Infrastructure,1090000.0,0.09
+Polymarket,polymarket,Balaji Srinivasan,4000000,Seed Round,1603065600000,DeFi,,
+Opyn Squeeth,opyn-squeeth,Balaji Srinivasan,2160000,Seed Round,1592784000000,DeFi,,
+Magic-link,magic-2,Balaji Srinivasan,4000000,Seed Round,1590710400000,Blockchain Service,,
+Mask Network,mask-network,Balaji Srinivasan,570000,Private Round A,1575158400000,Social,61480000.0,1.44
+Messari,messari-ico,Balaji Srinivasan,4000000,Venture Round,1573603200000,Elrond Ecosystem,,
+Fluid,instadapp,Balaji Srinivasan,2400000,Seed Round,1569888000000,DeFi,251530000.0,34.93
+Golden,golden-ico,Balaji Srinivasan,14500000,Series A Round,1567296000000,,,
+Near,near,Balaji Srinivasan,375000,Private Round 2,1561939200000,Blockchain,2150000000.0,14.01
+Avalanche,avalanche,Balaji Srinivasan,5940000,Seed Round,1548979200000,Blockchain,5770000000.0,23.85
+TransCrypts,transcrypts,Mark Cuban,15000000,Seed Round,1759881600000,Blockchain Service,,
+Blocto Token,blocto-token,Mark Cuban,,Series A,1677110400000,DeFi,1350000.0,
+Tokenproof,tokenproof-ico,Mark Cuban,5000000,Seed Round,1659312000000,,,
+Swell,swell-network,Mark Cuban,3750000,Seed Round,1647216000000,Liquid Staking Protocols,8090000.0,1.08
+Socket,socket,Mark Cuban,5000000,Seed Round,1646092800000,Infrastructure,,
+CryptoSlam,cryptoslam,Mark Cuban,9000000,Seed Round,1641340800000,Blockchain Service,,
+Thirdweb,thirdweb-ico,Mark Cuban,5000000,Seed Round,1638316800000,x402 Ecosystem,,
+Arbitrum,arbitrum,Mark Cuban,100000000,Series B,1630368000000,Layer-2,1160000000.0,2.76
+Artificial Liquid Intelligence,alethea-artificial-liquid-intelligence-token,Mark Cuban,16000000,Private Round,1627776000000,NFT,23460000.0,0.53
+Smart Layer Network,smart-layer-network,Mark Cuban,,Seed Round,1625097600000,Blockchain Service,,
+AlchemyNFT,alchemynft-ico,Mark Cuban,6000000,Seed Round,1625097600000,,,
+NFT Genius,nft-genius-ico,Mark Cuban,4000000,Seed Round,1622505600000,,,
+Zapper,zapper-ico,Mark Cuban,15000000,Series A,1621209600000,,,
+Axie Infinity,axie-infinity,Mark Cuban,7500000,Series A,1619827200000,Gaming,172280000.0,0.38
+Ronin,ronin,Mark Cuban,7500000,Series A,1619827200000,Blockchain,123450000.0,0.78
+Injective,injective-protocol,Mark Cuban,10000000,Funding Round,1617235200000,Blockchain,541840000.0,7.74
+SuperRare,superrare,Mark Cuban,9000000,Series A Round,1614556800000,NFT,19010000.0,1.06
+Limitless,limitless,1Confirmation,10000000,Seed Round,1760918400000,Predictions,29860000.0,2.99
+Coop Records,coop-records,1Confirmation,4500000,Seed Round,1758585600000,Music,,
+Gigaverse,gigaverse,1Confirmation,2000000,Funding Round,1756857600000,Gaming,,
+Keplr,keplr,1Confirmation,5000000,Seed Round,1737504000000,Wallet,,
+Polymarket,polymarket,1Confirmation,150000000,Funding Round,1735689600000,DeFi,,
+Stride,stride,1Confirmation,4000000,Strategic Round,1706832000000,Liquid Staking Protocols,1850000.0,0.17
+Rated,rated,1Confirmation,12890000,Series A,1695772800000,Blockchain Service,,
+Pimlico,pimlico,1Confirmation,1600000,Pre-seed,1695600000000,Infrastructure,,
+Koop,koop-ico,1Confirmation,5000000,Seed Round,1659312000000,,,
+Primitive,primitive-ico,1Confirmation,9000000,Series A Round,1659312000000,,,
+Farcaster,farcaster,1Confirmation,30000000,Funding Round,1656633600000,Social,,
+Archway,archway,1Confirmation,21000000,Private Sale,1648080000000,Cosmos Ecosystem,1470000.0,0.04
+World,worldcoin,1Confirmation,25000000,Seed Round,1634774400000,Artificial Intelligence (AI),1460000000.0,8.85
+Osmosis,osmosis,1Confirmation,21000000,Venture Round,1633046400000,DEX,51460000.0,1.23
+Index Cooperative,index-cooperative,1Confirmation,7700000,Pre-seed,1625097600000,DeFi,4090000.0,0.27
+Notional Finance,notional-finance,1Confirmation,10000000,Series A,1619654400000,DeFi,,
+SuperRare,superrare,1Confirmation,9000000,Series A Round,1614556800000,NFT,19010000.0,1.06
+Nexus Mutual,nxm,1Confirmation,2700000,Venture Round,1613433600000,Insurance,149590000.0,27.70
+Rally,rally-2,1Confirmation,34828450,Community Treasury Fundraise,1609372800000,Yield Farming,1030000.0,0.01
+Acala,acala,1Confirmation,7300000,Series A,1596240000000,DeFi,13120000.0,0.60
+Karura,karura,1Confirmation,7300000,Series A,1596240000000,Kusama Ecosystem,1280000.0,0.08
+dYdX,dydx,1Confirmation,10000000,Series A,1539972000000,DEX,156400000.0,0.58
+Nervos Network,nervos-network,1Confirmation,28224000,Private Round,1530403200000,Blockchain,123470000.0,1.10
+Maker,maker,1Confirmation,12000000,Seed Round 1,1512086400000,DeFi,,
+Cosmos Hub,cosmos,1Confirmation,1329500,Strategic Round,1472688000000,Blockchain,1060000000.0,398.65
+Arx Research,arx-research,1Kx,,Seed Round,1762387200000,Infrastructure,,
+Coop Records,coop-records,1Kx,4500000,Seed Round,1758585600000,Music,,
+Transak,transak,1Kx,16000000,Strategic Round,1754956800000,Blockchain Service,,
+Stackup,stackup,1Kx,4200000,Seed Round,1750377600000,Infrastructure,,
+Orange Cap Games,orange-cap-games,1Kx,3500000,Seed Round,1749427200000,Gaming,,
+VOYA Games,voya-games,1Kx,5000000,Funding Round,1747785600000,Gaming,,
+Kaia,kaia,1Kx,,Funding Round,1745971200000,Blockchain,440300000.0,
+Camp Network,camp-network,1Kx,25000000,Series A,1745884800000,Layer-2,15340000.0,0.61
+Miden,miden,1Kx,25000000,Seed Round,1745884800000,Blockchain,,
+Inco Network,inco-network,1Kx,5000000,Strategic Round,1745452800000,Blockchain,,
+Optimum,optimum,1Kx,11000000,Seed Round,1744675200000,Infrastructure,,
+GUNZ,gunz-token,1Kx,,Strategic Round,1744243200000,Blockchain,17670000.0,0.38
+Seismic,seismic-2,1Kx,7000000,Seed Round,1741219200000,Blockchain,,
+Combinder,combinder,1Kx,500000,Pre-seed,1741046400000,Infrastructure,,
+Ligero,ligero,1Kx,4000000,Seed Round,1740528000000,Infrastructure,,
+Autonolas,autonolas,1Kx,13800000,Funding Round,1738627200000,Artificial Intelligence (AI),24020000.0,1.74
+Cryptio,cryptio,1Kx,15000000,Extended Series A Round,1738108800000,Blockchain Service,,
+pod,pod,1Kx,10000000,Seed Round,1738022400000,Blockchain,,
+WalletConnect Token,walletconnect,1Kx,13000000,Series B,1736812800000,Wallet,15320000.0,0.59
+BIO Protocol,bio-protocol,1Kx,,Funding Round,1731024000000,DeSci,88380000.0,
+Predicate,predicate,1Kx,7000000,Funding Round,1728950400000,Blockchain Service,,
+Layer,layer,1Kx,6000000,Seed Round,1727913600000,Infrastructure,,
+Mawari,mawari,1Kx,10800000,Strategic Round,1727308800000,Blockchain Service,,
+Daylight,daylight,1Kx,6000000,Seed Round,1727136000000,Blockchain Service,,
+Celestia,celestia,1Kx,100000000,Funding Round,1727049600000,Modular Blockchain,496030000.0,1.86
+Fabric Cryptography,fabric-cryptography,1Kx,33000000,Series A,1724025600000,Infrastructure,,
+Rhinestone,rhinestone,1Kx,5000000,Seed Round,1723662000000,Blockchain Service,,
+Blockscout,blockscout,1Kx,3000000,Seed Round,1722988800000,Blockchain Service,,
+JokeRace,jk-labs,1Kx,3000000,Funding Round,1722384000000,Social,,
+Pudgy Penguins,pudgy-penguins,1Kx,11000000,Funding Round,1721692800000,Meme,703410000.0,63.95
+Cambria,cambria,1Kx,2500000,Seed Round,1719878400000,Gaming,,
+Astria,astria,1Kx,12500000,Strategic Round,1719792000000,Infrastructure,,
+Dope World Paper,dope-wars-paper,1Kx,,Strategic Round,1716336000000,DAO,,
+Lagrange,lagrange-labs,1Kx,13200000,Seed Round,1715126400000,Infrastructure,66239999.99999999,5.02
+Botto,botto,1Kx,1670000,Funding Round,1711065600000,NFT,5270000.0,3.16
+BuildBear,buildbear,1Kx,1900000,Funding Round,1708992000000,Infrastructure,,
+FuzzLand,fuzzland,1Kx,3000000,Seed Round,1707350400000,Blockchain Service,,
+Kiln,kiln,1Kx,17000000,Funding Round,1705536000000,Finance,,
+web3mine,web3mine,1Kx,6000000,Seed Round,1703030400000,Infrastructure,,
+NFTPerp,nftperp-ico,1Kx,3000000,Series A,1702512000000,,,
+Seam Social,seam-social,1Kx,2500000,Seed Round,1702252800000,Blockchain Service,,
+Citadel,citadel-2,1Kx,3300000,Seed Round,1699401600000,Gaming,,
+Modulus Labs,modulus-labs,1Kx,6300000,Seed Round,1698796800000,Blockchain Service,,
+IYK,iyk,1Kx,16800000,Seed Round,1695859200000,Web 3.0,,
+Spearbit,spearbit,1Kx,7000000,Funding Round,1691625600000,Social,,
+Cantina,cantina,1Kx,7000000,Funding Round,1691625600000,Web 3.0,,
+fxhash,fxhash,1Kx,5000000,Seed Round,1691452800000,NFT,1370000.0,0.14
+Superstate,superstate,1Kx,4000000,Seed Round,1687910400000,DeFi,,
+Spinamp,spinamp,1Kx,1200000,Funding Round,1685577600000,Music,,
+Hydra Ventures,hydra-ventures-ico,1Kx,10000000,Funding Round,1677628800000,,,
+Caldera,caldera-era,1Kx,9000000,Funding Round,1675209600000,Infrastructure,42040000.0,4.67
+Lit Protocol,lit-protocol,1Kx,13000000,Series A Round,1663804800000,Infrastructure,4170000.0,0.32
+RedStone,redstone,1Kx,7000000,Seed Round,1659312000000,Oracle,76820000.0,10.97
+MatchboxDAO,matchboxdao-ico,1Kx,7500000,Seed Round,1659312000000,,,
+Safe,safe,1Kx,100000000,Funding Round,1656633600000,Wallet,102640000.0,0.51
+Li.Fi,li-fi-ico,1Kx,5500000,Funding Round,1656633600000,,,
+Highlight,highlight-ico,1Kx,11000000,Seed Round,1652176800000,,,
+Nomad,nomad-ico,1Kx,22400000,Seed Round,1648771200000,,,
+CoW Protocol,cow-protocol,1Kx,23000000,Private Round,1648512000000,DEX,105440000.0,2.29
+Strider,strider-ico,1Kx,3000000,Funding Round,1643673600000,,,
+Snapshot,snapshot-ico,1Kx,4000000,Seed Round,1637280000000,,,
+NFTfi,nftfi,1Kx,5000000,Seed Round,1637020800000,NFT,,
+ZKsync,zksync,1Kx,50000000,Series B,1636365600000,Layer-2,281110000.0,0.43
+Forefront,forefront,1Kx,2100000,Venture Round,1631750400000,DAO,,
+Everclear,connext,1Kx,12000000,Series A,1626134400000,DeFi,2600000.0,0.07
+Index Cooperative,index-cooperative,1Kx,7700000,Pre-seed,1625097600000,DeFi,4090000.0,0.27
+Visor,visor,1Kx,3500000,Funding Round,1625097600000,,,
+ECOx,ecox,1Kx,60000000,Series B,1625097600000,Ethereum Ecosystem,2710000.0,0.01
+ECO,eco,1Kx,60000000,Series B,1625097600000,,1600000.0,0.01
+Nym,nym,1Kx,6000000,Seed Round,1619827200000,Privacy Coin,40510000.0,1.47
+Gearbox Protocol,gearbox-protocol,1Kx,2300000,SAFT,1619827200000,Lending Platform,14950000.0,2.17
+Overlay Protocol,overlay-protocol,1Kx,2215000,Funding Round,1615939200000,Perpetual,,
+Siren,siren,1Kx,4000000,Seed Round,1614711600000,DeFi,,
+Gitcoin,gitcoin,1Kx,11300000,Funding Round,1614556800000,Infrastructure,13350000.0,0.24
+Tally,tally,1Kx,1500000,Funding Round,1614556800000,Governance,,
+Nexus Mutual,nxm,1Kx,2700000,Venture Round,1613433600000,Insurance,149590000.0,27.70
+Levva Protocol Token,levva-protocol-token,1Kx,11000000,Seed,1612137600000,Artificial Intelligence (AI),1580000.0,0.14
+Furucombo,furucombo,1Kx,1850000,Seed Round,1610042400000,DeFi,,
+RARI,rarible,1Kx,1750000,Seed Round,1609459200000,NFT,6920000.0,3.95
+Global Coin Research,global-coin-research,1Kx,1200000,Treasury Diversification,1609459200000,DAO,1080000.0,0.45
+Liquity,liquity,1Kx,2400000,Seed Round,1600992000000,DeFi,40760000.0,3.77
+Covalent Query Token,covalent,1Kx,2600000,Private Round 1,1596240000000,Artificial Intelligence (AI),,
+Hummingbot,hummingbot,1Kx,2600000,Seed Round,1593561600000,Software,,
+Opyn Squeeth,opyn-squeeth,1Kx,2160000,Seed Round,1592784000000,DeFi,,
+Spacemesh,spacemesh,1Kx,15000000,Series A,1536143400000,Blockchain,,
+Fluence,fluence,1Kx,6000000,Seed Round,1535760000000,DePIN,,
+Nervos Network,nervos-network,1Kx,28224000,Private Round,1530403200000,Blockchain,123470000.0,1.10
+Amp,amp-token,1Kx,14100000,Private Sale 1,1527811200000,Blockchain Service,176070000.0,6.24
+Metadium,metadium,1Kx,21539540,Private Round,1525132800000,Protocol,19620000.0,0.91
+Oxen,loki-network,1Kx,9027000,Private Presale,1519851600000,Nodes,9900000.0,1.10
+aelf,aelf,1Kx,1000000,Seed,1509494400000,Infrastructure,69080000.0,69.08
+AllScale,allscale,Binance Labs,5000000,Seed Round,1765152000000,Finance,,
+predict.fun,predict-fun,Binance Labs,,Incubation,1764633600000,Predictions,,
+Funes,funes,Binance Labs,,Funding Round,1762387200000,Blockchain Service,,
+Standard Money,standard-money,Binance Labs,8000000,Strategic Round,1762128000000,DeFi,,
+Sign,sign-2,Binance Labs,25500000,Strategic Round,1761004800000,Infrastructure,45740000.0,1.22
+APRO,apro,Binance Labs,,Strategic Round,1761004800000,Blockchain Service,25460000.0,8.49
+Open Campus,open-campus,Binance Labs,5000000,Strategic Round,1760918400000,Education,83920000.0,16.78
+Temple,temple-2,Binance Labs,5000000,Seed Round,1760572800000,Finance,,
+Better Payment Network,better-payment-network,Binance Labs,50000000,Seed Round,1760486400000,Finance,,
+Ethena,ethena-labs,Binance Labs,,Strategic Round,1758240000000,DeFi,1930000000.0,8.46
+StablecoinX,stablecoinx,Binance Labs,530000000,PIPE,1757116800000,Finance,,
+Hemi,hemi-network,Binance Labs,15000000,Funding Round,1756166400000,Modular Blockchain,14170000.0,0.94
+USD.AI,usd-ai,Binance Labs,,Strategic Round,1756166400000,DeFi,,
+Bitway,bitway,Binance Labs,,Incubation,1756166400000,Blockchain,,
+StableStock,stablestock,Binance Labs,,Seed Round,1755648000000,DeFi,,
+Aspecta,aspecta,Binance Labs,,Strategic Round,1752105600000,Blockchain Service,9540000.0,
+MEET48,meet48,Binance Labs,,Strategic Round,1750896000000,Gaming,30240000.0,
+Concrete Protocol,concrete-protocol,Binance Labs,9500000,Strategic Round,1750636800000,Protocol,,
+OneKey,onekey-ico,Binance Labs,,Funding Round,1749081600000,,,
+Avalon,avalon-finance,Binance Labs,,Funding Round,1748217600000,DeFi,25930000.0,2.59
+Gata,aggregata,Binance Labs,4000000,Seed Round,1745971200000,Artificial Intelligence (AI),1430000.0,0.36
+Opinion Labs,opinion-labs,Binance Labs,5000000,Seed Round,1742256000000,Predictions,,
+Plume,plume-network,Binance Labs,,Funding Round,1742169600000,Blockchain,62940000.0,
+Tensorplex Labs,tensorplex-labs,Binance Labs,,Strategic Round,1741132800000,DeFi,,
+vana,vana,Binance Labs,,Strategic Round,1740355200000,Artificial Intelligence (AI),82200000.0,4.11
+Blum,blum,Binance Labs,5000000,Seed Round,1739318400000,DeFi,3210000.0,0.64
+THENA,thena,Binance Labs,,Funding Round,1735603200000,DEX,21870000.0,
+Usual,usual,Binance Labs,10000000,Series A,1734912000000,Stablecoin Issuer,12000000.0,1.20
+Perena,perena,Binance Labs,,Pre-seed,1733875200000,DeFi,,
+Aster,aster,Binance Labs,,Seed Round,1732752000000,Perpetual,2040000000.0,
+KernelDAO,kernel-dao,Binance Labs,10000000,Strategic Round,1732492800000,Liquid Staking Protocols,17780000.0,1.78
+StakeStone,stakestone,Binance Labs,22000000,Funding Round,1731283200000,Liquid Staking Protocols,26860000.0,0.61
+Brevis Network,brevis-network,Binance Labs,7500000,Seed Round,1731283200000,Zero Knowledge,,
+BIO Protocol,bio-protocol,Binance Labs,,Funding Round,1731024000000,DeSci,88380000.0,
+Moonwalk Fitness,moonwalk-fitness,Binance Labs,3400000,Seed Round,1729728000000,Sport,2930000.0,0.86
+ZEROBASE,zerobase,Binance Labs,5000000,Funding Round,1729296000000,Zero Knowledge,23480000.0,4.70
+Lombard,lombard,Binance Labs,1000000,Funding Round,1729036800000,DeFi,185490000.0,10.91
+Sophon,sophon,Binance Labs,,Funding Round,1727913600000,Modular Blockchain,29920000.0,
+OpenEden,openeden,Binance Labs,,Funding Round,1726099200000,RWA (Real World Assets),12330000.0,
+Solayer,solayer,Binance Labs,12000000,Seed Round,1724716800000,Liquid Staking Protocols,40820000.0,1.70
+Sidekick,sidekick,Binance Labs,,Funding Round,1724284800000,Gaming,,
+VOOI,vooi,Binance Labs,,Funding Round,1724284800000,DEX,,
+corn,corn-2,Binance Labs,6700000,Seed Round,1724112000000,Layer-2,39720000.0,1.83
+MyShell,myshell,Binance Labs,,Funding Round,1723680000000,Blockchain Service,15730000.0,1.43
+Sahara AI,sahara-ai,Binance Labs,37000000,Funding Round,1723593600000,Artificial Intelligence (AI),66030000.0,0.59
+Pentagon Games,pentagon-games,Binance Labs,6000000,Seed Round,1723075200000,Gaming,,
+Particle Network,particle-network,Binance Labs,,Funding Round,1722470400000,Modular Blockchain,24190000.0,
+DILL,dill,Binance Labs,,Incubation Program,1722330000000,Infrastructure,2960000.0,
+Cycle Network,cycle-network,Binance Labs,,Incubation Program,1722330000000,Infrastructure,1710000.0,
+aPriori,apriori,Binance Labs,,Funding Round,1722297600000,DeFi,24270000.0,1.21
+Catizen,catizen,Binance Labs,,Funding Round,1721779200000,Gaming,18350000.0,
+Pluto Studio,pluto-studio,Binance Labs,,Strategic Round,1721692800000,Gaming,,
+Zircuit,zircuit,Binance Labs,,Funding Round,1721606400000,Layer-2,12830000.0,
+Infrared BGT,infrared,Binance Labs,,Funding Round,1719187200000,DeFi,11400000.0,0.81
+Rango Exchange,rango-exchange,Binance Labs,,Strategic Round,1718755200000,DeFi,,
+Aevo,aevo-dex,Binance Labs,,Funding Round,1716249600000,DEX,38670000.0,
+Gamic,gamic,Binance Labs,,Incubated Season 6,1715644800000,Social,,
+Zest Protocol,zest-protocol-2,Binance Labs,3500000,Seed Round,1715558400000,DeFi,,
+Uxuy,uxuy-ico,Binance Labs,7000000,pre-Series A,1715212800000,,,
+Movement,movement,Binance Labs,,Funding Round,1714521600000,Infrastructure,110710000.0,2.91
+Unisat,unisat,Binance Labs,,pre-Series A,1714521600000,Blockchain Service,,
+MilkyWay,milkyway-2,Binance Labs,5000000,Seed Round,1714435200000,DeFi,1600000.0,0.16
+BounceBit,bouncebit,Binance Labs,,Strategic Round,1712793600000,Blockchain,68650000.0,
+Shentu,certik,Binance Labs,,Funding Round,1710201600000,Blockchain Service,38110000.0,
+QnA3 AI,qna3-ai,Binance Labs,,Funding Round,1709856000000,Web 3.0,,
+Cellula,cellula,Binance Labs,,Funding Round,1709856000000,Gaming,,
+Derivio,derivio,Binance Labs,,Funding Round,1709856000000,DeFi,,
+Privasea AI,privasea,Binance Labs,5000000,Seed Round,1709510400000,Artificial Intelligence (AI),1240000.0,0.25
+Babylon,babylon,Binance Labs,,Funding Round,1708992000000,Blockchain,53070000.0,0.34
+Renzo Protocol ,renzo-protocol,Binance Labs,,Funding Round,1708560000000,Liquid Staking Protocols,24260000.0,
+NFPrompt,nfprompt,Binance Labs,,Funding Round,1707955200000,Artificial Intelligence (AI),13530000.0,
+Shogun,shogun,Binance Labs,,Funding Round,1707955200000,DeFi,,
+Puffer,puffer-finance,Binance Labs,,Funding Round,1706572800000,Liquid Staking Protocols,23690000.0,0.65
+SkyArk Chronicles ,skyark-chronicles,Binance Labs,15000000,Funding Round,1705017600000,Gaming,,
+Bracket Labs,bracket-labs,Binance Labs,2000000,Pre-seed,1704412800000,DeFi,,
+Memecoin,meme-coin,Binance Labs,,Investment Round,1704326400000,Meme,66000000.0,
+Sleek,sleek,Binance Labs,5000000,Seed Round,1700179200000,Social,,
+Arkham,arkham,Binance Labs,,Funding Round,1700006400000,Big Data,48150000.0,
+Cyber,cyberconnect,Binance Labs,,Funding Round,1698192000000,Blockchain Service,49430000.0,4.94
+Initia,initia,Binance Labs,,Funding Round,1697068800000,Blockchain,15840000.0,
+Pendle,pendle,Binance Labs,,Funding Round,1692748800000,DeFi,374470000.0,
+ZKWASM,delphinus-lab,Binance Labs,,Funding Round,1692576000000,Infrastructure,,
+Lista DAO,lista-dao,Binance Labs,10000000,Funding Round,1691712000000,Liquid Staking Protocols,45230000.0,4.52
+Curve DAO,curve-dao-token,Binance Labs,5000000,OTC Deal,1691625600000,DEX,552720000.0,110.54
+AltLayer,altlayer,Binance Labs,,Funding Round,1691107200000,Blockchain Service,62390000.0,2.17
+Sleepless AI,sleepless-ai,Binance Labs,,Funding Round,1691107200000,Gaming,18820000.0,
+KiloEx,kiloex,Binance Labs,,Funding Round,1691107200000,DEX,2400000.0,
+Kinza Finance,kinza,Binance Labs,,Funding Round,1691107200000,DeFi,,
+zkPass,zkpass,Binance Labs,2500000,Seed Round,1691020800000,Blockchain Service,,
+Radiant Capital,radiant-capital,Binance Labs,10000000,Funding Round,1689811200000,DeFi,13980000.0,1.40
+Xterio,xterio,Binance Labs,15000000,Funding Round,1689120000000,Gaming,5210000.0,0.35
+DIN,din,Binance Labs,4000000,Seed Round,1688515200000,Artificial Intelligence (AI),,
+Mind Network,mind-network,Binance Labs,2500000,Seed Round,1687996800000,Blockchain Service,56410000.0,22.56
+Maverick Protocol,maverick-protocol,Binance Labs,9000000,Funding Round,1687305600000,DEX,23750000.0,0.91
+Neutron,neutron-2,Binance Labs,10000000,Seed Round,1687305600000,Infrastructure,18500000.0,1.85
+Kryptoskatt,kryptoskatt,Binance Labs,,Funding Round,1687219200000,DeFi,,
+DappOS,dappos,Binance Labs,,Funding Round,1687219200000,Blockchain Service,,
+Fusionist,fusionist,Binance Labs,6600000,Seed Round,1685577600000,Gaming,20560000.0,3.12
+Tabi,tabi,Binance Labs,10000000,Angel,1683676800000,Modular Blockchain,,
+Playbux,playbux,Binance Labs,2000000,Seed Round,1682035200000,Social,,
+Gomble,gomble-games,Binance Labs,,Seed Round,1680307200000,Gaming,2570000.0,
+Gameta,gameta,Binance Labs,5000000,Seed Round,1680307200000,Play to Earn,,
+Polyhedra Network,polyhedra-network,Binance Labs,10000000,Strategic Round,1676937600000,Zero Knowledge,17680000.0,0.59
+Swan Chain,swan-chain,Binance Labs,3000000,Funding Round,1673827200000,DePIN,,
+TopGoal,topgoal,Binance Labs,,Private Sale,1672444800000,Gaming,,
+GoPlus,goplus,Binance Labs,,Private Round 2,1670457600000,Blockchain Service,18440000.0,
+Ambit Finance,ambit-finance,Binance Labs,4500000,Strategic Investment,1669939200000,,,
+Paragraph,paragraph-ico,Binance Labs,1700000,Pre-seed,1666569600000,,,
+Velvet,velvet,Binance Labs,,Accelerator Program,1664841600000,DeFAI,29380000.0,
+Bitquery,bitquery-2-ico,Binance Labs,8500000,Seed Round,1664236800000,,,
+Salus Security,salus-security,Binance Labs,,Seed Round,1663545600000,Blockchain Service,,
+Aptos,aptos,Binance Labs,,Strategic Round,1663200000000,Blockchain,1270000000.0,2.82
+MystenLabs,mystenlabs-ico,Binance Labs,300000000,Series B Round,1662595200000,,,
+Sui,sui,Binance Labs,300000000,Series B,1661990400000,Blockchain,5810000000.0,4.70
+Space ID,space-id,Binance Labs,,Seed Round,1661990400000,Blockchain Service,89500000.0,8.95
+Hooked Protocol,hooked-protocol,Binance Labs,6000000,Private Sale,1661990400000,Gaming,11010000.0,1.83
+Sender AI,sender-ai,Binance Labs,4500000,Private Round,1661990400000,Artificial Intelligence (AI),,
+Ankr,ankr,Binance Labs,,Strategic Round,1660176000000,DePIN,74640000.0,9.05
+Lifeform,lifeform,Binance Labs,,Funding Round,1659312000000,Blockchain Service,3810000.0,
+Mask Network,mask-network,Binance Labs,42000000,Funding Round,1657065600000,Social,61480000.0,1.44
+Magic Square,magic-square,Binance Labs,3900000,Private Round 1,1656669600000,Web 3.0,,
+Planetarium Labs,planetarium-labs-ico,Binance Labs,32000000,Series A Round,1656633600000,,,
+PancakeSwap,pancakeswap-token,Binance Labs,,Strategic Round,1654473600000,DEX,763090000.0,
+APX,apollox-2,Binance Labs,,Seed Round,1654041600000,CEX,9140000.0,
+Tatsumeeko,tatsumeeko-ico,Binance Labs,7500000,Seed Round,1654041600000,,,
+Zecrey Labs,zecrey-labs,Binance Labs,6000000,Strategic Round,1652745600000,Blockchain,,
+pSTAKE,pstake,Binance Labs,,Strategic Round,1652140800000,Liquid Staking Protocols,2410000.0,
+grindery,grindery,Binance Labs,280000,Pre-seed,1651708800000,Wallet,,
+Nulink,nulink-2,Binance Labs,,Incubation Program,1651708800000,Zero Knowledge,,
+Reveel,reveel,Binance Labs,1300000,Pre-seed,1651708800000,Blockchain Service,,
+Beam,beam,Binance Labs,,Funding Round,1649808000000,Gaming,158440000.0,
+Merit Circle,merit-circle,Binance Labs,,Funding Round,1649808000000,Gaming,,
+Community Gaming,community-gaming,Binance Labs,16000000,Series A,1649289600000,Gaming,,
+Axie Infinity,axie-infinity,Binance Labs,150000000,Funding Round,1648771200000,Gaming,172280000.0,0.38
+LayerZero,layerzero,Binance Labs,135000000,Series A,1648598400000,Blockchain Service,290770000.0,1.48
+Ultiverse,ultiverse,Binance Labs,5000000,Funding Round,1648166400000,Gaming,4600000.0,0.92
+Tea,tea,Binance Labs,8000000,Seed Round,1647993600000,Blockchain Service,,
+Treehouse,treehouse,Binance Labs,18000000,Seed Round,1647388800000,Liquid Staking Tokens (LSTs),18480000.0,0.51
+LiveArtX,live-art-x,Binance Labs,4500000,Funding Round,1647302400000,NFT,,
+Symbiosis,symbiosis-finance,Binance Labs,,Strategic Investment,1645142400000,Protocol,5360000.0,
+Manta Network,manta-network,Binance Labs,,Venture Round,1645099200000,Blockchain,38450000.0,1.47
+Automata,automata,Binance Labs,,Strategic Investment,1644537600000,Blockchain Service,17510000.0,17.51
+GAMEE,gamee,Binance Labs,1500000,Equity Funding,1643673600000,Gaming,3450000.0,2.30
+GMT,stepn,Binance Labs,5000000,Private Sale,1642636800000,Move To Earn,52150000.0,10.43
+Wrapped NCG,wrapped-ncg,Binance Labs,,Strategic Investment,1642118400000,Wrapped Token,2440000.0,0.94
+BBS Network,bbs-network,Binance Labs,550000,IDO on DAO Maker,1641340800000,NFT,,
+CryptoSlam,cryptoslam,Binance Labs,9000000,Seed Round,1641340800000,Blockchain Service,,
+WOO,woo-network,Binance Labs,12000000,Series A+,1640995200000,CEX,50600000.0,4.22
+Solv Protocol,solv-protocol,Binance Labs,,Strategic Round,1640995200000,DeFi,22640000.0,
+Heroes of Mavia,heroes-of-mavia,Binance Labs,5500000,Seed Round,1640995200000,Gaming,2720000.0,0.49
+Bird.Money,bird-money,Binance Labs,239978,Pre-Sale,1640908800000,Oracle,,
+Cosmic Guild,cosmic-guild-ico,Binance Labs,1500000,Seed Round,1640217600000,,,
+Multichain,multichain,Binance Labs,60000000,Venture Round,1640044800000,Web 3.0,5230000.0,0.09
+Galxe,project-galaxy,Binance Labs,10000000,Growth Backer Round 1,1638316800000,NFT,49210000.0,2.46
+Gravity (prev. GAL),gravity-3,Binance Labs,10000000,Backers,1638316800000,Ethereum Ecosystem,42500000.0,2.12
+League of Kingdoms,league-of-kingdoms,Binance Labs,3100000,Private Sale,1638316800000,Gaming,1220000.0,0.20
+Melos Studio,melos-studio,Binance Labs,,Strategic Round,1638316800000,Music,,
+Elfin Metaverse,elfin-metaverse,Binance Labs,5250000,Private Round 2,1638316800000,Gaming,,
+Mythos,mythos,Binance Labs,150000000,Series C,1635984000000,Gaming,19190000.0,0.10
+Mythical Games,mythical-games,Binance Labs,150000000,Series C,1635984000000,Gaming,,
+SecondLive,secondlive,Binance Labs,,Seed Round,1635811200000,Metaverse,,
+Mobox,mobox,Binance Labs,,Strategic Round,1635724800000,Gaming,16880000.0,
+Dora Factory,dora-factory-2,Binance Labs,8000000,Strategic Investment,1635724800000,Infrastructure,5490000.0,0.69
+Avocado DAO,avaocado-dao,Binance Labs,18000000,Series A,1635724800000,Gaming,,
+Wombat Exchange,wombat-exchange,Binance Labs,,Seed Round,1635724800000,PancakeSwap IDO,,
+Numbers Protocol,numbers-protocol,Binance Labs,5253750,Private Sale,1633046400000,Media,5470000.0,1.04
+Voxies,voxies,Binance Labs,,Private Round,1633046400000,Gaming,4990000.0,
+Biswap,biswap,Binance Labs,,Strategic Round,1633046400000,DEX,2230000.0,
+StarSharks,starsharks,Binance Labs,,Angel Round,1633046400000,Gaming,,
+Highstreet,highstreet,Binance Labs,9852000,Private Round,1630454400000,Gaming,18590000.0,1.89
+Cere Network,cere-network,Binance Labs,31000000,Funding Round,1630454400000,Big Data,2470000.0,0.08
+OpenLeverage,openleverage,Binance Labs,1800000,Private Round,1626134400000,DeFi,,
+Gala,gala,Binance Labs,100000000,Funding Round,1625097600000,BNB Chain Ecosystem,339390000.0,3.39
+Biconomy,biconomy,Binance Labs,9000000,Private Round,1625097600000,DeFi,50440000.0,5.60
+Tranchess,tranchess,Binance Labs,1500000,Seed Round,1622505600000,Liquid Staking Protocols,6010000.0,4.01
+OpenOcean,openocean,Binance Labs,1718000,Private Round,1622505600000,DeFi,1390000.0,0.40
+Copycat Finance,copycat-finance,Binance Labs,,Binance Labs Seed Investment,1622505600000,,,
+Pancake Bunny,pancake-bunny,Binance Labs,1600000,Seed Round,1618272000000,DeFi,,
+Injective,injective-protocol,Binance Labs,10000000,Funding Round,1617235200000,Blockchain,541840000.0,7.74
+Alchemix,alchemix,Binance Labs,4900000,Private Round,1615680000000,Lending Platform,23260000.0,2.37
+Celestia,celestia,Binance Labs,1500000,Seed Round,1614556800000,Modular Blockchain,496030000.0,1.86
+Moonbeam,moonbeam,Binance Labs,6000000,Strategic Round,1614556800000,Blockchain,31310000.0,5.22
+Push Protocol,ethereum-push-notification-service,Binance Labs,660000,Extended Seed Round,1614556800000,Infrastructure,1090000.0,0.09
+Astar,astar,Binance Labs,2400000,Venture Round 1,1612828800000,Layer-2,101660000.0,4.17
+Covalent Query Token,covalent,Binance Labs,2585937,Private Round 2,1612137600000,Artificial Intelligence (AI),,
+Quad Terminal,quadency,Binance Labs,100000,Seed,1612137600000,DeFi,,
+MATH,math,Binance Labs,12000000,Series B,1608163200000,Wallet,4980000.0,0.25
+Marlin,marlin,Binance Labs,3000000,Private Round,1604188800000,Infrastructure,35590000.0,5.93
+Audius,audius,Binance Labs,1250000,Funding Round,1603411200000,NFT,45960000.0,3.55
+Seascape Crowns,crowns,Binance Labs,272000,Strategic Round,1601510400000,Gaming,,
+Axelar,axelar,Binance Labs,3750000,Seed Round,1598918400000,Infrastructure,135000000.0,2.26
+DODO,dodo,Binance Labs,5000000,Private Sale,1598918400000,DeFi,14950000.0,1.00
+Bella Protocol,bella-protocol,Binance Labs,4500000,Private Round,1597708800000,DeFi,10980000.0,2.44
+1INCH,1inch,Binance Labs,2800000,Seed,1597104000000,DEX,238040000.0,16.08
+HOPR,hopr,Binance Labs,1000000,Seed,1593561600000,Privacy Coin,10360000.0,10.36
+Tokocrypto,tokocrypto,Binance Labs,500000,Private Sale,1588291200000,CEX,15650000.0,31.30
+WazirX,wazirx,Binance Labs,900000,Private Sale,1577836800000,CEX,26350000.0,29.28
+FTX Token,ftx-token,Binance Labs,,Corporate Round,1575158400000,CEX,204670000.0,0.12
+FIO Protocol,fio-protocol,Binance Labs,5700000,Series A,1567641600000,Protocol,9730000.0,1.71
+Solar,swipe,Binance Labs,3915000,Private Round,1564617600000,Wallet,45170000.0,11.54
+TROY,troy,Binance Labs,8400000,Private Sale,1564617600000,Big Data,,
+Web3Auth,web3auth,Binance Labs,2000000,Seed Round,1562630400000,Web 3.0,,
+MultiversX,multivers-x,Binance Labs,1900000,Private Sale,1558377960000,Blockchain,219230000.0,57.69
+Nym,nym,Binance Labs,2500000,Pre-seed,1556668800000,Privacy Coin,40510000.0,1.47
+PhishFort,phishfort,Binance Labs,,Investment Round,1556496000000,,,
+Harmony,harmony,Binance Labs,18345600,Seed,1554076800000,Blockchain,55790000.0,3.04
+Tellor Tributes,tellor,Binance Labs,250000,Seed Round,1551398400000,Oracle,57430000.0,143.57
+Dusk,dusk-network,Binance Labs,8075557,Private Sale,1533081600000,Privacy Coin,21910000.0,2.71
+Trust Wallet Token,trust-wallet-token,Binance Labs,,Venture Round,1532995200000,Wallet,424400000.0,
+Perpetual Protocol,perpetual-protocol,Binance Labs,500000,Seed,1530403200000,Perpetual,6600000.0,2.87
+Chiliz,chiliz,Binance Labs,65000000,Private Sale,1527811200000,Blockchain,327260000.0,2.52
+Oasis,oasis-network,Binance Labs,45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+MobileCoin,mobilecoin,Binance Labs,30000000,Seed Round,1519862400000,Privacy Coin,37200000.0,0.62
+Contentos,contentos,Binance Labs,14250000,Strategic Round,1519862400000,Media,7020000.0,0.49
+Kyber Network Crystal,kyber-network-crystal,Binance Labs,27132035,Private Round,1501545600000,DeFi,44000000.0,1.62
+Cartesi,cartesi,Binance Labs,100000,Seed Round,1501545600000,Oracle,33119999.999999996,331.20
+Plasma,xpl,Cobie,20500000,Funding Round,1739404800000,Blockchain,298980000.0,7.29
+OneBalance,onebalance,Cobie,5000000,Angel,1724630400000,Infrastructure,,
+MegaETH (Pre-Market),megaeth,Cobie,20000000,Seed Round,1719446400000,Layer-2,,
+Fortunafi,fortunafi,Cobie,9560000,Strategic Round,1716940800000,DeFi,,
+Shogun,shogun,Cobie,6900000,Seed Round,1715731200000,DeFi,,
+Ethena,ethena-labs,Cobie,14000000,Seed Extension Round,1708041600000,DeFi,1930000000.0,8.46
+Monad,monad,Cobie,19000000,Seed Round,1675209600000,Blockchain,281490000.0,0.60
+Size,size-ico,Cobie,6000000,Seed Round,1651363200000,,,
+CoW Protocol,cow-protocol,Cobie,23000000,Private Round,1648512000000,DEX,105440000.0,2.29
+Gearbox Protocol,gearbox-protocol,Cobie,2300000,SAFT,1619827200000,Lending Platform,14950000.0,2.17
+RockSolid Network,rocksolid-network,Ideo Colab Ventures,2800000,Pre-seed,1758758400000,DeFi,,
+Yup,yup,Ideo Colab Ventures,,Funding Round,1721779200000,Social,,
+Enso,enso,Ideo Colab Ventures,4200000,Funding Round,1719273600000,Blockchain Service,14280000.0,1.01
+Karma3 Labs,karma3-labs,Ideo Colab Ventures,4500000,Seed Round,1709251200000,Blockchain Service,,
+Acctual,acctual,Ideo Colab Ventures,3850000,Funding Round,1701270000000,Web 3.0,,
+Lens Chain,lens-chain,Ideo Colab Ventures,15000000,Funding Round,1686182400000,Blockchain Service,,
+Blocktorch,blocktorch,Ideo Colab Ventures,4200000,Seed Round,1683590400000,Blockchain Service,,
+Antimetal,antimetal,Ideo Colab Ventures,4300000,Seed Round,1683504000000,Blockchain Service,,
+Unlockd,unlockd-ico,Ideo Colab Ventures,4400000,Seed Round,1659312000000,,,
+Socket,socket,Ideo Colab Ventures,2000000,Pre-seed,1658361600000,Infrastructure,,
+Must,must,Ideo Colab Ventures,10000000,Seed Round,1651708800000,NFT,,
+Archway,archway,Ideo Colab Ventures,21000000,Private Sale,1648080000000,Cosmos Ecosystem,1470000.0,0.04
+Neon,neon,Ideo Colab Ventures,40000000,Early Purchasers,1635724800000,Layer-2,16309999.999999998,0.41
+Immunefi,immunefi,Ideo Colab Ventures,5500000,Seed Round,1635206400000,Blockchain Service,,
+THORChain,thorchain,Ideo Colab Ventures,3750000,Equity Funding,1633046400000,DeFi,234770000.0,43.80
+THORSwap,thorswap,Ideo Colab Ventures,3750000,Private Round,1633046400000,DEX,12680000.0,3.38
+Forta,forta,Ideo Colab Ventures,23000000,Venture Round,1632960000000,Blockchain Service,14230000.0,0.31
+Gelato,gelato,Ideo Colab Ventures,11000000,Series A,1630454400000,Blockchain Service,4050000.0,0.37
+Wrapped NCG,wrapped-ncg,Ideo Colab Ventures,2600000,Strategic Round,1629205200000,Wrapped Token,2440000.0,0.94
+Syndicate,syndicate-3,Ideo Colab Ventures,20000000,Series A Round,1627776000000,Infrastructure,45110000.0,0.75
+Artificial Liquid Intelligence,alethea-artificial-liquid-intelligence-token,Ideo Colab Ventures,16000000,Private Round,1627776000000,NFT,23460000.0,0.53
+XMTP,xmtp,Ideo Colab Ventures,20000000,Series A Round,1627776000000,Social,,
+4K,4k-ico,Ideo Colab Ventures,3000000,Seed Round,1625097600000,,,
+UX Chain,umee,Ideo Colab Ventures,6300000,Seed Round,1622505600000,DeFi,,
+Thorstarter,thorstarter,Ideo Colab Ventures,1500000,Private Round,1622505600000,Launchpad,,
+Coinvise,coinvise-ico,Ideo Colab Ventures,2500000,Seed Round,1622505600000,,,
+Commonwealth,commonwealth-ico,Ideo Colab Ventures,3200000,Seed Round,1619827200000,,,
+Pancake Bunny,pancake-bunny,Ideo Colab Ventures,1600000,Seed Round,1618272000000,DeFi,,
+Hashflow,hashflow,Ideo Colab Ventures,3200000,Seed Round,1617235200000,DEX,21200000.0,0.27
+Anchor Protocol,anchor-protocol,Ideo Colab Ventures,20000000,Private Sale,1615978800000,DeFi,1230000.0,0.02
+Gitcoin,gitcoin,Ideo Colab Ventures,11300000,Funding Round,1614556800000,Infrastructure,13350000.0,0.24
+Optimism,optimism,Ideo Colab Ventures,25000000,Series A Round,1612137600000,Layer-2,585850000.0,2.21
+Goldfinch,goldfinch,Ideo Colab Ventures,1000000,Venture Round,1612137600000,Lending Platform,22360000.0,0.59
+Yield Guild Games,yield-guild-games,Ideo Colab Ventures,2000000,Series A-2,1609459200000,Gaming,50020000.0,3.17
+Global Coin Research,global-coin-research,Ideo Colab Ventures,1200000,Treasury Diversification,1609459200000,DAO,1080000.0,0.45
+Rally,rally-2,Ideo Colab Ventures,34828450,Community Treasury Fundraise,1609372800000,Yield Farming,1030000.0,0.01
+Slingshot,slingshot-ico,Ideo Colab Ventures,3100000,Seed Round,1598918400000,,,
+Chia,chia,Ideo Colab Ventures,5000000,Series B Round,1593561600000,Blockchain,79700000.0,1.21
+River Financial,river-financial,Ideo Colab Ventures,5700000,Seed Round,1592352000000,Finance,,
+PoolTogether,pooltogether,Ideo Colab Ventures,1000000,Seed Round,1583020800000,DeFi,,
+Futureswap,futureswap,Ideo Colab Ventures,1550000,Seed Round,1572566400000,Perpetual,1670000.0,0.12
+Fluid,instadapp,Ideo Colab Ventures,2400000,Seed Round,1569888000000,DeFi,251530000.0,34.93
+Near,near,Ideo Colab Ventures,375000,Private Round 2,1561939200000,Blockchain,2150000000.0,14.01
+Handshake,handshake,Ideo Colab Ventures,10200000,Private Sale,1530403200000,Infrastructure,2130000.0,0.05
+Fin (Prev. TipLink),fin,Pantera Capital,17000000,Series A,1764720000000,Blockchain Service,,
+XRP,ripple,Pantera Capital,500000000,Strategic Round,1762300800000,Cryptocurrency,120960000000.0,241.92
+Accountable,accountable,Pantera Capital,7500000,Funding Round,1761696000000,Blockchain Service,,
+TransCrypts,transcrypts,Pantera Capital,15000000,Seed Round,1759881600000,Blockchain Service,,
+Coinflow,coinflow-ico,Pantera Capital,25000000,Series A,1759881600000,,,
+Meanwhile,meanwhile,Pantera Capital,82000000,Funding Round,1759795200000,Insurance,,
+Bee Maps,bee-maps,Pantera Capital,32000000,Funding Round,1759708800000,Blockchain Service,,
+Raiku,raiku,Pantera Capital,11250000,Seed Round,1758585600000,Infrastructure,,
+Helius Medical Technologies,helius-medical-technologies,Pantera Capital,500000000,PIPE,1757894400000,Healthcare,,
+aPriori,apriori,Pantera Capital,20000000,Strategic Round,1756339200000,DeFi,24270000.0,1.21
+M^ZERO,m-zero,Pantera Capital,40000000,Series B,1756339200000,DeFi,,
+Satsuma,satsuma,Pantera Capital,217600000,Funding Round,1754438400000,Blockchain Service,,
+OpenMind,openmind-2,Pantera Capital,20000000,Funding Round,1754265600000,Infrastructure,,
+Rialo (Subzero Labs),rialo,Pantera Capital,20000000,Funding Round,1754006400000,Infrastructure,,
+Mill City Ventures III,mill-city-ventures-iii,Pantera Capital,450000000,Post-IPO,1753920000000,Finance,,
+StablecoinX,stablecoinx,Pantera Capital,360000000,PIPE,1753056000000,Finance,,
+The Open Platform (TOP),the-open-platform-top,Pantera Capital,28500000,Series A,1751500800000,Blockchain Service,,
+BitMine,bitmine,Pantera Capital,250000000,Funding Round,1751241600000,Blockchain Service,,
+Zama,zama,Pantera Capital,57000000,Series B,1750809600000,Infrastructure,,
+Gradient Network,gradient-network,Pantera Capital,10000000,Seed Round,1750118400000,Infrastructure,,
+Uptopia,uptopia,Pantera Capital,4000000,Pre-seed,1750118400000,Gaming,,
+Defx,defx,Pantera Capital,2500000,Seed Round,1749772800000,DEX,,
+Avantis,avantis,Pantera Capital,8000000,Series A,1748908800000,Perpetual,78260000.0,9.78
+SharpLink,sharplink,Pantera Capital,425000000,Post-IPO,1748822400000,Sport,,
+Revolving Games,revolving-games,Pantera Capital,,Extended Seed Round,1748563200000,Gaming,,
+Symbiotic,symbiotic,Pantera Capital,29000000,Series A,1745366400000,Liquid Staking Protocols,,
+Arch Network,arch-network,Pantera Capital,13000000,Series A,1745280000000,Infrastructure,,
+Ethena,ethena-labs,Pantera Capital,100000000,Private Sale,1740355200000,DeFi,1930000000.0,8.46
+Altius,altius,Pantera Capital,11000000,Pre-seed,1739836800000,Infrastructure,,
+TaoFi,taofi,Pantera Capital,,Strategic Round,1739232000000,DeFi,,
+Radius,radius,Pantera Capital,7000000,Seed Round,1737590400000,DeFi,,
+Monkey Tilt,monkey-tilt,Pantera Capital,30000000,Series A,1732060800000,Gaming,,
+Azra Games,azra-games,Pantera Capital,42000000,Series A,1728950400000,Gaming,,
+GAMEE,gamee,Pantera Capital,,Funding Round,1724198400000,Gaming,3450000.0,2.30
+Sahara AI,sahara-ai,Pantera Capital,37000000,Funding Round,1723593600000,Artificial Intelligence (AI),66030000.0,0.59
+Morpho,morpho,Pantera Capital,50000000,Funding Round,1722470400000,Lending Platform,644560000.0,6.45
+B3 (Base),b3-fun,Pantera Capital,21000000,Seed Round,1721606400000,Gaming,30920000.0,1.47
+Sentient (Pre-Market),sentient,Pantera Capital,85000000,Seed Round,1719878400000,Blockchain Service,,
+GenomesDAO GENOME,genomesdao-genome,Pantera Capital,,Funding Round,1718150400000,Healthcare,1120000.0,
+Nexus Laboratories,nexus-laboratories,Pantera Capital,25000000,Series A,1717977600000,Infrastructure,,
+Everclear,connext,Pantera Capital,5000000,OTC,1714694400000,DeFi,2600000.0,0.07
+Toncoin,ton,Pantera Capital,,Funding Round,1714608000000,Blockchain,3940000000.0,
+Godcoin,godcoin,Pantera Capital,8000000,Series A,1713916800000,Gaming,,
+Thruster,thruster,Pantera Capital,7500000,Seed Round,1713398400000,DEX,,
+Geodnet,geodnet,Pantera Capital,2000000,Strategic Round,1713225600000,Polygon Ecosystem,64110000.0,6.41
+Mezo,mezo,Pantera Capital,21000000,Series A,1712620800000,Blockchain,,
+Morph,morph,Pantera Capital,20000000,Seed Round,1710892800000,Blockchain,,
+Figure Markets,figure-markets,Pantera Capital,60000000,Series A,1710720000000,Finance,,
+Aevo,aevo-dex,Pantera Capital,,Funding Round,1710374400000,DEX,38670000.0,
+Karak Network,karak-network,Pantera Capital,48000000,Series A,1709078400000,Layer-2,,
+Helika,helika,Pantera Capital,8000000,Series A,1707955200000,Blockchain Service,,
+EDX Markets,edx-markets,Pantera Capital,,Series B,1705968000000,CEX,,
+Pontem Liquidswap,pontem-liquidswap,Pantera Capital,6000000,Funding Round,1704931200000,Aptos Ecosystem,,
+Marginfi,marginfi,Pantera Capital,3000000,Funding Round,1701864060000,Lending Platform,,
+SynFutures,synfutures,Pantera Capital,22000000,Series B Round,1697673600000,Perpetual,22220000.0,0.44
+Brine Finance,brine-finance,Pantera Capital,16500000,Funding Round,1694044800000,DeFi,,
+Gondi,gondi,Pantera Capital,5350000,Seed Round,1689033600000,NFT,,
+Maverick Protocol,maverick-protocol,Pantera Capital,9000000,Funding Round,1687305600000,DEX,23750000.0,0.91
+Rarify Labs,rarify-labs-ico,Pantera Capital,10000000,Funding Round,1681948800000,,,
+Worldwide Webb,worldwide-webb-ico,Pantera Capital,10000000,Funding Round,1675209600000,,,
+Obol Labs,obol-labs,Pantera Capital,12500000,Series A Round,1673913600000,DeFi,4360000.0,0.35
+Braavos,braavos-ico,Pantera Capital,10000000,Funding Round,1667174400000,,,
+Sender AI,sender-ai,Pantera Capital,4500000,Private Round,1661990400000,Artificial Intelligence (AI),,
+Pinata,pinata-ico,Pantera Capital,18000000,Series A,1660003200000,,,
+Stacked,stacked-ico,Pantera Capital,12900000,Series A Round,1659312000000,,,
+Unstoppable Domains,unstoppable-domains-ico,Pantera Capital,65000000,Series A Round,1656633600000,,,
+Orderly,orderly-network,Pantera Capital,20000000,Strategic Round,1654041600000,Perpetual,35720000.0,0.89
+Ancient8,ancient8,Pantera Capital,6000000,Private Round,1654041600000,Layer-2,24820000.0,4.14
+Stride,stride,Pantera Capital,6700000,Seed Round,1654041600000,Liquid Staking Protocols,1850000.0,0.17
+Pintu Token,pintu-token,Pantera Capital,113000000,Series B,1654041600000,Cryptocurrency,2730000.0,0.01
+Chainflip,chainflip,Pantera Capital,10000000,Equity Round,1651363200000,AMM,26300000.0,1.02
+DuskBreakers,duskbreakers-ico,Pantera Capital,24000000,Seed Round,1651363200000,,,
+Amberdata,amberdata-ico,Pantera Capital,30000000,Series B,1651363200000,,,
+0x Protocol,0x,Pantera Capital,70000000,Series B,1650931200000,DEX,118180000.0,1.26
+CoinDCX,coindcx-ico,Pantera Capital,135000000,Series C,1650326400000,,,
+Mina Protocol,mina-protocol,Pantera Capital,92000000,Funding Round,1646092800000,Blockchain,116340000.0,0.98
+Helium,helium,Pantera Capital,200000000,Series D Round,1645228800000,Social,339110000.0,0.55
+Alchemy,alchemy-ico,Pantera Capital,200000000,Series C Extended,1644192000000,,,
+Amber Group,amber-group-ico,Pantera Capital,200000000,Private Round,1643673600000,,,
+Rift Finance,rift-finance-ico,Pantera Capital,18000000,Seed Round,1643673600000,,,
+Moonfrost,moonfrost-ico,Pantera Capital,4500000,Seed Round,1643673600000,,,
+Perion,perion,Pantera Capital,8600000,Early Access Round,1640995200000,Gaming,,
+Ondo Finance,ondo-finance,Pantera Capital,4000000,Seed Round,1638316800000,RWA (Real World Assets),1490000000.0,372.50
+Polynomial Protocol,polynomial-protocol-ico,Pantera Capital,1100000,Pre-seed,1634688000000,DeFi,,
+Aurora,aurora-near,Pantera Capital,12000000,Private Round,1634227200000,Blockchain,36330000.0,1.51
+Stader,stader,Pantera Capital,4000000,Seed Round,1633564800000,Liquid Staking Protocols,17000000.0,4.25
+Decentralized Social,bitclout,Pantera Capital,200000000,Venture Round,1632355200000,Blockchain,52770000.0,0.09
+Genopets,genopets,Pantera Capital,8300000,Private Sale,1631923200000,Play to Earn,,
+Apollo,apollo-2,Pantera Capital,2250000,Seed Round,1630454400000,Yield Aggregator,,
+Arbitrum,arbitrum,Pantera Capital,100000000,Series B,1630368000000,Layer-2,1160000000.0,2.76
+Vauld,vauld-ico,Pantera Capital,25000000,Series A,1627516800000,,,
+ECOx,ecox,Pantera Capital,60000000,Series B,1625097600000,Ethereum Ecosystem,2710000.0,0.01
+ECO,eco,Pantera Capital,60000000,Series B,1625097600000,,1600000.0,0.01
+Rangers Protocol,rangers-protocol-gas,Pantera Capital,2500000,Private Equity Round,1623664800000,Protocol,41340000.0,8.27
+Bitso,bitso-ico,Pantera Capital,250000000,Series C,1620172800000,,,
+Balancer,balancer,Pantera Capital,24250000,Private Sale,1619827200000,DeFi,46900000.0,1.93
+BitDAO,bitdao,Pantera Capital,230000000,Private Sale,1619827200000,DAO,,
+Unbound Finance,unbound-finance,Pantera Capital,5800000,Seed/Private/Strategy  Round,1619827200000,AMM,,
+Notional Finance,notional-finance,Pantera Capital,10000000,Series A,1619654400000,DeFi,,
+Injective,injective-protocol,Pantera Capital,10000000,Funding Round,1617235200000,Blockchain,541840000.0,7.74
+Lithium Finance,lithium-finance,Pantera Capital,1350000,Seed Round,1617235200000,DeFi,,
+Liquity,liquity,Pantera Capital,6000000,Series A,1616976000000,DeFi,40760000.0,3.77
+Anchor Protocol,anchor-protocol,Pantera Capital,20000000,Private Sale,1615978800000,DeFi,1230000.0,0.02
+Rai Reflex Index,rai,Pantera Capital,4140000,Venture Round,1613001600000,Backed Tokens,2200000.0,0.38
+Reflexer Ungovernance Token,reflexer-ungovernance-token,Pantera Capital,4140000,Venture Round,1613001600000,DeFi,,
+Bounce,auction,Pantera Capital,,Venture Round,1612137600000,DeFi,35130000.0,
+Terra Luna Classic,terra-luna,Pantera Capital,25000000,Venture Round,1611619200000,Blockchain,335830000.0,13.43
+Globe Derivative Exchange,globe-derivative-exchange,Pantera Capital,6600000,Seed Round,1609459200000,Ignition IDO,,
+Parallel Finance,parallel-finance,Pantera Capital,2000000,Seed Round,1609459200000,Lending Platform,9460000.0,0.21
+BitGo,bitgo,Pantera Capital,,Funding Round,1607385600000,Blockchain Service,,
+1INCH,1inch,Pantera Capital,12000000,Series A,1606867200000,DEX,238040000.0,16.08
+Api3,api3,Pantera Capital,3000000,Seed Round,1601510400000,Oracle,42270000.0,14.09
+DODO,dodo,Pantera Capital,5000000,Private Sale,1598918400000,DeFi,14950000.0,1.00
+Acala,acala,Pantera Capital,7300000,Series A,1596240000000,DeFi,13120000.0,0.60
+Karura,karura,Pantera Capital,7300000,Series A,1596240000000,Kusama Ecosystem,1280000.0,0.08
+Audius,audius,Pantera Capital,3100000,Strategic Round,1593561600000,NFT,45960000.0,3.55
+PowerTrade Fuel,powertrade-fuel,Pantera Capital,,Seed Sale,1590969600000,Derivatives,,
+Near,near,Pantera Capital,2003155,Venture Round 3,1577836800000,Blockchain,2150000000.0,14.01
+Fluid,instadapp,Pantera Capital,2400000,Seed Round,1569888000000,DeFi,251530000.0,34.93
+Vega Protocol,vega-protocol,Pantera Capital,5500000,Seed,1569888000000,Derivatives,,
+Ampleforth,ampleforth,Pantera Capital,1750000,Private Sale,1543622400000,Algorithmic Stablecoins,35910000.0,20.52
+Ankr,ankr,Pantera Capital,8250000,Private Sale 3,1530403200000,DePIN,74640000.0,9.05
+Handshake,handshake,Pantera Capital,10200000,Private Sale,1530403200000,Infrastructure,2130000.0,0.05
+Tari,tari,Pantera Capital,,Seed Round,1528588800000,Protocol,,
+Amp,amp-token,Pantera Capital,14100000,Private Sale 1,1527811200000,Blockchain Service,176070000.0,6.24
+Oasis,oasis-network,Pantera Capital,45000000,Backers,1526688000000,Blockchain,92900000.0,0.34
+StarkNet,starknet,Pantera Capital,6000000,Seed Round,1525132800000,Blockchain,502230000.0,5.12
+Codex Protocol,codex-protocol-ico,Pantera Capital,10000000,Private Sale,1517443200000,,,
+Origin Protocol,origin-protocol,Pantera Capital,3000300,Seed Round,1509494400000,NFT,22810000.0,7.60
+Gifto,gifto,Pantera Capital,20000000,Private Round,1504224000000,Media,,
+FUNToken,funfair,Pantera Capital,26000000,Pre-Sale,1499299200000,Gaming,21640000.0,0.83
+OMG Network,omisego,Pantera Capital,25000000,Initial Coin Offering,1498186800000,Blockchain,12830000.0,0.51
+ShapeShift FOX,shapeshift-fox-token,Pantera Capital,10400000,Series A,1490745600000,DeFi,8230000.0,0.79
+Zcash,zcash,Pantera Capital,1000000,Seed Round,1456790400000,Privacy Coin,6460000000.0,6460.00
+Civic,civic,Pantera Capital,2750000,Venture Round,1451606400000,Software,49660000.0,18.06
+Bitstamp,bitstamp,Pantera Capital,10000000,Funding Round,1395100800000,CEX,,
+Etherealize,etherealize,Vitalik Buterin,,Funding Round,1737590400000,Social,,
+Rarimo,rarimo,Vitalik Buterin,2500000,Funding Round,1732665600000,Layer-2,,
+RISE Chain,rise-chain,Vitalik Buterin,3200000,Seed Round,1726444800000,Blockchain,,
+MegaETH (Pre-Market),megaeth,Vitalik Buterin,20000000,Seed Round,1719446400000,Layer-2,,
+Polymarket,polymarket,Vitalik Buterin,45000000,Series B,1715644800000,DeFi,,
+Nocturne,nocturne,Vitalik Buterin,6000000,Seed Round,1698192000000,Blockchain Service,,
+Kakarot zkEVM ,kakarot-zkevm,Vitalik Buterin,,Pre-seed,1685664000000,Layer-2,,
+Aztec,aztec,Vitalik Buterin,17000000,Series A,1638316800000,Blockchain,,
+StarkNet,starknet,Vitalik Buterin,6000000,Seed Round,1525132800000,Blockchain,502230000.0,5.12
+TenX,tenx,Vitalik Buterin,1000000,Seed Round,1488326400000,Finance,,
