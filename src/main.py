@@ -64,7 +64,12 @@ def parse_data(
     """Parse data from DropStab website."""
     storage = DataStorage(data_dir)
 
-    sort_label = "Retail ROI" if sort_by == "retail_roi" else "Private ROI"
+    if sort_by == "dual":
+        sort_label = "Retail ROI + Private ROI (combined)"
+    elif sort_by == "private_roi":
+        sort_label = "Private ROI"
+    else:
+        sort_label = "Retail ROI"
 
     console.print(Panel.fit(
         f"[bold blue]DropStab Parser[/]\n"
@@ -83,11 +88,18 @@ def parse_data(
             console=console
         ) as progress:
             task = progress.add_task(f"Fetching {fetch_pages} pages of investors...", total=None)
-            funds = parser.get_top_investors(
-                limit=top_n,
-                sort_by=sort_by,
-                fetch_pages=fetch_pages
-            )
+
+            if sort_by == "dual":
+                funds = parser.get_dual_top_investors(
+                    limit=top_n,
+                    fetch_pages=fetch_pages
+                )
+            else:
+                funds = parser.get_top_investors(
+                    limit=top_n,
+                    sort_by=sort_by,
+                    fetch_pages=fetch_pages
+                )
             progress.update(task, completed=True)
 
         if not funds:
@@ -323,9 +335,9 @@ Examples:
     parser.add_argument(
         "--sort-by", "-s",
         type=str,
-        choices=["retail_roi", "private_roi"],
+        choices=["retail_roi", "private_roi", "dual"],
         default="retail_roi",
-        help="Sort investors by: retail_roi or private_roi (default: retail_roi)"
+        help="Sort investors by: retail_roi, private_roi, or dual (both combined) (default: retail_roi)"
     )
     parser.add_argument(
         "--fetch-pages", "-p",

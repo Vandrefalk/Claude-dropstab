@@ -291,31 +291,86 @@ class DropStabParser:
 
         return all_funds[:limit]
 
-    def _clean_project_name(self, name: str) -> str:
-        """Remove ticker prefix from project name (e.g., 'SOLSolana' -> 'Solana')."""
-        if not name:
-            return name
+    def get_dual_top_investors(
+        self,
+        limit: int = 20,
+        fetch_pages: int = 5
+    ) -> list[Fund]:
+        """
+        Get combined TOP by both Retail ROI and Private ROI.
 
-        # Pattern: uppercase ticker followed by capitalized name
-        # Examples: SOLSolana, LDOLido DAO, WWormhole, ANCAnchor Protocol
-        match = re.match(r'^([A-Z]{1,5})([A-Z][a-z].*)', name)
+        Returns unique funds from TOP-N by retail_roi + TOP-N by private_roi.
+        This typically results in 30-40 unique funds from 2x20.
+
+        Args:
+            limit: Number of top investors per metric
+            fetch_pages: Number of pages to fetch for sorting
+
+        Returns:
+            List of unique Fund objects (combined from both rankings)
+        """
+        # Fetch all funds once
+        all_funds = self.get_all_investors(max_pages=fetch_pages)
+
+        # Get TOP by retail ROI
+        retail_sorted = sorted(
+            all_funds,
+            key=lambda f: (f.retail_roi is not None, f.retail_roi or 0),
+            reverse=True
+        )[:limit]
+
+        # Get TOP by private ROI
+        private_sorted = sorted(
+            all_funds,
+            key=lambda f: (f.private_roi is not None, f.private_roi or 0),
+            reverse=True
+        )[:limit]
+
+        # Combine and deduplicate
+        seen_slugs = set()
+        combined = []
+
+        for fund in retail_sorted + private_sorted:
+            if fund.slug not in seen_slugs:
+                seen_slugs.add(fund.slug)
+                combined.append(fund)
+
+        # Update ranks
+        for i, fund in enumerate(combined):
+            fund.rank = i + 1
+
+        return combined
+
+    def _extract_next_data(self, html: str) -> Optional[dict]:
+        """Extract __NEXT_DATA__ JSON from HTML page."""
+        match = re.search(r'<script id="__NEXT_DATA__"[^>]*>([^<]+)</script>', html)
         if match:
-            ticker = match.group(1)
-            rest = match.group(2)
-            # Only clean if ticker is different from the rest
-            if not rest.upper().startswith(ticker):
-                return rest
+            try:
+                return json.loads(match.group(1))
+            except json.JSONDecodeError:
+                return None
+        return None
 
-        return name
+    def _parse_date_iso(self, date_str: Optional[str]) -> Optional[str]:
+        """Convert ISO date to human readable format."""
+        if not date_str:
+            return None
+        try:
+            # Parse ISO format like "2024-01-15T00:00:00.000Z"
+            from datetime import datetime
+            dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            return dt.strftime("%b %Y")
+        except (ValueError, AttributeError):
+            return date_str
 
     def get_fund_investments(
         self,
         fund_slug: str,
         fund_name: str,
-        max_pages: int = 15
+        max_pages: int = 20
     ) -> list[FundInvestment]:
         """
-        Get all investments for a fund.
+        Get all investments for a fund using Next.js JSON data.
 
         Args:
             fund_slug: Fund URL slug
@@ -326,77 +381,77 @@ class DropStabParser:
             List of FundInvestment objects
         """
         investments = []
-        seen_slugs = set()  # Track seen project slugs to avoid duplicates
-        page = 1
+        seen_slugs = set()
+        page = 0  # 0-indexed for API
 
-        while page <= max_pages:
+        while page < max_pages:
+            # Use 'p' parameter for pagination (discovered from Next.js)
             url = f"{self.BASE_URL}/investors/{fund_slug}"
-            if page > 1:
-                url = f"{url}?page={page}"
+            if page > 0:
+                url = f"{url}?p={page}"
 
             html = self._get(url)
             if not html:
                 break
 
-            soup = BeautifulSoup(html, "lxml")
-            rows = soup.select("table tbody tr")
+            # Extract data from __NEXT_DATA__
+            next_data = self._extract_next_data(html)
+            if not next_data:
+                print(f"Warning: Could not extract Next.js data for {fund_slug}")
+                break
 
-            if not rows:
+            page_props = next_data.get("props", {}).get("pageProps", {})
+            fallback_body = page_props.get("fallbackBody", {})
+
+            content = fallback_body.get("content", [])
+            total_pages = fallback_body.get("totalPages", 1)
+            current_page = fallback_body.get("number", 0)
+
+            if not content:
                 break
 
             page_investments = []
-            new_projects_on_page = 0
 
-            for row in rows:
+            for item in content:
                 try:
-                    # Find project link
-                    link = row.select_one("a[href*='/coins/']")
-                    if not link:
+                    project_slug = item.get("slug")
+                    if not project_slug:
                         continue
 
-                    href = link.get("href", "")
-                    # Extract slug from /coins/xxx or /coins/xxx/fundraising
-                    slug_match = re.search(r"/coins/([^/]+)", href)
-                    if not slug_match:
-                        continue
-
-                    project_slug = slug_match.group(1)
-
-                    # Skip if already seen (deduplication)
+                    # Skip duplicates
                     if project_slug in seen_slugs:
                         continue
                     seen_slugs.add(project_slug)
-                    new_projects_on_page += 1
 
-                    project_name = self._clean_project_name(link.get_text(strip=True))
+                    project_name = item.get("name", project_slug)
 
-                    cells = row.find_all("td")
-
-                    # Parse investment data from cells
+                    # Extract amount from fundsRaised
                     amount = None
-                    stage = ""
-                    date = None
-                    category = None
+                    funds_raised = item.get("fundsRaised")
+                    if funds_raised:
+                        if isinstance(funds_raised, dict):
+                            amount = funds_raised.get("USD")
+                        elif isinstance(funds_raised, (int, float)):
+                            amount = funds_raised
+
+                    # Extract pre-valuation
                     pre_valuation = None
+                    pre_val = item.get("preValuation")
+                    if pre_val:
+                        if isinstance(pre_val, dict):
+                            pre_valuation = pre_val.get("USD")
+                        elif isinstance(pre_val, (int, float)):
+                            pre_valuation = pre_val
 
-                    for cell in cells:
-                        text = cell.get_text(strip=True)
+                    stage = item.get("stage", "")
+                    date = self._parse_date_iso(item.get("announceDate"))
+                    category = item.get("category")
 
-                        # Check for amount (contains $ and M/K/B)
-                        if "$" in text and any(s in text.upper() for s in ["M", "K", "B"]):
-                            if amount is None:  # First amount is usually fundraise
-                                amount = self._parse_number(text)
-                            elif pre_valuation is None:  # Second might be pre-valuation
-                                pre_valuation = self._parse_number(text)
-
-                        # Check for stage
-                        if any(s in text for s in ["Seed", "Series", "Round", "Private", "Strategic", "Pre-"]):
-                            stage = text
-
-                        # Check for date (format: Mon YYYY or DD Mon YYYY)
-                        date_match = re.search(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4})", text)
-                        if date_match:
-                            date = date_match.group(1)
+                    # Get main tag as category if no category
+                    if not category:
+                        main_tag = item.get("mainTag")
+                        if main_tag and isinstance(main_tag, dict):
+                            category = main_tag.get("name")
 
                     investment = FundInvestment(
                         fund_slug=fund_slug,
@@ -412,20 +467,13 @@ class DropStabParser:
                     page_investments.append(investment)
 
                 except Exception as e:
-                    print(f"Error parsing investment row: {e}")
+                    print(f"Error parsing investment item: {e}")
                     continue
-
-            if not page_investments:
-                break
 
             investments.extend(page_investments)
 
-            # If no new projects on this page, we've likely hit duplicates - stop
-            if new_projects_on_page == 0:
-                break
-
-            # Check if there are more pages
-            if f"page={page + 1}" not in html:
+            # Check if more pages available
+            if current_page >= total_pages - 1:
                 break
 
             page += 1
