@@ -1,0 +1,3857 @@
+Get coins with the latest market data with different filters and sorting options
+GET
+https://public-api.dropstab.com/api/v1/coins
+This method allows you to request various data about coins using different filters and sorting options. trading variable represents the different trading statuses that a coin can have. Below are the descriptions of each status:
+•	CURRENTLY_TRADING
+Represents coins or tokens that are currently being actively traded on exchanges.
+•	NOT_YET_TRADING
+Represents coins or tokens that are planned to be traded but have not yet started trading (ICOs, IDOs, Possible airdrops, etc.).
+•	NO_LONGER_TRADING
+Represents coins or tokens that were traded in the past but are no longer active in trading on exchanges.
+•	ALL
+Represents all possible statuses, including currently trading, not yet trading, and no longer trading.
+Example usage:
+You can retrieve different sets of coins by applying filters and sorting. For example, to get the top gainers from the top 300 ranked coins, you should specify the following parameters:
+•	sortOrder: DESC (sort in descending order)
+•	sortingField: PRICE_CHANGE_24H (field to sort by — price change in the last 24 hours)
+•	rankFrom: 1 (rank from 1)
+•	rankTo: 300 (rank to 300)
+This request will return a list of coins sorted by the highest price increase over the last 24 hours within the specified rank range.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to RANK
+ 
+Allowed:
+NAMEMARKET_CAPRANKPRICE_CHANGE_24hVOLUME_24hFDV
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 10
+ 
+trading
+string
+enum
+Defaults to ALL
+ 
+Allowed:
+CURRENTLY_TRADINGNOT_YET_TRADINGNO_LONGER_TRADINGALL
+currency
+string
+ 
+query
+string
+ 
+marketCapFrom
+number
+ 
+marketCapTo
+number
+ 
+volume24hFrom
+number
+ 
+volume24hTo
+number
+ 
+priceChange24hFrom
+number
+ 
+priceChange24hTo
+number
+ 
+fullyDilutedValuationFrom
+number
+ 
+fullyDilutedValuationTo
+number
+ 
+rankFrom
+int32
+ 
+rankTo
+int32
+ 
+Responses
+200
+List of coins with latest market data
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Unique identifier for the currency
+slug
+string
+required
+Slug used to identify the currency in URLs or APIs
+name
+string
+required
+Full name of the coin
+symbol
+string
+required
+Ticker symbol of the coin
+image
+string
+Image URL representing the coin
+rank
+int32
+Rank of the coin by market capitalization
+price
+number
+required
+Current price in USD or the selected currency
+marketCap
+number
+Market capitalization in USD or the selected currency
+volume24h
+number
+required
+24-hour trading volume in USD or the selected currency
+priceChange24h
+number
+Price change over the last 24 hours, in percentage
+fullyDilutedValuation
+number
+Fully Diluted Valuation (FDV) in USD or the selected currency
+circulatingSupply
+number
+Circulating supply of the coin
+totalSupply
+number
+Total supply of the coin
+maxSupply
+number
+Maximum supply of the coin
+athUsd
+number
+All-time high price in USD
+athUsdDate
+date-time
+Date when the all-time high price was reached
+atlUsd
+number
+All-time low price in USD
+atlUsdDate
+date-time
+Date when the all-time low price was reached
+high24hUsd
+number
+Highest price in the last 24 hours in USD
+low24hUsd
+number
+Lowest price in the last 24 hours in USD
+trading
+string
+enum
+required
+The currency trading status
+CURRENTLY_TRADING NOT_YET_TRADING NO_LONGER_TRADING ALL
+anomalyDetected
+boolean
+required
+Indicates whether anomaly was detected in the data
+lastUpdated
+date-time
+required
+Timestamp of the last update
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get short info for all the supported coins
+GET
+https://public-api.dropstab.com/api/v1/coins/supported
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 100
+ 
+Responses
+200
+List of all supported coins
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Unique identifier for the currency
+slug
+string
+required
+Slug used to identify the currency in URLs or APIs
+name
+string
+required
+Full name of the currency
+symbol
+string
+required
+Ticker symbol of the currency
+trading
+string
+enum
+required
+The currency trading status
+CURRENTLY_TRADING NOT_YET_TRADING NO_LONGER_TRADING ALL
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get detailed information about a specific coin
+GET
+https://public-api.dropstab.com/api/v1/coins/detailed/{slug}
+This method allows you to get detailed information about a coin by its slug. You can also pass a fiat or cryptocurrency in the currency parameter to get the coin's data in that specific currency.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+slug
+string
+required
+ 
+Query Params
+currency
+string
+ 
+Responses
+200
+List of all supported coins
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+id
+int64
+required
+Unique identifier for the currency
+slug
+string
+required
+Slug used to identify the currency in URLs or APIs
+name
+string
+required
+Full name of the coin
+symbol
+string
+required
+Ticker symbol of the coin
+description
+string
+Detailed description of the coin
+image
+string
+Image URL representing the coin
+rank
+int32
+Rank of the coin by market capitalization
+price
+object
+required
+The data returned by the API, null in case of failure
+PRICE OBJECT
+icoPrice
+object
+required
+The data returned by the API, null in case of failure
+ICOPRICE OBJECT
+marketCap
+object
+required
+The data returned by the API, null in case of failure
+MARKETCAP OBJECT
+volume
+object
+required
+Lowest prices within different timeframes in USD
+VOLUME OBJECT
+change
+object
+required
+Lowest prices within different timeframes in USD
+CHANGE OBJECT
+priceChange24h
+number
+required
+DEPRECATED
+Price change over the last 24 hours as a percentage in USD
+fullyDilutedValuation
+number
+Fully Diluted Valuation (FDV) in USD
+priceInCurrency
+number
+Current price in the selected currency
+marketCapInCurrency
+number
+Market capitalization in the selected currency
+volume24hInCurrency
+number
+24-hour trading volume in the selected currency
+fullyDilutedValuationInCurrency
+number
+Fully Diluted Valuation (FDV) in the selected currency
+circulatingSupply
+number
+Circulating supply of the coin
+totalSupply
+number
+Total supply of the coin
+maxSupply
+number
+Maximum supply of the coin, -1 if unlimited
+xfromIco
+object
+required
+The data returned by the API, null in case of failure
+XFROMICO OBJECT
+priceRange
+object
+Price range (minimum and maximum) across different timeframes
+PRICERANGE OBJECT
+contracts
+array of objects
+List of blockchain contracts associated with the coin (e.g., Ethereum, BNB Chain)
+object
+networkName
+string
+required
+networkSymbol
+string
+required
+networkImage
+string
+required
+explorerUrl
+string
+required
+contract
+string
+required
+evmChainId
+int32
+decimals
+int32
+ath1yUsd
+double
+All-time high price in the last 1 year in USD
+atl1yUsd
+double
+All-time low price in the last 1 year in USD
+ath1yUsdDate
+date-time
+Date when the 1-year all-time high price was reached (USD)
+atl1yUsdDate
+date-time
+Date when the 1-year all-time low price was reached (USD)
+yearHigh
+object
+required
+The data returned by the API, null in case of failure
+YEARHIGH OBJECT
+yearLow
+object
+required
+The data returned by the API, null in case of failure
+YEARLOW OBJECT
+yearHighDate
+object
+required
+YEARHIGHDATE OBJECT
+yearLowDate
+object
+required
+YEARLOWDATE OBJECT
+priceChangePercentFromYearHighDate
+object
+required
+The data returned by the API, null in case of failure
+PRICECHANGEPERCENTFROMYEARHIGHDATE OBJECT
+priceChangePercentFromYearLowDate
+object
+required
+The data returned by the API, null in case of failure
+PRICECHANGEPERCENTFROMYEARLOWDATE OBJECT
+ath
+object
+required
+The data returned by the API, null in case of failure
+ATH OBJECT
+athDate
+object
+required
+ATHDATE OBJECT
+atl
+object
+required
+The data returned by the API, null in case of failure
+ATL OBJECT
+atlDate
+object
+required
+ATLDATE OBJECT
+athUsd
+number
+DEPRECATED
+All-time high price in USD. Use ath
+athUsdDate
+date-time
+DEPRECATED
+Date when the all-time high price was reached. Use athDate
+atlUsd
+number
+DEPRECATED
+All-time low price in USD. Use atl
+atlUsdDate
+date-time
+DEPRECATED
+Date when the all-time low price was reached. Use atlDate
+highs
+object
+required
+Lowest prices within different timeframes in USD
+HIGHS OBJECT
+lows
+object
+required
+Lowest prices within different timeframes in USD
+LOWS OBJECT
+highsDates
+object
+required
+Dates of the lowest prices in different timeframes in USD
+HIGHSDATES OBJECT
+lowsDates
+object
+required
+Dates of the lowest prices in different timeframes in USD
+LOWSDATES OBJECT
+categories
+array of objects
+required
+List of coin categories
+object
+slug
+string
+required
+Slug of category
+name
+string
+required
+Name of category
+mainCategory
+object
+Main category of the coin
+MAINCATEGORY OBJECT
+social
+object
+required
+Social media related to the coin
+SOCIAL OBJECT
+trading
+string
+enum
+required
+The currency trading status
+CURRENTLY_TRADING NOT_YET_TRADING NO_LONGER_TRADING ALL
+anomalyDetected
+boolean
+required
+Indicates whether anomaly was detected in the data
+lastUpdated
+date-time
+required
+Timestamp of the last update
+twitterPerformance
+number
+Twitter performance metric
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get overview of all token unlocks
+GET
+https://public-api.dropstab.com/api/v1/tokenUnlocks
+Returns aggregated information about upcoming and past token unlocks, including a summary of the key details of the token and an overview of the unlock process. Additionally, the response includes relevant metrics on unlocked and locked tokens.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+platforms
+array of strings
+ADD STRING
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to MARKET_CAP
+ 
+Allowed:
+ICO_ROIMARKET_CAPCIRCULATION_SUPPLY_PERCENTUNLOCK_PROGRESS_PERCENT
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 10
+ 
+Responses
+200
+Overview of token unlocks
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+coinId
+int64
+required
+ID of the coin
+coinSlug
+string
+required
+Slug of the coin
+coinSymbol
+string
+required
+Symbol of the coin
+priceUsd
+number
+Current price of the coin in USD
+icoPlatforms
+array of strings
+required
+List of ICO platforms
+icoRoi
+number
+Return on investment from ICO
+marketCap
+number
+Market capitalization of the coin
+fdv
+number
+Fully diluted valuation of the coin
+circulationSupplyPercent
+number
+Percentage of circulating supply
+totalTokensUnlockedPercent
+number
+required
+Percentage of total tokens that have been unlocked
+totalTokensLockedPercent
+number
+required
+Percentage of total tokens that are still locked
+tgeDate
+date-time
+required
+Date of the Token Generation Event (TGE)
+allocations
+array of objects
+required
+List of allocations related to the token
+object
+id
+int64
+required
+ID of the allocation
+name
+string
+required
+Name of the allocation
+tokensAllocatedAmount
+int64
+Amount of tokens available for this allocation
+tokensAllocatedPercent
+number
+Percentage of total tokens available for allocation
+tokenUnlockProgress
+object
+Progress of token unlocking
+TOKENUNLOCKPROGRESS OBJECT
+updatedAt
+date-time
+required
+Date of the last update to the token unlocks information
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get detailed unlocks information for a specific token
+GET
+https://public-api.dropstab.com/api/v1/tokenUnlocks/{coinSlug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+coinSlug
+string
+required
+ 
+Query Params
+unlocksTimelineFilter
+string
+enum
+ 
+Allowed:
+PASTFUTURE
+unlocksDateSortOrder
+string
+enum
+Defaults to DESC
+ 
+Allowed:
+ASCDESC
+allocationId
+int64
+ 
+Responses
+200
+Detailed token unlocks information
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Detailed information about token unlocks for a specific coin, including market data and related allocations
+coinId
+int64
+required
+ID of the coin
+coinSlug
+string
+required
+Slug of the coin
+coinSymbol
+string
+required
+Symbol of the coin
+priceUsd
+number
+Current price of the coin in USD
+icoPlatforms
+array of strings
+required
+List of ICO platforms associated with the coin
+icoRoi
+number
+Return on investment (ROI) from the ICO
+marketCap
+number
+Market capitalization of the coin
+fdv
+number
+Fully diluted valuation (FDV) of the coin
+circulationSupplyPercent
+number
+Percentage of the circulating supply relative to the total supply
+totalTokensUnlockedPercent
+number
+required
+Percentage of total tokens that have been unlocked
+totalTokensUnlockedAmount
+number
+required
+Amount of total tokens that have been unlocked
+totalTokensLockedPercent
+number
+required
+Percentage of total tokens that are still locked
+totalTokensLockedAmount
+number
+required
+Amount of total tokens that are still locked
+totalTokensUntrackedPercent
+number
+required
+Percentage of total tokens that are untracked
+totalTokensUntrackedAmount
+number
+required
+Amount of total tokens that are untracked
+tgeDate
+date-time
+required
+Date of the Token Generation Event (TGE)
+allocations
+array of objects
+required
+List of allocations related to the token
+object
+id
+int64
+required
+ID of the allocation
+name
+string
+required
+Name of the allocation
+tokensAllocatedAmount
+int64
+Amount of tokens available for this allocation
+tokensAllocatedPercent
+number
+Percentage of total tokens available for allocation
+tokenUnlockProgress
+object
+Progress of token unlocking
+TOKENUNLOCKPROGRESS OBJECT
+tokenUnlocks
+array of objects
+required
+List of token unlock events associated with the coin
+object
+date
+date-time
+required
+The date and time when the tokens will be unlocked
+allocationId
+int64
+required
+ID of the related allocation
+allocationName
+string
+required
+Name of the related allocation
+isTgeUnlock
+boolean
+required
+Indicates if this unlock is part of the Token Generation Event (TGE)
+allTokensSharePercent
+number
+required
+Percentage of all tokens being unlocked in this event
+tokensAmount
+number
+required
+Amount of tokens being unlocked
+usdAmount
+number
+required
+Value of the unlocked tokens in USD
+marketCapSharePercent
+number
+required
+Market capitalization share percentage represented by the unlocked tokens
+fdvSharePercent
+number
+Fully diluted valuation (FDV) share percentage represented by the unlocked tokens
+updatedAt
+date-time
+required
+Date of the last update to the token unlocks information
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+404
+Not Found
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get a list of supported tokens with available unlock data.
+GET
+https://public-api.dropstab.com/api/v1/tokenUnlocks/supportedCoins
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 100
+ 
+Responses
+200
+List of supported coins
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+coinId
+int64
+required
+Unique identifier for the coin
+coinSlug
+string
+required
+Slug name of the coin
+coinSymbol
+string
+required
+Symbol of the coin
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get unlocks chart for a specific token
+GET
+https://public-api.dropstab.com/api/v1/tokenUnlocks/chart/{coinSlug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+coinSlug
+string
+required
+ 
+Responses
+200
+Token unlocks chart
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+DTO representing the vesting chart for a token
+slug
+string
+required
+Unique identifier (slug) for the project or token
+roundsInfo
+array of objects
+required
+List of metadata for each token sale round
+object
+id
+int64
+required
+Unique ID of the round
+name
+string
+required
+Name of the round (e.g., Seed, Private, Public)
+tokensAmount
+int64
+required
+Total number of tokens allocated to this round
+tokensPercent
+double
+required
+Percentage of the total token supply allocated to this round
+tgePercent
+double
+required
+Percentage of tokens unlocked at the Token Generation Event (TGE)
+points
+array of objects
+required
+List of vesting chart data points over time
+object
+unlockedPercentInPeriod
+double
+required
+Percentage of tokens unlocked during this period
+cumulativeUnlockedPercent
+double
+required
+Cumulative percentage of tokens unlocked up to this point
+roundSnapshots
+array of objects
+required
+List of unlocked token snapshots for each round at this point in time
+object
+name
+string
+required
+Name of the round
+unlockedTokens
+int64
+required
+Number of tokens unlocked at this point in time
+unlockedPercent
+double
+required
+Percentage of tokens unlocked at this point in time
+date
+date-time
+required
+Date of the vesting point
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+404
+Not Found
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get list of funding rounds
+GET
+https://public-api.dropstab.com/api/v1/fundingRounds
+Retrieve a paginated list of private and public funding rounds conducted by projects. This data is sourced from publicly available information and includes key details such as the date of the funding round, the amount raised, the participating investors, and the type of funding round (e.g., seed, Series A, etc.).
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 100
+ 
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to FUNDS_RAISED
+ 
+Allowed:
+FUNDS_RAISEDPRE_VALUATIONDATETWITTER_PERFORMANCE
+coinSlug
+string
+ 
+investorSlug
+string
+ 
+investorsCountFrom
+int32
+ 
+investorsCountTo
+int32
+ 
+fundsRaisedFrom
+int64
+ 
+fundsRaisedTo
+int64
+ 
+preValuationFrom
+number
+ 
+preValuationTo
+number
+ 
+dateFrom
+int64
+ 
+dateTo
+int64
+ 
+twitterPerformanceFrom
+number
+ 
+twitterPerformanceTo
+number
+ 
+Responses
+200
+List of funding rounds
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+Unique identifier for the funding round
+coinSlug
+string
+Unique project identifier
+coinSymbol
+string
+Coin symbol used on exchanges
+fundsRaised
+int64
+Amount of funds raised during the round
+preValuation
+number
+Pre-money valuation of the project
+preValuationInaccurate
+boolean
+Indicates if the pre-valuation is inaccurate
+stage
+string
+Stage of the funding round
+investors
+array of objects
+List of investors who participated in the round
+object
+id
+int64
+required
+Unique identifier for the investor
+name
+string
+required
+Name of the investor
+investorSlug
+string
+Unique investor identifier
+ventureType
+string
+Type of venture investor
+tier
+string
+Investor's tier level
+lead
+boolean
+Indicates if the investor is a lead investor
+twitterPerformance
+number
+Twitter performance metric associated with the project
+category
+string
+Category of the project
+date
+date-time
+Date of the funding round
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get detailed information about a specific funding round
+GET
+https://public-api.dropstab.com/api/v1/fundingRounds/{id}
+Retrieve detailed information about a specific funding round by its ID.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+id
+int64
+required
+ 
+Responses
+200
+Detailed funding round information
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Detailed DTO representing a coin funding round
+id
+int64
+Unique identifier for the funding round
+coinId
+string
+Unique coin id
+coinSlug
+string
+Unique coin identifier
+coinSymbol
+string
+Coin symbol used on exchanges
+fundsRaised
+int64
+Amount of funds raised during the round
+preValuation
+number
+Pre-money valuation of the project
+preValuationInaccurate
+boolean
+Indicates if the pre-valuation is inaccurate
+stage
+string
+Stage of the funding round
+investors
+array of objects
+List of investors who participated in the round
+object
+id
+int64
+required
+Unique identifier for the investor
+name
+string
+required
+Name of the investor
+investorSlug
+string
+Unique investor identifier
+ventureType
+string
+Type of venture investor
+tier
+string
+Investor's tier level
+lead
+boolean
+Indicates if the investor is a lead investor
+twitterPerformance
+number
+Twitter performance metric associated with the project
+category
+string
+Category of the project
+date
+date-time
+Date of the funding round
+tokenForSale
+int64
+Number of tokens offered for sale during the round
+tokenPrice
+double
+Price per token during the round
+totalSupplyPercent
+double
+Percentage of the total token supply offered for sale
+platform
+string
+Platform on which the token sale took place
+roiUsd
+number
+Expected return on investment (ROI) in USD
+distributionType
+string
+Type of token distribution
+details
+array of objects
+Links to additional resources with details about the funding round
+object
+title
+string
+required
+Title of the link
+url
+string
+required
+URL of the link
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+404
+Not Found
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get specific coin funding rounds
+GET
+https://public-api.dropstab.com/api/v1/fundingRounds/coin/{coinSlug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+coinSlug
+string
+required
+ 
+Responses
+200
+Detailed funding rounds information
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+array of objects
+The data returned by the API, null in case of failure
+object
+id
+int64
+Unique identifier for the funding round
+coinId
+string
+Unique coin id
+coinSlug
+string
+Unique coin identifier
+coinSymbol
+string
+Coin symbol used on exchanges
+fundsRaised
+int64
+Amount of funds raised during the round
+preValuation
+number
+Pre-money valuation of the project
+preValuationInaccurate
+boolean
+Indicates if the pre-valuation is inaccurate
+stage
+string
+Stage of the funding round
+investors
+array of objects
+List of investors who participated in the round
+object
+id
+int64
+required
+Unique identifier for the investor
+name
+string
+required
+Name of the investor
+investorSlug
+string
+Unique investor identifier
+ventureType
+string
+Type of venture investor
+tier
+string
+Investor's tier level
+lead
+boolean
+Indicates if the investor is a lead investor
+twitterPerformance
+number
+Twitter performance metric associated with the project
+category
+string
+Category of the project
+date
+date-time
+Date of the funding round
+tokenForSale
+int64
+Number of tokens offered for sale during the round
+tokenPrice
+double
+Price per token during the round
+totalSupplyPercent
+double
+Percentage of the total token supply offered for sale
+platform
+string
+Platform on which the token sale took place
+roiUsd
+number
+Expected return on investment (ROI) in USD
+distributionType
+string
+Type of token distribution
+details
+array of objects
+Links to additional resources with details about the funding round
+object
+title
+string
+required
+Title of the link
+url
+string
+required
+URL of the link
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+404
+Not Found
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get information about investors and venture capitals
+GET
+https://public-api.dropstab.com/api/v1/investors
+This API method returns detailed information about venture capitals, angel investors, and trading entities involved in blockchain, cryptocurrency, and related technology investments. The response provides a list of top investors ranked by various metrics, including the total number of investments, rounds per year, and their overall influence in the blockchain space. The data also includes metrics such as portfolio size, retail ROI, private ROI, public sales, and Binance listings.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 10
+ 
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to RANK
+ 
+Show 11 enum values
+slug
+array of strings
+ADD STRING
+rankFrom
+int32
+ 
+rankTo
+int32
+ 
+name
+string
+ 
+twitterPerformanceFrom
+number
+ 
+twitterPerformanceTo
+number
+ 
+totalInvestmentsCountFrom
+int32
+ 
+totalInvestmentsCountTo
+int32
+ 
+leadInvestmentsCountFrom
+int32
+ 
+leadInvestmentsCountTo
+int32
+ 
+portfolioCoinsSizeFrom
+int32
+ 
+portfolioCoinsSizeTo
+int32
+ 
+lastRoundDateFrom
+int64
+ 
+lastRoundDateTo
+int64
+ 
+Responses
+200
+Overview of investors and venture capitals
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Internal ID of investor or venture capital
+investorSlug
+string
+required
+Internal slug of investor or venture capital
+name
+string
+required
+Name of investor or venture capital
+image
+string
+Image (logo) of investor or venture capital
+rank
+int32
+Rank of investor or venture capital
+country
+string
+Country of investor or venture capital
+description
+string
+Description of investor or venture capital
+ventureType
+string
+Type, one of investor or venture capital
+tier
+string
+Tier of investor or venture capital
+twitterScore
+number
+Twitter (X) performance score of investor or venture capital
+lastRoundDate
+date-time
+Date of last round that investor or venture capital participated
+roundsPerYear
+int32
+Number of rounds that investor or venture capital participated per year in average
+publicSalesCount
+int32
+Number of public sales that investor or venture capital participated in
+retailRoiPercent
+number
+Average ROI for participant from public rounds in coins involving this investor or venture capital
+privateRoiPercent
+number
+Average ROI obtained by investor from the round he participated in to the current asset price
+totalInvestments
+int32
+The number of rounds investor or venture capital participated in
+leadInvestments
+int32
+Investments rounds where investor or venture capital acted as the lead
+binanceListing
+object
+required
+Information about Binance listing of projects from investor or venture capital portfolio
+BINANCELISTING OBJECT
+links
+array of objects
+required
+Links related to investor or venture capital
+object
+url
+string
+required
+URL to some resource related to investor
+type
+string
+required
+Type of link related to investor
+portfolioCoinsCount
+int32
+required
+Number of coins in investor or venture capital portfolio
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get detailed information about a specific investor or venture capital
+GET
+https://public-api.dropstab.com/api/v1/investors/{investorSlug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+investorSlug
+string
+required
+ 
+Responses
+200
+Overview of investors and venture capitals
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Information about investor or venture capital
+id
+int64
+required
+Internal ID of investor or venture capital
+investorSlug
+string
+required
+Internal slug of investor or venture capital
+name
+string
+required
+Name of investor or venture capital
+image
+string
+Image (logo) of investor or venture capital
+rank
+int32
+Rank of investor or venture capital
+country
+string
+Country of investor or venture capital
+description
+string
+Description of investor or venture capital
+ventureType
+string
+Type, one of investor or venture capital
+tier
+string
+Tier of investor or venture capital
+twitterScore
+number
+Twitter (X) performance score of investor or venture capital
+lastRoundDate
+date-time
+Date of last round that investor or venture capital participated
+roundsPerYear
+int32
+Number of rounds that investor or venture capital participated per year in average
+publicSalesCount
+int32
+Number of public sales that investor or venture capital participated in
+retailRoiPercent
+number
+Average ROI for participant from public rounds in projects involving this investor or venture capital
+privateRoiPercent
+number
+Average ROI obtained by investor from the round he participated in to the current asset price
+totalInvestments
+int32
+The number of rounds investor or venture capital participated in
+leadInvestments
+int32
+Investments rounds where investor or venture capital acted as the lead
+binanceListing
+object
+required
+Information about Binance listing of projects from investor or venture capital portfolio
+BINANCELISTING OBJECT
+links
+array of objects
+required
+Links related to investor or venture capital
+object
+url
+string
+required
+URL to some resource related to investor
+type
+string
+required
+Type of link related to investor
+portfolioCoinsCount
+int32
+required
+Number of coins in investor or venture capital portfolio
+roundsDistribution
+object
+required
+Information about investor or venture capital rounds distribution
+ROUNDSDISTRIBUTION OBJECT
+coInvestors
+array of objects
+required
+Information about investor or venture capital co-investors
+object
+id
+int64
+required
+Internal ID of investor or venture capital
+investorSlug
+string
+required
+Internal slug of investor or venture capital
+name
+string
+required
+Name of investor or venture capital
+ventureType
+string
+Type, one of investor or venture capital
+lastRoundDate
+date-time
+Date of last round that investor or venture capital participated
+count
+int32
+required
+Number of rounds that were co-invested
+portfolioCoins
+array of objects
+required
+Information about coins in investor or venture capital portfolio
+object
+name
+string
+required
+Name of coin in investor portfolio
+slug
+string
+required
+Slug of coin in investor portfolio
+symbol
+string
+required
+Symbol of coin in investor portfolio
+image
+string
+Image (logo) of coin in investor portfolio
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get price on date
+GET
+https://public-api.dropstab.com/api/v1/coins/history/price/{slug}
+This method provides price on selected date. Specified date should be in the past.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+slug
+string
+required
+ 
+Query Params
+date
+date
+required
+ 
+Responses
+200
+Price on date
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+USD
+number
+BTC
+number
+ETH
+number
+SOL
+number
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get time points with fear index history
+GET
+https://public-api.dropstab.com/api/v1/coins/history/fear-index
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+from
+date-time
+required
+ 
+to
+date-time
+required
+ 
+Responses
+200
+List of points with fear index history
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+array of objects
+The data returned by the API, null in case of failure
+object
+time
+int64
+required
+Timestamp in unix format
+value
+int32
+required
+Fear index
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+Get historical chart data for a currency by timeframe
+GET
+https://public-api.dropstab.com/api/v1/coins/history/chart-by-timeframe/{slug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+slug
+string
+required
+ 
+Query Params
+timeFrame
+string
+enum
+required
+ 
+Show 9 enum values
+Responses
+200
+Returns a list of historical data points for the selected currency over the specified timeframe. The list is sorted by ascending timestamp.
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+array of objects
+The data returned by the API, null in case of failure
+object
+timestamp
+int64
+required
+Timestamp in unix format
+price
+object
+required
+The data returned by the API, null in case of failure
+PRICE OBJECT
+marketCap
+double
+Market capitalization at given timestamp
+volume24h
+double
+Trading volume in last 24 hours at given timestamp
+funding
+double
+Funding rate at given timestamp
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get historical chart data for a currency within a date range
+GET
+https://public-api.dropstab.com/api/v1/coins/history/chart-by-interval/{slug}
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+slug
+string
+required
+ 
+Query Params
+from
+date-time
+required
+ 
+to
+date-time
+required
+ 
+Responses
+200
+Returns a list of historical data points for the selected currency within the specified interval. The list is sorted by ascending timestamp.
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+array of objects
+The data returned by the API, null in case of failure
+object
+timestamp
+int64
+required
+Timestamp in unix format
+price
+object
+required
+The data returned by the API, null in case of failure
+PRICE OBJECT
+marketCap
+double
+Market capitalization at given timestamp
+volume24h
+double
+Trading volume in last 24 hours at given timestamp
+funding
+double
+Funding rate at given timestamp
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get all crypto activities with optional filters and sorting
+GET
+https://public-api.dropstab.com/api/v1/cryptoActivities
+Returns a paginated list of all crypto activities. You can filter by status and sort by various fields.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to STATUS
+ 
+Allowed:
+IDCOIN_SLUGSTART_DATEEND_DATEUPDATED_ATSTATUS
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 10
+ 
+status
+string
+enum
+ 
+Allowed:
+TOMORROWUPCOMINGACTIVECLAIMPAUSEDENDED
+Responses
+200
+List of crypto activities
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Unique identifier of the activity
+coinSlug
+string
+required
+Slug (URL-friendly identifier) of the associated coin (e.g., 'bitcoin')
+coinName
+string
+required
+Full name of the associated coin (e.g., 'Bitcoin')
+coinSymbol
+string
+required
+Ticker symbol of the associated coin (e.g., 'BTC')
+score
+string
+enum
+required
+Score assigned to the activity based on internal logic or third-party metrics
+VERY_HIGH HIGH NOT_RATED
+status
+string
+enum
+Status of the activity (e.g., upcoming, active, completed)
+TOMORROW UPCOMING ACTIVE CLAIM PAUSED ENDED
+activityType
+string
+required
+Type of the activity, e.g., 'airdrop', 'testnet', 'token sale'
+ecosystem
+array of strings
+required
+List of blockchain ecosystems involved (e.g., Ethereum, Solana)
+platform
+array of strings
+required
+List of platforms or launchpads where the activity is hosted or promoted (e.g., Binance Launchpad)
+tags
+array of strings
+required
+List of descriptive tags associated with the activity (e.g., 'DeFi', 'NFT')
+startDate
+int64
+Start date of the activity as epoch milliseconds
+endDate
+int64
+End date of the activity as epoch milliseconds
+approxStartDate
+string
+Approximate start date in case the exact date is not known (epoch milliseconds)
+approxEndDate
+string
+Approximate end date in case the exact date is not known (epoch milliseconds)
+statusUpdatedAt
+int64
+Timestamp when the activity status was last updated (epoch milliseconds)
+description
+object
+required
+Detailed description of the activity, including overview and participation instructions
+DESCRIPTION OBJECT
+rewardSupply
+string
+Total supply of rewards available for distribution
+rewards
+array of strings
+required
+List of currencies used as rewards in the activity
+rewardAmount
+string
+Total reward amount expressed in a readable format
+rewardDistribution
+int64
+Timestamp for when reward distribution starts (epoch millis)
+rewardDistributionApprox
+string
+Human-readable approximation of reward distribution time
+participants
+string
+Number of participants in the activity (if available)
+relatedAssets
+array of objects
+List of other related assets involved in the activity
+object
+name
+string
+Full name of the coin
+symbol
+string
+Ticker symbol of the coin
+image
+string
+Image URL representing the coin
+slug
+string
+Slug used to identify the currency in URLs or APIs
+joinLink
+string
+Direct link to participate in the activity
+links
+array of objects
+required
+List of useful external links related to the activity
+object
+label
+string
+required
+Display text for the link, typically shown as the clickable label (e.g., 'Learn More').
+url
+string
+required
+Target URL the link points to. Should be a valid HTTP(S) address.
+videoGuides
+array of objects
+List of video guides helping users understand or participate
+object
+title
+string
+Title of the video guide
+url
+string
+required
+YouTube video ID used to embed or link the video
+description
+string
+Brief description of the video content
+createdAt
+int64
+required
+Timestamp when the activity was created (epoch millis)
+updatedAt
+int64
+Timestamp when the activity was last updated (epoch millis)
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+Get crypto activity by ID
+GET
+https://public-api.dropstab.com/api/v1/cryptoActivities/{id}
+Returns a single crypto activity identified by its unique ID.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+id
+int64
+required
+ 
+Responses
+200
+Crypto activity details
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Represents a commercial crypto activity with detailed metadata
+id
+int64
+required
+Unique identifier of the activity
+coinSlug
+string
+required
+Slug (URL-friendly identifier) of the associated coin (e.g., 'bitcoin')
+coinName
+string
+required
+Full name of the associated coin (e.g., 'Bitcoin')
+coinSymbol
+string
+required
+Ticker symbol of the associated coin (e.g., 'BTC')
+score
+string
+enum
+required
+Score assigned to the activity based on internal logic or third-party metrics
+VERY_HIGH HIGH NOT_RATED
+status
+string
+enum
+Status of the activity (e.g., upcoming, active, completed)
+TOMORROW UPCOMING ACTIVE CLAIM PAUSED ENDED
+activityType
+string
+required
+Type of the activity, e.g., 'airdrop', 'testnet', 'token sale'
+ecosystem
+array of strings
+required
+List of blockchain ecosystems involved (e.g., Ethereum, Solana)
+platform
+array of strings
+required
+List of platforms or launchpads where the activity is hosted or promoted (e.g., Binance Launchpad)
+tags
+array of strings
+required
+List of descriptive tags associated with the activity (e.g., 'DeFi', 'NFT')
+startDate
+int64
+Start date of the activity as epoch milliseconds
+endDate
+int64
+End date of the activity as epoch milliseconds
+approxStartDate
+string
+Approximate start date in case the exact date is not known (epoch milliseconds)
+approxEndDate
+string
+Approximate end date in case the exact date is not known (epoch milliseconds)
+statusUpdatedAt
+int64
+Timestamp when the activity status was last updated (epoch milliseconds)
+description
+object
+required
+Detailed description of the activity, including overview and participation instructions
+DESCRIPTION OBJECT
+rewardSupply
+string
+Total supply of rewards available for distribution
+rewards
+array of strings
+required
+List of currencies used as rewards in the activity
+rewardAmount
+string
+Total reward amount expressed in a readable format
+rewardDistribution
+int64
+Timestamp for when reward distribution starts (epoch millis)
+rewardDistributionApprox
+string
+Human-readable approximation of reward distribution time
+participants
+string
+Number of participants in the activity (if available)
+relatedAssets
+array of objects
+List of other related assets involved in the activity
+object
+name
+string
+Full name of the coin
+symbol
+string
+Ticker symbol of the coin
+image
+string
+Image URL representing the coin
+slug
+string
+Slug used to identify the currency in URLs or APIs
+joinLink
+string
+Direct link to participate in the activity
+links
+array of objects
+required
+List of useful external links related to the activity
+object
+label
+string
+required
+Display text for the link, typically shown as the clickable label (e.g., 'Learn More').
+url
+string
+required
+Target URL the link points to. Should be a valid HTTP(S) address.
+videoGuides
+array of objects
+List of video guides helping users understand or participate
+object
+title
+string
+Title of the video guide
+url
+string
+required
+YouTube video ID used to embed or link the video
+description
+string
+Brief description of the video content
+createdAt
+int64
+required
+Timestamp when the activity was created (epoch millis)
+updatedAt
+int64
+Timestamp when the activity was last updated (epoch millis)
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Get crypto activities for a specific coin
+GET
+https://public-api.dropstab.com/api/v1/cryptoActivities/coin/{coinSlug}
+Returns a paginated list of crypto activities associated with a specific coin identified by its slug. Supports sorting and pagination.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+coinSlug
+string
+required
+ 
+Query Params
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to STATUS
+ 
+Allowed:
+IDSTART_DATEEND_DATEUPDATED_ATSTATUS
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 10
+ 
+Responses
+200
+List of crypto activities
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Unique identifier of the activity
+coinSlug
+string
+required
+Slug (URL-friendly identifier) of the associated coin (e.g., 'bitcoin')
+coinName
+string
+required
+Full name of the associated coin (e.g., 'Bitcoin')
+coinSymbol
+string
+required
+Ticker symbol of the associated coin (e.g., 'BTC')
+score
+string
+enum
+required
+Score assigned to the activity based on internal logic or third-party metrics
+VERY_HIGH HIGH NOT_RATED
+status
+string
+enum
+Status of the activity (e.g., upcoming, active, completed)
+TOMORROW UPCOMING ACTIVE CLAIM PAUSED ENDED
+activityType
+string
+required
+Type of the activity, e.g., 'airdrop', 'testnet', 'token sale'
+ecosystem
+array of strings
+required
+List of blockchain ecosystems involved (e.g., Ethereum, Solana)
+platform
+array of strings
+required
+List of platforms or launchpads where the activity is hosted or promoted (e.g., Binance Launchpad)
+tags
+array of strings
+required
+List of descriptive tags associated with the activity (e.g., 'DeFi', 'NFT')
+startDate
+int64
+Start date of the activity as epoch milliseconds
+endDate
+int64
+End date of the activity as epoch milliseconds
+approxStartDate
+string
+Approximate start date in case the exact date is not known (epoch milliseconds)
+approxEndDate
+string
+Approximate end date in case the exact date is not known (epoch milliseconds)
+statusUpdatedAt
+int64
+Timestamp when the activity status was last updated (epoch milliseconds)
+description
+object
+required
+Detailed description of the activity, including overview and participation instructions
+DESCRIPTION OBJECT
+rewardSupply
+string
+Total supply of rewards available for distribution
+rewards
+array of strings
+required
+List of currencies used as rewards in the activity
+rewardAmount
+string
+Total reward amount expressed in a readable format
+rewardDistribution
+int64
+Timestamp for when reward distribution starts (epoch millis)
+rewardDistributionApprox
+string
+Human-readable approximation of reward distribution time
+participants
+string
+Number of participants in the activity (if available)
+relatedAssets
+array of objects
+List of other related assets involved in the activity
+object
+name
+string
+Full name of the coin
+symbol
+string
+Ticker symbol of the coin
+image
+string
+Image URL representing the coin
+slug
+string
+Slug used to identify the currency in URLs or APIs
+joinLink
+string
+Direct link to participate in the activity
+links
+array of objects
+required
+List of useful external links related to the activity
+object
+label
+string
+required
+Display text for the link, typically shown as the clickable label (e.g., 'Learn More').
+url
+string
+required
+Target URL the link points to. Should be a valid HTTP(S) address.
+videoGuides
+array of objects
+List of video guides helping users understand or participate
+object
+title
+string
+Title of the video guide
+url
+string
+required
+YouTube video ID used to embed or link the video
+description
+string
+Brief description of the video content
+createdAt
+int64
+required
+Timestamp when the activity was created (epoch millis)
+updatedAt
+int64
+Timestamp when the activity was last updated (epoch millis)
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Retrieve a paginated list of exchanges with filtering and sorting
+GET
+https://public-api.dropstab.com/api/v1/exchanges
+Returns a paginated list of cryptocurrency exchanges. Supports filtering by various parameters and sorting by specific fields.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Query Params
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to SLUG
+ 
+Allowed:
+IDSLUGNAMEMARKETS_COUNTRANK_REPORTEDVOLUME_24H_REPORTED
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 20
+ 
+query
+string
+ 
+type
+string
+enum
+ 
+Allowed:
+SPOTDERIVATIVEDEXALL
+verified
+boolean
+ 
+Responses
+200
+List of exchanges
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+id
+int64
+required
+Unique identifier for the exchange
+slug
+string
+required
+Slug (URL-friendly identifier) of the exchange
+name
+string
+required
+Display name of the exchange
+image
+string
+URL to the logo or image of the exchange
+verified
+boolean
+required
+Indicates whether the exchange's data is verified and considered reliable
+type
+string
+enum
+required
+Type of the exchange, such as centralized or decentralized
+SPOT DERIVATIVE DEX ALL
+rankVerified
+int32
+Verified rank of the exchange based on trusted volume
+rankReported
+int32
+Reported rank of the exchange based on self-reported volume
+volume24hReported
+number
+required
+Reported trading 24h volume
+volume24hVerified
+number
+required
+Verified trading 24h volume
+marketsCount
+int32
+required
+Amount of exchanges pairs
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Retrieve detailed information about a specific exchange
+GET
+https://public-api.dropstab.com/api/v1/exchanges/{exchangeSlug}
+Returns detailed information about a specific cryptocurrency exchange identified by its slug. You can optionally include its trading pairs in the response.
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+exchangeSlug
+string
+required
+ 
+Query Params
+includePairs
+boolean
+ 
+Responses
+200
+Detailed exchange information
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Full exchange info
+id
+int64
+required
+Unique identifier for the exchange
+slug
+string
+required
+Slug (URL-friendly identifier) of the exchange
+name
+string
+required
+Display name of the exchange
+image
+string
+URL to the logo or image of the exchange
+rankVerified
+int32
+Verified rank of the exchange based on trusted volume
+rankReported
+int32
+Reported rank of the exchange based on self-reported volume
+country
+string
+Country where the exchange is registered or primarily operates
+type
+string
+enum
+required
+Type of the exchange, such as centralized or decentralized
+SPOT DERIVATIVE DEX ALL
+verified
+boolean
+required
+Indicates whether the exchange's data is verified and considered reliable
+volume24hReported
+number
+required
+Reported trading 24h volume
+volume24hVerified
+number
+required
+Verified trading 24h volume
+onTradingView
+boolean
+Indicates whether this exchange is integrated with TradingView
+tradingViewName
+string
+Exchange symbol used in TradingView
+tradingViewPriority
+int32
+Display priority of the exchange on TradingView integrations
+marketsCount
+int32
+required
+Amount of exchanges pairs
+pairs
+array of objects
+List of trading pairs available on the exchange
+object
+base
+string
+required
+Base asset of the trading pair
+quote
+string
+required
+Quote asset of the trading pair
+priceUsd
+number
+required
+Current price of the base asset in USD
+volume24h
+double
+required
+24-hour trading volume in USD
+link
+string
+required
+URL to the trading page on the exchange's website
+verified
+boolean
+required
+Indicates whether the data for this trading pair is verified
+marginAvailable
+boolean
+required
+Indicates whether margin trading is available for this pair
+type
+string
+enum
+required
+Type of the exchange (e.g., centralized, decentralized)
+SPOT DERIVATIVE DEX ALL
+marginLeverage
+int32
+Maximum available leverage for margin trading
+tradingViewBase
+string
+Base asset symbol used on TradingView
+tradingViewQuote
+string
+Quote asset symbol used on TradingView
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+Retrieve trading pairs for a specific exchange
+GET
+https://public-api.dropstab.com/api/v1/exchanges/{exchangeSlug}/pairs
+Returns a paginated and sorted list of trading pairs for a given exchange, identified by its slug. Supports sorting by fields such as base or quote
+Recent Requests
+Log in to see full request history
+TIME	STATUS	USER AGENT	
+Make a request to see history.
+0 Requests This Month
+Path Params
+exchangeSlug
+string
+required
+ 
+Query Params
+sortingOrder
+string
+enum
+Defaults to ASC
+ 
+Allowed:
+ASCDESC
+sortingField
+string
+enum
+Defaults to BASE
+ 
+Allowed:
+BASEQUOTEPRICE_USDVOLUME_24H
+page
+int32
+Defaults to 0
+ 
+pageSize
+int32
+Defaults to 20
+ 
+Responses
+200
+Exchange trading pairs
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+Paged response containing a list of items
+content
+array of objects
+required
+List of items in the current page
+object
+base
+string
+required
+Base asset of the trading pair
+quote
+string
+required
+Quote asset of the trading pair
+priceUsd
+number
+required
+Current price of the base asset in USD
+volume24h
+double
+required
+24-hour trading volume in USD
+link
+string
+required
+URL to the trading page on the exchange's website
+verified
+boolean
+required
+Indicates whether the data for this trading pair is verified
+marginAvailable
+boolean
+required
+Indicates whether margin trading is available for this pair
+type
+string
+enum
+required
+Type of the exchange (e.g., centralized, decentralized)
+SPOT DERIVATIVE DEX ALL
+marginLeverage
+int32
+Maximum available leverage for margin trading
+tradingViewBase
+string
+Base asset symbol used on TradingView
+tradingViewQuote
+string
+Quote asset symbol used on TradingView
+totalSize
+int32
+required
+Total number of items across all pages
+pageSize
+int32
+required
+Number of items per page
+totalPages
+int32
+required
+Total number of pages available
+currentPage
+int32
+required
+Current page number (0-based index)
+nextPage
+int32
+Page number of the next page, if available
+previousPage
+int32
+Page number of the previous page, if available
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+400
+Bad Requests
+RESPONSE BODY
+object
+status
+string
+required
+HTTP status of the response
+data
+object
+The data returned by the API, null in case of failure
+HAS ADDITIONAL FIELDS
+failure
+boolean
+required
+Indicates if the response represents a failure
+failureDetails
+string
+Details of the failure
+timestamp
+int64
+required
+Timestamp of the response
+
+
+
+
