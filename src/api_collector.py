@@ -73,22 +73,22 @@ class DataCollector:
         combined = []
 
         if by_retail_roi:
-            retail_top = self.api.get_all_investors(sort_by="retailRoi", sort_order="desc")[:top_n]
+            retail_top = self.api.get_all_investors(sort_by="RETAIL_ROI_PERCENT", sort_order="DESC")[:top_n]
             for inv in retail_top:
-                slug = inv.get("slug")
+                slug = inv.get("investorSlug")
                 if slug and slug not in seen_slugs:
                     seen_slugs.add(slug)
                     combined.append(inv)
             logger.info(f"Added {len(retail_top)} from retail ROI top")
 
         if by_private_roi:
-            private_top = self.api.get_all_investors(sort_by="privateRoi", sort_order="desc")[:top_n]
+            private_top = self.api.get_all_investors(sort_by="PRIVATE_ROI_PERCENT", sort_order="DESC")[:top_n]
             for inv in private_top:
-                slug = inv.get("slug")
+                slug = inv.get("investorSlug")
                 if slug and slug not in seen_slugs:
                     seen_slugs.add(slug)
                     combined.append(inv)
-            logger.info(f"Added {len([i for i in private_top if i.get('slug') not in seen_slugs])} from private ROI top")
+            logger.info(f"Added new investors from private ROI top")
 
         self.investors = combined
         self._save_json("top_investors.json", combined)
@@ -107,7 +107,7 @@ class DataCollector:
             Dict mapping slug to detailed investor data
         """
         if slugs is None:
-            slugs = [inv.get("slug") for inv in self.investors if inv.get("slug")]
+            slugs = [inv.get("investorSlug") for inv in self.investors if inv.get("investorSlug")]
 
         logger.info(f"Collecting details for {len(slugs)} investors...")
         details = {}
@@ -226,7 +226,7 @@ class DataCollector:
         self.collect_top_investors(top_n=top_n)
 
         # 2. Collect investor details
-        investor_slugs = [inv.get("slug") for inv in self.investors]
+        investor_slugs = [inv.get("investorSlug") for inv in self.investors if inv.get("investorSlug")]
         self.collect_investor_details(investor_slugs)
 
         # 3. Collect funding rounds for these investors
@@ -268,30 +268,33 @@ def convert_to_models(collector: DataCollector) -> tuple[list[Fund], list[FundIn
 
     # Convert investors to Fund models
     for inv in collector.investors:
+        # Handle binanceListing as object
+        binance_listing = inv.get("binanceListing", {})
+        binance_pct = binance_listing.get("percent") if isinstance(binance_listing, dict) else None
+
         fund = Fund(
             rank=inv.get("rank", 0),
             name=inv.get("name", ""),
-            slug=inv.get("slug", ""),
+            slug=inv.get("investorSlug", ""),
             tier=inv.get("tier", ""),
-            portfolio_count=inv.get("portfolioCount", 0),
-            investments_count=inv.get("investmentsCount", 0),
-            retail_roi=inv.get("retailRoi"),
-            private_roi=inv.get("privateRoi"),
-            binance_listing_pct=inv.get("binanceListingPct"),
-            latest_round_date=inv.get("latestRoundDate"),
+            portfolio_count=inv.get("portfolioCoinsCount", 0),
+            investments_count=inv.get("totalInvestments", 0),
+            retail_roi=inv.get("retailRoiPercent"),
+            private_roi=inv.get("privateRoiPercent"),
+            binance_listing_pct=binance_pct,
+            latest_round_date=inv.get("lastRoundDate"),
         )
         funds.append(fund)
 
     # Convert funding rounds to FundInvestment models
     for round_data in collector.funding_rounds:
-        coin = round_data.get("coin", {}) or {}
-        project_slug = coin.get("slug", "") or round_data.get("coinSlug", "")
-        project_name = coin.get("name", "") or round_data.get("coinName", "")
+        project_slug = round_data.get("coinSlug", "")
+        project_name = round_data.get("coinSymbol", "")
 
         # Get investors from this round
         round_investors = round_data.get("investors", []) or []
         for inv in round_investors:
-            inv_slug = inv.get("slug", "") if isinstance(inv, dict) else ""
+            inv_slug = inv.get("investorSlug", "") if isinstance(inv, dict) else ""
             inv_name = inv.get("name", "") if isinstance(inv, dict) else str(inv)
 
             investment = FundInvestment(
@@ -299,10 +302,10 @@ def convert_to_models(collector: DataCollector) -> tuple[list[Fund], list[FundIn
                 fund_name=inv_name,
                 project_slug=project_slug,
                 project_name=project_name,
-                amount=round_data.get("amount"),
+                amount=round_data.get("fundsRaised"),
                 stage=round_data.get("stage", ""),
                 date=round_data.get("date"),
-                category=coin.get("category"),
+                category=round_data.get("category"),
                 pre_valuation=round_data.get("preValuation"),
             )
             investments.append(investment)

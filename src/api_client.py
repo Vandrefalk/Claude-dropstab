@@ -79,30 +79,30 @@ class DropStabAPI:
 
     def get_investors(
         self,
-        page: int = 1,
-        limit: int = 100,
+        page: int = 0,
+        page_size: int = 100,
         sort_by: Optional[str] = None,
-        sort_order: str = "desc"
+        sort_order: str = "DESC"
     ) -> dict:
         """
         Get list of investors/funds.
 
         Args:
-            page: Page number (1-indexed)
-            limit: Items per page (max 100)
-            sort_by: Field to sort by (e.g., 'retailRoi', 'privateRoi', 'investmentsCount')
-            sort_order: 'asc' or 'desc'
+            page: Page number (0-indexed)
+            page_size: Items per page (max 100)
+            sort_by: Field to sort by (e.g., 'RETAIL_ROI_PERCENT', 'PRIVATE_ROI_PERCENT', 'TOTAL_INVESTMENTS')
+            sort_order: 'ASC' or 'DESC'
 
         Returns:
-            dict with 'data' list and 'pagination' info
+            dict with 'data.content' list and pagination info
         """
         params = {
             "page": page,
-            "limit": limit,
+            "pageSize": page_size,
         }
         if sort_by:
-            params["sortBy"] = sort_by
-            params["sortOrder"] = sort_order
+            params["sortingField"] = sort_by
+            params["sortingOrder"] = sort_order
 
         return self._request("/investors", params)
 
@@ -121,37 +121,38 @@ class DropStabAPI:
     def get_all_investors(
         self,
         sort_by: Optional[str] = None,
-        sort_order: str = "desc",
+        sort_order: str = "DESC",
         max_pages: int = 50
     ) -> list[dict]:
         """
         Fetch all investors with pagination.
 
         Args:
-            sort_by: Field to sort by
-            sort_order: 'asc' or 'desc'
+            sort_by: Field to sort by (e.g., 'RETAIL_ROI_PERCENT', 'PRIVATE_ROI_PERCENT')
+            sort_order: 'ASC' or 'DESC'
             max_pages: Maximum pages to fetch
 
         Returns:
             List of all investor dicts
         """
         all_investors = []
-        page = 1
+        page = 0
 
-        while page <= max_pages:
-            logger.info(f"Fetching investors page {page}...")
-            result = self.get_investors(page=page, limit=100, sort_by=sort_by, sort_order=sort_order)
+        while page < max_pages:
+            logger.info(f"Fetching investors page {page + 1}...")
+            result = self.get_investors(page=page, page_size=100, sort_by=sort_by, sort_order=sort_order)
 
-            data = result.get("data", [])
-            if not data:
+            # Extract content from data.content
+            data = result.get("data", {})
+            content = data.get("content", []) if isinstance(data, dict) else []
+            if not content:
                 break
 
-            all_investors.extend(data)
+            all_investors.extend(content)
 
             # Check if more pages
-            pagination = result.get("pagination", {})
-            total_pages = pagination.get("totalPages", 1)
-            if page >= total_pages:
+            total_pages = data.get("totalPages", 1) if isinstance(data, dict) else 1
+            if page + 1 >= total_pages:
                 break
 
             page += 1
@@ -163,8 +164,8 @@ class DropStabAPI:
 
     def get_funding_rounds(
         self,
-        page: int = 1,
-        limit: int = 100,
+        page: int = 0,
+        page_size: int = 100,
         coin_slug: Optional[str] = None,
         investor_slug: Optional[str] = None
     ) -> dict:
@@ -172,15 +173,15 @@ class DropStabAPI:
         Get funding rounds.
 
         Args:
-            page: Page number
-            limit: Items per page
+            page: Page number (0-indexed)
+            page_size: Items per page
             coin_slug: Filter by coin/project slug
             investor_slug: Filter by investor slug
 
         Returns:
-            dict with 'data' list and pagination
+            dict with 'data.content' list and pagination
         """
-        params = {"page": page, "limit": limit}
+        params = {"page": page, "pageSize": page_size}
         if coin_slug:
             params["coinSlug"] = coin_slug
         if investor_slug:
@@ -212,25 +213,26 @@ class DropStabAPI:
             List of all funding round dicts
         """
         all_rounds = []
-        page = 1
+        page = 0
 
-        while page <= max_pages:
-            logger.info(f"Fetching funding rounds page {page}...")
+        while page < max_pages:
+            logger.info(f"Fetching funding rounds page {page + 1}...")
             result = self.get_funding_rounds(
                 page=page,
-                limit=100,
+                page_size=100,
                 investor_slug=investor_slug
             )
 
-            data = result.get("data", [])
-            if not data:
+            # Extract content from data.content
+            data = result.get("data", {})
+            content = data.get("content", []) if isinstance(data, dict) else []
+            if not content:
                 break
 
-            all_rounds.extend(data)
+            all_rounds.extend(content)
 
-            pagination = result.get("pagination", {})
-            total_pages = pagination.get("totalPages", 1)
-            if page >= total_pages:
+            total_pages = data.get("totalPages", 1) if isinstance(data, dict) else 1
+            if page + 1 >= total_pages:
                 break
 
             page += 1
