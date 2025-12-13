@@ -35,6 +35,7 @@ class DropStabAPI:
         self.session = requests.Session()
         self.session.headers.update({
             "Authorization": f"Bearer {api_key}",
+            "x-api-key": api_key,
             "Content-Type": "application/json",
             "Accept": "application/json"
         })
