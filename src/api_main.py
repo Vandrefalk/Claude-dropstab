@@ -72,7 +72,7 @@ def collect_data(
 
 def export_data(
     collector: DataCollector,
-    export_dir: str = "exports"
+    export_dir: str = "API data"
 ):
     """
     Export collected data to CSV and JSON.
@@ -83,7 +83,7 @@ def export_data(
     """
     # Create dated export folder
     date_str = datetime.now().strftime("%Y-%m-%d")
-    export_path = Path(export_dir) / f"{date_str}_api"
+    export_path = Path(export_dir) / date_str
     export_path.mkdir(parents=True, exist_ok=True)
 
     # Convert to models
@@ -211,14 +211,14 @@ Examples:
     parser.add_argument(
         "--output", "-o",
         type=str,
-        default="exports",
-        help="Export directory (default: exports)"
+        default="API data",
+        help="Export directory (default: API data)"
     )
     parser.add_argument(
         "--data-dir",
         type=str,
-        default="data/api",
-        help="Raw data directory (default: data/api)"
+        default="API data/raw",
+        help="Raw data directory (default: API data/raw)"
     )
 
     args = parser.parse_args()
