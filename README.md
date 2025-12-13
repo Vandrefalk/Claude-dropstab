@@ -89,15 +89,74 @@ python -m src.main analyze --years 2
 
 ```
 src/
-├── models.py     # Модели данных (Fund, Project, Investment)
-├── parser.py     # Парсер сайта dropstab.com
-├── storage.py    # Кэширование данных в JSON
-├── analyzer.py   # Агрегация и анализ
-└── main.py       # CLI интерфейс
+├── models.py        # Модели данных (Fund, Project, Investment)
+├── parser.py        # Парсер сайта dropstab.com
+├── storage.py       # Кэширование данных в JSON
+├── analyzer.py      # Агрегация и анализ
+├── main.py          # CLI интерфейс (парсер)
+├── api_client.py    # REST API клиент
+├── api_collector.py # Сборщик данных через API
+└── api_main.py      # CLI интерфейс (API)
 ```
+
+## API режим (рекомендуется)
+
+Для более надежного сбора данных используйте официальный DropStab API.
+
+### Настройка API
+
+1. Получите API ключ на [dropstab.com/products/commercial-api](https://dropstab.com/products/commercial-api)
+2. Скопируйте `.env.example` в `.env` и добавьте ключ:
+   ```bash
+   cp .env.example .env
+   # Отредактируйте .env и добавьте ваш ключ
+   ```
+
+### Использование API
+
+```bash
+# Проверка подключения
+python -m src.api_main test --api-key YOUR_KEY
+
+# Сбор TOP-20 инвесторов (dual mode: retail + private ROI)
+python -m src.api_main collect --api-key YOUR_KEY --top 20
+
+# Сбор ВСЕХ инвесторов
+python -m src.api_main collect --api-key YOUR_KEY --full
+
+# Указать папку для экспорта
+python -m src.api_main collect --api-key YOUR_KEY --top 30 --output exports/my_data
+```
+
+### API параметры
+
+| Параметр | Описание | По умолчанию |
+|----------|----------|--------------|
+| `--api-key, -k` | API ключ (обязательный) | - |
+| `--top, -t` | Количество ТОП инвесторов | 20 |
+| `--full, -f` | Собрать ВСЕХ инвесторов | False |
+| `--output, -o` | Папка для экспорта | `exports` |
+| `--data-dir` | Папка для сырых данных | `data/api` |
+
+### API эндпоинты
+
+API клиент поддерживает следующие эндпоинты:
+
+- `/investors` - список инвесторов/фондов
+- `/investors/{slug}` - детали инвестора
+- `/fundingRounds` - раунды финансирования
+- `/coins` - список монет/токенов
+- `/coins/detailed/{slug}` - детали монеты
+- `/tokenUnlocks` - расписание анлоков
 
 ## Примечания
 
+### Парсер (без API)
 - Парсер использует задержку 1.5 сек между запросами для rate limiting
 - Данные кэшируются в папке `data/` - повторный запуск пропустит уже спаршенные фонды
 - Для полного обновления удалите папку `data/`
+
+### API режим
+- Рекомендуется для продакшн использования
+- Более стабильный и быстрый чем парсинг
+- Rate limit: ~0.5 сек между запросами
