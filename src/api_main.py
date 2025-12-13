@@ -8,8 +8,6 @@ from pathlib import Path
 
 from .api_client import DropStabAPI
 from .api_collector import DataCollector, convert_to_models
-from .analyzer import analyze_projects
-from .storage import Storage
 
 # Configure logging
 logging.basicConfig(
