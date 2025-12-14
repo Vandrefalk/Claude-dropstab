@@ -177,12 +177,18 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
         # Sort funds by amount invested (descending)
         funds_list.sort(key=lambda x: x['invested'], reverse=True)
 
+        # Calculate invest/mcap ratio
+        mcap = proj_data['market_cap']
+        total_inv = proj_data['total_invested']
+        invest_mcap_ratio = (total_inv / mcap) if (mcap and mcap > 0 and total_inv) else None
+
         result.append({
             'project_slug': slug,
             'project_name': proj_data['name'],
             'market_cap': proj_data['market_cap'],
             'price': proj_data['price'],
             'total_invested': proj_data['total_invested'],
+            'invest_mcap_ratio': invest_mcap_ratio,
             'funds_count': len(funds_list),
             'rounds_count': proj_data['rounds_count'],
             'funds': funds_list
@@ -203,7 +209,7 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
         writer = csv.writer(f)
         writer.writerow([
             'project_slug', 'project_name', 'market_cap_usd', 'price_usd',
-            'total_invested', 'funds_count',
+            'total_invested', 'invest_mcap_ratio', 'funds_count',
             'fund_slug', 'fund_name', 'fund_invested'
         ])
 
@@ -215,6 +221,7 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
                     proj['market_cap'] or '',
                     proj['price'] or '',
                     proj['total_invested'],
+                    proj['invest_mcap_ratio'] or '',
                     proj['funds_count'],
                     fund['slug'],
                     fund['name'],
@@ -228,7 +235,7 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
         writer = csv.writer(f)
         writer.writerow([
             'project_slug', 'project_name', 'market_cap_usd', 'price_usd',
-            'total_invested', 'funds_count', 'top_funds'
+            'total_invested', 'invest_mcap_ratio', 'funds_count', 'top_funds'
         ])
 
         for proj in result:
@@ -244,6 +251,7 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
                 proj['market_cap'] or '',
                 proj['price'] or '',
                 proj['total_invested'],
+                proj['invest_mcap_ratio'] or '',
                 proj['funds_count'],
                 top_funds
             ])
@@ -257,10 +265,12 @@ def analyze_investments(data_dir: str = "API data/raw", output_dir: str = "API d
     for i, proj in enumerate(result[:10], 1):
         mcap_str = f"${proj['market_cap']:,.0f}" if proj['market_cap'] else "N/A"
         invested_str = f"${proj['total_invested']:,.0f}" if proj['total_invested'] else "N/A"
+        ratio_str = f"{proj['invest_mcap_ratio']:.6f}" if proj['invest_mcap_ratio'] else "N/A"
 
         print(f"\n{i}. {proj['project_name']} ({proj['project_slug']})")
         print(f"   Market Cap: {mcap_str}")
         print(f"   Total Invested: {invested_str} from {proj['funds_count']} funds")
+        print(f"   Invest/MCap Ratio: {ratio_str}")
         print(f"   Top Funds:")
         for fund in proj['funds'][:3]:
             amount_str = f"${fund['invested']:,.0f}" if fund['invested'] else "N/A"
