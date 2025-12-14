@@ -27,3 +27,4 @@ env/
 .DS_Store
 Thumbs.db
 .env
+unlocks_data/raw/
