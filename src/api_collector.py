@@ -315,10 +315,10 @@ def convert_to_models(collector: DataCollector) -> tuple[list[Fund], list[FundIn
             projects_map[project_slug] = Project(
                 name=project_name,
                 slug=project_slug,
-                category=coin.get("category"),
-                market_cap=coin.get("marketCap"),
-                price=coin.get("price"),
-                total_raised=coin.get("totalRaised"),
+                category=round_data.get("category"),
+                market_cap=None,  # Will be filled from coin details
+                price=None,
+                total_raised=round_data.get("fundsRaised"),
                 rounds=[],
             )
 
@@ -327,8 +327,8 @@ def convert_to_models(collector: DataCollector) -> tuple[list[Fund], list[FundIn
             proj.rounds.append(ProjectRound(
                 stage=round_data.get("stage", ""),
                 date=round_data.get("date"),
-                price=round_data.get("price"),
-                amount=round_data.get("amount"),
+                price=round_data.get("tokenPrice"),
+                amount=round_data.get("fundsRaised"),
                 investors=[inv.get("name", "") if isinstance(inv, dict) else str(inv)
                           for inv in round_investors],
             ))
