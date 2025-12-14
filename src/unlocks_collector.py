@@ -135,20 +135,22 @@ class UnlocksCollector:
 
         return self.unlocks_data
 
-    def export_to_csv(self, output_name: str = "unlocks_table.csv"):
+    def export_to_csv(self, output_name: str = "unlocks_table.csv", max_unlock_cols: int = 50):
         """Export unlock data to CSV with dynamic columns for unlock events."""
         if not self.unlocks_data:
             print("No data to export")
             return
 
         # First pass: find max number of unlocks across all coins
-        max_unlocks = 0
+        max_unlocks_found = 0
         for slug, data in self.unlocks_data.items():
             unlocks = data.get('tokenUnlocks', [])
-            if len(unlocks) > max_unlocks:
-                max_unlocks = len(unlocks)
+            if len(unlocks) > max_unlocks_found:
+                max_unlocks_found = len(unlocks)
 
-        print(f"Max unlock events per coin: {max_unlocks}")
+        # Limit columns to prevent memory issues
+        max_unlocks = min(max_unlocks_found, max_unlock_cols)
+        print(f"Max unlock events found: {max_unlocks_found}, limiting to {max_unlocks} columns")
 
         # Build header
         header = [
@@ -198,8 +200,8 @@ class UnlocksCollector:
                 row['total_supply'] = ''
                 row['circulating_supply'] = ''
 
-            # Add unlock events
-            unlocks = data.get('tokenUnlocks', [])
+            # Add unlock events (limited to max_unlocks)
+            unlocks = data.get('tokenUnlocks', [])[:max_unlocks]
             for i, unlock in enumerate(unlocks, 1):
                 row[f'unlock_{i}_date'] = unlock.get('date', '')[:10] if unlock.get('date') else ''
                 row[f'unlock_{i}_amount'] = unlock.get('tokensAmount', '')
@@ -235,6 +237,72 @@ class UnlocksCollector:
             json.dump(rows, f, indent=2, ensure_ascii=False)
         print(f"Saved JSON: {json_path}")
 
+        return csv_path
+
+    def export_long_format(self, output_name: str = "unlocks_long.csv"):
+        """Export unlock data in long format - one row per unlock event."""
+        if not self.unlocks_data:
+            print("No data to export")
+            return
+
+        header = [
+            'coin_slug', 'coin_symbol', 'price_usd', 'market_cap', 'fdv',
+            'total_supply', 'circulating_supply', 'circulating_pct',
+            'unlocked_pct', 'locked_pct',
+            'unlock_date', 'unlock_amount', 'unlock_usd', 'unlock_pct', 'allocation'
+        ]
+
+        rows = []
+        for slug, data in self.unlocks_data.items():
+            # Base coin info
+            fdv = data.get('fdv')
+            price = data.get('priceUsd')
+            circ_pct = data.get('circulationSupplyPercent')
+
+            total_supply = ''
+            circ_supply = ''
+            if fdv and price and price > 0:
+                total_supply = fdv / price
+                if circ_pct:
+                    circ_supply = total_supply * circ_pct / 100
+
+            base = {
+                'coin_slug': slug,
+                'coin_symbol': data.get('coinSymbol', ''),
+                'price_usd': data.get('priceUsd', ''),
+                'market_cap': data.get('marketCap', ''),
+                'fdv': fdv or '',
+                'total_supply': total_supply,
+                'circulating_supply': circ_supply,
+                'circulating_pct': circ_pct or '',
+                'unlocked_pct': data.get('totalTokensUnlockedPercent', ''),
+                'locked_pct': data.get('totalTokensLockedPercent', ''),
+            }
+
+            # Add row for each unlock event
+            unlocks = data.get('tokenUnlocks', [])
+            for unlock in unlocks:
+                row = base.copy()
+                row['unlock_date'] = unlock.get('date', '')[:10] if unlock.get('date') else ''
+                row['unlock_amount'] = unlock.get('tokensAmount', '')
+                row['unlock_usd'] = unlock.get('usdAmount', '')
+                row['unlock_pct'] = unlock.get('allTokensSharePercent', '')
+                row['allocation'] = unlock.get('allocationName', '')
+                rows.append(row)
+
+        # Sort by market cap then by unlock date
+        rows.sort(key=lambda x: (
+            -(float(x['market_cap']) if x['market_cap'] else 0),
+            x['unlock_date']
+        ))
+
+        csv_path = self.output_dir / output_name
+        with open(csv_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=header)
+            writer.writeheader()
+            writer.writerows(rows)
+
+        print(f"Saved long format CSV: {csv_path} ({len(rows)} unlock events)")
         return csv_path
 
 
@@ -276,6 +344,7 @@ def main():
     elif args.command == "collect":
         collector.collect_all_unlocks(args.max_coins)
         collector.export_to_csv()
+        collector.export_long_format()
 
     elif args.command == "export":
         # Load from cache
@@ -285,6 +354,7 @@ def main():
                 collector.unlocks_data = json.load(f)
             print(f"Loaded {len(collector.unlocks_data)} coins from cache")
             collector.export_to_csv()
+            collector.export_long_format()
         else:
             print(f"No cache found at {raw_path}")
 
