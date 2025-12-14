@@ -188,14 +188,14 @@ Examples:
 
     parser.add_argument(
         "command",
-        choices=["test", "collect"],
-        help="Command to run"
+        choices=["test", "collect", "export"],
+        help="Command to run: test (check API), collect (fetch data), export (use cached data)"
     )
     parser.add_argument(
         "--api-key", "-k",
         type=str,
-        required=True,
-        help="DropStab API key"
+        default="",
+        help="DropStab API key (required for test/collect)"
     )
     parser.add_argument(
         "--top", "-t",
@@ -224,10 +224,16 @@ Examples:
     args = parser.parse_args()
 
     if args.command == "test":
+        if not args.api_key:
+            print("Error: --api-key is required for test command")
+            exit(1)
         success = test_connection(args.api_key)
         exit(0 if success else 1)
 
     elif args.command == "collect":
+        if not args.api_key:
+            print("Error: --api-key is required for collect command")
+            exit(1)
         # Collect data
         collector, summary = collect_data(
             api_key=args.api_key,
@@ -245,6 +251,23 @@ Examples:
         print(f"Investors: {summary['total_investors']}")
         print(f"Funding rounds: {summary['total_funding_rounds']}")
         print(f"Unique coins: {summary['unique_coins']}")
+        print(f"\nData exported to: {export_path}")
+
+    elif args.command == "export":
+        # Load from cache and export
+        collector = DataCollector(api_key="", output_dir=args.data_dir)
+        if not collector.load_from_cache():
+            print(f"Error: No cached data found in {args.data_dir}")
+            print("Run 'collect' command first to fetch data")
+            exit(1)
+
+        export_path = export_data(collector, args.output)
+
+        print("\n" + "=" * 50)
+        print("Export completed!")
+        print("=" * 50)
+        print(f"Investors: {len(collector.investors)}")
+        print(f"Funding rounds: {len(collector.funding_rounds)}")
         print(f"\nData exported to: {export_path}")
 
 

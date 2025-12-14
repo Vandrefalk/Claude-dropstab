@@ -33,6 +33,35 @@ class DataCollector:
             json.dump(data, f, indent=2, ensure_ascii=False, default=str)
         logger.info(f"Saved {filepath}")
 
+    def _load_json(self, filename: str) -> any:
+        """Load data from JSON file."""
+        filepath = self.output_dir / filename
+        if filepath.exists():
+            with open(filepath, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return None
+
+    def load_from_cache(self) -> bool:
+        """
+        Load previously collected data from cache.
+
+        Returns:
+            True if data was loaded, False otherwise
+        """
+        logger.info(f"Loading cached data from {self.output_dir}...")
+
+        investors = self._load_json("top_investors.json") or self._load_json("investors_raw.json")
+        if investors:
+            self.investors = investors
+            logger.info(f"Loaded {len(self.investors)} investors from cache")
+
+        funding_rounds = self._load_json("funding_rounds_raw.json")
+        if funding_rounds:
+            self.funding_rounds = funding_rounds
+            logger.info(f"Loaded {len(self.funding_rounds)} funding rounds from cache")
+
+        return bool(self.investors or self.funding_rounds)
+
     def collect_all_investors(self, sort_by: str = "retailRoi") -> list[dict]:
         """
         Collect all investors/funds data.
