@@ -268,12 +268,25 @@ def analyze_investments_extended(
         writer.writerow([
             'project_slug', 'project_name', 'symbol', 'category',
             'market_cap_usd', 'price_usd', 'ico_price_usd', 'ico_roi',
-            'total_invested', 'invest_mcap_ratio', 'first_valuation', 'last_valuation',
-            'funds_count', 'fund_slug', 'fund_name', 'fund_tier', 'fund_invested'
+            'total_invested', 'invest_mcap_ratio',
+            'funds_count', 'fund_slug', 'fund_name', 'fund_tier', 'fund_invested',
+            'fund_round_date', 'fund_round_stage', 'fund_round_valuation'
         ])
 
         for proj in result:
             for fund in proj['funds']:
+                # Get fund's first round info (entry point)
+                rounds = fund.get('rounds', [])
+                if rounds:
+                    first_round = sorted(rounds, key=lambda x: x['date'])[0]
+                    round_date = first_round.get('date', '')
+                    round_stage = first_round.get('stage', '')
+                    round_valuation = first_round.get('pre_valuation', '')
+                else:
+                    round_date = ''
+                    round_stage = ''
+                    round_valuation = ''
+
                 writer.writerow([
                     proj['project_slug'],
                     proj['project_name'],
@@ -285,13 +298,14 @@ def analyze_investments_extended(
                     f"{proj['ico_roi']:.2f}x" if proj['ico_roi'] else '',
                     proj['total_invested'],
                     proj['invest_mcap_ratio'] or '',
-                    proj['first_valuation'] or '',
-                    proj['last_valuation'] or '',
                     proj['funds_count'],
                     fund['slug'],
                     fund['name'],
                     fund['tier'] or '',
-                    fund['invested']
+                    fund['invested'],
+                    round_date,
+                    round_stage,
+                    round_valuation
                 ])
     print(f"Saved detailed CSV: {csv_path}")
 
