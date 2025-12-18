@@ -1,0 +1,2862 @@
+[
+  {
+    "id": 362,
+    "investorSlug": "iconiz",
+    "name": "ICONIZ",
+    "image": "https://icodrops.com/media/vc/logos/iconiz_logo_1740108050.webp",
+    "rank": 147,
+    "country": "United States of America",
+    "description": "ICONIZ is the world’s leading blockchain accelerator for startups.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": "2018-06-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 5021,
+    "privateRoiPercent": 1.075,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 2,
+      "listedPercent": 40
+    },
+    "links": [
+      {
+        "url": "https://www.iconiz.io/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 810,
+    "investorSlug": "chainfunder",
+    "name": "ChainFunder",
+    "image": "https://icodrops.com/media/vc/logos/chainfunder_logo_1740106924.webp",
+    "rank": 350,
+    "country": "China",
+    "description": "",
+    "ventureType": null,
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-01-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 2510.95,
+    "privateRoiPercent": 0.18,
+    "totalInvestments": 5,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "http://www.chainfunder.org/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/chainfunder/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/chainfunder",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 126,
+    "investorSlug": "bitmain",
+    "name": "Bitmain",
+    "image": "https://icodrops.com/media/vc/logos/bitmain_logo_1740107092.webp",
+    "rank": 30,
+    "country": "China",
+    "description": "Bitmain is a China-based technology company that specializes in the design and manufacture of hardware for cryptocurrency mining, particularly for Bitcoin. Founded in 2013 by Micree Zhan and Jihan Wu, Bitmain quickly became one of the most prominent and influential companies in the cryptocurrency industry.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": 1000.3,
+    "lastRoundDate": "2024-04-26T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 6,
+    "retailRoiPercent": 846.96,
+    "privateRoiPercent": 4.674,
+    "totalInvestments": 11,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 12,
+      "listedProjects": 7,
+      "listedPercent": 58.33
+    },
+    "links": [
+      {
+        "url": "https://www.bitmain.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/BITMAINtech",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 12
+  },
+  {
+    "id": 194,
+    "investorSlug": "idg-capital",
+    "name": "IDG Capital",
+    "image": "https://icodrops.com/media/vc/logos/idg-capital_logo_1740107903.webp",
+    "rank": 148,
+    "country": "China",
+    "description": "IDG Capital is an investment firm that funds early- to growth-stage companies in the technology sector.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 198.67,
+    "lastRoundDate": "2025-10-21T00:00:00Z",
+    "roundsPerYear": 2,
+    "publicSalesCount": 7,
+    "retailRoiPercent": 718.6,
+    "privateRoiPercent": 0.115,
+    "totalInvestments": 35,
+    "leadInvestments": 9,
+    "binanceListing": {
+      "totalProjects": 33,
+      "listedProjects": 8,
+      "listedPercent": 24.24
+    },
+    "links": [
+      {
+        "url": "https://en.idgcapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/IDGCapital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/idgvc",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/IDGCapital/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 33
+  },
+  {
+    "id": 52,
+    "investorSlug": "8-decimal-capital",
+    "name": "8 Decimal Capital",
+    "image": "https://icodrops.com/media/vc/logos/8-decimal-capital_logo_1740108073.webp",
+    "rank": 149,
+    "country": "United States of America",
+    "description": "A multi-strategy investment firm focused on both token and equity investment",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": "2021-01-01T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 11,
+    "retailRoiPercent": 467.47,
+    "privateRoiPercent": 6.588,
+    "totalInvestments": 18,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 22,
+      "listedProjects": 14,
+      "listedPercent": 63.64
+    },
+    "links": [
+      {
+        "url": "http://www.8dcapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/8-decimal-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 22
+  },
+  {
+    "id": 995,
+    "investorSlug": "jump-trading",
+    "name": "Jump Trading",
+    "image": "https://icodrops.com/media/vc/logos/jump-trading_logo_1740107708.webp",
+    "rank": 1,
+    "country": "United States of America",
+    "description": "Jump Trading LLC, often referred to simply as Jump, is a proprietary trading firm headquartered in Chicago, Illinois, USA. Founded in 1999 by Paul Gurinas and Bill DiSomma, Jump Trading is one of the leading high-frequency trading (HFT) firms in the world. It is known for its expertise in algorithmic trading and quantitative strategies, particularly in the fields of futures, options, and equities.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 1",
+    "twitterScore": 459.84,
+    "lastRoundDate": "2025-12-03T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 183.09,
+    "privateRoiPercent": 0.23667,
+    "totalInvestments": 11,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 11,
+      "listedProjects": 5,
+      "listedPercent": 45.45
+    },
+    "links": [
+      {
+        "url": "https://www.jumptrading.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/jumptrading",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/jump-trading",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/jump-trading-llc",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 11
+  },
+  {
+    "id": 2120,
+    "investorSlug": "coinshares",
+    "name": "CoinShares",
+    "image": "https://icodrops.com/media/vc/logos/coinshares_logo_1740107580.webp",
+    "rank": 351,
+    "country": "",
+    "description": "Pioneers in digital asset investing. CoinShares manages $1B in assets on behalf of a global investor base.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-10-01T00:00:00Z",
+    "roundsPerYear": 2,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 180.34,
+    "privateRoiPercent": 0.27,
+    "totalInvestments": 17,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 18,
+      "listedProjects": 2,
+      "listedPercent": 11.111
+    },
+    "links": [
+      {
+        "url": "https://coinshares.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/coinshares/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/coinshares",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 18
+  },
+  {
+    "id": 8608,
+    "investorSlug": "ubik-capital",
+    "name": "Ubik Capital",
+    "image": "https://icodrops.com/media/vc/logos/ubik-capital_logo_1758564733.webp",
+    "rank": 150,
+    "country": "",
+    "description": "Ubik Capital is a major force in the blockchain industry, empowered by a team of experts who deliver exceptional Proof-of-Stake services and investment opportunities. \r\nUbik Capital secures major Proof-of-Stake networks and is a trusted staking provider with years of industry experience.\r\nUbik Capital is a validator for Proof-of-Stake networks such as: Solana, Cosmos Hub, Cronos, Band Protocol, Coreum.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 311.41,
+    "lastRoundDate": "2025-03-06T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 4,
+    "retailRoiPercent": 135.32,
+    "privateRoiPercent": 0.2725,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 3,
+      "listedPercent": 75
+    },
+    "links": [
+      {
+        "url": "https://ubik.capital/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://t.me/ubikcapital",
+        "type": "TELEGRAM_ANN"
+      },
+      {
+        "url": "https://x.com/ubikcapital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/ubikcapital/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://discord.com/invite/9Jzbk4MZPF",
+        "type": "DISCORD"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 3241,
+    "investorSlug": "arcona",
+    "name": "Arcona",
+    "image": "https://icodrops.com/media/vc/logos/arcona_logo_1740107187.webp",
+    "rank": 352,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.arcona.space/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3242,
+    "investorSlug": "expx",
+    "name": "ExpX",
+    "image": "https://icodrops.com/media/vc/logos/expx_logo_1740108353.webp",
+    "rank": 353,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://expx.finance/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3243,
+    "investorSlug": "fetch",
+    "name": "Fetch",
+    "image": "https://icodrops.com/media/vc/logos/fetch_logo_1740108483.webp",
+    "rank": 354,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://fetch.ai/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3244,
+    "investorSlug": "minto",
+    "name": "Minto",
+    "image": "https://icodrops.com/media/vc/logos/minto_logo_1740106916.webp",
+    "rank": 355,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://minto.finance/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3245,
+    "investorSlug": "heco",
+    "name": "HECO",
+    "image": "https://icodrops.com/media/vc/logos/heco_logo_1740108478.webp",
+    "rank": 356,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.hecochain.com/RU/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3246,
+    "investorSlug": "sport-investing",
+    "name": "Sport Investing",
+    "image": "https://icodrops.com/media/vc/logos/sport-investing_logo_1740107137.webp",
+    "rank": 357,
+    "country": "",
+    "description": "",
+    "ventureType": "Investment Firm",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://sportinvesting.com/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3247,
+    "investorSlug": "stoic",
+    "name": "Stoic",
+    "image": "https://icodrops.com/media/vc/logos/stoic_logo_1740108388.webp",
+    "rank": 358,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://stoic.ai/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3248,
+    "investorSlug": "eywa",
+    "name": "EYWA",
+    "image": "https://icodrops.com/media/vc/logos/eywa_logo_1740108145.webp",
+    "rank": 359,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://eywa.fi/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 72,
+    "investorSlug": "fundamental-labs",
+    "name": "Fundamental Labs",
+    "image": "https://icodrops.com/media/vc/logos/fundamental-labs_logo_1740107895.webp",
+    "rank": 31,
+    "country": "China",
+    "description": "An investment company specialized in Blockchain sector. Up to now, they've invested over 100 blockchain projects in their portfolio. The most successful investments includes Coinbase, Binance, Canaan, etc.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": 346.78,
+    "lastRoundDate": "2025-09-19T00:00:00Z",
+    "roundsPerYear": 5,
+    "publicSalesCount": 47,
+    "retailRoiPercent": 110.93,
+    "privateRoiPercent": 6.593,
+    "totalInvestments": 59,
+    "leadInvestments": 6,
+    "binanceListing": {
+      "totalProjects": 54,
+      "listedProjects": 20,
+      "listedPercent": 37.04
+    },
+    "links": [
+      {
+        "url": "https://www.fundamentallabs.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/FundamentalLabs",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/fundamental-labs/",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 54
+  },
+  {
+    "id": 51,
+    "investorSlug": "anmi-oecd",
+    "name": "Anmi OECD",
+    "image": "https://icodrops.com/media/vc/logos/anmi-oecd_logo_1740106885.webp",
+    "rank": 360,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 109,
+    "privateRoiPercent": 133,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://anmi.group/en/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 583,
+    "investorSlug": "richard-f-dulude",
+    "name": "Richard F. Dulude",
+    "image": "https://icodrops.com/media/vc/logos/richard-f-dulude_logo_1740107566.webp",
+    "rank": 361,
+    "country": "United States of America",
+    "description": "Co-Founder & Partner at Underscore VC",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 0,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 109,
+    "privateRoiPercent": 133,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://underscore.vc/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "http://twitter.com/richdulude",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/dulude",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/richard-dulude",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 5633,
+    "investorSlug": "kdb-bank",
+    "name": "KDB Bank",
+    "image": "https://icodrops.com/media/vc/logos/kdb-bank_logo_1740107756.webp",
+    "rank": 362,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 101,
+    "privateRoiPercent": 101,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.kdb.co.kr/index.jsp",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.facebook.com/withkdb",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3511,
+    "investorSlug": "gc-pharma",
+    "name": "GC Pharma",
+    "image": "https://icodrops.com/media/vc/logos/gc-pharma_logo_1740107356.webp",
+    "rank": 363,
+    "country": "South Korea",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-05-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 101,
+    "privateRoiPercent": 101,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.globalgreencross.com/eng/index.do",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3512,
+    "investorSlug": "rise-conference",
+    "name": "RISE Conference",
+    "image": "https://icodrops.com/media/vc/logos/rise-conference_logo_1740106985.webp",
+    "rank": 364,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-05-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 101,
+    "privateRoiPercent": 101,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://riseconf.com/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3513,
+    "investorSlug": "tribe-accelerator",
+    "name": "Tribe Accelerator",
+    "image": "https://icodrops.com/media/vc/logos/tribe-accelerator_logo_1740107762.webp",
+    "rank": 365,
+    "country": "Singapore",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-05-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 101,
+    "privateRoiPercent": 101,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://tribeaccelerator.co/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3514,
+    "investorSlug": "utc-investment",
+    "name": "UTC Investment",
+    "image": "https://icodrops.com/media/vc/logos/utc-investment_logo_1740108000.webp",
+    "rank": 366,
+    "country": "South Korea",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-05-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 101,
+    "privateRoiPercent": 101,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.utc.co.kr/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 334,
+    "investorSlug": "reciprocal-ventures",
+    "name": "Reciprocal Ventures",
+    "image": "https://icodrops.com/media/vc/logos/reciprocal-ventures_logo_1740107224.webp",
+    "rank": 151,
+    "country": "United States of America",
+    "description": "Reciprocal Ventures is a venture capital firm focused exclusively on FinTech.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 517.73,
+    "lastRoundDate": "2025-10-08T00:00:00Z",
+    "roundsPerYear": 3,
+    "publicSalesCount": 7,
+    "retailRoiPercent": 77.66,
+    "privateRoiPercent": 458.16,
+    "totalInvestments": 29,
+    "leadInvestments": 4,
+    "binanceListing": {
+      "totalProjects": 24,
+      "listedProjects": 4,
+      "listedPercent": 16.667
+    },
+    "links": [
+      {
+        "url": "https://recvc.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/recvcx",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/reciprocal-ventures/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/reciprocal-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 24
+  },
+  {
+    "id": 260,
+    "investorSlug": "rockawayx",
+    "name": "RockawayX",
+    "image": "https://icodrops.com/media/vc/logos/rockaway-blockchain-fund_logo_1740107668.webp",
+    "rank": 367,
+    "country": "Switzerland",
+    "description": "Traditional VC investor into digital assets. We invest globally into outstanding founders building next generation of financial services.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-08-15T00:00:00Z",
+    "roundsPerYear": 5,
+    "publicSalesCount": 7,
+    "retailRoiPercent": 77.41,
+    "privateRoiPercent": 0.195,
+    "totalInvestments": 39,
+    "leadInvestments": 10,
+    "binanceListing": {
+      "totalProjects": 39,
+      "listedProjects": 5,
+      "listedPercent": 12.821
+    },
+    "links": [
+      {
+        "url": "https://rbf.capital/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/rockaway-blockchain",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 39
+  },
+  {
+    "id": 24,
+    "investorSlug": "slow-ventures",
+    "name": "Slow Ventures",
+    "image": "https://icodrops.com/media/vc/logos/slow-ventures_logo_1740108234.webp",
+    "rank": 32,
+    "country": "United States of America",
+    "description": "Slow Ventures is known for its patient and supportive approach to investments. They often take a long-term view and provide guidance, mentorship, and resources to the startups they back.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": 974.86,
+    "lastRoundDate": "2025-06-04T00:00:00Z",
+    "roundsPerYear": 3,
+    "publicSalesCount": 10,
+    "retailRoiPercent": 71.96,
+    "privateRoiPercent": 6.844,
+    "totalInvestments": 43,
+    "leadInvestments": 4,
+    "binanceListing": {
+      "totalProjects": 36,
+      "listedProjects": 5,
+      "listedPercent": 13.889
+    },
+    "links": [
+      {
+        "url": "https://slow.co/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/slow",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/slow-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 36
+  },
+  {
+    "id": 1254,
+    "investorSlug": "ausum-ventures",
+    "name": "Ausum Ventures",
+    "image": "https://icodrops.com/media/vc/logos/ausum-ventures_logo_1740107604.webp",
+    "rank": 368,
+    "country": "United States of America",
+    "description": "Ausum Blockchain Fund is a hybrid venture and hedge fund comprised of early-stage startups and crypto-assets for social good.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-07-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 62.5,
+    "privateRoiPercent": 21.02,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 1,
+      "listedPercent": 25
+    },
+    "links": [
+      {
+        "url": "https://www.ausum.vc/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/ausum-ventures/?originalSubdomain=pt",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/ausum-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 712,
+    "investorSlug": "collab-currency",
+    "name": "Collab+Currency",
+    "image": "https://icodrops.com/media/vc/logos/collabcurrency_logo_1740107331.webp",
+    "rank": 369,
+    "country": "",
+    "description": "Collab+Currency is an early stage venture investor focusing on web3",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-10-20T00:00:00Z",
+    "roundsPerYear": 9,
+    "publicSalesCount": 9,
+    "retailRoiPercent": 60.13,
+    "privateRoiPercent": 0.65375,
+    "totalInvestments": 48,
+    "leadInvestments": 7,
+    "binanceListing": {
+      "totalProjects": 48,
+      "listedProjects": 5,
+      "listedPercent": 10.417
+    },
+    "links": [
+      {
+        "url": "https://www.collabcurrency.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/collab-currency",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 48
+  },
+  {
+    "id": 582,
+    "investorSlug": "andreas-schwartz",
+    "name": "Andreas Schwartz",
+    "image": "https://icodrops.com/media/vc/logos/andreas-schwartz_logo_1740107307.webp",
+    "rank": 370,
+    "country": "Bulgaria",
+    "description": "Andreas Schwartz is the co-founder and head SEO at iGaming.com.",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 58.52,
+    "lastRoundDate": "2021-02-05T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 54.56,
+    "privateRoiPercent": 66.8,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 4,
+      "listedPercent": 100
+    },
+    "links": [
+      {
+        "url": "http://www.igaming.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/zeg0at",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://de.linkedin.com/in/andreas-schwartz-a87182149",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/andreas-schwartz",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/schwartz.andreas",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 584,
+    "investorSlug": "fj-syndicates",
+    "name": "FJ Syndicates",
+    "image": "https://icodrops.com/media/vc/logos/fj-syndicates_logo_1740108051.webp",
+    "rank": 371,
+    "country": "Australia",
+    "description": "Managing early-stage private equity and digital assets.",
+    "ventureType": "Angel Group",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2020-07-12T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 52.65,
+    "privateRoiPercent": 133,
+    "totalInvestments": 2,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 3,
+      "listedProjects": 2,
+      "listedPercent": 66.67
+    },
+    "links": [
+      {
+        "url": "http://www.fjsyndicates.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/fj-syndicates",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 3
+  },
+  {
+    "id": 117,
+    "investorSlug": "signum-capital",
+    "name": "Signum Capital",
+    "image": "https://icodrops.com/media/vc/logos/signum-capital_logo_1740107545.webp",
+    "rank": 152,
+    "country": "Singapore",
+    "description": "Signum Capital invests in distributed ledger technologies and crypto assets. Signum Capital support game-changing projects that advance us towards the future of blockchain-enabled socioeconomic transformation.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 790.07,
+    "lastRoundDate": "2025-12-01T00:00:00Z",
+    "roundsPerYear": 10,
+    "publicSalesCount": 99,
+    "retailRoiPercent": 51.16,
+    "privateRoiPercent": 0.53671,
+    "totalInvestments": 117,
+    "leadInvestments": 7,
+    "binanceListing": {
+      "totalProjects": 111,
+      "listedProjects": 17,
+      "listedPercent": 15.315
+    },
+    "links": [
+      {
+        "url": "https://www.signum.capital/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/Signum_Capital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/signum-capital/about/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/signum-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 111
+  },
+  {
+    "id": 951,
+    "investorSlug": "alchemmy",
+    "name": "Alchemmy",
+    "image": "https://icodrops.com/media/vc/logos/alchemmy_logo_1740108016.webp",
+    "rank": 372,
+    "country": "United Kingdom",
+    "description": "",
+    "ventureType": null,
+    "tier": null,
+    "twitterScore": 37.74,
+    "lastRoundDate": "2022-01-28T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 47.95,
+    "privateRoiPercent": null,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 3,
+      "listedProjects": 2,
+      "listedPercent": 66.67
+    },
+    "links": [
+      {
+        "url": "https://www.alchemmy.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/alchemmy",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/alchemmy",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 3
+  },
+  {
+    "id": 949,
+    "investorSlug": "antonio-furtado",
+    "name": "Antonio Furtado",
+    "image": "https://icodrops.com/media/vc/logos/antonio-furtado_logo_1740107776.webp",
+    "rank": 373,
+    "country": "India",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 55.65,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 47.95,
+    "privateRoiPercent": 72.41,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://entropy.co/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/AntonioJFurtado",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/antoniojfurtado/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/ajf7688/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 581,
+    "investorSlug": "limitless-crypto-investments",
+    "name": "Limitless Crypto Investments",
+    "image": "https://icodrops.com/media/vc/logos/limitless-crypto-investments_logo_1740107992.webp",
+    "rank": 374,
+    "country": "United States of America",
+    "description": "LCI offers exposure to ventures, tokens, and projects related to blockchain tech, digital currency, and crypto assets.",
+    "ventureType": "Hedge Fund",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-02-05T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 36.66,
+    "privateRoiPercent": 44.44,
+    "totalInvestments": 6,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 7,
+      "listedProjects": 6,
+      "listedPercent": 85.71
+    },
+    "links": [
+      {
+        "url": "https://www.limitlesscryptos.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/limitless-crypto-investments",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 7
+  },
+  {
+    "id": 2,
+    "investorSlug": "a16z-andreessen-horowitz",
+    "name": "Andreessen Horowitz (a16z)",
+    "image": "https://icodrops.com/media/vc/logos/a16z_logo_1740107801.webp",
+    "rank": 2,
+    "country": "United States of America",
+    "description": "Andreessen Horowitz, often referred to as \"a16z,\" is a prominent venture capital firm based in Menlo Park, California. It was founded in 2009 by Marc Andreessen and Ben Horowitz, both of whom are well-known figures in the tech industry. Andreessen Horowitz is one of the leading venture capital firms in Silicon Valley and has gained a reputation for its investments in technology companies, particularly in the areas of software, internet, and more recently, blockchain and cryptocurrency.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 1",
+    "twitterScore": 3159.66,
+    "lastRoundDate": "2025-11-24T00:00:00Z",
+    "roundsPerYear": 17,
+    "publicSalesCount": 29,
+    "retailRoiPercent": 32.05,
+    "privateRoiPercent": 7.447,
+    "totalInvestments": 215,
+    "leadInvestments": 124,
+    "binanceListing": {
+      "totalProjects": 157,
+      "listedProjects": 33,
+      "listedPercent": 21.02
+    },
+    "links": [
+      {
+        "url": "https://a16z.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/a16z",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/a16z",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/a16z-crypto",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/andreessenhorowitz",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 157
+  },
+  {
+    "id": 431,
+    "investorSlug": "btx-capital",
+    "name": "BTX Capital",
+    "image": "https://icodrops.com/media/vc/logos/btx-capital_logo_1740107309.webp",
+    "rank": 375,
+    "country": "United States of America",
+    "description": "BTX Capital is an alternative investment firm focused on blockchain and decentralized finance markets since 2018.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 154.67,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 9,
+    "retailRoiPercent": 30.86,
+    "privateRoiPercent": 44.17,
+    "totalInvestments": 8,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 9,
+      "listedProjects": 2,
+      "listedPercent": 22.22
+    },
+    "links": [
+      {
+        "url": "https://www.btxcap.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/BTX_Capital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/btxcapitaloffical/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/btx-capital",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://btx-capital.medium.com/",
+        "type": "MEDIUM"
+      }
+    ],
+    "portfolioCoinsCount": 9
+  },
+  {
+    "id": 1834,
+    "investorSlug": "redpoint-ventures",
+    "name": "Redpoint Ventures",
+    "image": "https://icodrops.com/media/vc/logos/redpoint-ventures_logo_1740107214.webp",
+    "rank": 376,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2024-09-17T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 6,
+    "retailRoiPercent": 29.37,
+    "privateRoiPercent": 11.02,
+    "totalInvestments": 14,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 14,
+      "listedProjects": 3,
+      "listedPercent": 21.43
+    },
+    "links": [
+      {
+        "url": "https://www.redpoint.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCsa9FJqjpUmMF5TZjOX2K2g/featured",
+        "type": "YOUTUBE"
+      },
+      {
+        "url": "https://www.facebook.com/RedpointVC/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 14
+  },
+  {
+    "id": 8417,
+    "investorSlug": "mill-city-ventures",
+    "name": "Mill City Ventures",
+    "image": "https://icodrops.com/media/vc/logos/mill-city-ventures_logo_1755001742.webp",
+    "rank": 377,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 65.36,
+    "lastRoundDate": "2025-08-11T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 6,
+    "retailRoiPercent": 29.37,
+    "privateRoiPercent": null,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://millcityventures3.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/MILLCITY_3",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 5382,
+    "investorSlug": "synergis",
+    "name": "Synergis",
+    "image": "https://icodrops.com/media/vc/logos/synergis_logo_1740108525.webp",
+    "rank": 378,
+    "country": "",
+    "description": "Synergis has made 10 investments so far, the most recent investment project is Hibiki Run, and the investment announcement time is July 24, 2023\r\n\r\nAccording to the CoinCarp fundraising database, Synergis has invested in 4 Web3 projects, 2 NFTs projects, 1 DeFi projects and 1 Others projects. Among all, 50% of Synergis's investments are Web3 projects.",
+    "ventureType": null,
+    "tier": null,
+    "twitterScore": 295.88,
+    "lastRoundDate": "2024-08-26T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 28.29,
+    "privateRoiPercent": null,
+    "totalInvestments": 5,
+    "leadInvestments": 2,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://www.synergiscap.xyz/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://mobile.twitter.com/Synergiscap",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 5780,
+    "investorSlug": "ouroboros-capital",
+    "name": "Ouroboros Capital",
+    "image": "https://icodrops.com/media/vc/logos/ouroboros-capital_logo_1740107620.webp",
+    "rank": 379,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 1189.41,
+    "lastRoundDate": "2024-08-26T00:00:00Z",
+    "roundsPerYear": 4,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 28.29,
+    "privateRoiPercent": null,
+    "totalInvestments": 4,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://twitter.com/OuroborosCap8",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 5049,
+    "investorSlug": "auros-global",
+    "name": "Auros Global",
+    "image": "https://icodrops.com/media/vc/logos/auros-global_logo_1740108478.webp",
+    "rank": 380,
+    "country": "",
+    "description": "Auros is an algorithmic trading and market making firm that delivers best-in-class liquidity for exchanges and token projects.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 392.07,
+    "lastRoundDate": "2025-12-17T00:00:00Z",
+    "roundsPerYear": 7,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 28.29,
+    "privateRoiPercent": null,
+    "totalInvestments": 15,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 15,
+      "listedProjects": 1,
+      "listedPercent": 6.667
+    },
+    "links": [
+      {
+        "url": "https://www.auros.global/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/Auros_global",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 15
+  },
+  {
+    "id": 6906,
+    "investorSlug": "templedao",
+    "name": "TempleDAO",
+    "image": "https://icodrops.com/media/vc/logos/templedao_logo_1740109015.webp",
+    "rank": 381,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 984.37,
+    "lastRoundDate": "2025-03-17T00:00:00Z",
+    "roundsPerYear": 5,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 28.29,
+    "privateRoiPercent": null,
+    "totalInvestments": 5,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://templedao.link/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/templedao",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 4579,
+    "investorSlug": "rubik-ventures",
+    "name": "Rubik Ventures",
+    "image": "https://icodrops.com/media/vc/logos/rubik-ventures_logo_1740108273.webp",
+    "rank": 382,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-08-27T00:00:00Z",
+    "roundsPerYear": 6,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 27.79,
+    "privateRoiPercent": null,
+    "totalInvestments": 12,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 11,
+      "listedProjects": 1,
+      "listedPercent": 9.091
+    },
+    "links": [
+      {
+        "url": "https://www.linkedin.com/company/rubik-ventures/",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 11
+  },
+  {
+    "id": 2774,
+    "investorSlug": "alex-shin",
+    "name": "Alex Shin",
+    "image": "https://icodrops.com/media/vc/logos/alex-shin_logo_1740108554.webp",
+    "rank": 383,
+    "country": "",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 753.48,
+    "lastRoundDate": "2024-05-28T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 27.79,
+    "privateRoiPercent": null,
+    "totalInvestments": 4,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "https://twitter.com/AlexShin?lang=en",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/alexhashed/",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 32,
+    "investorSlug": "blocktower-capital",
+    "name": "Strobe (Prev. BlockTower Capital)",
+    "image": "https://icodrops.com/media/vc/logos/blocktower-capital_logo_1742922098.webp",
+    "rank": 33,
+    "country": "United States of America",
+    "description": "BlockTower is an institutional investment firm, applying professional trading, venture investing, credit underwriting, and portfolio management to digital and traditional assets.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": null,
+    "lastRoundDate": "2025-10-21T00:00:00Z",
+    "roundsPerYear": 5,
+    "publicSalesCount": 21,
+    "retailRoiPercent": 26.89,
+    "privateRoiPercent": 11.164,
+    "totalInvestments": 40,
+    "leadInvestments": 12,
+    "binanceListing": {
+      "totalProjects": 41,
+      "listedProjects": 17,
+      "listedPercent": 41.46
+    },
+    "links": [
+      {
+        "url": "https://www.strobe.fund/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/blocktower",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/blocktower-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 41
+  },
+  {
+    "id": 388,
+    "investorSlug": "techstars-berlin-accelerator",
+    "name": "Techstars Berlin Accelerator",
+    "image": "https://icodrops.com/media/vc/logos/techstars-berlin-accelerator_logo_1740107929.webp",
+    "rank": 384,
+    "country": "Germany",
+    "description": "",
+    "ventureType": "Accelerator",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 24.47,
+    "privateRoiPercent": null,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.techstars.com/programs/berlin-program/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 576,
+    "investorSlug": "bluemind",
+    "name": "BlueMind",
+    "image": "https://icodrops.com/media/vc/logos/bluemind_logo_1740107956.webp",
+    "rank": 385,
+    "country": "United States of America",
+    "description": "BlueMind is an investment firm that specializes in blockchain technology investments.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2022-05-17T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 24.47,
+    "privateRoiPercent": 0.525,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "http://bluemind.capital/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 406,
+    "investorSlug": "karnika-yashwant",
+    "name": "Karnika Yashwant",
+    "image": "https://icodrops.com/media/vc/logos/karnika-yashwant_logo_1740107408.webp",
+    "rank": 386,
+    "country": "",
+    "description": "Chief Executive Officer of  the Key Difference Media",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 224.91,
+    "lastRoundDate": "2017-12-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 24.47,
+    "privateRoiPercent": null,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://keydifferencemedia.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/karnikayashwant",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/mrkey",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/karnikaeyashwant",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 1873,
+    "investorSlug": "jump-crypto",
+    "name": "Jump Crypto",
+    "image": "https://icodrops.com/media/vc/logos/jump-crypto_logo_1740107843.webp",
+    "rank": 3,
+    "country": "United States of America",
+    "description": "Jump Crypto, a division of the Jump Trading Group, is a global leader in Web3 infrastructure development and investment.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 1",
+    "twitterScore": 1593.08,
+    "lastRoundDate": "2025-09-30T00:00:00Z",
+    "roundsPerYear": 10,
+    "publicSalesCount": 31,
+    "retailRoiPercent": 23.74,
+    "privateRoiPercent": 148.67,
+    "totalInvestments": 76,
+    "leadInvestments": 25,
+    "binanceListing": {
+      "totalProjects": 81,
+      "listedProjects": 20,
+      "listedPercent": 24.69
+    },
+    "links": [
+      {
+        "url": "https://jumpcrypto.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/jump_",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/jump-crypto",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://github.com/JumpCrypto",
+        "type": "GITHUB"
+      },
+      {
+        "url": "https://www.youtube.com/@jump_",
+        "type": "YOUTUBE"
+      }
+    ],
+    "portfolioCoinsCount": 81
+  },
+  {
+    "id": 858,
+    "investorSlug": "vertex-ventures",
+    "name": "Vertex Ventures",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures_logo_1740107431.webp",
+    "rank": 3127,
+    "country": "United States of America",
+    "description": "Vertex Ventures is a global network of operator-investors that manages portfolios.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 221.44,
+    "lastRoundDate": "2025-09-25T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5527,
+    "totalInvestments": 7,
+    "leadInvestments": 3,
+    "binanceListing": {
+      "totalProjects": 7,
+      "listedProjects": 1,
+      "listedPercent": 14.286
+    },
+    "links": [
+      {
+        "url": "http://www.vertexventures.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/vertexventures",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/vertex-ventures",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/vertexventuresofficial",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 7
+  },
+  {
+    "id": 859,
+    "investorSlug": "vertex-ventures-china",
+    "name": "Vertex Ventures China",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures-china_logo_1740109120.webp",
+    "rank": 7895,
+    "country": "China",
+    "description": "Vertex Ventures China invests in high-growth internet and technology start-ups across mainland China.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5527,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://vertexventures.cn/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/vertex-ventures-china",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 860,
+    "investorSlug": "vertex-ventures-southeast-asia-india",
+    "name": "Vertex Ventures Southeast Asia & India",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures-southeast-asia-india_logo_1740109120.webp",
+    "rank": 7896,
+    "country": "Singapore",
+    "description": "Vertex Ventures Southeast Asia & India invests in high-growth start-ups in Southeast Asia and India.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 221.44,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5527,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.vertexventures.com/southeast-asia-india/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/vertexventures?lang=en",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/vertex-venture-management-pte-ltd/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/vertex-ventures-southeast-asia-india",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/vertexventuresofficial/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 410,
+    "investorSlug": "mkt",
+    "name": "MKT",
+    "image": "https://icodrops.com/media/vc/logos/mkt_logo_1740109120.webp",
+    "rank": 7897,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 147,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 69,
+    "investorSlug": "winklevoss-capital",
+    "name": "Winklevoss Capital",
+    "image": "https://icodrops.com/media/vc/logos/winklevoss-capital_logo_1740107581.webp",
+    "rank": 108,
+    "country": "United States of America",
+    "description": "Winklevoss Capital is the family office and investment firm established by Cameron and Tyler Winklevoss, who are best known for their early involvement in Bitcoin and their legal dispute with Mark Zuckerberg over the creation of Facebook. The Winklevoss twins, often referred to as the Winklevoss brothers or simply the Winklevii, became notable figures in the cryptocurrency and blockchain space due to their significant investments in Bitcoin and their efforts to promote and regulate the cryptocurrency industry.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": 1320.8,
+    "lastRoundDate": "2025-11-12T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 6,
+    "retailRoiPercent": 0.16667,
+    "privateRoiPercent": 138.03,
+    "totalInvestments": 21,
+    "leadInvestments": 2,
+    "binanceListing": {
+      "totalProjects": 20,
+      "listedProjects": 4,
+      "listedPercent": 20
+    },
+    "links": [
+      {
+        "url": "https://winklevosscapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/winklevosscap",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/winklevoss-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 20
+  },
+  {
+    "id": 409,
+    "investorSlug": "non-fungible-chan",
+    "name": "NON-fungible Chan",
+    "image": "https://icodrops.com/media/vc/logos/non-fungible-chan_logo_1740108466.webp",
+    "rank": 580,
+    "country": "",
+    "description": "Angel, based in Florida",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-08-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 4,
+    "retailRoiPercent": 1.5275,
+    "privateRoiPercent": 82.49,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 4,
+      "listedPercent": 80
+    },
+    "links": [],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 640,
+    "investorSlug": "cardinal-capital",
+    "name": "Cardinal Capital",
+    "image": "https://icodrops.com/media/vc/logos/cardinal-capital_logo_1740107498.webp",
+    "rank": 396,
+    "country": "Singapore",
+    "description": "With the mission of becoming the vanguard of the emerging realm of digital asset & distributed ledger technologies. Cardinal Capital focuses on investing and nurturing embryonic blockchain technologies that dwell in MIDDLEWARE, PROTOCOL & SERVICE SPECIFIC DAPPS.\r\n\r\nWe believe that at this point in the evolution of the asset class, aportfolio of emerging crypto asset benefits tremendously from highly informed active management, constant adjustment, continuous market analysis, and a general CARDINAL approach.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 9.11,
+    "lastRoundDate": "2022-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 18.71,
+    "privateRoiPercent": 74.84,
+    "totalInvestments": 2,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.cardinal.vc/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/CardinalVC",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/cardinal-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 2
+  },
+  {
+    "id": 1615,
+    "investorSlug": "blockpact-capital",
+    "name": "Blockpact Capital",
+    "image": "https://icodrops.com/media/vc/logos/blockpact-capital_logo_1740107132.webp",
+    "rank": 402,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-10-01T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 19,
+    "retailRoiPercent": 14.534,
+    "privateRoiPercent": 60.39,
+    "totalInvestments": 7,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 8,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://blockpact.capital/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 8
+  },
+  {
+    "id": 408,
+    "investorSlug": "julian-sarokin",
+    "name": "Julian Sarokin",
+    "image": "https://icodrops.com/media/vc/logos/julian-sarokin_logo_1740108165.webp",
+    "rank": 642,
+    "country": "",
+    "description": "Futurist, Hacker, Managing Partner: The Automation Fund\r\nFounder: Simple Labs",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 140.94,
+    "lastRoundDate": "2015-10-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 1.1,
+    "privateRoiPercent": 49.92,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://juliansarokin.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/JulianSarokin",
+        "type": "TWITTER"
+      },
+      {
+        "url": "http://linkedin.com/in/JulianSarokin",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "http://www.facebook.com/JulianSarokin",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 2
+  },
+  {
+    "id": 1439,
+    "investorSlug": "ben-davenport",
+    "name": "Ben Davenport",
+    "image": "https://icodrops.com/media/vc/logos/ben-davenport_logo_1740107620.webp",
+    "rank": 3306,
+    "country": "United States of America",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 1457.79,
+    "lastRoundDate": "2024-04-10T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 48.99,
+    "totalInvestments": 4,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "http://twitter.com/bendavenport",
+        "type": "TWITTER"
+      },
+      {
+        "url": "http://www.linkedin.com/in/bpdavenport",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/ben-davenport",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 3657,
+    "investorSlug": "signature-ventures",
+    "name": "Signature Ventures",
+    "image": "https://icodrops.com/media/vc/logos/signature-ventures_logo_1740107266.webp",
+    "rank": 3075,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 224.4,
+    "lastRoundDate": "2025-08-29T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 47.76,
+    "totalInvestments": 9,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 6,
+      "listedProjects": 1,
+      "listedPercent": 16.667
+    },
+    "links": [
+      {
+        "url": "https://signatureventures.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/signature_vc",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/signatureventures/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/signature-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 6
+  },
+  {
+    "id": 4028,
+    "investorSlug": "michael-ng",
+    "name": "Michael Ng",
+    "image": "https://icodrops.com/media/vc/logos/michael-ng_logo_1740107016.webp",
+    "rank": 3461,
+    "country": "United States of America",
+    "description": "Co-Founder & CEO at Stealth Startup",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-04-16T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 47.76,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 3,
+      "listedProjects": 1,
+      "listedPercent": 33.33
+    },
+    "links": [
+      {
+        "url": "https://www.linkedin.com/in/michael-ng-501810a3",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 3
+  },
+  {
+    "id": 528,
+    "investorSlug": "tge-capital",
+    "name": "TGE Capital",
+    "image": "https://icodrops.com/media/vc/logos/tge-capital_logo_1740107319.webp",
+    "rank": 387,
+    "country": "",
+    "description": "Global VC firm focused exclusively on digital currency and blockchain technology.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 40.29,
+    "lastRoundDate": "2022-02-23T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 5,
+    "retailRoiPercent": 21.97,
+    "privateRoiPercent": 44.57,
+    "totalInvestments": 2,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "https://tgecapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/TGECapital?s=20",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/tge-capital",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/tge-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 1276,
+    "investorSlug": "autonomy-capital",
+    "name": "Autonomy Capital",
+    "image": "https://icodrops.com/media/vc/logos/autonomy-capital_logo_1740107332.webp",
+    "rank": 408,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 242.47,
+    "lastRoundDate": "2025-03-26T00:00:00Z",
+    "roundsPerYear": 3,
+    "publicSalesCount": 20,
+    "retailRoiPercent": 13.878,
+    "privateRoiPercent": 40.29,
+    "totalInvestments": 13,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 15,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://www.autonomy.capital",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://t.me/joinchat/VE3mGPEbEuHHek3I",
+        "type": "TELEGRAM_CHAT"
+      },
+      {
+        "url": "https://twitter.com/AutonomyCapitaI",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 15
+  },
+  {
+    "id": 1728,
+    "investorSlug": "jake-seid",
+    "name": "Jake Seid",
+    "image": "https://icodrops.com/media/vc/logos/jake-seid_logo_1740108680.webp",
+    "rank": 4571,
+    "country": "United States of America",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 205.78,
+    "lastRoundDate": "2019-04-03T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 38.02,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://twitter.com/JakeSeid",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/jake1",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/jake-seid",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 1580,
+    "investorSlug": "vysyn",
+    "name": "VYSYN",
+    "image": "https://icodrops.com/media/vc/logos/vysyn_logo_1740107334.webp",
+    "rank": 388,
+    "country": "",
+    "description": "VYSYN Capital is a leading blockchain investment firm with a passion for helping entrepreneurs develop world-class projects based exclusively on blockchain technology. As a large institutional owner of cryptocurrencies, VYSYN’s mission is to promote widespread adoption and innovation of blockchain technology and digital currencies.",
+    "ventureType": "Investment Firm",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-09-01T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 13,
+    "retailRoiPercent": 21.26,
+    "privateRoiPercent": 37.19,
+    "totalInvestments": 7,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 8,
+      "listedProjects": 0,
+      "listedPercent": 0
+    },
+    "links": [
+      {
+        "url": "https://vysyn.io/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 8
+  },
+  {
+    "id": 301,
+    "investorSlug": "vestinwolf-alternatives",
+    "name": "Vestinwolf Alternatives",
+    "image": "https://icodrops.com/media/vc/logos/vestinwolf-alternatives_logo_1740107699.webp",
+    "rank": 349,
+    "country": "United Kingdom",
+    "description": "Vestin Wolf is a distinguished alternative investment management company that specializes in navigating and capitalizing on unique investment opportunities.",
+    "ventureType": "Hedge Fund",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.vestinwolf.com/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 602,
+    "investorSlug": "sarah-downey",
+    "name": "Sarah Downey",
+    "image": "https://icodrops.com/media/vc/logos/sarah-downey_logo_1740108713.webp",
+    "rank": 4563,
+    "country": "",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 682.53,
+    "lastRoundDate": "2018-01-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.sarahadowney.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "http://twitter.com/SarahADowney",
+        "type": "TWITTER"
+      },
+      {
+        "url": "http://www.linkedin.com/in/sarahadowney",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 2
+  },
+  {
+    "id": 604,
+    "investorSlug": "firstmile-ventures",
+    "name": "FirstMile Ventures",
+    "image": "https://icodrops.com/media/vc/logos/firstmile-ventures_logo_1740109120.webp",
+    "rank": 7898,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.firstmilevc.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/firstmile-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 605,
+    "investorSlug": "christian-edler",
+    "name": "Christian Edler",
+    "image": "https://icodrops.com/media/vc/logos/christian-edler_logo_1740109131.webp",
+    "rank": 7899,
+    "country": "",
+    "description": "",
+    "ventureType": null,
+    "tier": null,
+    "twitterScore": 110.81,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.christianedler.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/christianedler",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/christianedler/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/christian-edler",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/edleredler",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 609,
+    "investorSlug": "centrum-capital",
+    "name": "Centrum Capital",
+    "image": "https://icodrops.com/media/vc/logos/centrum-capital_logo_1740109108.webp",
+    "rank": 7900,
+    "country": "",
+    "description": "",
+    "ventureType": "Investment Bank",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.centrum.co.in/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/centrum-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 610,
+    "investorSlug": "tata-communications",
+    "name": "Tata Communications",
+    "image": "https://icodrops.com/media/vc/logos/tata-communications_logo_1740109121.webp",
+    "rank": 7901,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.tatacommunications.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/tata-communications",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 611,
+    "investorSlug": "boeing-horizonx-ventures",
+    "name": "Boeing HorizonX Ventures",
+    "image": "https://icodrops.com/media/vc/logos/boeing-horizonx-ventures_logo_1740109096.webp",
+    "rank": 7902,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 36.77,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.boeing.com/company/key-orgs/horizon-x/ventures/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/horizonx-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 256,
+    "investorSlug": "haitao-capital",
+    "name": "Haitao Capital",
+    "image": "https://icodrops.com/media/vc/logos/haitao-capital_logo_1740108004.webp",
+    "rank": 218,
+    "country": "China",
+    "description": "The first China-macro driven early stage venture fund.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": "2017-10-26T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 0.63,
+    "privateRoiPercent": 32.37,
+    "totalInvestments": 4,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 4,
+      "listedPercent": 100
+    },
+    "links": [
+      {
+        "url": "https://www.haitaocapital.com/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 46,
+    "investorSlug": "eterna-capital",
+    "name": "Eterna Capital",
+    "image": "https://icodrops.com/media/vc/logos/eterna-capital_logo_1740108093.webp",
+    "rank": 210,
+    "country": "United Kingdom",
+    "description": "Eterna Capital is an early stage venture fund backing bold, innovative entrepreneurs who harness blockchain technology.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 347.53,
+    "lastRoundDate": "2025-12-16T00:00:00Z",
+    "roundsPerYear": 2,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 0.83,
+    "privateRoiPercent": 32.25,
+    "totalInvestments": 20,
+    "leadInvestments": 2,
+    "binanceListing": {
+      "totalProjects": 21,
+      "listedProjects": 3,
+      "listedPercent": 14.286
+    },
+    "links": [
+      {
+        "url": "https://www.eternacapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/eternacapital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.facebook.com/eternacap/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 21
+  },
+  {
+    "id": 809,
+    "investorSlug": "alexis-bonte",
+    "name": "Alexis Bonte",
+    "image": "https://icodrops.com/media/vc/logos/alexis-bonte_logo_1740108205.webp",
+    "rank": 417,
+    "country": "",
+    "description": "I am the co-founder and CEO of eRepublik Labs (now part of the Stillfront group that is quoted on Nasdaq First",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 381.98,
+    "lastRoundDate": "2022-06-27T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 13.42,
+    "privateRoiPercent": 31.06,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 3,
+      "listedProjects": 1,
+      "listedPercent": 33.33
+    },
+    "links": [
+      {
+        "url": "https://alexisbonte.com/about-2/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/alexisbonte",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://ro.linkedin.com/in/alexisbonte",
+        "type": "LINKEDIN"
+      }
+    ],
+    "portfolioCoinsCount": 3
+  },
+  {
+    "id": 866,
+    "investorSlug": "chapter-one-ventures",
+    "name": "Chapter One Ventures",
+    "image": "https://icodrops.com/media/vc/logos/chapter-one-ventures_logo_1740107339.webp",
+    "rank": 165,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 1057.8,
+    "lastRoundDate": "2025-09-24T00:00:00Z",
+    "roundsPerYear": 3,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 6.47,
+    "privateRoiPercent": 28.78,
+    "totalInvestments": 27,
+    "leadInvestments": 2,
+    "binanceListing": {
+      "totalProjects": 22,
+      "listedProjects": 4,
+      "listedPercent": 18.182
+    },
+    "links": [
+      {
+        "url": "https://chapterone.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.twitter.com/chapterone",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/chapter-one-ventures/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/chapter-one-ventures",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 22
+  },
+  {
+    "id": 1856,
+    "investorSlug": "protoscale-capital",
+    "name": "Protoscale Capital",
+    "image": "https://icodrops.com/media/vc/logos/protoscale-capital_logo_1740107553.webp",
+    "rank": 425,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-12-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 9.635,
+    "privateRoiPercent": 28.78,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.crunchbase.com/organization/protoscale-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  }
+]
