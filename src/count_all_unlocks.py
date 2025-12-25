@@ -39,17 +39,39 @@ def count_all_unlocks(api_key: str, output_file: str = None):
     """
     api = DropStabAPI(api_key)
 
-    # Get all supported coins for token unlocks
+    # Get all supported coins for token unlocks (with pagination)
     logger.info("Fetching supported coins for token unlocks...")
 
-    try:
-        supported_response = api._request("/tokenUnlocks/supportedCoins")
-        supported_coins = supported_response.get("data", [])
-        if not supported_coins:
-            supported_coins = supported_response if isinstance(supported_response, list) else []
-    except Exception as e:
-        logger.error(f"Error fetching supported coins: {e}")
-        return None
+    supported_coins = []
+    page = 0
+    max_pages = 50
+
+    while page < max_pages:
+        try:
+            response = api._request("/tokenUnlocks/supportedCoins", {"page": page, "pageSize": 100})
+            data = response.get("data", {})
+
+            if isinstance(data, dict):
+                content = data.get("content", [])
+                total_pages = data.get("totalPages", 1)
+            else:
+                content = data if isinstance(data, list) else []
+                total_pages = 1
+
+            if not content:
+                break
+
+            supported_coins.extend(content)
+            logger.info(f"Page {page + 1}/{total_pages}: {len(supported_coins)} coins so far")
+
+            if page + 1 >= total_pages:
+                break
+
+            page += 1
+
+        except Exception as e:
+            logger.error(f"Error fetching page {page}: {e}")
+            break
 
     total_coins = len(supported_coins)
     logger.info(f"Total coins with unlock data on DropStab: {total_coins}")
@@ -61,9 +83,9 @@ def count_all_unlocks(api_key: str, output_file: str = None):
     coin_details = []
 
     for i, coin in enumerate(supported_coins, 1):
-        # Get coin slug
+        # Get coin slug - API returns coinSlug
         if isinstance(coin, dict):
-            slug = coin.get("slug") or coin.get("coinSlug") or coin.get("name", "").lower()
+            slug = coin.get("coinSlug") or coin.get("slug") or ""
         else:
             slug = str(coin)
 
