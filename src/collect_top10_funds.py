@@ -127,9 +127,9 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
 
     all_funds = api.get_all_investors(sort_by=sort_by, sort_order="DESC", max_pages=5)
 
-    # Filter by investor type if specified
+    # Filter by investor type if specified (ventureType field)
     if investor_type:
-        filtered_funds = [f for f in all_funds if f.get("type") == investor_type]
+        filtered_funds = [f for f in all_funds if investor_type.lower() in (f.get("ventureType", "") or "").lower()]
         logger.info(f"Filtered to {len(filtered_funds)} {investor_type} investors")
         top_funds = filtered_funds[:limit]
     else:
@@ -144,7 +144,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
         name = fund.get("name", "Unknown")
         roi_field = "retailRoiPercent" if "RETAIL" in sort_by else "privateRoiPercent"
         roi = fund.get(roi_field, 0) or 0
-        fund_type = fund.get("type", "")
+        fund_type = fund.get("ventureType", "")
         logger.info(f"  {i}. {name} ({fund_type}, ROI: {roi:.1f}%)")
 
     # === Step 2: Get detailed info for each fund ===
@@ -154,7 +154,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
     project_funds = defaultdict(list)  # slug -> list of funds that invested
 
     for fund in top_funds:
-        fund_slug = fund.get("slug", "")
+        fund_slug = fund.get("investorSlug", "")  # Use investorSlug, not slug
         fund_name = fund.get("name", "Unknown")
 
         if not fund_slug:
