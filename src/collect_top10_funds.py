@@ -33,28 +33,59 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+# Hardcoded TOP investor lists (from DropStab website, API sorting is broken)
+# These are verified real investors with actual investments
+
+TOP_RETAIL_ROI = [
+    "bitmain",
+    "idg-capital",
+    "8-decimal-capital",
+    "jump-trading",
+    "coinshares",
+    "ubik-capital",
+    "fundamental-labs",
+    "reciprocal-ventures",
+    "rockaway-blockchain-fund",  # Rockaway X Low Ventures
+    "collabcurrency",
+]
+
+TOP_PRIVATE_ROI = [
+    "reciprocal-ventures",
+    "jump-crypto",
+    "fj-syndicates",
+    "limitless-crypto-investments",
+    "btx-capital",
+    "egirl-capital",
+    "multicoin-capital",
+    "lightspeed-venture-partners",
+    "polychain-capital",
+    "slow-ventures",
+]
+
+TOP_ANGELS = [
+    "fred-ehrsam",
+    "balaji-srinivasan",
+    "naval-ravikant",
+    "richard-ma-quantstamp",
+    "stani-kulechov",
+]
+
 # Categories configuration
 CATEGORIES = [
     {
         "name": "TOP 10 Retail ROI",
-        "sort_by": "RETAIL_ROI_PERCENT",
-        "limit": 10,
-        "investor_type": None,
+        "investors": TOP_RETAIL_ROI,
         "output_prefix": "top10_retail_roi"
     },
     {
         "name": "TOP 10 Private ROI",
-        "sort_by": "PRIVATE_ROI_PERCENT",
-        "limit": 10,
-        "investor_type": None,
+        "investors": TOP_PRIVATE_ROI,
         "output_prefix": "top10_private_roi"
     },
     {
-        "name": "TOP 5 Angels by Private ROI",
-        "sort_by": "PRIVATE_ROI_PERCENT",
-        "limit": 5,
-        "investor_type": "Angel",
-        "output_prefix": "top5_angels_private_roi"
+        "name": "TOP 5 Angels",
+        "investors": TOP_ANGELS,
+        "output_prefix": "top5_angels"
     }
 ]
 
@@ -125,9 +156,7 @@ def get_fund_rounds_in_period(api: DropStabAPI, investor_slug: str, date_from_st
 def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: str, output_path: Path):
     """Collect data for a single category."""
     cat_name = category["name"]
-    sort_by = category["sort_by"]
-    limit = category["limit"]
-    investor_type = category.get("investor_type")
+    investor_slugs = category["investors"]
     output_prefix = category["output_prefix"]
 
     logger.info(f"\n{'='*60}")
@@ -137,7 +166,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
     # Statistics
     stats = {
         "category": cat_name,
-        "funds_to_process": limit,
+        "funds_to_process": len(investor_slugs),
         "funds_processed": 0,
         "funds_with_errors": 0,
         "total_rounds_found": 0,
@@ -149,30 +178,27 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
         "projects_with_errors": 0,
     }
 
-    # === Step 1: Get funds ===
-    logger.info(f"Fetching {limit} funds sorted by {sort_by}...")
+    # === Step 1: Get fund details for each investor ===
+    logger.info(f"Fetching {len(investor_slugs)} investors...")
 
-    all_funds = api.get_all_investors(sort_by=sort_by, sort_order="DESC", max_pages=5)
-
-    # Filter by investor type if specified
-    if investor_type:
-        filtered_funds = [f for f in all_funds if investor_type.lower() in (f.get("ventureType", "") or "").lower()]
-        logger.info(f"Filtered to {len(filtered_funds)} {investor_type} investors")
-        top_funds = filtered_funds[:limit]
-    else:
-        top_funds = all_funds[:limit]
+    top_funds = []
+    for slug in investor_slugs:
+        try:
+            result = api.get_investor(slug)
+            fund_data = result.get("data", {})
+            if fund_data:
+                top_funds.append(fund_data)
+                logger.info(f"  ✓ {fund_data.get('name', slug)}")
+            else:
+                logger.warning(f"  ✗ {slug} - not found")
+        except Exception as e:
+            logger.warning(f"  ✗ {slug} - {e}")
 
     if not top_funds:
         logger.warning(f"No funds found for {cat_name}")
         return None, stats
 
-    logger.info(f"Selected {len(top_funds)} funds:")
-    for i, fund in enumerate(top_funds, 1):
-        name = fund.get("name", "Unknown")
-        roi_field = "retailRoiPercent" if "RETAIL" in sort_by else "privateRoiPercent"
-        roi = fund.get(roi_field, 0) or 0
-        fund_type = fund.get("ventureType", "")
-        logger.info(f"  {i}. {name} ({fund_type}, ROI: {roi:.1f}%)")
+    logger.info(f"Loaded {len(top_funds)} funds")
 
     # === Step 2: Get funding rounds for each fund ===
     logger.info("\nFetching funding rounds for each fund...")
