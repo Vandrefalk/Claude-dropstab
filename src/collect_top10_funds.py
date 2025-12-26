@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Collect TOP funds and their new LAUNCHED projects from the last year.
+Collect TOP funds and ALL their projects from the last year.
 
 Categories:
 - TOP 10+ Retail ROI (funds)
@@ -16,6 +16,7 @@ Collects comprehensive data:
 - ICO price and rounds
 - All investors
 - Twitter performance
+- Project status (launched/not_launched)
 """
 
 import os
@@ -301,7 +302,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
     logger.info(f"\nFound {len(all_projects)} unique projects")
 
     # === Step 3: Get detailed project info ===
-    logger.info("\nFetching project details (launched only)...")
+    logger.info("\nFetching project details (ALL projects)...")
 
     projects_data = []
 
@@ -310,11 +311,12 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
             coin_detail = api.get_coin_detailed(slug)
             coin_data = coin_detail.get("data", {})
 
-            if not is_project_launched(coin_data):
-                stats["not_launched_skipped"] += 1
-                continue
-
-            stats["launched_projects"] += 1
+            # Determine project status
+            is_launched = is_project_launched(coin_data)
+            if is_launched:
+                stats["launched_projects"] += 1
+            else:
+                stats["not_launched_skipped"] += 1  # now tracking, not skipping
 
             # Get token unlocks
             unlocks = get_token_unlocks_info(api, slug)
@@ -372,6 +374,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
                 "symbol": coin_data.get("symbol", project.get("symbol", "")),
                 "category": coin_data.get("mainCategory", {}).get("name", "") or project.get("category", ""),
                 "trading": coin_data.get("trading", ""),
+                "status": "launched" if is_launched else "not_launched",
 
                 # Market data
                 "price_usd": price_usd,
@@ -437,7 +440,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
     with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow([
-            'slug', 'name', 'symbol', 'category', 'trading',
+            'slug', 'name', 'symbol', 'category', 'status', 'trading',
             'price_usd', 'market_cap_usd', 'fdv', 'volume_24h_usd',
             'change_24h', 'change_7d',
             'circulating_supply', 'total_supply', 'max_supply',
@@ -449,7 +452,12 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
             'all_investors_count', 'all_investor_names'
         ])
 
-        projects_sorted = sorted(projects_data, key=lambda x: x.get("market_cap_usd", 0) or 0, reverse=True)
+        # Sort: launched first (by market cap), then not_launched (by name)
+        launched = [p for p in projects_data if p.get("status") == "launched"]
+        not_launched = [p for p in projects_data if p.get("status") != "launched"]
+        launched_sorted = sorted(launched, key=lambda x: x.get("market_cap_usd", 0) or 0, reverse=True)
+        not_launched_sorted = sorted(not_launched, key=lambda x: x.get("name", "").lower())
+        projects_sorted = launched_sorted + not_launched_sorted
 
         for p in projects_sorted:
             writer.writerow([
@@ -457,6 +465,7 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
                 p.get("name", ""),
                 p.get("symbol", ""),
                 p.get("category", ""),
+                p.get("status", ""),
                 p.get("trading", ""),
                 p.get("price_usd", 0),
                 p.get("market_cap_usd", 0),
@@ -489,6 +498,90 @@ def collect_category_data(api: DropStabAPI, category: dict, one_year_ago_str: st
     return projects_data, stats
 
 
+def create_combined_csv(all_projects: list, output_path: Path):
+    """Create a combined CSV with all projects from all categories."""
+    logger.info(f"\nCreating combined CSV with {len(all_projects)} total projects...")
+
+    # Deduplicate by slug (same project may appear in multiple categories)
+    seen_slugs = {}
+    for p in all_projects:
+        slug = p.get("slug", "")
+        if slug not in seen_slugs:
+            seen_slugs[slug] = p
+        else:
+            # Merge categories
+            existing_cat = seen_slugs[slug].get("investor_category", "")
+            new_cat = p.get("investor_category", "")
+            if new_cat and new_cat not in existing_cat:
+                seen_slugs[slug]["investor_category"] = f"{existing_cat}; {new_cat}"
+
+    unique_projects = list(seen_slugs.values())
+
+    csv_file = output_path / "all_projects_combined.csv"
+    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            'slug', 'name', 'symbol', 'category', 'investor_category', 'status', 'trading',
+            'price_usd', 'market_cap_usd', 'fdv', 'volume_24h_usd',
+            'change_24h', 'change_7d',
+            'circulating_supply', 'total_supply', 'max_supply',
+            'locked_percent', 'locked_amount', 'unlocked_percent',
+            'ath_usd', 'atl_usd',
+            'ico_price_usd', 'ico_roi', 'total_raised_usd', 'rounds_info',
+            'twitter_score',
+            'top_funds_count', 'top_fund_names',
+            'all_investors_count', 'all_investor_names'
+        ])
+
+        # Sort: launched first (by market cap), then not_launched (by name)
+        launched = [p for p in unique_projects if p.get("status") == "launched"]
+        not_launched = [p for p in unique_projects if p.get("status") != "launched"]
+        launched_sorted = sorted(launched, key=lambda x: x.get("market_cap_usd", 0) or 0, reverse=True)
+        not_launched_sorted = sorted(not_launched, key=lambda x: x.get("name", "").lower())
+        projects_sorted = launched_sorted + not_launched_sorted
+
+        for p in projects_sorted:
+            writer.writerow([
+                p.get("slug", ""),
+                p.get("name", ""),
+                p.get("symbol", ""),
+                p.get("category", ""),
+                p.get("investor_category", ""),
+                p.get("status", ""),
+                p.get("trading", ""),
+                p.get("price_usd", 0),
+                p.get("market_cap_usd", 0),
+                p.get("fdv", 0),
+                p.get("volume_24h_usd", 0),
+                p.get("price_change_24h", 0),
+                p.get("price_change_7d", 0),
+                p.get("circulating_supply", 0),
+                p.get("total_supply", 0),
+                p.get("max_supply", ""),
+                p.get("locked_percent", 0),
+                p.get("locked_amount", 0),
+                p.get("unlocked_percent", 0),
+                p.get("ath_usd", 0),
+                p.get("atl_usd", 0),
+                p.get("ico_price_usd", 0),
+                p.get("ico_roi", 0),
+                p.get("total_raised_usd", 0),
+                p.get("rounds_info", ""),
+                p.get("twitter_score", 0),
+                p.get("top_funds_count", 0),
+                p.get("top_fund_names", ""),
+                p.get("all_investors_count", 0),
+                p.get("all_investor_names", "")
+            ])
+
+    logger.info(f"Combined CSV saved: {csv_file} ({len(unique_projects)} unique projects)")
+
+    # Also save combined JSON
+    json_file = output_path / "all_projects_combined.json"
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(unique_projects, f, indent=2, ensure_ascii=False)
+
+
 def collect_all_categories(api_key: str, output_dir: str = "top_funds_analysis"):
     """Collect data for all categories."""
     api = DropStabAPI(api_key)
@@ -503,11 +596,21 @@ def collect_all_categories(api_key: str, output_dir: str = "top_funds_analysis")
     logger.info(f"Date filters: 1 year = {one_year_ago}, 1 month = {one_month_ago}")
 
     all_stats = []
+    all_projects = []  # Combined list for all categories
 
     for category in CATEGORIES:
         projects, stats = collect_category_data(api, category, one_year_ago, one_month_ago, output_path)
         if stats:
             all_stats.append(stats)
+        if projects:
+            # Add category info to each project
+            for p in projects:
+                p["investor_category"] = category["name"]
+            all_projects.extend(projects)
+
+    # Create combined CSV with all projects
+    if all_projects:
+        create_combined_csv(all_projects, output_path)
 
     # Summary
     print("\n" + "="*70)
@@ -519,7 +622,7 @@ def collect_all_categories(api_key: str, output_dir: str = "top_funds_analysis")
         print("-"*50)
         print(f"  Funds: {stats['funds_processed']}/{stats['funds_to_process']} (errors: {stats['funds_with_errors']})")
         print(f"  Rounds: {stats['rounds_in_year']} (year), {stats['rounds_in_month']} (month)")
-        print(f"  Projects: {stats['unique_projects']} found, {stats['launched_projects']} launched")
+        print(f"  Projects: {stats['unique_projects']} total ({stats['launched_projects']} launched, {stats['not_launched_skipped']} not launched)")
         print(f"  Fetched: {stats['projects_fetched']} (errors: {stats['projects_with_errors']})")
 
         if stats['funds_with_errors'] == 0 and stats['projects_with_errors'] == 0:
