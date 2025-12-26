@@ -71,6 +71,16 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
     all_projects = {}  # slug -> project data
     project_funds = defaultdict(list)  # slug -> list of funds that invested
 
+    # Statistics for verification
+    api_stats = {
+        "funds_processed": 0,
+        "funds_with_errors": 0,
+        "total_portfolio_projects": 0,  # All projects in portfolios
+        "new_projects_expected": 0,  # Projects from last year (before detailed fetch)
+        "projects_fetched": 0,  # Successfully fetched details
+        "projects_with_errors": 0,  # Failed to fetch details
+    }
+
     for fund in top10_funds:
         fund_slug = fund.get("slug", "")
         fund_name = fund.get("name", "Unknown")
@@ -84,9 +94,11 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
             detail = api.get_investor(fund_slug)
             fund_data = detail.get("data", {})
             fund_details.append(fund_data)
+            api_stats["funds_processed"] += 1
 
             # Get portfolio projects
             portfolio = fund_data.get("portfolio", [])
+            api_stats["total_portfolio_projects"] += len(portfolio)
             logger.info(f"  Portfolio: {len(portfolio)} projects")
 
             for project in portfolio:
@@ -126,8 +138,10 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
 
         except Exception as e:
             logger.warning(f"Error fetching {fund_name}: {e}")
+            api_stats["funds_with_errors"] += 1
             continue
 
+    api_stats["new_projects_expected"] = len(all_projects)
     logger.info(f"\nFound {len(all_projects)} new projects (invested in last year)")
 
     # === Step 3: Get detailed info for each project ===
@@ -169,12 +183,14 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
             }
 
             projects_data.append(project_info)
+            api_stats["projects_fetched"] += 1
 
             if i % 10 == 0:
                 logger.info(f"Progress: {i}/{len(all_projects)} projects")
 
         except Exception as e:
             logger.warning(f"Error fetching {slug}: {e}")
+            api_stats["projects_with_errors"] += 1
             continue
 
     # === Step 4: Save results ===
@@ -219,11 +235,33 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
 
     logger.info(f"Saved {len(projects_data)} projects to {csv_file}")
 
-    # Print summary
+    # Save verification stats
+    with open(output_path / "verification_stats.json", 'w', encoding='utf-8') as f:
+        json.dump(api_stats, f, indent=2, ensure_ascii=False)
+
+    # Print summary with verification
     print("\n" + "="*70)
     print("TOP 10 FUNDS - NEW PROJECTS (LAST 1 YEAR)")
     print("="*70)
-    print(f"Total new projects: {len(projects_data)}")
+
+    print("\n📊 VERIFICATION STATS (API vs Collected):")
+    print("-"*50)
+    print(f"  Funds to process:           10")
+    print(f"  Funds processed:            {api_stats['funds_processed']}")
+    print(f"  Funds with errors:          {api_stats['funds_with_errors']}")
+    print(f"  Total portfolio projects:   {api_stats['total_portfolio_projects']}")
+    print(f"  New projects (1 year):      {api_stats['new_projects_expected']}")
+    print(f"  Projects fetched:           {api_stats['projects_fetched']}")
+    print(f"  Projects with errors:       {api_stats['projects_with_errors']}")
+    print("-"*50)
+
+    # Check completeness
+    if api_stats['funds_with_errors'] == 0 and api_stats['projects_with_errors'] == 0:
+        print("  ✅ ALL DATA COLLECTED SUCCESSFULLY")
+    else:
+        missing = api_stats['new_projects_expected'] - api_stats['projects_fetched']
+        print(f"  ⚠️  MISSING DATA: {missing} projects not fetched")
+
     print(f"\nTOP 10 funds analyzed:")
     for i, fund in enumerate(top10_funds, 1):
         print(f"  {i}. {fund.get('name', 'Unknown')}")
@@ -231,6 +269,7 @@ def collect_top10_funds_data(api_key: str, output_dir: str = "top10_funds_data")
     print(f"\nOutput files:")
     print(f"  - {output_path / 'top10_funds.json'}")
     print(f"  - {output_path / 'projects_raw.json'}")
+    print(f"  - {output_path / 'verification_stats.json'}")
     print(f"  - {csv_file}")
     print("="*70)
 
