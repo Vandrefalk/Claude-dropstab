@@ -1,0 +1,13 @@
+{
+  "category": "TOP 10 Retail ROI",
+  "funds_to_process": 10,
+  "funds_processed": 10,
+  "funds_with_errors": 0,
+  "total_rounds_found": 0,
+  "rounds_in_period": 10,
+  "unique_projects": 10,
+  "launched_projects": 5,
+  "not_launched_skipped": 5,
+  "projects_fetched": 5,
+  "projects_with_errors": 0
+}

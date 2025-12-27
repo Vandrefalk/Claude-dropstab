@@ -1,0 +1,13 @@
+{
+  "category": "TOP Retail ROI",
+  "funds_to_process": 14,
+  "funds_processed": 14,
+  "funds_with_errors": 0,
+  "rounds_in_year": 60,
+  "rounds_in_month": 2,
+  "unique_projects": 55,
+  "launched_projects": 19,
+  "not_launched_skipped": 36,
+  "projects_fetched": 54,
+  "projects_with_errors": 1
+}

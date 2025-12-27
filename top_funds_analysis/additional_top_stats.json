@@ -1,0 +1,13 @@
+{
+  "category": "Additional TOP Funds",
+  "funds_to_process": 12,
+  "funds_processed": 12,
+  "funds_with_errors": 0,
+  "rounds_in_year": 63,
+  "rounds_in_month": 5,
+  "unique_projects": 59,
+  "launched_projects": 14,
+  "not_launched_skipped": 45,
+  "projects_fetched": 59,
+  "projects_with_errors": 0
+}

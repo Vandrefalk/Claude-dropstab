@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "nodecoin-2",
+    "name": "Nodepay",
+    "symbol": "NC",
+    "category": "Artificial Intelligence (AI)",
+    "trading": "CURRENTLY_TRADING",
+    "price_usd": 0.002152,
+    "market_cap_usd": 400483.85,
+    "volume_24h_usd": 0,
+    "price_change_24h": 0,
+    "price_change_7d": 0,
+    "total_raised_usd": 7000000,
+    "ico_price_usd": 0,
+    "ico_roi": 0,
+    "top_funds": [
+      {
+        "fund_slug": "idg-capital",
+        "fund_name": "IDG Capital",
+        "round_date": "2024-12-27T00:00:00Z",
+        "round_stage": "Funding Round",
+        "funds_raised": 7000000,
+        "pre_valuation": 70000000
+      }
+    ],
+    "top_funds_count": 1,
+    "top_fund_names": "IDG Capital",
+    "all_investors_count": 8,
+    "all_investor_names": "Funders VC, London Real Ventures, Optic Capital, Sypher Capital, Mythos Venture Partners, IDG Capital, IBC Ventures, Elevate Community Ventures"
+  },
+  {
+    "slug": "chainopera-ai",
+    "name": "ChainOpera AI",
+    "symbol": "COAI",
+    "category": "Artificial Intelligence (AI)",
+    "trading": "CURRENTLY_TRADING",
+    "price_usd": 0.3972,
+    "market_cap_usd": 77962973.15,
+    "volume_24h_usd": 0,
+    "price_change_24h": 0,
+    "price_change_7d": 0,
+    "total_raised_usd": 17000000,
+    "ico_price_usd": 0,
+    "ico_roi": 0,
+    "top_funds": [
+      {
+        "fund_slug": "idg-capital",
+        "fund_name": "IDG Capital",
+        "round_date": "2024-12-26T00:00:00Z",
+        "round_stage": "Seed Round",
+        "funds_raised": 17000000,
+        "pre_valuation": 170000000
+      }
+    ],
+    "top_funds_count": 1,
+    "top_fund_names": "IDG Capital",
+    "all_investors_count": 18,
+    "all_investor_names": "Acequia Capital, Camford Capital, PrimeSet, Wisemont Capital, USC Marshall School, Plug and Play, Amber Group, Modular Capital, IDG Capital, LDV Partners, Sreeram Kannan, Sparkle Ventures, Silicon Valley Future Capital, David Tse, ABCDE Capital, Aimtop Ventures, Finality Capital Partners, Road Capital"
+  },
+  {
+    "slug": "sign-2",
+    "name": "Sign",
+    "symbol": "SIGN",
+    "category": "Infrastructure",
+    "trading": "CURRENTLY_TRADING",
+    "price_usd": 0.03643,
+    "market_cap_usd": 43764000,
+    "volume_24h_usd": 0,
+    "price_change_24h": 0,
+    "price_change_7d": 0,
+    "total_raised_usd": 25500000,
+    "ico_price_usd": 0,
+    "ico_roi": 0,
+    "top_funds": [
+      {
+        "fund_slug": "idg-capital",
+        "fund_name": "IDG Capital",
+        "round_date": "2025-10-21T00:00:00Z",
+        "round_stage": "Strategic Round",
+        "funds_raised": 25500000,
+        "pre_valuation": 255000000
+      }
+    ],
+    "top_funds_count": 1,
+    "top_fund_names": "IDG Capital",
+    "all_investors_count": 2,
+    "all_investor_names": "IDG Capital, YZi Labs (prev Binance Labs)"
+  },
+  {
+    "slug": "kaia",
+    "name": "Kaia",
+    "symbol": "KAIA",
+    "category": "Blockchain",
+    "trading": "CURRENTLY_TRADING",
+    "price_usd": 0.0553,
+    "market_cap_usd": 326800609.49,
+    "volume_24h_usd": 0,
+    "price_change_24h": 0,
+    "price_change_7d": 0,
+    "total_raised_usd": 0,
+    "ico_price_usd": 1,
+    "ico_roi": 0.0558,
+    "top_funds": [
+      {
+        "fund_slug": "idg-capital",
+        "fund_name": "IDG Capital",
+        "round_date": "2025-04-30T00:00:00Z",
+        "round_stage": "Funding Round",
+        "funds_raised": null,
+        "pre_valuation": null
+      }
+    ],
+    "top_funds_count": 1,
+    "top_fund_names": "IDG Capital",
+    "all_investors_count": 12,
+    "all_investor_names": "Mirana Ventures, Blockchain Capital, Lingfeng Capital, Caladan (Alphalab), Galaxy, Comma3 Ventures, IDG Capital, SNZ Holding, MEXC Global (Privcode Capital), 1kx, Waterdrip Capital, The Spartan Group"
+  },
+  {
+    "slug": "double-zero-crypto-coin",
+    "name": "DoubleZero",
+    "symbol": "2Z",
+    "category": "Infrastructure",
+    "trading": "CURRENTLY_TRADING",
+    "price_usd": 0.11595,
+    "market_cap_usd": 402337288.25,
+    "volume_24h_usd": 0,
+    "price_change_24h": 0,
+    "price_change_7d": 0,
+    "total_raised_usd": 28000000,
+    "ico_price_usd": 0,
+    "ico_roi": 0,
+    "top_funds": [
+      {
+        "fund_slug": "ubik-capital",
+        "fund_name": "Ubik Capital",
+        "round_date": "2025-03-06T00:00:00Z",
+        "round_stage": "Private Token Sale",
+        "funds_raised": 28000000,
+        "pre_valuation": 400000000
+      }
+    ],
+    "top_funds_count": 1,
+    "top_fund_names": "Ubik Capital",
+    "all_investors_count": 9,
+    "all_investor_names": "Frictionless, Multicoin Capital, Ubik Capital, Foundation Capital, Dragonfly Capital, Superscrypt, DBA, Reciprocal Ventures, Borderless Capital"
+  }
+]

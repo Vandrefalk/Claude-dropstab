@@ -1,0 +1,54 @@
+[
+  {
+    "category": "TOP Retail ROI",
+    "funds_to_process": 14,
+    "funds_processed": 14,
+    "funds_with_errors": 0,
+    "rounds_in_year": 60,
+    "rounds_in_month": 2,
+    "unique_projects": 55,
+    "launched_projects": 19,
+    "not_launched_skipped": 36,
+    "projects_fetched": 54,
+    "projects_with_errors": 1
+  },
+  {
+    "category": "TOP Private ROI",
+    "funds_to_process": 5,
+    "funds_processed": 5,
+    "funds_with_errors": 0,
+    "rounds_in_year": 13,
+    "rounds_in_month": 0,
+    "unique_projects": 13,
+    "launched_projects": 4,
+    "not_launched_skipped": 9,
+    "projects_fetched": 12,
+    "projects_with_errors": 1
+  },
+  {
+    "category": "TOP 5 Angels",
+    "funds_to_process": 5,
+    "funds_processed": 5,
+    "funds_with_errors": 0,
+    "rounds_in_year": 16,
+    "rounds_in_month": 0,
+    "unique_projects": 16,
+    "launched_projects": 3,
+    "not_launched_skipped": 13,
+    "projects_fetched": 16,
+    "projects_with_errors": 0
+  },
+  {
+    "category": "Additional TOP Funds",
+    "funds_to_process": 12,
+    "funds_processed": 12,
+    "funds_with_errors": 0,
+    "rounds_in_year": 63,
+    "rounds_in_month": 5,
+    "unique_projects": 59,
+    "launched_projects": 14,
+    "not_launched_skipped": 45,
+    "projects_fetched": 59,
+    "projects_with_errors": 0
+  }
+]

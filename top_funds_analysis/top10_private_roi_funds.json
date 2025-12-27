@@ -1,0 +1,344 @@
+[
+  {
+    "id": 858,
+    "investorSlug": "vertex-ventures",
+    "name": "Vertex Ventures",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures_logo_1740107431.webp",
+    "rank": 3176,
+    "country": "United States of America",
+    "description": "Vertex Ventures is a global network of operator-investors that manages portfolios.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 221.57,
+    "lastRoundDate": "2025-09-25T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5550,
+    "totalInvestments": 6,
+    "leadInvestments": 3,
+    "binanceListing": {
+      "totalProjects": 6,
+      "listedProjects": 1,
+      "listedPercent": 16.667
+    },
+    "links": [
+      {
+        "url": "http://www.vertexventures.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/vertexventures",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/vertex-ventures",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/vertexventuresofficial",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 6
+  },
+  {
+    "id": 859,
+    "investorSlug": "vertex-ventures-china",
+    "name": "Vertex Ventures China",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures-china_logo_1740109120.webp",
+    "rank": 7882,
+    "country": "China",
+    "description": "Vertex Ventures China invests in high-growth internet and technology start-ups across mainland China.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5550,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://vertexventures.cn/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/vertex-ventures-china",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 860,
+    "investorSlug": "vertex-ventures-southeast-asia-india",
+    "name": "Vertex Ventures Southeast Asia & India",
+    "image": "https://icodrops.com/media/vc/logos/vertex-ventures-southeast-asia-india_logo_1740109120.webp",
+    "rank": 7883,
+    "country": "Singapore",
+    "description": "Vertex Ventures Southeast Asia & India invests in high-growth start-ups in Southeast Asia and India.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": 221.57,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 0,
+    "retailRoiPercent": null,
+    "privateRoiPercent": 5550,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://www.vertexventures.com/southeast-asia-india/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/vertexventures?lang=en",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/vertex-venture-management-pte-ltd/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/vertex-ventures-southeast-asia-india",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/vertexventuresofficial/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3241,
+    "investorSlug": "arcona",
+    "name": "Arcona",
+    "image": "https://icodrops.com/media/vc/logos/arcona_logo_1740107187.webp",
+    "rank": 351,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.arcona.space/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3242,
+    "investorSlug": "expx",
+    "name": "ExpX",
+    "image": "https://icodrops.com/media/vc/logos/expx_logo_1740108353.webp",
+    "rank": 352,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://expx.finance/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3243,
+    "investorSlug": "fetch",
+    "name": "Fetch",
+    "image": "https://icodrops.com/media/vc/logos/fetch_logo_1740108483.webp",
+    "rank": 353,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://fetch.ai/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3244,
+    "investorSlug": "minto",
+    "name": "Minto",
+    "image": "https://icodrops.com/media/vc/logos/minto_logo_1740106916.webp",
+    "rank": 354,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://minto.finance/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3245,
+    "investorSlug": "heco",
+    "name": "HECO",
+    "image": "https://icodrops.com/media/vc/logos/heco_logo_1740108478.webp",
+    "rank": 355,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.hecochain.com/RU/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3246,
+    "investorSlug": "sport-investing",
+    "name": "Sport Investing",
+    "image": "https://icodrops.com/media/vc/logos/sport-investing_logo_1740107137.webp",
+    "rank": 356,
+    "country": "",
+    "description": "",
+    "ventureType": "Investment Firm",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "http://sportinvesting.com/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3247,
+    "investorSlug": "stoic",
+    "name": "Stoic",
+    "image": "https://icodrops.com/media/vc/logos/stoic_logo_1740108388.webp",
+    "rank": 357,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://stoic.ai/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  }
+]

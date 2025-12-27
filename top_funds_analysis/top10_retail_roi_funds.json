@@ -1,0 +1,376 @@
+[
+  {
+    "id": 362,
+    "investorSlug": "iconiz",
+    "name": "ICONIZ",
+    "image": "https://icodrops.com/media/vc/logos/iconiz_logo_1740108050.webp",
+    "rank": 147,
+    "country": "United States of America",
+    "description": "ICONIZ is the world’s leading blockchain accelerator for startups.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": "2018-06-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 5021,
+    "privateRoiPercent": 1.0025,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 2,
+      "listedPercent": 40
+    },
+    "links": [
+      {
+        "url": "https://www.iconiz.io/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 810,
+    "investorSlug": "chainfunder",
+    "name": "ChainFunder",
+    "image": "https://icodrops.com/media/vc/logos/chainfunder_logo_1740106924.webp",
+    "rank": 349,
+    "country": "China",
+    "description": "",
+    "ventureType": null,
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2018-01-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 2510.92,
+    "privateRoiPercent": 0.195,
+    "totalInvestments": 5,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 2,
+      "listedPercent": 50
+    },
+    "links": [
+      {
+        "url": "http://www.chainfunder.org/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/chainfunder/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/chainfunder",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 126,
+    "investorSlug": "bitmain",
+    "name": "Bitmain",
+    "image": "https://icodrops.com/media/vc/logos/bitmain_logo_1740107092.webp",
+    "rank": 30,
+    "country": "China",
+    "description": "Bitmain is a China-based technology company that specializes in the design and manufacture of hardware for cryptocurrency mining, particularly for Bitcoin. Founded in 2013 by Micree Zhan and Jihan Wu, Bitmain quickly became one of the most prominent and influential companies in the cryptocurrency industry.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 2",
+    "twitterScore": 998.94,
+    "lastRoundDate": "2024-03-12T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 6,
+    "retailRoiPercent": 847.65,
+    "privateRoiPercent": 4.998,
+    "totalInvestments": 10,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 11,
+      "listedProjects": 7,
+      "listedPercent": 63.64
+    },
+    "links": [
+      {
+        "url": "https://www.bitmain.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/BITMAINtech",
+        "type": "TWITTER"
+      }
+    ],
+    "portfolioCoinsCount": 11
+  },
+  {
+    "id": 194,
+    "investorSlug": "idg-capital",
+    "name": "IDG Capital",
+    "image": "https://icodrops.com/media/vc/logos/idg-capital_logo_1740107903.webp",
+    "rank": 148,
+    "country": "China",
+    "description": "IDG Capital is an investment firm that funds early- to growth-stage companies in the technology sector.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 198.69,
+    "lastRoundDate": "2025-10-21T00:00:00Z",
+    "roundsPerYear": 2,
+    "publicSalesCount": 7,
+    "retailRoiPercent": 719.01,
+    "privateRoiPercent": 0.1125,
+    "totalInvestments": 35,
+    "leadInvestments": 9,
+    "binanceListing": {
+      "totalProjects": 33,
+      "listedProjects": 8,
+      "listedPercent": 24.24
+    },
+    "links": [
+      {
+        "url": "https://en.idgcapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/IDGCapital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/idgvc",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/IDGCapital/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 33
+  },
+  {
+    "id": 52,
+    "investorSlug": "8-decimal-capital",
+    "name": "8 Decimal Capital",
+    "image": "https://icodrops.com/media/vc/logos/8-decimal-capital_logo_1740108073.webp",
+    "rank": 149,
+    "country": "United States of America",
+    "description": "A multi-strategy investment firm focused on both token and equity investment",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": null,
+    "lastRoundDate": "2021-01-01T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 11,
+    "retailRoiPercent": 467.62,
+    "privateRoiPercent": 6.63,
+    "totalInvestments": 18,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 22,
+      "listedProjects": 14,
+      "listedPercent": 63.64
+    },
+    "links": [
+      {
+        "url": "http://www.8dcapital.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/8-decimal-capital",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 22
+  },
+  {
+    "id": 995,
+    "investorSlug": "jump-trading",
+    "name": "Jump Trading",
+    "image": "https://icodrops.com/media/vc/logos/jump-trading_logo_1740107708.webp",
+    "rank": 1,
+    "country": "United States of America",
+    "description": "Jump Trading LLC, often referred to simply as Jump, is a proprietary trading firm headquartered in Chicago, Illinois, USA. Founded in 1999 by Paul Gurinas and Bill DiSomma, Jump Trading is one of the leading high-frequency trading (HFT) firms in the world. It is known for its expertise in algorithmic trading and quantitative strategies, particularly in the fields of futures, options, and equities.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 1",
+    "twitterScore": 459.9,
+    "lastRoundDate": "2025-12-03T00:00:00Z",
+    "roundsPerYear": 1,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 188.28,
+    "privateRoiPercent": 0.22667,
+    "totalInvestments": 11,
+    "leadInvestments": 1,
+    "binanceListing": {
+      "totalProjects": 11,
+      "listedProjects": 5,
+      "listedPercent": 45.45
+    },
+    "links": [
+      {
+        "url": "https://www.jumptrading.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://x.com/jumptrading",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/jump-trading",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/jump-trading-llc",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 11
+  },
+  {
+    "id": 2120,
+    "investorSlug": "coinshares",
+    "name": "CoinShares",
+    "image": "https://icodrops.com/media/vc/logos/coinshares_logo_1740107580.webp",
+    "rank": 350,
+    "country": "",
+    "description": "Pioneers in digital asset investing. CoinShares manages $1B in assets on behalf of a global investor base.",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2025-10-01T00:00:00Z",
+    "roundsPerYear": 2,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 185.01,
+    "privateRoiPercent": 0.28571,
+    "totalInvestments": 17,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 18,
+      "listedProjects": 2,
+      "listedPercent": 11.111
+    },
+    "links": [
+      {
+        "url": "https://coinshares.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.linkedin.com/company/coinshares/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/coinshares",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 18
+  },
+  {
+    "id": 8608,
+    "investorSlug": "ubik-capital",
+    "name": "Ubik Capital",
+    "image": "https://icodrops.com/media/vc/logos/ubik-capital_logo_1758564733.webp",
+    "rank": 150,
+    "country": "",
+    "description": "Ubik Capital is a major force in the blockchain industry, empowered by a team of experts who deliver exceptional Proof-of-Stake services and investment opportunities. \r\nUbik Capital secures major Proof-of-Stake networks and is a trusted staking provider with years of industry experience.\r\nUbik Capital is a validator for Proof-of-Stake networks such as: Solana, Cosmos Hub, Cronos, Band Protocol, Coreum.",
+    "ventureType": "Ventures Capital",
+    "tier": "Tier 3",
+    "twitterScore": 311.29,
+    "lastRoundDate": "2025-03-06T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 4,
+    "retailRoiPercent": 138.82,
+    "privateRoiPercent": 0.2775,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 3,
+      "listedPercent": 75
+    },
+    "links": [
+      {
+        "url": "https://ubik.capital/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://t.me/ubikcapital",
+        "type": "TELEGRAM_ANN"
+      },
+      {
+        "url": "https://x.com/ubikcapital",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/company/ubikcapital/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://discord.com/invite/9Jzbk4MZPF",
+        "type": "DISCORD"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  },
+  {
+    "id": 3241,
+    "investorSlug": "arcona",
+    "name": "Arcona",
+    "image": "https://icodrops.com/media/vc/logos/arcona_logo_1740107187.webp",
+    "rank": 351,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://www.arcona.space/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 3242,
+    "investorSlug": "expx",
+    "name": "ExpX",
+    "image": "https://icodrops.com/media/vc/logos/expx_logo_1740108353.webp",
+    "rank": 352,
+    "country": "",
+    "description": "",
+    "ventureType": "Ventures Capital",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-04-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 132,
+    "privateRoiPercent": 528,
+    "totalInvestments": 1,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://expx.finance/",
+        "type": "WEBSITE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  }
+]

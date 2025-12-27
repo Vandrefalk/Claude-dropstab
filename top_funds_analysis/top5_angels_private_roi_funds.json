@@ -1,0 +1,196 @@
+[
+  {
+    "id": 583,
+    "investorSlug": "richard-f-dulude",
+    "name": "Richard F. Dulude",
+    "image": "https://icodrops.com/media/vc/logos/richard-f-dulude_logo_1740107566.webp",
+    "rank": 360,
+    "country": "United States of America",
+    "description": "Co-Founder & Partner at Underscore VC",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 0,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 111,
+    "privateRoiPercent": 135,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://underscore.vc/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "http://twitter.com/richdulude",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/dulude",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/richard-dulude",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 584,
+    "investorSlug": "fj-syndicates",
+    "name": "FJ Syndicates",
+    "image": "https://icodrops.com/media/vc/logos/fj-syndicates_logo_1740108051.webp",
+    "rank": 370,
+    "country": "Australia",
+    "description": "Managing early-stage private equity and digital assets.",
+    "ventureType": "Angel Group",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2020-07-12T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 3,
+    "retailRoiPercent": 54.27,
+    "privateRoiPercent": 135,
+    "totalInvestments": 2,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 3,
+      "listedProjects": 2,
+      "listedPercent": 66.67
+    },
+    "links": [
+      {
+        "url": "http://www.fjsyndicates.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/fj-syndicates",
+        "type": "CRUNCHBASE"
+      }
+    ],
+    "portfolioCoinsCount": 3
+  },
+  {
+    "id": 409,
+    "investorSlug": "non-fungible-chan",
+    "name": "NON-fungible Chan",
+    "image": "https://icodrops.com/media/vc/logos/non-fungible-chan_logo_1740108466.webp",
+    "rank": 591,
+    "country": "",
+    "description": "Angel, based in Florida",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": null,
+    "lastRoundDate": "2021-08-01T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 4,
+    "retailRoiPercent": 1.52,
+    "privateRoiPercent": 81.94,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 5,
+      "listedProjects": 4,
+      "listedPercent": 80
+    },
+    "links": [],
+    "portfolioCoinsCount": 5
+  },
+  {
+    "id": 949,
+    "investorSlug": "antonio-furtado",
+    "name": "Antonio Furtado",
+    "image": "https://icodrops.com/media/vc/logos/antonio-furtado_logo_1740107776.webp",
+    "rank": 372,
+    "country": "India",
+    "description": "",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 55.64,
+    "lastRoundDate": null,
+    "roundsPerYear": 0,
+    "publicSalesCount": 1,
+    "retailRoiPercent": 47.91,
+    "privateRoiPercent": 72.35,
+    "totalInvestments": 0,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": null,
+      "listedProjects": null,
+      "listedPercent": null
+    },
+    "links": [
+      {
+        "url": "https://entropy.co/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/AntonioJFurtado",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://www.linkedin.com/in/antoniojfurtado/",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.facebook.com/ajf7688/",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 1
+  },
+  {
+    "id": 582,
+    "investorSlug": "andreas-schwartz",
+    "name": "Andreas Schwartz",
+    "image": "https://icodrops.com/media/vc/logos/andreas-schwartz_logo_1740107307.webp",
+    "rank": 369,
+    "country": "Bulgaria",
+    "description": "Andreas Schwartz is the co-founder and head SEO at iGaming.com.",
+    "ventureType": "Angel Investor",
+    "tier": null,
+    "twitterScore": 58.49,
+    "lastRoundDate": "2021-02-05T00:00:00Z",
+    "roundsPerYear": 0,
+    "publicSalesCount": 2,
+    "retailRoiPercent": 55.56,
+    "privateRoiPercent": 67.8,
+    "totalInvestments": 3,
+    "leadInvestments": 0,
+    "binanceListing": {
+      "totalProjects": 4,
+      "listedProjects": 4,
+      "listedPercent": 100
+    },
+    "links": [
+      {
+        "url": "http://www.igaming.com/",
+        "type": "WEBSITE"
+      },
+      {
+        "url": "https://twitter.com/zeg0at",
+        "type": "TWITTER"
+      },
+      {
+        "url": "https://de.linkedin.com/in/andreas-schwartz-a87182149",
+        "type": "LINKEDIN"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/andreas-schwartz",
+        "type": "CRUNCHBASE"
+      },
+      {
+        "url": "https://www.facebook.com/schwartz.andreas",
+        "type": "FACEBOOK"
+      }
+    ],
+    "portfolioCoinsCount": 4
+  }
+]
