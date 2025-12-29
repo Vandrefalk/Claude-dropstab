@@ -350,3 +350,55 @@ class DropStabAPI:
             params["to"] = to_timestamp
 
         return self._request(f"/coins/history/chart-by-timeframe/{slug}", params)
+
+    def get_price_on_date(self, slug: str, date: str) -> dict:
+        """
+        Get price on specific date.
+
+        Args:
+            slug: Coin slug
+            date: Date string in format YYYY-MM-DD
+
+        Returns:
+            dict with price in USD, BTC, ETH, SOL
+        """
+        return self._request(f"/coins/history/price/{slug}", {"date": date})
+
+    def get_chart_by_interval(self, slug: str, from_date: str, to_date: str) -> dict:
+        """
+        Get historical chart data within a date range.
+
+        Args:
+            slug: Coin slug
+            from_date: Start datetime (ISO format)
+            to_date: End datetime (ISO format)
+
+        Returns:
+            dict with historical data points (timestamp, price, marketCap, volume24h)
+        """
+        return self._request(f"/coins/history/chart-by-interval/{slug}", {
+            "from": from_date,
+            "to": to_date
+        })
+
+    def get_token_unlocks_filtered(
+        self,
+        coin_slug: str,
+        timeline_filter: str = "PAST",
+        sort_order: str = "DESC"
+    ) -> dict:
+        """
+        Get token unlocks with timeline filter.
+
+        Args:
+            coin_slug: Coin slug
+            timeline_filter: 'PAST' or 'FUTURE'
+            sort_order: 'ASC' or 'DESC'
+
+        Returns:
+            dict with unlock events
+        """
+        return self._request(f"/tokenUnlocks/{coin_slug}", {
+            "unlocksTimelineFilter": timeline_filter,
+            "unlocksDateSortOrder": sort_order
+        })
