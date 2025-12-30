@@ -313,17 +313,21 @@ def main():
 
     api = DropStabAPI(api_key)
     output_path = Path(args.output)
+    output_path.mkdir(parents=True, exist_ok=True)
 
     print(f"Analyzing {len(args.coins)} coins: {', '.join(args.coins)}")
     print(f"Output: {output_path}/")
 
     all_results = []
 
-    for coin in args.coins:
+    for i, coin in enumerate(args.coins):
         results = analyze_coin_unlocks(api, coin)
         all_results.extend(results)
 
-    save_results(all_results, output_path)
+        # Save after each coin (incremental save)
+        save_results(all_results, output_path)
+        print(f"✓ Saved progress: {i+1}/{len(args.coins)} coins, {len(all_results)} unlocks total")
+
     print_summary(all_results)
 
 
