@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Unlock Impact Data Collector
+Comprehensive Unlock Impact Data Collector
 
-Collects comprehensive data for analyzing token unlock impact on prices.
+Collects ALL historical unlocks with price data around each unlock.
 Sources: Dropstab API (unlocks) + CoinGecko API (prices, market data)
 
 Run in background:
@@ -15,7 +15,6 @@ import json
 import csv
 import time
 import logging
-import signal
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Optional, Dict, List, Any
@@ -39,71 +38,123 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============================================================================
-# CONFIGURATION
+# CONFIGURATION - 50 COINS
 # ============================================================================
 
-# Top coins with significant unlocks
 TARGET_COINS = [
-    # Layer 2s
-    "arbitrum", "optimism", "starknet", "zksync-era", "manta-network",
-    # New L1s
-    "aptos", "sui", "celestia", "sei", "injective",
-    # DeFi/Infra
-    "pyth-network", "jupiter", "eigenlayer", "wormhole", "blur",
-    # Others with major unlocks
-    "worldcoin", "arkham", "cyberconnect", "altlayer", "dymension",
-    "zetachain", "portal-2", "pixels", "sleepless-ai", "xai-blockchain",
-    "nft-worlds", "ronin", "immutable-x", "axie-infinity", "gala",
+    # User's list of 50 coins (Dropstab slug -> display name)
+    ("celestia", "TIA"),
+    ("eigenlayer", "EIGEN"),
+    ("layerzero", "ZRO"),
+    ("optimism", "OP"),
+    ("toncoin", "TON"),
+    ("avalanche", "AVAX"),
+    ("ethena", "ENA"),
+    ("worldcoin", "WLD"),
+    ("sui", "SUI"),
+    ("plasma", "XPL"),
+    ("berachain", "BERA"),
+    ("walrus-protocol", "WAL"),
+    ("monad", "MON"),
+    ("zerogravity", "0G"),
+    # ("canton-network", "CC"),  # no token
+    ("movement", "MOVE"),
+    ("sonic-svm", "S"),
+    ("maplestory-universe", "NXPC"),
+    ("io-net", "IO"),
+    ("jito", "JTO"),
+    ("morpho", "MORPHO"),
+    ("centrifuge", "CFG"),
+    ("huma-finance", "HUMA"),
+    ("story-protocol", "IP"),
+    ("ether-fi", "ETHFI"),
+    ("altlayer", "ALT"),
+    ("peaq", "PEAQ"),
+    ("succinct", "PROVE"),
+    ("axelar", "AXL"),
+    ("chainopera-ai", "COAI"),
+    ("humanity-protocol", "H"),
+    ("lava-network", "LAVA"),
+    ("redstone", "RED"),
+    ("mask-network", "MASK"),
+    ("illuvium", "ILV"),
+    ("pudgy-penguins", "PENGU"),
+    ("open-campus", "EDU"),
+    ("mocaverse", "MOCA"),
+    ("dimo", "DIMO"),
+    ("geodnet", "GEOD"),
+    ("bio-protocol", "BIO"),
+    ("vana", "VANA"),
+    ("mind-network", "FHE"),
+    ("mountain-protocol", "USDM"),
+    ("woo-network", "WOO"),
+    ("lombard", "BARD"),
+    ("babylon", "BABY"),
+    ("world-liberty-financial", "WLFI"),
+    ("sahara-ai", "SAHARA"),
+    ("cysic", "CYS"),
 ]
 
-# CoinGecko ID mapping (Dropstab slug -> CoinGecko ID)
+# CoinGecko ID mapping
 COINGECKO_IDS = {
-    "arbitrum": "arbitrum",
-    "optimism": "optimism",
-    "starknet": "starknet",
-    "zksync-era": "zksync",
-    "manta-network": "manta-network",
-    "aptos": "aptos",
-    "sui": "sui",
     "celestia": "celestia",
-    "sei": "sei-network",
-    "injective": "injective-protocol",
-    "pyth-network": "pyth-network",
-    "jupiter": "jupiter-exchange-solana",
     "eigenlayer": "eigenlayer",
-    "wormhole": "wormhole",
-    "blur": "blur",
+    "layerzero": "layerzero",
+    "optimism": "optimism",
+    "toncoin": "the-open-network",
+    "avalanche": "avalanche-2",
+    "ethena": "ethena",
     "worldcoin": "worldcoin-wld",
-    "arkham": "arkham",
-    "cyberconnect": "cyberconnect",
+    "sui": "sui",
+    "plasma": "plasma-2",
+    "berachain": "berachain",
+    "walrus-protocol": "walrus-protocol",
+    "monad": "monad",
+    "zerogravity": "0g",
+    "movement": "movement",
+    "sonic-svm": "sonic-svm",
+    "maplestory-universe": "maplestory-universe",
+    "io-net": "io-net",
+    "jito": "jito-governance-token",
+    "morpho": "morpho",
+    "centrifuge": "centrifuge",
+    "huma-finance": "huma-finance",
+    "story-protocol": "story-protocol",
+    "ether-fi": "ether-fi",
     "altlayer": "altlayer",
-    "dymension": "dymension",
-    "zetachain": "zetachain",
-    "portal-2": "portal",
-    "pixels": "pixels",
-    "sleepless-ai": "sleepless-ai",
-    "xai-blockchain": "xai-blockchain",
-    "ronin": "ronin",
-    "immutable-x": "immutable-x",
-    "axie-infinity": "axie-infinity",
-    "gala": "gala",
+    "peaq": "peaq",
+    "succinct": "succinct",
+    "axelar": "axelar",
+    "chainopera-ai": "chainopera-ai",
+    "humanity-protocol": "humanity-protocol",
+    "lava-network": "lava-network",
+    "redstone": "redstone-oracles",
+    "mask-network": "mask-network",
+    "illuvium": "illuvium",
+    "pudgy-penguins": "pudgy-penguins",
+    "open-campus": "open-campus",
+    "mocaverse": "moca-network",
+    "dimo": "dimo",
+    "geodnet": "geodnet",
+    "bio-protocol": "bio-protocol",
+    "vana": "vana",
+    "mind-network": "mind-network",
+    "mountain-protocol": "mountain-protocol-usdm",
+    "woo-network": "woo-network",
+    "lombard": "lombard-staked-btc",
+    "babylon": "babylon",
+    "world-liberty-financial": "world-liberty-financial",
+    "sahara-ai": "sahara-ai",
+    "cysic": "cysic",
 }
 
-# Allocations to include (skip airdrops)
-VALID_ALLOCATIONS = [
-    "team", "investor", "investors", "private", "seed",
-    "advisors", "advisor", "foundation", "ecosystem",
-    "treasury", "core contributors", "early backers",
-    "strategic", "partners", "reserve"
-]
-
-# Minimum unlock size (% of circulating supply)
-MIN_UNLOCK_PCT = 1.0
+# Price points relative to unlock (days)
+PRICE_OFFSETS = [-14, -10, -7, -5, -3, 0, 3, 5, 7, 10, 14]
 
 # CoinGecko rate limiting
-COINGECKO_DELAY = 1.5  # seconds between requests (free tier ~30/min)
+COINGECKO_DELAY = 1.2  # seconds between requests
 
-# Output directory
+# Output
 OUTPUT_DIR = Path("unlock_impact_data")
 
 
@@ -120,6 +171,7 @@ class CoinGeckoAPI:
         self.delay = delay
         self.session = requests.Session()
         self._last_request = 0
+        self._price_cache = {}
 
     def _rate_limit(self):
         elapsed = time.time() - self._last_request
@@ -137,7 +189,7 @@ class CoinGeckoAPI:
                 time.sleep(60)
                 return self._get(endpoint, params)
             if resp.status_code != 200:
-                logger.debug(f"CoinGecko error {resp.status_code}: {resp.text[:200]}")
+                logger.debug(f"CoinGecko error {resp.status_code}")
                 return None
             return resp.json()
         except Exception as e:
@@ -145,412 +197,260 @@ class CoinGeckoAPI:
             return None
 
     def get_coin_history(self, coin_id: str, date: str) -> Optional[dict]:
-        """
-        Get historical data for a coin on specific date.
-        date format: DD-MM-YYYY
-        """
-        return self._get(f"coins/{coin_id}/history", {"date": date, "localization": "false"})
+        """Get historical data. date format: DD-MM-YYYY"""
+        cache_key = f"{coin_id}_{date}"
+        if cache_key in self._price_cache:
+            return self._price_cache[cache_key]
 
-    def get_coin_market_chart_range(self, coin_id: str, from_ts: int, to_ts: int) -> Optional[dict]:
-        """Get price/volume data for date range."""
-        return self._get(f"coins/{coin_id}/market_chart/range", {
-            "vs_currency": "usd",
-            "from": from_ts,
-            "to": to_ts
-        })
+        data = self._get(f"coins/{coin_id}/history", {"date": date, "localization": "false"})
+        if data:
+            self._price_cache[cache_key] = data
+        return data
 
-    def get_simple_price(self, coin_ids: List[str]) -> Optional[dict]:
-        """Get current prices for multiple coins."""
-        return self._get("simple/price", {
-            "ids": ",".join(coin_ids),
-            "vs_currencies": "usd",
-            "include_market_cap": "true",
-            "include_24hr_vol": "true"
-        })
-
-
-# ============================================================================
-# DATA COLLECTION FUNCTIONS
-# ============================================================================
-
-def date_to_coingecko(dt: datetime) -> str:
-    """Convert datetime to CoinGecko format DD-MM-YYYY."""
-    return dt.strftime("%d-%m-%Y")
-
-def date_to_str(dt: datetime) -> str:
-    """Convert datetime to YYYY-MM-DD."""
-    return dt.strftime("%Y-%m-%d")
-
-def parse_date(s: str) -> Optional[datetime]:
-    """Parse ISO date string."""
-    if not s:
-        return None
-    try:
-        if "T" in s:
-            s = s.split("T")[0]
-        return datetime.strptime(s, "%Y-%m-%d")
-    except:
+    def get_price_on_date(self, coin_id: str, dt: datetime) -> Optional[float]:
+        """Get price on specific date."""
+        date_str = dt.strftime("%d-%m-%Y")
+        data = self.get_coin_history(coin_id, date_str)
+        if data and "market_data" in data:
+            return data["market_data"].get("current_price", {}).get("usd")
         return None
 
-def is_valid_allocation(name: str) -> bool:
-    """Check if allocation should be included."""
-    if not name:
-        return False
-    name_lower = name.lower()
-    # Skip airdrops
-    if "airdrop" in name_lower or "drop" in name_lower:
-        return False
-    # Check for valid allocations
-    for valid in VALID_ALLOCATIONS:
-        if valid in name_lower:
-            return True
-    return False
-
-def get_price_on_date(cg: CoinGeckoAPI, coin_id: str, dt: datetime) -> Optional[float]:
-    """Get price on specific date from CoinGecko."""
-    data = cg.get_coin_history(coin_id, date_to_coingecko(dt))
-    if data and "market_data" in data:
-        return data["market_data"].get("current_price", {}).get("usd")
-    return None
-
-def get_market_data_on_date(cg: CoinGeckoAPI, coin_id: str, dt: datetime) -> dict:
-    """Get comprehensive market data on specific date."""
-    data = cg.get_coin_history(coin_id, date_to_coingecko(dt))
-    if not data or "market_data" not in data:
-        return {}
-
-    md = data["market_data"]
-    return {
-        "price": md.get("current_price", {}).get("usd"),
-        "market_cap": md.get("market_cap", {}).get("usd"),
-        "total_volume": md.get("total_volume", {}).get("usd"),
-        "circulating_supply": md.get("circulating_supply"),
-        "total_supply": md.get("total_supply"),
-    }
-
-def get_volume_avg_7d(cg: CoinGeckoAPI, coin_id: str, unlock_date: datetime) -> Optional[float]:
-    """Get average volume for 7 days before unlock."""
-    from_ts = int((unlock_date - timedelta(days=7)).timestamp())
-    to_ts = int((unlock_date - timedelta(days=1)).timestamp())
-
-    data = cg.get_coin_market_chart_range(coin_id, from_ts, to_ts)
-    if data and "total_volumes" in data:
-        volumes = [v[1] for v in data["total_volumes"] if v[1] > 0]
-        if volumes:
-            return sum(volumes) / len(volumes)
-    return None
-
-def collect_price_series(cg: CoinGeckoAPI, coin_id: str, unlock_date: datetime) -> dict:
-    """Collect prices at various points around unlock."""
-    prices = {}
-
-    # Days relative to unlock
-    offsets = {
-        "price_d7_before": -7,
-        "price_d3_before": -3,
-        "price_d1_before": -1,
-        "price_on_unlock": 0,
-        "price_d1_after": 1,
-        "price_d3_after": 3,
-        "price_d7_after": 7,
-        "price_d14_after": 14,
-    }
-
-    for field, days in offsets.items():
-        target_date = unlock_date + timedelta(days=days)
-        # Don't fetch future dates
-        if target_date > datetime.now():
-            prices[field] = None
-        else:
-            prices[field] = get_price_on_date(cg, coin_id, target_date)
-
-    return prices
-
-def get_btc_eth_prices(cg: CoinGeckoAPI, dt: datetime) -> dict:
-    """Get BTC and ETH prices on specific date."""
-    btc = get_price_on_date(cg, "bitcoin", dt)
-    eth = get_price_on_date(cg, "ethereum", dt)
-    return {"btc_price": btc, "eth_price": eth}
-
-
-def calculate_derived_fields(row: dict) -> dict:
-    """Calculate derived metrics."""
-    derived = {}
-
-    # Unlock to volume ratio
-    if row.get("usd_value_unlocked") and row.get("volume_24h") and row["volume_24h"] > 0:
-        derived["unlock_to_daily_volume_ratio"] = row["usd_value_unlocked"] / row["volume_24h"]
-    else:
-        derived["unlock_to_daily_volume_ratio"] = None
-
-    # 7d price change before unlock
-    if row.get("price_d7_before") and row.get("price_on_unlock") and row["price_d7_before"] > 0:
-        derived["change_7d_before"] = ((row["price_on_unlock"] - row["price_d7_before"]) / row["price_d7_before"]) * 100
-    else:
-        derived["change_7d_before"] = None
-
-    # 7d price change after unlock
-    if row.get("price_on_unlock") and row.get("price_d7_after") and row["price_on_unlock"] > 0:
-        derived["change_7d_after"] = ((row["price_d7_after"] - row["price_on_unlock"]) / row["price_on_unlock"]) * 100
-    else:
-        derived["change_7d_after"] = None
-
-    # 7d change vs BTC
-    if row.get("price_on_unlock") and row.get("price_d7_after") and row.get("btc_price_on_unlock"):
-        btc_after = get_price_on_date(CoinGeckoAPI(), "bitcoin",
-                                       parse_date(row["unlock_date"]) + timedelta(days=7)) if row.get("unlock_date") else None
-        if btc_after and row["btc_price_on_unlock"] > 0:
-            coin_change = (row["price_d7_after"] - row["price_on_unlock"]) / row["price_on_unlock"]
-            btc_change = (btc_after - row["btc_price_on_unlock"]) / row["btc_price_on_unlock"]
-            derived["change_7d_vs_btc"] = (coin_change - btc_change) * 100
-        else:
-            derived["change_7d_vs_btc"] = None
-    else:
-        derived["change_7d_vs_btc"] = None
-
-    return derived
+    def get_market_data(self, coin_id: str, dt: datetime) -> dict:
+        """Get comprehensive market data."""
+        date_str = dt.strftime("%d-%m-%Y")
+        data = self.get_coin_history(coin_id, date_str)
+        if not data or "market_data" not in data:
+            return {}
+        md = data["market_data"]
+        return {
+            "price": md.get("current_price", {}).get("usd"),
+            "market_cap": md.get("market_cap", {}).get("usd"),
+            "volume_24h": md.get("total_volume", {}).get("usd"),
+            "circulating_supply": md.get("circulating_supply"),
+            "total_supply": md.get("total_supply"),
+        }
 
 
 # ============================================================================
-# MAIN COLLECTION LOGIC
+# DATA COLLECTION
 # ============================================================================
 
-def collect_coin_unlocks(dropstab: DropStabAPI, cg: CoinGeckoAPI,
-                         coin_slug: str, cg_id: str) -> List[dict]:
-    """Collect all qualifying unlocks for a coin."""
+def collect_all_unlocks(dropstab: DropStabAPI, cg: CoinGeckoAPI,
+                        coin_slug: str, coin_symbol: str,
+                        output_file: Path, existing_dates: set) -> int:
+    """Collect ALL unlocks for a coin and append to file."""
+
     logger.info(f"\n{'='*60}")
-    logger.info(f"Processing: {coin_slug} (CoinGecko: {cg_id})")
+    logger.info(f"Processing: {coin_symbol} ({coin_slug})")
     logger.info(f"{'='*60}")
 
-    results = []
+    cg_id = COINGECKO_IDS.get(coin_slug, coin_slug)
     today = datetime.now()
-    one_year_ago = today - timedelta(days=365)
+    collected = 0
 
-    # Get past unlocks from Dropstab
+    # Get past unlocks
     try:
-        unlock_data = dropstab.get_token_unlocks_filtered(coin_slug, "PAST", "ASC")
-        data = unlock_data.get("data", {})
+        result = dropstab.get_token_unlocks_filtered(coin_slug, "PAST", "ASC")
+        data = result.get("data", {})
         unlocks = data.get("tokenUnlocks", [])
+        allocations = {a["id"]: a for a in data.get("allocations", [])}
+
+        # Token info
+        total_supply_from_api = data.get("totalSupply", 0)
+        tge_date = data.get("tgeDate", "")
 
         if not unlocks:
             logger.warning(f"No unlocks found for {coin_slug}")
-            return []
+            return 0
 
         logger.info(f"Found {len(unlocks)} past unlocks")
 
-        # Get allocations for context
-        allocations = {a["id"]: a for a in data.get("allocations", [])}
-
     except Exception as e:
         logger.error(f"Error fetching unlocks for {coin_slug}: {e}")
-        return []
+        return 0
 
-    # Filter and process unlocks
-    processed = 0
-    skipped_date = 0
-    skipped_size = 0
-    skipped_allocation = 0
-
-    for unlock in unlocks:
-        unlock_date = parse_date(unlock.get("date", ""))
-        if not unlock_date:
+    # Process each unlock
+    for idx, unlock in enumerate(unlocks):
+        unlock_date_str = unlock.get("date", "")
+        if not unlock_date_str:
             continue
 
-        # Filter: last 12 months only
-        if unlock_date < one_year_ago:
-            skipped_date += 1
+        try:
+            date_part = unlock_date_str.split("T")[0]
+            unlock_date = datetime.strptime(date_part, "%Y-%m-%d")
+        except:
             continue
 
-        # Filter: skip future/very recent (need 14d after data)
+        # Skip if already processed
+        unlock_key = f"{coin_slug}_{date_part}_{unlock.get('allocationId', '')}"
+        if unlock_key in existing_dates:
+            continue
+
+        # Skip if too recent (need +14 days data)
         if unlock_date > today - timedelta(days=14):
-            skipped_date += 1
             continue
 
         # Get allocation info
         allocation_id = unlock.get("allocationId")
         allocation = allocations.get(allocation_id, {})
-        allocation_name = unlock.get("allocationName", "") or allocation.get("name", "")
-
-        # Filter: valid allocation types only
-        if not is_valid_allocation(allocation_name):
-            skipped_allocation += 1
-            continue
-
-        # Get unlock size
-        tokens_pct = unlock.get("allTokensSharePercent", 0) or 0
-
-        # Filter: minimum size
-        if tokens_pct < MIN_UNLOCK_PCT:
-            skipped_size += 1
-            continue
-
-        # This unlock qualifies! Collect data
-        logger.info(f"  Processing unlock: {date_to_str(unlock_date)} - {allocation_name} ({tokens_pct:.2f}%)")
+        allocation_name = unlock.get("allocationName", "") or allocation.get("name", "Unknown")
 
         # Basic unlock data
+        tokens_amount = unlock.get("tokensAmount", 0) or 0
+        pct_of_total = unlock.get("allTokensSharePercent", 0) or 0
+        usd_value = unlock.get("usdAmount", 0) or 0
+        is_tge = unlock.get("isTgeUnlock", False)
+        market_cap_share = unlock.get("marketCapSharePercent", 0) or 0
+
+        logger.info(f"  [{idx+1}/{len(unlocks)}] {date_part} - {allocation_name} ({pct_of_total:.2f}%)")
+
         row = {
-            "coin": coin_slug.upper().replace("-", ""),
+            "coin": coin_symbol,
             "coin_slug": coin_slug,
-            "coingecko_id": cg_id,
-            "unlock_date": date_to_str(unlock_date),
-            "unlock_type": "cliff",  # We're filtering for cliff unlocks
+            "unlock_date": date_part,
             "allocation": allocation_name,
-            "tokens_amount": unlock.get("tokensAmount", 0) or 0,
-            "pct_of_total": tokens_pct,
-            "is_tge": unlock.get("isTgeUnlock", False),
+            "allocation_id": allocation_id,
+            "is_tge": is_tge,
+            "tokens_amount": tokens_amount,
+            "pct_of_total_supply": pct_of_total,
+            "pct_of_market_cap": market_cap_share,
+            "usd_value_at_unlock": usd_value,
+            "tge_date": tge_date.split("T")[0] if tge_date else "",
         }
 
         # Get market data on unlock date from CoinGecko
-        market_data = get_market_data_on_date(cg, cg_id, unlock_date)
-        row.update({
-            "market_cap": market_data.get("market_cap"),
-            "circulating_supply": market_data.get("circulating_supply"),
-            "total_supply": market_data.get("total_supply"),
-            "volume_24h": market_data.get("total_volume"),
-        })
+        market_data = cg.get_market_data(cg_id, unlock_date)
+        row["cg_price_on_unlock"] = market_data.get("price")
+        row["cg_market_cap"] = market_data.get("market_cap")
+        row["cg_volume_24h"] = market_data.get("volume_24h")
+        row["cg_circulating_supply"] = market_data.get("circulating_supply")
+        row["cg_total_supply"] = market_data.get("total_supply")
 
         # Calculate pct of circulating
-        if row["tokens_amount"] and row.get("circulating_supply") and row["circulating_supply"] > 0:
-            row["pct_of_circulating"] = (row["tokens_amount"] / row["circulating_supply"]) * 100
+        if tokens_amount and market_data.get("circulating_supply"):
+            row["pct_of_circulating"] = (tokens_amount / market_data["circulating_supply"]) * 100
         else:
             row["pct_of_circulating"] = None
 
-        # Calculate FDV
-        if row.get("total_supply") and market_data.get("price"):
-            row["fdv"] = row["total_supply"] * market_data["price"]
+        # Get prices at all offsets
+        for offset in PRICE_OFFSETS:
+            target_date = unlock_date + timedelta(days=offset)
+            if target_date > today:
+                price = None
+            else:
+                price = cg.get_price_on_date(cg_id, target_date)
+
+            if offset < 0:
+                col_name = f"price_d{abs(offset)}_before"
+            elif offset == 0:
+                col_name = "price_on_unlock"
+            else:
+                col_name = f"price_d{offset}_after"
+            row[col_name] = price
+
+        # Get BTC/ETH prices for normalization
+        row["btc_price"] = cg.get_price_on_date("bitcoin", unlock_date)
+        row["eth_price"] = cg.get_price_on_date("ethereum", unlock_date)
+
+        # Calculate price changes
+        price_before_14 = row.get("price_d14_before")
+        price_before_7 = row.get("price_d7_before")
+        price_on = row.get("price_on_unlock")
+        price_after_7 = row.get("price_d7_after")
+        price_after_14 = row.get("price_d14_after")
+
+        if price_before_7 and price_on and price_before_7 > 0:
+            row["change_7d_before_pct"] = ((price_on - price_before_7) / price_before_7) * 100
         else:
-            row["fdv"] = None
+            row["change_7d_before_pct"] = None
 
-        # USD value of unlock
-        if row["tokens_amount"] and market_data.get("price"):
-            row["usd_value_unlocked"] = row["tokens_amount"] * market_data["price"]
+        if price_on and price_after_7 and price_on > 0:
+            row["change_7d_after_pct"] = ((price_after_7 - price_on) / price_on) * 100
         else:
-            row["usd_value_unlocked"] = unlock.get("usdAmount", 0) or 0
+            row["change_7d_after_pct"] = None
 
-        # Get 7d average volume before unlock
-        row["volume_avg_7d"] = get_volume_avg_7d(cg, cg_id, unlock_date)
+        if price_before_14 and price_after_14 and price_before_14 > 0:
+            row["change_14d_total_pct"] = ((price_after_14 - price_before_14) / price_before_14) * 100
+        else:
+            row["change_14d_total_pct"] = None
 
-        # Get price series around unlock
-        prices = collect_price_series(cg, cg_id, unlock_date)
-        row.update(prices)
+        # Volume ratio
+        if usd_value and market_data.get("volume_24h") and market_data["volume_24h"] > 0:
+            row["unlock_to_volume_ratio"] = usd_value / market_data["volume_24h"]
+        else:
+            row["unlock_to_volume_ratio"] = None
 
-        # Get BTC/ETH for normalization
-        btc_eth = get_btc_eth_prices(cg, unlock_date)
-        row["btc_price_on_unlock"] = btc_eth["btc_price"]
-        row["eth_price_on_unlock"] = btc_eth["eth_price"]
+        # Append to CSV immediately
+        append_row_to_csv(row, output_file)
+        collected += 1
+        existing_dates.add(unlock_key)
 
-        # Calculate derived fields
-        derived = calculate_derived_fields(row)
-        row.update(derived)
-
-        results.append(row)
-        processed += 1
-
-        # Progress
-        if processed % 5 == 0:
-            logger.info(f"  Processed {processed} qualifying unlocks...")
-
-    logger.info(f"Summary for {coin_slug}:")
-    logger.info(f"  - Processed: {processed}")
-    logger.info(f"  - Skipped (date): {skipped_date}")
-    logger.info(f"  - Skipped (size): {skipped_size}")
-    logger.info(f"  - Skipped (allocation): {skipped_allocation}")
-
-    return results
+    logger.info(f"✓ Collected {collected} unlocks for {coin_symbol}")
+    return collected
 
 
-def save_results(results: List[dict], output_dir: Path):
-    """Save results to CSV and JSON."""
-    output_dir.mkdir(parents=True, exist_ok=True)
+def get_csv_columns() -> list:
+    """Define CSV column order."""
+    price_cols = []
+    for offset in PRICE_OFFSETS:
+        if offset < 0:
+            price_cols.append(f"price_d{abs(offset)}_before")
+        elif offset == 0:
+            price_cols.append("price_on_unlock")
+        else:
+            price_cols.append(f"price_d{offset}_after")
 
-    if not results:
-        logger.warning("No results to save")
-        return
-
-    # Define column order
-    columns = [
-        # Unlock info
-        "coin", "coin_slug", "coingecko_id", "unlock_date", "unlock_type",
-        "allocation", "is_tge", "tokens_amount", "pct_of_circulating", "pct_of_total",
-        "usd_value_unlocked",
-        # Market data
-        "market_cap", "circulating_supply", "total_supply", "fdv",
-        "volume_24h", "volume_avg_7d",
+    return [
+        # Identifiers
+        "coin", "coin_slug", "unlock_date", "allocation", "allocation_id",
+        "is_tge", "tge_date",
+        # Unlock size
+        "tokens_amount", "pct_of_total_supply", "pct_of_circulating",
+        "pct_of_market_cap", "usd_value_at_unlock",
+        # Market data from CoinGecko
+        "cg_price_on_unlock", "cg_market_cap", "cg_volume_24h",
+        "cg_circulating_supply", "cg_total_supply",
         # Price series
-        "price_d7_before", "price_d3_before", "price_d1_before",
-        "price_on_unlock", "price_d1_after", "price_d3_after",
-        "price_d7_after", "price_d14_after",
-        # Normalization
-        "btc_price_on_unlock", "eth_price_on_unlock",
-        # Derived
-        "unlock_to_daily_volume_ratio", "change_7d_before",
-        "change_7d_after", "change_7d_vs_btc",
+        *price_cols,
+        # BTC/ETH for normalization
+        "btc_price", "eth_price",
+        # Calculated
+        "change_7d_before_pct", "change_7d_after_pct", "change_14d_total_pct",
+        "unlock_to_volume_ratio",
     ]
 
-    # CSV
-    csv_file = output_dir / "unlock_impact_dataset.csv"
-    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+
+def append_row_to_csv(row: dict, output_file: Path):
+    """Append single row to CSV file."""
+    columns = get_csv_columns()
+    file_exists = output_file.exists()
+
+    with open(output_file, 'a', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction='ignore')
-        writer.writeheader()
-        writer.writerows(results)
-    logger.info(f"Saved CSV: {csv_file} ({len(results)} rows)")
-
-    # JSON (for backup)
-    json_file = output_dir / "unlock_impact_dataset.json"
-    with open(json_file, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False, default=str)
-    logger.info(f"Saved JSON: {json_file}")
+        if not file_exists:
+            writer.writeheader()
+        writer.writerow(row)
 
 
-def print_summary(results: List[dict]):
-    """Print collection summary."""
-    print("\n" + "="*70)
-    print("UNLOCK IMPACT DATA COLLECTION SUMMARY")
-    print("="*70)
-
-    if not results:
-        print("No data collected")
-        return
-
-    # Stats by coin
-    by_coin = {}
-    for r in results:
-        coin = r["coin"]
-        if coin not in by_coin:
-            by_coin[coin] = []
-        by_coin[coin].append(r)
-
-    print(f"\nTotal unlocks collected: {len(results)}")
-    print(f"Coins covered: {len(by_coin)}")
-
-    print("\nBreakdown by coin:")
-    for coin, unlocks in sorted(by_coin.items()):
-        avg_pct = sum(u.get("pct_of_total", 0) or 0 for u in unlocks) / len(unlocks)
-        print(f"  {coin}: {len(unlocks)} unlocks (avg {avg_pct:.2f}% of total supply)")
-
-    # Stats on price impact
-    changes_after = [r["change_7d_after"] for r in results if r.get("change_7d_after") is not None]
-    if changes_after:
-        avg_change = sum(changes_after) / len(changes_after)
-        negative = len([c for c in changes_after if c < 0])
-        positive = len([c for c in changes_after if c > 0])
-
-        print(f"\nPrice Impact (7d after unlock):")
-        print(f"  Average change: {avg_change:+.2f}%")
-        print(f"  Negative: {negative} ({100*negative/len(changes_after):.1f}%)")
-        print(f"  Positive: {positive} ({100*positive/len(changes_after):.1f}%)")
-
-    print("="*70)
+def load_existing_entries(output_file: Path) -> set:
+    """Load already processed entries to avoid duplicates."""
+    existing = set()
+    if output_file.exists():
+        with open(output_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                key = f"{row.get('coin_slug', '')}_{row.get('unlock_date', '')}_{row.get('allocation_id', '')}"
+                existing.add(key)
+        logger.info(f"Loaded {len(existing)} existing entries")
+    return existing
 
 
 def main():
     """Main collection function."""
     import argparse
 
-    parser = argparse.ArgumentParser(description="Collect unlock impact data")
-    parser.add_argument("--coins", nargs="+", default=None, help="Specific coins to process")
+    parser = argparse.ArgumentParser(description="Collect comprehensive unlock impact data")
     parser.add_argument("--output", "-o", default="unlock_impact_data", help="Output directory")
-    parser.add_argument("--resume", action="store_true", help="Resume from existing data")
     args = parser.parse_args()
 
     # Setup
@@ -563,57 +463,40 @@ def main():
 
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "unlock_impact_full.csv"
 
     dropstab = DropStabAPI(api_key)
     cg = CoinGeckoAPI()
 
-    # Determine which coins to process
-    if args.coins:
-        coins_to_process = args.coins
-    else:
-        coins_to_process = TARGET_COINS
+    # Load existing to resume
+    existing_dates = load_existing_entries(output_file)
 
-    # Load existing results if resuming
-    all_results = []
-    processed_coins = set()
+    logger.info(f"Processing {len(TARGET_COINS)} coins")
+    logger.info(f"Output: {output_file}")
+    logger.info(f"Price offsets: {PRICE_OFFSETS}")
 
-    if args.resume:
-        json_file = output_dir / "unlock_impact_dataset.json"
-        if json_file.exists():
-            with open(json_file) as f:
-                all_results = json.load(f)
-            processed_coins = set(r["coin_slug"] for r in all_results)
-            logger.info(f"Resuming: loaded {len(all_results)} existing results from {len(processed_coins)} coins")
+    total_collected = 0
 
-    logger.info(f"Processing {len(coins_to_process)} coins")
-    logger.info(f"Output directory: {output_dir}")
-    logger.info(f"Filters: unlocks > {MIN_UNLOCK_PCT}% of supply, last 12 months")
-
-    # Process each coin
-    for i, coin_slug in enumerate(coins_to_process):
-        if coin_slug in processed_coins:
-            logger.info(f"Skipping {coin_slug} (already processed)")
-            continue
-
-        cg_id = COINGECKO_IDS.get(coin_slug, coin_slug)
-
+    for i, (coin_slug, coin_symbol) in enumerate(TARGET_COINS):
         try:
-            coin_results = collect_coin_unlocks(dropstab, cg, coin_slug, cg_id)
-            all_results.extend(coin_results)
-
-            # Save incrementally after each coin
-            save_results(all_results, output_dir)
-            logger.info(f"✓ Progress: {i+1}/{len(coins_to_process)} coins, {len(all_results)} total unlocks")
+            count = collect_all_unlocks(
+                dropstab, cg, coin_slug, coin_symbol,
+                output_file, existing_dates
+            )
+            total_collected += count
+            logger.info(f"Progress: {i+1}/{len(TARGET_COINS)} coins, {total_collected} total unlocks")
 
         except Exception as e:
             logger.error(f"Error processing {coin_slug}: {e}")
-            # Save what we have so far
-            save_results(all_results, output_dir)
             continue
 
-    # Final summary
-    print_summary(all_results)
-    logger.info(f"\nDone! Results saved to {output_dir}/")
+    # Summary
+    print("\n" + "="*70)
+    print("COLLECTION COMPLETE")
+    print("="*70)
+    print(f"Total unlocks collected: {total_collected}")
+    print(f"Output file: {output_file}")
+    print("="*70)
 
 
 if __name__ == "__main__":
